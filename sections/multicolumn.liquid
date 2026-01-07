@@ -13,7 +13,7 @@
 	assign section_subheading = section.settings.subheading
 %}
 
-<div class='multicolumn section-{{ section.id }}-padding background'>
+<div class='multicolumn section-{{ section.id }}-padding background color-{{ section.settings.color_scheme }}'>
 	<div class='container'>
 		{%- if section_heading != blank or section_subheading != blank -%}
 			{%
@@ -202,6 +202,12 @@
 		"templates": ["*"]
 	},
 	"settings": [
+    {
+			"type": "color_scheme",
+			"id": "color_scheme",
+			"default": "background-2",
+			"label": "t:sections.all.color_scheme.label"
+		},
 		{
 			"type": "header",
 			"content": "t:sections.all.section-header.label"
