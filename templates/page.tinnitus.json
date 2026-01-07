@@ -154,9 +154,11 @@
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
+        "color_scheme": "",
         "section_heading": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
+        "heading_alignment": "center",
         "subheading": "",
         "dot": false,
         "columns_per_row": 2,
@@ -192,9 +194,11 @@
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
+        "color_scheme": "background-1",
         "section_heading": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
+        "heading_alignment": "center",
         "subheading": "",
         "dot": true,
         "columns_per_row": 1,
