@@ -55,10 +55,10 @@
         "margin_bottom": "m"
       }
     },
-    "multicolumn_3TWUYa": {
+    "multicolumn_BitaCU": {
       "type": "multicolumn",
       "blocks": {
-        "column_RcnpTX": {
+        "column_3Ctgep": {
           "type": "column",
           "settings": {
             "image_width": "full",
@@ -68,12 +68,12 @@
             "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
             "button_label": "View Details",
             "button_link": "",
-            "button_dot": false,
+            "button_dot": true,
             "button_style": "primary",
             "full_link": false
           }
         },
-        "column_8xwQHA": {
+        "column_RVfBNH": {
           "type": "column",
           "settings": {
             "image_width": "full",
@@ -83,12 +83,12 @@
             "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
             "button_label": "View Details",
             "button_link": "",
-            "button_dot": false,
+            "button_dot": true,
             "button_style": "primary",
             "full_link": false
           }
         },
-        "column_44c9AC": {
+        "column_UrH4zr": {
           "type": "column",
           "settings": {
             "image_width": "full",
@@ -98,24 +98,24 @@
             "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
             "button_label": "View Details",
             "button_link": "",
-            "button_dot": false,
+            "button_dot": true,
             "button_style": "primary",
             "full_link": false
           }
         }
       },
       "block_order": [
-        "column_RcnpTX",
-        "column_8xwQHA",
-        "column_44c9AC"
+        "column_3Ctgep",
+        "column_RVfBNH",
+        "column_UrH4zr"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
-        "section_heading": "Reach Us Directly",
+        "section_heading": "Key features here",
         "section_heading_tag": "h2",
-        "section_heading_size": "h3",
-        "subheading": "",
-        "dot": false,
+        "section_heading_size": "h1",
+        "subheading": "Highlight product categories or brand values",
+        "dot": true,
         "columns_per_row": 3,
         "content_alignment": "left",
         "swipe_on_mobile": true,
@@ -130,6 +130,6 @@
     "main",
     "image_banner_tRyHpE",
     "form",
-    "multicolumn_3TWUYa"
+    "multicolumn_BitaCU"
   ]
 }
