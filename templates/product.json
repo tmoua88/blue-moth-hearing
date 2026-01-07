@@ -132,7 +132,7 @@
         "mobile_alignment": "before",
         "gallery_type": "thumbs_aside",
         "variant_media_display": "show_all",
-        "image_fit": "cover",
+        "image_fit": "contain",
         "image_fit_modal": "contain",
         "is_autoplay": false,
         "is_hover_stop_autoplay": false,
