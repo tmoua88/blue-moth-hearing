@@ -44,73 +44,12 @@
             "picker_type": "button"
           }
         },
-        "inventory": {
-          "type": "inventory",
-          "settings": {
-            "show_inventory_quantity": false
-          }
-        },
-        "countdown_WPCdxx": {
-          "type": "countdown",
-          "settings": {
-            "mock_timer": true,
-            "color_scheme": "background-4",
-            "date_picker": "2025-10-01",
-            "time_picker": "00:00",
-            "countdown_block_font": "h3",
-            "completed_countdown": "show_text",
-            "countdown_heading": "Header after countdown",
-            "text": "Hurry, only a few days left! Shop now!"
-          }
-        },
-        "popup": {
-          "type": "popup",
-          "disabled": true,
-          "settings": {
-            "label": "Popup label text",
-            "page": "",
-            "heading": "Almost There!",
-            "text": "<p>You’re just one click away from owning this amazing product. Add it to your cart now and enjoy the benefits!</p>"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_quantity": true,
             "show_gift_card_recipient": false
-          }
-        },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
-        "text_with_icon": {
-          "type": "text_with_icon",
-          "settings": {
-            "icon": "file-return",
-            "text_with_icon_text": "14 Days Return Policy",
-            "icon_second": "file",
-            "text_with_icon_text-second": "VAT included"
-          }
-        },
-        "text_with_icon_FqPMQz": {
-          "type": "text_with_icon",
-          "settings": {
-            "icon": "shield-check",
-            "text_with_icon_text": "Up to 5 Years Warranty",
-            "icon_second": "file",
-            "text_with_icon_text-second": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "show_share_facebook": true,
-            "show_share_twitter": true,
-            "show_share_telegram": true,
-            "show_share_reddit": true,
-            "show_share_copy": true
           }
         }
       },
@@ -120,14 +59,7 @@
         "description",
         "price",
         "variant_picker",
-        "inventory",
-        "countdown_WPCdxx",
-        "popup",
-        "buy_buttons",
-        "pickup_availability",
-        "text_with_icon",
-        "text_with_icon_FqPMQz",
-        "share"
+        "buy_buttons"
       ],
       "settings": {
         "color_scheme": "background-1",
