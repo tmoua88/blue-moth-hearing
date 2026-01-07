@@ -145,9 +145,9 @@
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
-        "button_dot": true,
+        "button_dot": false,
         "margin_top": "s",
-        "margin_bottom": "s"
+        "margin_bottom": "no-indent"
       }
     },
     "image_with_text_beP4T9": {
@@ -168,8 +168,8 @@
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
-        "button_dot": true,
-        "margin_top": "s",
+        "button_dot": false,
+        "margin_top": "no-indent",
         "margin_bottom": "s"
       }
     },
