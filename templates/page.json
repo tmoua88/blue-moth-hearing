@@ -135,7 +135,7 @@
       "type": "image-with-text",
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "image_position": "image_right",
         "content_alignment": "left",
         "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
