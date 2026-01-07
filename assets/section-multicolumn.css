@@ -2,8 +2,11 @@
   margin: 0;
 }
 .multicolumn .section-header .section-header__title {
-  max-width: 64rem;
+  /* max-width: 64rem; */
   margin-bottom: 2.8rem;
+}
+.multicolumn .section-header .section-header__subtitle {
+  display: block;
 }
 @media (min-width: 750px) {
   .multicolumn .section-header .section-header__title {

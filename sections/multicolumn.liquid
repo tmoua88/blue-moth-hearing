@@ -13,7 +13,7 @@
 	assign section_subheading = section.settings.subheading
 %}
 
-<div class='multicolumn section-{{ section.id }}-padding background color-{{ section.settings.color_scheme }}'>
+<div class='multicolumn section-{{ section.id }}-padding background color-{{ section.settings.color_scheme }} multicolumn-card--{{ section.settings.heading_alignment }}'>
 	<div class='container'>
 		{%- if section_heading != blank or section_subheading != blank -%}
 			{%
@@ -285,6 +285,22 @@
 			],
 			"default": "h1",
 			"label": "t:sections.all.heading_size.label"
+		},
+    {
+			"type": "select",
+			"id": "heading_alignment",
+			"default": "center",
+			"label": "Heading alignment",
+			"options": [
+				{
+					"value": "left",
+					"label": "t:sections.all.content_alignment.options.options__2.label"
+				},
+				{
+					"value": "center",
+					"label": "t:sections.all.content_alignment.options.options__1.label"
+				}
+			]
 		},
 		{
 			"type": "text",
