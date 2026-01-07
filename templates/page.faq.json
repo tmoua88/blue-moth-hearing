@@ -19,62 +19,30 @@
         "margin_bottom": "no-indent"
       }
     },
-    "image_with_text_4EVHDm": {
-      "type": "image-with-text",
-      "custom_css": [
-        ".section-header__title.h1 {color: rgb(26, 26, 26);}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
+    "image_banner_gwDAKc": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "color_scheme": "background-1",
-        "image_position": "image_left",
-        "content_alignment": "left",
-        "image": "shopify://shop_images/HP1_Bluemoth_LA_Shoot-129.jpg",
-        "image_size": "4/3",
-        "subheading": "About",
-        "dot": false,
-        "heading": "BLUEMOTH",
+        "color_scheme": "background-2",
+        "heading": "FAQ",
+        "image_heading_tag": "h1",
+        "section_heading": "",
         "section_heading_tag": "h2",
-        "heading_size": "h1",
-        "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "button_dot": true,
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "image": "shopify://shop_images/Hearing_Loss_Symptoms__What_to_Watch_For_at_Any_Age_1.jpg",
+        "image_ratio": "adapt",
+        "animation": false,
+        "overlay_enable": true,
+        "overlay_opacity": 0.3,
         "margin_top": "no-indent",
-        "margin_bottom": "s"
-      }
-    },
-    "image_with_text_nt93BE": {
-      "type": "image-with-text",
-      "custom_css": [
-        ".section-header__title.h1 {color: rgb(26, 26, 26);}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "color_scheme": "background-1",
-        "image_position": "image_right",
-        "content_alignment": "left",
-        "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
-        "image_size": "4/3",
-        "subheading": "Meet the",
-        "dot": false,
-        "heading": "BLUEMOTH Team",
-        "section_heading_tag": "h2",
-        "heading_size": "h1",
-        "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "button_dot": true,
-        "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "m"
       }
     }
   },
   "order": [
     "main",
-    "image_with_text_4EVHDm",
-    "image_with_text_nt93BE"
+    "image_banner_gwDAKc"
   ]
 }
