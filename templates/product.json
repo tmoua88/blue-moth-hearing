@@ -138,11 +138,41 @@
         "margin_top": "xl",
         "margin_bottom": "xl"
       }
+    },
+    "products_grid_7BmTn7": {
+      "type": "products-grid",
+      "name": "t:sections.products-grid.name",
+      "settings": {
+        "section_heading_tag": "h2",
+        "products_per_page": 12,
+        "columns_per_row": 4,
+        "sort": "alphabetical",
+        "columns_mobile": "1",
+        "image_ratio": "3/4",
+        "image_fit": "cover",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_collection": false,
+        "show_desc": false,
+        "content_alignment": "center",
+        "product_heading_tag": "h3",
+        "section_heading": "Shop Similar",
+        "section_heading_size": "h3",
+        "subheading": "",
+        "dot": true,
+        "line": true,
+        "section_button_label": "Shop Now",
+        "section_button_link": "",
+        "section_button_style": "secondary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
     "main-product",
     "product-complementary",
-    "product-recommendations"
+    "product-recommendations",
+    "products_grid_7BmTn7"
   ]
 }
