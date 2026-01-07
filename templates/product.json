@@ -19,6 +19,12 @@
             "heading_size": "h2"
           }
         },
+        "text_h8VpgF": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -110,6 +116,7 @@
       },
       "block_order": [
         "title",
+        "text_h8VpgF",
         "description",
         "price",
         "variant_picker",
