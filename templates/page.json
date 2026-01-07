@@ -21,6 +21,9 @@
     },
     "image_with_text_Dg9Qde": {
       "type": "image-with-text",
+      "custom_css": [
+        ".section-header__title.h1 {color: rgb(26,26,26);}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "color_scheme": "background-1",
