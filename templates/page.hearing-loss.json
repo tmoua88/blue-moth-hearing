@@ -239,7 +239,7 @@
         "subheading": "",
         "dot": false,
         "columns_per_row": 3,
-        "content_alignment": "center",
+        "content_alignment": "left",
         "swipe_on_mobile": true,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
