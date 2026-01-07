@@ -111,7 +111,7 @@
       "background-2": {
         "settings": {
           "colors_text": "#313d47",
-          "colors_secondary_text": "#ffffff",
+          "colors_secondary_text": "#313d47",
           "colors_tertiary_text": "#eeeeee",
           "colors_text_title": "#4a494b",
           "colors_background_1": "#ffffff",
