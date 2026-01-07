@@ -1,0 +1,370 @@
+{
+	"sections": {
+		"main-product": {
+			"type": "main-product",
+			"blocks": {
+				"title": {
+					"type": "title",
+					"settings": {
+						"heading_size": "h2"
+					}
+				},
+				"description": {
+					"type": "description",
+					"settings": {
+						"description": ""
+					}
+				},
+				"price": {
+					"type": "price",
+					"settings": {
+						"show_tax_info": false,
+						"show_shipping": false
+					}
+				},
+				"variant_picker": {
+					"type": "variant_picker",
+					"settings": {
+						"picker_type": "button"
+					}
+				},
+				"inventory": {
+					"type": "inventory",
+					"settings": {
+						"show_inventory_quantity": false
+					}
+				},
+				"countdown_WPCdxx": {
+					"type": "countdown",
+					"settings": {
+						"color_scheme": "background-4",
+						"date_picker": "2025-10-01",
+						"time_picker": "00:00",
+						"countdown_block_font": "h3",
+						"completed_countdown": "show_text",
+						"countdown_heading": "Header after countdown",
+						"text": "Hurry, only a few days left! Shop now!"
+					}
+				},
+				"popup": {
+					"type": "popup",
+					"disabled": true,
+					"settings": {
+						"label": "Popup label text",
+						"page": "",
+						"heading": "Almost There!",
+						"text": "<p>You’re just one click away from owning this amazing product. Add it to your cart now and enjoy the benefits!</p>"
+					}
+				},
+				"buy_buttons": {
+					"type": "buy_buttons",
+					"settings": {
+						"show_dynamic_checkout": false,
+						"show_quantity": true,
+						"show_gift_card_recipient": false
+					}
+				},
+				"pickup_availability": {
+					"type": "pickup_availability",
+					"settings": {}
+				},
+				"text_with_icon": {
+					"type": "text_with_icon",
+					"settings": {
+						"icon": "file-return",
+						"text_with_icon_text": "14 Days Return Policy",
+						"icon_second": "file",
+						"text_with_icon_text-second": "VAT included"
+					}
+				},
+				"text_with_icon_FqPMQz": {
+					"type": "text_with_icon",
+					"settings": {
+						"icon": "shield-check",
+						"text_with_icon_text": "Up to 5 Years Warranty",
+						"icon_second": "file",
+						"text_with_icon_text-second": ""
+					}
+				},
+				"share": {
+					"type": "share",
+					"settings": {
+						"show_share_facebook": true,
+						"show_share_twitter": true,
+						"show_share_telegram": true,
+						"show_share_reddit": true,
+						"show_share_copy": true
+					}
+				}
+			},
+			"block_order": [
+				"title",
+				"description",
+				"price",
+				"variant_picker",
+				"inventory",
+				"countdown_WPCdxx",
+				"popup",
+				"buy_buttons",
+				"pickup_availability",
+				"text_with_icon",
+				"text_with_icon_FqPMQz",
+				"share"
+			],
+			"settings": {
+				"color_scheme": "",
+				"header_overlay": true,
+				"show_navigation": true,
+				"section_layout": "container",
+				"desktop_alignment": "left",
+				"mobile_alignment": "before",
+				"gallery_type": "thumbs_aside",
+				"image_fit": "cover",
+				"image_fit_modal": "contain",
+				"is_autoplay": false,
+				"is_hover_stop_autoplay": false,
+				"show_arrows": false,
+				"slideshow_speed": 1.1,
+				"slideshow_delay": 3,
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"blockquote": {
+			"type": "blockquote",
+			"settings": {
+				"section_subheading": "About",
+				"dot": true,
+				"blockquote": "This block is intended for a meaningful quote that brings additional insight, emphasis, or a thoughtful perspective to complement your content.",
+				"section_blockquote_size": "h1",
+				"author_name": "",
+				"author_position": "",
+				"section_button_label": "",
+				"section_button_link": "",
+				"button_dot": true,
+				"section_button_style": "primary",
+				"margin_top": "xl",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"image-banner": {
+			"type": "image-banner",
+			"settings": {
+				"color_scheme": "background-3",
+				"heading": "Banner title goes here",
+				"section_heading": "",
+				"section_heading_size": "h2",
+				"subheading": "",
+				"dot": true,
+				"image": "",
+				"image_ratio": "large",
+				"animation": true,
+				"overlay_enable": false,
+				"overlay_opacity": 0.2,
+				"margin_top": "xl",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"card-list": {
+			"type": "card-list",
+			"blocks": {
+				"product_1": {
+					"type": "card",
+					"settings": {
+						"badge": "Badge",
+						"badge_style": "primary",
+						"subheading": "Describe This Column's Purpose",
+						"text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+					}
+				},
+				"product_2": {
+					"type": "card",
+					"settings": {
+						"badge": "Badge",
+						"badge_style": "primary",
+						"subheading": "Describe This Column's Purpose",
+						"text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+					}
+				},
+				"product_3": {
+					"type": "card",
+					"settings": {
+						"badge": "Badge",
+						"badge_style": "primary",
+						"subheading": "Describe This Column's Purpose",
+						"text": "Use this space to describe the purpose of this block, such as showcasing craftsmanship, product benefits, or an exclusive offer"
+					}
+				}
+			},
+			"block_order": ["product_1", "product_2", "product_3"],
+			"settings": {
+				"section_heading": "Key Features",
+				"section_heading_size": "h3",
+				"subheading": "Details",
+				"dot": true,
+				"line": false,
+				"columns_per_row": 3,
+				"image_ratio": "3/4",
+				"columns_mobile": "1",
+				"swipe_on_mobile": false,
+				"margin_top": "xl",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"testimonials": {
+			"type": "testimonials",
+			"blocks": {
+				"testimonials_slide_r9Vn7C": {
+					"type": "testimonials_slide",
+					"settings": {
+						"text": "“Here can be a glowing customer review about your product or service.”",
+						"author_name": "Customer name here",
+						"position_name": "Customer position here",
+						"enable_stars": true,
+						"rating": 5
+					}
+				},
+				"testimonials_slide_N9La3b": {
+					"type": "testimonials_slide",
+					"settings": {
+						"text": "“Here can be a glowing customer review about your product or service.”",
+						"author_name": "Customer name here",
+						"position_name": "Customer position here",
+						"enable_stars": true,
+						"rating": 5
+					}
+				},
+				"testimonials_slide_gAjdFa": {
+					"type": "testimonials_slide",
+					"settings": {
+						"text": "“Here can be a glowing customer review about your product or service.”",
+						"author_name": "Customer name here",
+						"position_name": "Customer position here",
+						"enable_stars": true,
+						"rating": 5
+					}
+				}
+			},
+			"block_order": [
+				"testimonials_slide_r9Vn7C",
+				"testimonials_slide_N9La3b",
+				"testimonials_slide_gAjdFa"
+			],
+			"settings": {
+				"section_heading": "",
+				"section_heading_size": "h2",
+				"subheading": "Testimonials",
+				"dot": true,
+				"is_autoplay": true,
+				"is_hover_stop_autoplay": true,
+				"slideshow_speed": 1.1,
+				"slideshow_delay": 4,
+				"button_style": "tertiary",
+				"margin_top": "xl",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"image_banner_N3E8Pd": {
+			"type": "image-banner",
+			"settings": {
+				"color_scheme": "",
+				"heading": "",
+				"section_heading": "",
+				"section_heading_size": "h2",
+				"subheading": "",
+				"dot": true,
+				"image": "",
+				"image_1": "",
+				"image_ratio": "adapt",
+				"animation": false,
+				"overlay_enable": false,
+				"overlay_opacity": 0.2,
+				"margin_top": "xl",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"image_banner_yhXbeC": {
+			"type": "image-banner",
+			"disabled": true,
+			"settings": {
+				"color_scheme": "",
+				"heading": "",
+				"section_heading": "",
+				"section_heading_size": "h2",
+				"subheading": "",
+				"dot": true,
+				"image": "",
+				"image_ratio": "21/9",
+				"animation": false,
+				"overlay_enable": false,
+				"overlay_opacity": 0.2,
+				"margin_top": "no-indent",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"product-complementary": {
+			"type": "product-complementary",
+			"disabled": true,
+			"settings": {
+				"columns_per_row": 4,
+				"products_limit": 4,
+				"autoplay": false,
+				"stop_autoplay": true,
+				"show_arrows": true,
+				"slideshow_speed": 1.1,
+				"slideshow_delay": 3,
+				"section_heading": "Complementary Products",
+				"section_heading_size": "h3",
+				"subheading": "Intro to this section",
+				"dot": true,
+				"line": true,
+				"image_ratio": "3/4",
+				"image_fit": "cover",
+				"show_collection_name": false,
+				"show_secondary_image": true,
+				"show_sku": false,
+				"show_vendor": true,
+				"show_desc": false,
+				"margin_top": "m",
+				"margin_bottom": "no-indent"
+			}
+		},
+		"product-recommendations": {
+			"type": "product-recommendations",
+			"settings": {
+				"columns_per_row": 3,
+				"products_limit": 4,
+				"autoplay": false,
+				"stop_autoplay": true,
+				"show_arrows": true,
+				"slideshow_speed": 1.1,
+				"slideshow_delay": 3,
+				"section_heading": "Recommended for You",
+				"section_heading_size": "h2",
+				"subheading": "",
+				"dot": true,
+				"line": true,
+				"image_ratio": "square",
+				"image_fit": "cover",
+				"show_collection_name": false,
+				"show_secondary_image": true,
+				"show_sku": false,
+				"show_vendor": true,
+				"show_desc": false,
+				"margin_top": "xl",
+				"margin_bottom": "xl"
+			}
+		}
+	},
+	"order": [
+		"main-product",
+		"blockquote",
+		"image-banner",
+		"card-list",
+		"testimonials",
+		"image_banner_N3E8Pd",
+		"image_banner_yhXbeC",
+		"product-complementary",
+		"product-recommendations"
+	]
+}
