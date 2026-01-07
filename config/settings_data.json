@@ -75,7 +75,7 @@
       "background-1": {
         "settings": {
           "colors_text": "#4a494b",
-          "colors_secondary_text": "#eeeeee",
+          "colors_secondary_text": "#4a494b",
           "colors_tertiary_text": "#eeeeee",
           "colors_text_title": "#4a494b",
           "colors_background_1": "#ffffff",

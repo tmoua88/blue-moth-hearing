@@ -235,7 +235,7 @@
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "section_heading": "Guided Solutions",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
