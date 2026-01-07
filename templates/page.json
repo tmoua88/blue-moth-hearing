@@ -1,14 +1,255 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "section_heading_tag": "h1",
+        "heading_size": "h3",
         "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "image_with_text_Dg9Qde": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "image_position": "image_left",
+        "content_alignment": "left",
+        "image_size": "1/1",
+        "subheading": "",
+        "dot": true,
+        "heading": "We understand hearing loss",
+        "section_heading_tag": "h2",
+        "heading_size": "h1",
+        "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
+        "button_label": "Book a Free Consultation",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "s"
+      }
+    },
+    "multicolumn_jpkVdr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iLbFYz": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "4/3",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_xMnNbr": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "4/3",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_U6t4RF": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "4/3",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_NWYanr": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "4/3",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_iLbFYz",
+        "column_xMnNbr",
+        "column_U6t4RF",
+        "column_NWYanr"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "section_heading": "Key features here",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "subheading": "",
+        "dot": false,
+        "columns_per_row": 4,
+        "content_alignment": "center",
+        "swipe_on_mobile": false,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
+    },
+    "image_with_text_4px9Ni": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "image_position": "image_right",
+        "content_alignment": "left",
+        "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+        "image_size": "3/2",
+        "subheading": "",
+        "dot": false,
+        "heading": "How hearing aids help",
+        "section_heading_tag": "h2",
+        "heading_size": "h3",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "image_with_text_beP4T9": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "image_position": "image_left",
+        "content_alignment": "left",
+        "image": "shopify://shop_images/HP3_BlueMothStreet-364.jpg",
+        "image_size": "3/2",
+        "subheading": "",
+        "dot": false,
+        "heading": "BLUEMOTH experience for those with hearing loss.",
+        "section_heading_tag": "h2",
+        "heading_size": "h3",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "multicolumn_NakiYf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FqpNBc": {
+          "type": "column",
+          "settings": {
+            "image_width": "icon",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_ji37jK": {
+          "type": "column",
+          "settings": {
+            "image_width": "icon",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_KKq9Ej": {
+          "type": "column",
+          "settings": {
+            "image_width": "icon",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Highlight a Key Benefit",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_FqpNBc",
+        "column_ji37jK",
+        "column_KKq9Ej"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "section_heading": "Guided Solutions",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "subheading": "",
+        "dot": false,
+        "columns_per_row": 3,
+        "content_alignment": "center",
+        "swipe_on_mobile": true,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "s",
         "margin_bottom": "m"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_Dg9Qde",
+    "multicolumn_jpkVdr",
+    "image_with_text_4px9Ni",
+    "image_with_text_beP4T9",
+    "multicolumn_NakiYf"
   ]
 }
