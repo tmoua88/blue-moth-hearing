@@ -55,10 +55,10 @@
         "margin_bottom": "m"
       }
     },
-    "multicolumn_BitaCU": {
+    "multicolumn_DebtGi": {
       "type": "multicolumn",
       "blocks": {
-        "column_3Ctgep": {
+        "column_qXCeUY": {
           "type": "column",
           "settings": {
             "image_width": "full",
@@ -73,7 +73,7 @@
             "full_link": false
           }
         },
-        "column_RVfBNH": {
+        "column_4WbMXJ": {
           "type": "column",
           "settings": {
             "image_width": "full",
@@ -88,7 +88,7 @@
             "full_link": false
           }
         },
-        "column_UrH4zr": {
+        "column_6Uj4JE": {
           "type": "column",
           "settings": {
             "image_width": "full",
@@ -105,9 +105,9 @@
         }
       },
       "block_order": [
-        "column_3Ctgep",
-        "column_RVfBNH",
-        "column_UrH4zr"
+        "column_qXCeUY",
+        "column_4WbMXJ",
+        "column_6Uj4JE"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
@@ -124,12 +124,99 @@
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
+    },
+    "multicolumn_BitaCU": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cfqaDV": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "none",
+            "heading": "",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_3Ctgep": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "none",
+            "heading": "",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_RVfBNH": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "none",
+            "heading": "",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_UrH4zr": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "none",
+            "heading": "",
+            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_cfqaDV",
+        "column_3Ctgep",
+        "column_RVfBNH",
+        "column_UrH4zr"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "section_heading": "Helpful information",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "columns_per_row": 4,
+        "content_alignment": "left",
+        "swipe_on_mobile": false,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
     }
   },
   "order": [
     "main",
     "image_banner_tRyHpE",
     "form",
+    "multicolumn_DebtGi",
     "multicolumn_BitaCU"
   ]
 }
