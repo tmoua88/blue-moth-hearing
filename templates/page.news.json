@@ -24,7 +24,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "color_scheme": "background-2",
-        "heading": "FAQ",
+        "heading": "News",
         "image_heading_tag": "h1",
         "section_heading": "",
         "section_heading_tag": "h2",
