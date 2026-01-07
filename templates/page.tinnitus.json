@@ -117,32 +117,17 @@
     "multicolumn_NakiYf": {
       "type": "multicolumn",
       "blocks": {
-        "column_FqpNBc": {
+        "column_K4hJpH": {
           "type": "column",
           "settings": {
-            "image_width": "icon",
+            "image_width": "full",
             "image_size": "16/9",
             "icon": "globe",
-            "heading": "Highlight a Key Benefit",
+            "heading": "CBT / OTO",
             "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
             "button_label": "",
             "button_link": "",
-            "button_dot": false,
-            "button_style": "primary",
-            "full_link": false
-          }
-        },
-        "column_ji37jK": {
-          "type": "column",
-          "settings": {
-            "image_width": "icon",
-            "image_size": "16/9",
-            "icon": "globe",
-            "heading": "Highlight a Key Benefit",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
-            "button_label": "",
-            "button_link": "",
-            "button_dot": false,
+            "button_dot": true,
             "button_style": "primary",
             "full_link": false
           }
@@ -153,7 +138,7 @@
             "image_width": "icon",
             "image_size": "16/9",
             "icon": "globe",
-            "heading": "Highlight a Key Benefit",
+            "heading": "Device & OTO",
             "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
             "button_label": "",
             "button_link": "",
@@ -164,8 +149,7 @@
         }
       },
       "block_order": [
-        "column_FqpNBc",
-        "column_ji37jK",
+        "column_K4hJpH",
         "column_KKq9Ej"
       ],
       "name": "t:sections.multicolumn.name",
@@ -175,8 +159,8 @@
         "section_heading_size": "h1",
         "subheading": "",
         "dot": false,
-        "columns_per_row": 3,
-        "content_alignment": "center",
+        "columns_per_row": 2,
+        "content_alignment": "left",
         "swipe_on_mobile": true,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
