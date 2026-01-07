@@ -22,7 +22,7 @@
     "image_with_text_Dg9Qde": {
       "type": "image-with-text",
       "custom_css": [
-        ".section-header__title.h1 {color: rgb(26,26,26);}"
+        ".section-header__title.h1 {color: rgb(26, 26, 26);}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -42,7 +42,7 @@
         "button_style": "primary",
         "button_dot": false,
         "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "no-indent"
       }
     },
     "multicolumn_jpkVdr": {
