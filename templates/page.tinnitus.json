@@ -165,6 +165,44 @@
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
         "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "multicolumn_46qdrj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_MMQBFc": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "none",
+            "heading": "",
+            "text": "",
+            "button_label": "Book",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_MMQBFc"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "subheading": "",
+        "dot": true,
+        "columns_per_row": 1,
+        "content_alignment": "center",
+        "swipe_on_mobile": true,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "no-indent",
         "margin_bottom": "m"
       }
     }
@@ -175,6 +213,7 @@
     "image_with_text_4px9Ni",
     "image_with_text_beP4T9",
     "image_with_text_kxt9gw",
-    "multicolumn_NakiYf"
+    "multicolumn_NakiYf",
+    "multicolumn_46qdrj"
   ]
 }
