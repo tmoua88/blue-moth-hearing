@@ -19,7 +19,7 @@
 	endif
 %}
 
-<div class='blog'>
+<div class='blog color-{{ section.settings.color_scheme }}'>
 	<div class='container'>
 		<div class='featured-blog-header'>
 			{% render 'section-header',
@@ -183,6 +183,12 @@
 		"templates": ["*"]
 	},
 	"settings": [
+    {
+			"type": "color_scheme",
+			"id": "color_scheme",
+			"default": "background-2",
+			"label": "t:sections.all.color_scheme.label"
+		},
 		{
 			"type": "select",
 			"id": "section_layout",
