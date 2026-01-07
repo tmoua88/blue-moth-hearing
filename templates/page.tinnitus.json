@@ -154,7 +154,7 @@
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
-        "section_heading": "Guided Solutions",
+        "section_heading": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "subheading": "",
@@ -164,7 +164,7 @@
         "swipe_on_mobile": true,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
-        "margin_top": "s",
+        "margin_top": "no-indent",
         "margin_bottom": "m"
       }
     }
