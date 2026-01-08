@@ -228,7 +228,10 @@
 
 			  --spaced-section: 5rem;
 
-			  --font-body-family: 'Henderson Sans Basic', sans-serif;
+			  {% assign font_family_header = 'Arpona' %}
+			  {% assign font_family_body = 'Henderson Sans Basic' %}
+
+			  --font-body-family: {{ font_family_body }}, sans-serif;
 			  --font-body-style: {{ settings.type_body_font.style }};
 			  --font-body-weight: {{ settings.type_body_font.weight }};
 
@@ -236,14 +239,14 @@
 			  --font-body-line-height: {{ settings.type_body_line_height }};
 			  --font-body-letter-spacing: {{ settings.type_body_letter_spacing }}em;
 
-    		  --font-heading-family: 'Arpona', sans-serif;
+    		  --font-heading-family: {{ font_family_header }}, sans-serif;
 			  --font-heading-style: {{ settings.type_header_font.style }};
 			  --font-heading-weight: {{ settings.type_header_font.weight }};
 			  --font-heading-letter-spacing: {{ settings.type_header_letter_spacing }}em;
 			  --font-heading-line-height: {{ settings.type_header_line_height }};
 			  --font-heading-text-transform: {{ settings.type_header_text_transform }};
 
-			  --font-subtitle-family: 'Henderson Sans Basic', sans-serif;
+			  --font-subtitle-family: {{ font_family_body }}, sans-serif;
 			  --font-subtitle-style: {{ settings.type_subtitle_font.style }};
 			  --font-subtitle-weight: {{ settings.type_subtitle_font.weight }};
 			  --font-subtitle-text-transform: {{ settings.subtitle_text_transform }};
@@ -256,7 +259,7 @@
 			  --font-heading-h5-scale: {{ settings.heading_h5_scale | divided_by: 100.0 }};
 				--font-heading-h6-scale: {{ settings.heading_h6_scale | divided_by: 100.0 }};
 
-			  --font-heading-card-family: {{ settings.type_header_font_card.family }}, {{ settings.type_header_font_card.fallback_families }};
+			  --font-heading-card-family: {{ font_family_header }}, {{ settings.type_header_font_card.fallback_families }};
 			  --font-heading-card-style: {{ settings.type_header_font_card.style }};
 			  --font-heading-card-weight: {{ settings.type_header_font_card.weight }};
 			  --font-text-card-family: {{ settings.type_text_font_card.family }}, {{ settings.type_text_font_card.fallback_families }};
@@ -277,7 +280,7 @@
 			  --font-menu-letter-spacing: 0.03em;
 			  --font-big-menu-letter-spacing: -0.04em;
 
-			  --font-header-menu-family: {{ settings.type_header_menu_font.family }}, {{ settings.type_header_menu_font.fallback_families }};
+			  --font-header-menu-family: {{ font_family_header }}, {{ settings.type_header_menu_font.fallback_families }};
 			  --font-header-menu-style: {{ settings.type_header_menu_font.style }};
 			  --font-header-menu-weight: {{ settings.type_header_menu_font.weight }};
 			  --font-header-menu-text-transform: {{ settings.header_menu_text_transform }};
