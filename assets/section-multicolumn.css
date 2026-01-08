@@ -2,7 +2,7 @@
   margin: 0;
 }
 .multicolumn .section-header .section-header__title {
-  /* max-width: 64rem; */
+  max-width: 100%;
   margin-bottom: 2.8rem;
 }
 .multicolumn .section-header .section-header__subtitle {
