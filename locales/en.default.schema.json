@@ -2743,6 +2743,10 @@
 						"logo_text": {
 							"label": "Description for site",
 							"default": "Use this space for a short company tagline or mission statement"
+						},
+						"social": {
+							"label": "Social media icons",
+							"default": "Show social media icons"
 						}
 					}
 				},
