@@ -2723,6 +2723,10 @@
 							"label": "Logo image 2",
 							"info": "Used for the Dark mode."
 						},
+						"svg_file": {
+							"label": "SVG file",
+							"info": "Use an SVG file for the logo."
+						},
 						"logo_width": {
 							"unit": "px",
 							"label": "Custom logo width"
@@ -2868,6 +2872,10 @@
 				"logo_2": {
 					"label": "Logo image 2",
 					"info": "Used for Dark mode."
+				},
+				"svg_file": {
+					"label": "SVG file",
+					"info": "Use an SVG file for the logo."
 				},
 				"logo_width": {
 					"unit": "px",

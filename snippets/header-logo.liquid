@@ -55,6 +55,8 @@
       height="{{ section.settings.logo_2.height }}"
       alt="{{ section.settings.logo_2.alt | default: shop.name | escape }}"
     >
+  {%- elsif section.settings.svg_file != blank -%}
+      {{ section.settings.svg_file }}
   {%- else -%}
     <span class="h5">{{ shop.name }}</span>
   {%- endif -%}
