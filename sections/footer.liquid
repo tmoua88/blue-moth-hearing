@@ -145,6 +145,8 @@
 													width: block.settings.logo_width,
 													alt: logo_alt
 											}}
+										{%- elsif block.settings.svg_file != blank -%}
+											{{ block.settings.svg_file }}
 										{%- else -%}
 											<span class='footer__logo--placeholder-text'>
 												{{- shop.name -}}
@@ -802,6 +804,12 @@
 					"id": "logo_2",
 					"label": "t:sections.footer.blocks.logo_info.settings.logo_2.label",
 					"info": "t:sections.footer.blocks.logo_info.settings.logo_2.info"
+				},
+				{
+					"type": "html",
+					"id": "svg_file",
+					"label": "t:sections.footer.blocks.logo_info.settings.svg_file.label",
+					"info": "t:sections.footer.blocks.logo_info.settings.svg_file.info"
 				},
 				{
 					"type": "range",
