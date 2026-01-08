@@ -1,2 +1,7 @@
 
 /* Use this file to override styling (i.e. theme colors on buttons not being transparent etc. */
+
+/* Bold multicolumn card headings */
+.multicolumn-card__heading {
+  font-weight: bold !important;
+}
