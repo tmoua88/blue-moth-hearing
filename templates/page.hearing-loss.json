@@ -152,7 +152,7 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": false,
-        "margin_top": "no-indent",
+        "margin_top": "s",
         "margin_bottom": "s"
       }
     },
