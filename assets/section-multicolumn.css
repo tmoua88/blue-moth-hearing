@@ -407,3 +407,8 @@
 [data-scheme=dark] .multicolumn-card__light-mode:not(.dark-image-blank) {
   display: none;
 }
+
+/* OVERRIDES FOR MULTI-COLUMN */
+.multicolumn-card--center::before {
+  background: none !important;
+}
