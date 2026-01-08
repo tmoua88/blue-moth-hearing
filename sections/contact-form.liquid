@@ -7,7 +7,7 @@
 <div class="contact-form">
   <div class="container">
     <div class="contact-form__container contact-form__container--{{ section.settings.content_align }}">
-      {% if template == 'page.contact' %}
+      {% comment %} {% if template == 'page.contact' %}
         <nav
           id="breadcrumbs"
           class="breadcrumb"
@@ -26,8 +26,8 @@
           </div>
           <span>{{ page.title }}</span>
         </nav>
-      {% endif %}
-      <div class="contact-form__inner">
+      {% endif %} {% endcomment %}
+      <div class="contact-form__inner contact-form__inner--{{ section.settings.image_position }}">
         <div class="contact-form__wrapper">
           {%- if section.settings.heading != blank -%}
             {% assign heading_tag = section.settings.heading_tag %}
@@ -162,27 +162,40 @@
         </div>
 
         {% if section.settings.image != blank %}
-          {% capture style %}
-            {% if section.settings.image_ratio != 'adapt' %}
-              --aspect-ratio: {{ section.settings.image_ratio }};
-            {% elsif section.settings.image_ratio == 'adapt' %}
-              --aspect-ratio: {{section.settings.image.aspect_ratio }};
-            {% endif %}
-          {% endcapture %}
-          {% capture sizes %}
-            (min-width: 750px) 600px, 
-            calc(100vw - 20px)
-          {% endcapture %}
-          {{
-            section.settings.image
-            | image_url: width: section.settings.image.width
-            | image_tag: 
-              loading: 'lazy', 
-              widths: '375, 600, 750, 990, 1200, 1400, 1600',
-              class: "contact-form__image",
-              style: style,
-              sizes: sizes
-          }} 
+          <div class="image-wrapper">
+            {%- if section.settings.image_heading != blank -%}
+              {% assign image_heading_tag = section.settings.image_heading_tag %}
+              <{{ image_heading_tag }} class="contact-form__title {{ section.settings.image_heading_size }}">
+                {{ section.settings.image_heading }}
+              </{{ image_heading_tag }}>
+            {%- endif -%}
+            {%- if section.settings.image_text != blank -%}
+              <p class="contact-form__text">
+                {{ section.settings.image_text }}
+              </p>
+            {%- endif -%}
+            {% capture style %}
+              {% if section.settings.image_ratio != 'adapt' %}
+                --aspect-ratio: {{ section.settings.image_ratio }};
+              {% elsif section.settings.image_ratio == 'adapt' %}
+                --aspect-ratio: {{section.settings.image.aspect_ratio }};
+              {% endif %}
+            {% endcapture %}
+            {% capture sizes %}
+              (min-width: 750px) 600px, 
+              calc(100vw - 20px)
+            {% endcapture %}
+            {{
+              section.settings.image
+              | image_url: width: section.settings.image.width
+              | image_tag: 
+                loading: 'lazy', 
+                widths: '375, 600, 750, 990, 1200, 1400, 1600',
+                class: "contact-form__image",
+                style: style,
+                sizes: sizes
+            }} 
+          </div>
         {% endif %}
       </div>
     </div>
@@ -304,6 +317,98 @@
 			"type": "header",
 			"content": "t:sections.all.image.header.content"
 		},
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image position",
+      "options": [
+        {
+        "value": "left",
+        "label": "Left"
+        },
+        {
+        "value": "right",
+        "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "text",
+      "id": "image_heading",
+      "default": "t:sections.contact-form.settings.heading.default",
+      "label": "t:sections.all.heading.label"
+    },
+        {
+			"type": "select",
+			"id": "image_heading_tag",
+			"label": "t:sections.all.heading.tag",
+			"options": [
+				{
+					"value": "h1",
+					"label": "H1"
+				},
+				{
+					"value": "h2",
+					"label": "H2"
+				},
+				{
+					"value": "h3",
+					"label": "H3"
+				},
+				{
+					"value": "h4",
+					"label": "H4"
+				},
+				{
+					"value": "h5",
+					"label": "H5"
+				},
+				{
+					"value": "h6",
+					"label": "H6"
+				},
+				{
+					"value": "div",
+					"label": "div"
+				},
+				{
+					"value": "p",
+					"label": "p"
+				},
+				{
+					"value": "span",
+					"label": "span"
+				}
+			],
+			"default": "h2"
+		},
+    {
+      "type": "select",
+      "id": "image_heading_size",
+      "options": [
+        {
+          "value": "h3",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h2",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "text",
+      "id": "image_text",
+      "default": "t:sections.contact-form.settings.text.default",
+      "label": "t:sections.all.text.label"
+    },
     {
       "type": "image_picker",
       "id": "image",
