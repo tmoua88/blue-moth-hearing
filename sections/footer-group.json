@@ -22,26 +22,10 @@
             "description": ""
           }
         },
-        "footer-1": {
+        "link_list_HJBQW4": {
           "type": "link_list",
           "settings": {
-            "heading": "Hearing loss",
-            "menu": "footer",
-            "default_open": false
-          }
-        },
-        "footer-2": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Company",
-            "menu": "footer",
-            "default_open": false
-          }
-        },
-        "footer-3": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Customer Care",
+            "heading": "",
             "menu": "footer",
             "default_open": false
           }
@@ -49,9 +33,7 @@
       },
       "block_order": [
         "footer-0",
-        "footer-1",
-        "footer-2",
-        "footer-3"
+        "link_list_HJBQW4"
       ],
       "settings": {
         "color_scheme": "background-3",
