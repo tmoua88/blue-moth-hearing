@@ -158,6 +158,11 @@
 											{{ block.settings.description }}
 										</div>
 									{%- endif -%}
+									{%- if block.settings.social != blank -%}
+										<div class='footer-block__social'>
+											{{ block.settings.social }}
+										</div>
+									{%- endif -%}
 								</div>
 							{%- when 'contacts' -%}
 								<div
@@ -826,6 +831,12 @@
 					"id": "description",
 					"default": "t:sections.footer.blocks.logo_info.settings.logo_text.default",
 					"label": "t:sections.all.text.label"
+				},
+				{
+					"type": "checkbox",
+					"id": "social",
+					"label": "t:sections.footer.blocks.logo_info.settings.social.label",
+					"info": "t:sections.footer.blocks.logo_info.settings.social.info"
 				}
 			]
 		},
