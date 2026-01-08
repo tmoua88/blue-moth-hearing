@@ -49,10 +49,16 @@
         "heading_size": "h2",
         "text": "",
         "additional_text": "",
-        "image_ratio": "16/9",
+        "image_position": "left",
+        "image_heading": "Schedule an appointment",
+        "image_heading_tag": "h2",
+        "image_heading_size": "h2",
+        "image_text": "",
+        "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+        "image_ratio": "4/3",
         "button_style": "primary",
-        "margin_top": "m",
-        "margin_bottom": "m"
+        "margin_top": "xs",
+        "margin_bottom": "s"
       }
     },
     "multicolumn_DebtGi": {
@@ -111,9 +117,11 @@
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
+        "color_scheme": "",
         "section_heading": "Reach us directly",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
+        "heading_alignment": "center",
         "subheading": "",
         "dot": true,
         "columns_per_row": 3,
@@ -197,9 +205,11 @@
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
+        "color_scheme": "",
         "section_heading": "Helpful information",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
+        "heading_alignment": "center",
         "subheading": "",
         "dot": true,
         "columns_per_row": 4,
