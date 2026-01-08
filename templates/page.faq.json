@@ -149,7 +149,7 @@
           "type": "accordion",
           "settings": {
             "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "answer": "<p>To be really honest, it’s getting harder to tell which is which. That’s one of the reasons we founded BLUEMOTH – we wanted “radical transparency” in the world of hearing wellness and technology. Here’s the key: did you have to take a hearing test with a licensed provider? And, was that prescriptive test used in programming and fitting your hearing technology specifically to you? If the answers are yes, then you likely have a prescription device. If you’re offered an online “hearing test,” no hearing test, or self-selected settings – chances are high that you’re exploring the land of OTC.</p><h3><strong>Gimme more!</strong></h3><p>Another good tell for OTC products is that they’re designed for those with mild to moderate hearing loss. Prescription hearing aids, on the other hand, can address a much broader range of hearing loss needs.</p><p>Prescription hearing technology is more flexible in this way because they’re so customizable. Prescription aids can be tailored to your unique hearing profile, preferences, and listening environments. OTC products have more limited or fixed settings, so they can’t always adapt to you. As you work with us, you’ll get a first-hand taste of what this means.</p><p>Typically, another difference you’ll notice as a customer is the premium feel of going prescription compared to OTC. While OTC is good for a simple fix, prescription hearing aids usually incorporate advanced features and technologies. That can mean directional microphones, feedback cancellation, and fancy signal processing algorithms. The other half of the premium feel is professional support and follow-up care. Prescription hearing aids mean you get audiologist attention from your fitting to counseling to continuing check-ups.</p>",
             "default_open": false
           }
         },
@@ -192,6 +192,89 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
+    },
+    "media_qWngAx": {
+      "type": "media",
+      "blocks": {
+        "media_card_7iJQhh": {
+          "type": "media_card",
+          "settings": {
+            "color_scheme": "",
+            "overlay_enable": true,
+            "overlay_opacity": 0.2,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay_video": true,
+            "muted_video": true,
+            "loop_video": true,
+            "show_icon_play": true,
+            "show_icon_sound": true,
+            "description_video": "",
+            "subheading": "Banner subtitle",
+            "heading": "Banner title",
+            "heading_size": "h2",
+            "text": "",
+            "primary_button_label": "Watch Video",
+            "primary_button_link": "",
+            "primary_button_dot": true,
+            "primary_button_style": "primary",
+            "secondary_button_label": "See Details",
+            "secondary_button_link": "",
+            "secondary_button_dot": true,
+            "secondary_button_style": "secondary",
+            "full_link": false
+          }
+        },
+        "media_card_7eKCex": {
+          "type": "media_card",
+          "settings": {
+            "color_scheme": "",
+            "overlay_enable": true,
+            "overlay_opacity": 0.2,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay_video": true,
+            "muted_video": true,
+            "loop_video": true,
+            "show_icon_play": true,
+            "show_icon_sound": true,
+            "description_video": "",
+            "subheading": "Banner subtitle",
+            "heading": "Banner title",
+            "heading_size": "h2",
+            "text": "",
+            "primary_button_label": "Watch Video",
+            "primary_button_link": "",
+            "primary_button_dot": true,
+            "primary_button_style": "primary",
+            "secondary_button_label": "See Details",
+            "secondary_button_link": "",
+            "secondary_button_dot": true,
+            "secondary_button_style": "secondary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "media_card_7iJQhh",
+        "media_card_7eKCex"
+      ],
+      "name": "t:sections.media.name",
+      "settings": {
+        "columns_per_row": 2,
+        "content_alignment": "center",
+        "indent_value": "1.6rem",
+        "swipe_on_mobile": false,
+        "image_ratio": "16/9",
+        "section_heading": "Your message here",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h3",
+        "subheading": "Introduce featured content",
+        "dot": true,
+        "line": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
@@ -199,6 +282,7 @@
     "image_banner_gwDAKc",
     "collapsible_content_tFB7w7",
     "collapsible_content_brpRar",
-    "collapsible_content_NEwBAU"
+    "collapsible_content_NEwBAU",
+    "media_qWngAx"
   ]
 }
