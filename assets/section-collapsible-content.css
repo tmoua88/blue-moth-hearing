@@ -146,6 +146,7 @@
 }
 .collapsible-content__answer-inner p {
   margin: 0;
+  margin-bottom: 1.6rem;
   color: rgb(var(--color-foreground-secondary));
 }
 @media screen and (max-width: calc(990px - 1px)) {
