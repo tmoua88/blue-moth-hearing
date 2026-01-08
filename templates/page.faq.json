@@ -156,16 +156,16 @@
         "accordion_fXMb6W": {
           "type": "accordion",
           "settings": {
-            "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "question": "Are OTC products any good?",
+            "answer": "<p>OTC devices are getting better all the time. They’re great options for someone who has no medical issues with their ears, has minimal hearing loss, and wants a basic “boost.” We like to use the analogy of “readers” or “cheaters” in the glasses realm. We have to give a loving PSA as audiologists that it is best practice to have a hearing test performed to assess your hearing loss(and confirm that earwax or underlying medical issues aren’t culprits). An audiologist can help you understand if prescription devices or OTC would serve you best. There’s power in knowing!</p><h3><strong>Gimme more!</strong></h3><p>The most important deciding factor that makes OTC products good is whether or not they’re good for <strong>you</strong>! Your specific hearing, lifestyle, and needs when it comes to hearing correction will all play into whether OTC technologies are a good fit. Not to mention, what works for one person may not be the best support for another.</p><p>Some of the good to consider with OTC hearing technology is that it tends to be accessible, affordable, and convenient. What’s missing tends to be customization, professional guidance, and a lack of advanced features when compared to prescription technology.</p><p>With BLUEMOTH, you get the best of both worlds with all the pros of prescription hearing aids alongside a more convenient and life-friendly approach when you have the option to try your tech at home before you buy and access to a more equitable price point.</p>",
             "default_open": false
           }
         },
         "accordion_fPc3Bb": {
           "type": "accordion",
           "settings": {
-            "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "question": "Which devices are currently OTC?",
+            "answer": "<p>This list is going to be constantly changing, but a few on the market now are Jabra (previously Lively), Eargo, Nano, Lexie, and Lucid.</p><p><strong>Gimme more!</strong></p><p>If you choose an OTC device, regardless of brand, you have the option to make your purchase in-store or online. You will need to fit and adjust your OTC device yourself. For some, this independence sounds like a dream. For others, the dream is finding prescription technology and tackling fitting and adjustments under the care of an audiologist with access to holistic hearing wellness resources and follow-ups. </p><p>The FDA regulates OTC hearing tech as medical devices for adults.</p>",
             "default_open": false
           }
         }
