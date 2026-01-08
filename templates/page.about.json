@@ -45,6 +45,31 @@
         "margin_bottom": "s"
       }
     },
+    "multi_image_with_text_JiJAhT": {
+      "type": "multi-image-with-text",
+      "name": "Multi image with text",
+      "settings": {
+        "color_scheme": "background-1",
+        "image_position": "image_right",
+        "content_alignment": "left",
+        "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+        "image_size": "adapt",
+        "image_2": "shopify://shop_images/Screenshot_2025-12-08_075725.png",
+        "image_3": "shopify://shop_images/HP3_BlueMothStreet-364.jpg",
+        "subheading": "",
+        "dot": true,
+        "heading": "Why BLUEMOTH",
+        "section_heading_tag": "h2",
+        "heading_size": "h1",
+        "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "s"
+      }
+    },
     "image_with_text_nt93BE": {
       "type": "image-with-text",
       "custom_css": [
@@ -75,6 +100,7 @@
   "order": [
     "main",
     "image_with_text_4EVHDm",
+    "multi_image_with_text_JiJAhT",
     "image_with_text_nt93BE"
   ]
 }
