@@ -58,7 +58,7 @@
         "image_ratio": "4/3",
         "button_style": "primary",
         "margin_top": "xs",
-        "margin_bottom": "s"
+        "margin_bottom": "m"
       }
     },
     "multicolumn_DebtGi": {
