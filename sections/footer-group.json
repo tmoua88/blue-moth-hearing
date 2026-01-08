@@ -26,7 +26,7 @@
           "type": "link_list",
           "settings": {
             "heading": "",
-            "menu": "footer",
+            "menu": "main-menu",
             "default_open": false
           }
         }
