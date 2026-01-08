@@ -39,10 +39,166 @@
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
+    },
+    "collapsible_content_tFB7w7": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_exWNQW": {
+          "type": "accordion",
+          "settings": {
+            "question": "How do I know if I have hearing loss?",
+            "answer": "<p>The easiest and best way to find out is to get a baseline hearing test (AKA: Audiogram) performed by an Audiologist or Hearing Instrument Specialist. Often, one of the first clues of hearing loss is that your ability to hear and understand in background noise is challenged. If you’ve ever been out at a bar or cafe with friends and found yourself smiling and nodding along but only catching bits and pieces of what they’re saying. If the background sound of music or a whirling espresso machine prohibits you from understanding what someone is saying, it is a good idea to get a baseline hearing test.</p><p>Relax, this isn’t the kind of test you need to study for. For many adults, the last hearing test they had was in grade school. Most find a lot has changed since then, including how well they hear. Since hearing loss is often a slow and gradual process, it can be hard to realize on your own. It’s a good idea to get your hearing tested, especially if you suspect you have hearing loss symptoms (or someone has playfully hinted at such). Growing evidence shows that initial of hearing loss occurs (on average) in our 30s and 40s…so, we encourage getting a baseline decades sooner than most do currently.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_QwTrCJ": {
+          "type": "accordion",
+          "settings": {
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_E66rhR": {
+          "type": "accordion",
+          "settings": {
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_exWNQW",
+        "accordion_QwTrCJ",
+        "accordion_E66rhR"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "General Hearing",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": false,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "collapsible_content_brpRar": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_i7RpYP": {
+          "type": "accordion",
+          "settings": {
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_PVdTx6": {
+          "type": "accordion",
+          "settings": {
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_6pQYFV": {
+          "type": "accordion",
+          "settings": {
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_i7RpYP",
+        "accordion_PVdTx6",
+        "accordion_6pQYFV"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "Tinnitus",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": false,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "collapsible_content_NEwBAU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_NAmbt6": {
+          "type": "accordion",
+          "settings": {
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_fXMb6W": {
+          "type": "accordion",
+          "settings": {
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_fPc3Bb": {
+          "type": "accordion",
+          "settings": {
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_NAmbt6",
+        "accordion_fXMb6W",
+        "accordion_fPc3Bb"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "OTC vs. Prescription",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": false,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_gwDAKc"
+    "image_banner_gwDAKc",
+    "collapsible_content_tFB7w7",
+    "collapsible_content_brpRar",
+    "collapsible_content_NEwBAU"
   ]
 }
