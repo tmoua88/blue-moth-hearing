@@ -108,7 +108,7 @@
   }
 }
 .image-with-text__content--image_left, .image-with-text__content--image_right {
-  padding: 3rem;
+  padding: 3rem 0;
 }
 .image-with-text__content--image_left .section-header,
 .image-with-text__content--image_left .image-with-text__text, .image-with-text__content--image_left .image-with-text__button-wrapper, .image-with-text__content--image_right .section-header,
