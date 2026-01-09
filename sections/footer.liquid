@@ -60,6 +60,36 @@
 											{{ block.settings.heading | escape }}
 										</h5>
 									{% endif %}
+									{% if block.settings.description != blank %}
+										<p class='footer-block__description'>
+											{{ block.settings.description }}
+										</p>
+									{% endif %}
+									{% if block.settings.show_newsletter_signup %}
+										<div class='footer-block__newsletter-signup'>
+											{% form 'customer', id: 'FooterNewsletter', class: 'footer-newsletter' %}
+												<input type="hidden" name="contact[tags]" value="newsletter">
+												<label for="FooterNewsletterEmail" class="visually-hidden">Email</label>
+												<input
+													id="FooterNewsletterEmail"
+													type="email"
+													name="contact[email]"
+													autocomplete="email"
+													placeholder="Email address"
+													required
+													class="footer-newsletter__input"
+												>
+												<button type="submit" class="button button--primary">Subscribe</button>
+
+												{% if form.posted_successfully? %}
+													<p>Thanks for subscribing!</p>
+												{% elsif form.errors %}
+													<p>{{ form.errors.messages['email'] }}</p>
+												{% endif %}
+											{% endform %}
+											{% comment %} {% render 'newsletter-form' %} {% endcomment %}
+										</div>
+									{% endif %}
 									{% if block.settings.menu != blank %}
 										<ul class='footer-block__details-content list-unstyled'>
 											{% for link in block.settings.menu.links %}
@@ -74,6 +104,21 @@
 												</li>
 											{% endfor %}
 										</ul>
+									{%- endif -%}
+									{%- if block.settings.show_privacy_policy -%}
+										<div class="footer-block__privacy-policy">
+											<a
+												href="{{ shop.policies.privacy_policy.url }}"
+												class="link link--text footer-block__privacy-policy-link focus-inset"
+											>
+												PRIVACY POLICY
+											</a>
+											<a 
+												href="{{ routes.root_url }}sitemap.xml"
+												class="link link--text footer-block__privacy-policy-link focus-inset">
+												SITEMAP
+											</a>
+										</div>
 									{%- endif -%}
 								</div>
 							{%- when 'logo_info' -%}
@@ -160,7 +205,169 @@
 									{%- endif -%}
 									{%- if block.settings.social != blank -%}
 										<div class='footer-block__social'>
-											{{ block.settings.social }}
+											<ul class='footer__list-social list-unstyled list-social'
+											role='list'>
+											{% if settings.social_twitter_link != blank %}
+												<li class='list-social__item'>
+													<a
+														href='{{ settings.social_twitter_link }}'
+														target='_blank'
+														class='link link--text list-social__link focus-inset'
+														aria-describedby='a11y-external-message'
+														aria-label='twitter'
+													>
+														{% render 'icon-twitter' %}
+														<span class='visually-hidden'>
+															{{ 'general.social.links.twitter' | t }}
+														</span>
+													</a>
+												</li>
+											{% endif %}
+											{% if settings.social_facebook_link != blank %}
+												<li class='list-social__item'>
+													<a
+														href='{{ settings.social_facebook_link }}'
+														target='_blank'
+														class='link link--text list-social__link focus-inset'
+														aria-describedby='a11y-external-message'
+														aria-label='facebook'
+													>
+														{% render 'icon-facebook' %}
+														<span class='visually-hidden'>
+															{{ 'general.social.links.facebook' | t }}
+														</span>
+													</a>
+												</li>
+											{% endif %}
+											{% if settings.social_instagram_link != blank %}
+												<li class='list-social__item'>
+													<a
+														href='{{ settings.social_instagram_link }}'
+														target='_blank'
+														class='link link--text list-social__link focus-inset'
+														aria-describedby='a11y-external-message'
+														aria-label='instagram'
+													>
+														{% render 'icon-instagram' %}
+														<span class='visually-hidden'>
+															{{ 'general.social.links.instagram' | t }}
+														</span>
+													</a>
+												</li>
+											{% endif %}
+											{% if settings.social_linkedin_link != blank %}
+												<li class='list-social__item'>
+													<a
+														href='{{ settings.social_linkedin_link }}'
+														target='_blank'
+														class='link link--text list-social__link focus-inset'
+														aria-describedby='a11y-external-message'
+														aria-label='linkedin'
+													>
+														{% render 'icon-linkedin' %}
+														<span class='visually-hidden'>
+															{{ 'general.social.links.linkedin' | t }}
+														</span>
+													</a>
+												</li>
+											{% endif %}
+											{% if settings.social_pinterest_link != blank %}
+												<li class='list-social__item'>
+													<a
+														href='{{ settings.social_pinterest_link }}'
+														target='_blank'
+														class='link link--text list-social__link focus-inset'
+														aria-describedby='a11y-external-message'
+														aria-label='pinterest'
+													>
+														{% render 'icon-pinterest' %}
+														<span class='visually-hidden'>
+															{{ 'general.social.links.pinterest' | t }}
+														</span>
+													</a>
+												</li>
+											{% endif %}
+											{% if settings.social_tiktok_link != blank %}
+												<li class='list-social__item'>
+													<a
+														href='{{ settings.social_tiktok_link }}'
+														target='_blank'
+														class='link link--text list-social__link focus-inset'
+														aria-describedby='a11y-external-message'
+														aria-label='tiktok'
+													>
+														{% render 'icon-tiktok' %}
+														<span class='visually-hidden'>
+															{{ 'general.social.links.tiktok' | t }}
+														</span>
+													</a>
+												</li>
+											{% endif %}
+											{% if settings.social_tumblr_link != blank %}
+												<li class='list-social__item'>
+													<a
+														href='{{ settings.social_tumblr_link }}'
+														target='_blank'
+														class='link link--text list-social__link focus-inset'
+														aria-describedby='a11y-external-message'
+														aria-label='tumblr'
+													>
+														{% render 'icon-tumblr' %}
+														<span class='visually-hidden'>
+															{{ 'general.social.links.tumblr' | t }}
+														</span>
+													</a>
+												</li>
+											{% endif %}
+											{% if settings.social_snapchat_link != blank %}
+												<li class='list-social__item'>
+													<a
+														href='{{ settings.social_snapchat_link }}'
+														target='_blank'
+														class='link link--text list-social__link focus-inset'
+														aria-describedby='a11y-external-message'
+														aria-label='snapchat'
+													>
+														{% render 'icon-snapchat' %}
+														<span class='visually-hidden'>
+															{{ 'general.social.links.snapchat' | t }}
+														</span>
+													</a>
+												</li>
+											{% endif %}
+											{% if settings.social_youtube_link != blank %}
+												<li class='list-social__item'>
+													<a
+														href='{{ settings.social_youtube_link }}'
+														target='_blank'
+														class='link link--text list-social__link focus-inset'
+														aria-describedby='a11y-external-message'
+														aria-label='youtube'
+													>
+														{% render 'icon-youtube' %}
+														<span class='visually-hidden'>
+															{{ 'general.social.links.youtube' | t }}
+														</span>
+													</a>
+												</li>
+											{% endif %}
+											{% if settings.social_vimeo_link != blank %}
+												<li class='list-social__item'>
+													<a
+														href='{{ settings.social_vimeo_link }}'
+														target='_blank'
+														class='link link--text list-social__link focus-inset'
+														aria-describedby='a11y-external-message'
+														aria-label='vimeo'
+													>
+														{% render 'icon-vimeo' %}
+														<span class='visually-hidden'>
+															{{ 'general.social.links.vimeo' | t }}
+														</span>
+													</a>
+												</li>
+											{% endif %}
+										</ul>
 										</div>
 									{%- endif -%}
 								</div>
@@ -501,6 +708,7 @@
 							</div>
 						{%- endif -%}
 					{%- endif -%}
+					{%- comment -%}
 					{%- if section.settings.show_social == true -%}
 						{% if settings.social_twitter_link != blank
 							or settings.social_facebook_link != blank
@@ -702,6 +910,7 @@
 							</div>
 						{% endif %}
 					{%- endif -%}
+					{%- endcomment -%}
 				</div>
 			</div>
 		</div>
@@ -791,6 +1000,24 @@
 					"id": "default_open",
 					"default": false,
 					"label": "t:sections.footer.blocks.link_list.settings.default_open.label"
+				},
+				{
+					"type": "richtext",
+					"id": "description",
+					"default": "t:sections.footer.blocks.link_list.settings.description.default",
+					"label": "t:sections.footer.blocks.link_list.settings.description.label",
+				},
+				{
+					"type": "checkbox",
+					"id": "show_newsletter_signup",
+					"default": true,
+					"label": "t:sections.footer.blocks.link_list.settings.show_newsletter_signup.label"
+				},
+				{
+					"type": "checkbox",
+					"id": "show_privacy_policy",
+					"default": true,
+					"label": "t:sections.footer.blocks.link_list.settings.show_privacy_policy.label"
 				}
 			]
 		},

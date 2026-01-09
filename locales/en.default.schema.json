@@ -2716,6 +2716,16 @@
 						},
 						"default_open": {
 							"label": "Mobile menu is open by default"
+						},
+						"description": {
+							"label": "Description",
+							"default": "Use this space to provide additional details in the footer above the footer menu items."
+						},
+						"show_newsletter": {
+							"label": "Show newsletter signup"
+						},
+						"show_privacy_policy": {
+							"label": "Show privacy policy link"
 						}
 					}
 				},

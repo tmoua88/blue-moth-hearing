@@ -615,3 +615,80 @@ footer details[open] summary ~ * {
 [data-scheme=dark] .footer__logo:only-child {
   display: block;
 }
+
+/* New styles for social media icons below logo */
+.footer-block__social {
+  margin-top: 2.4rem;
+}
+
+/* Clean up of navigation menu */
+.footer-block .footer-block__details-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto); /* 👈 number of rows */
+  grid-auto-flow: column;
+  gap: 1.6rem;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #F2F2F2;
+  font-weight: bold;
+}
+
+/* Description above the menus */
+.footer-block__description, .footer-block__newsletter-signup {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(var(--color-foreground));
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.footer-block__newsletter-signup form {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.6rem;
+  font-family: 'Henderson Sans Basic', sans-serif;
+}
+
+.footer_block__newsletter-signup form input[type="email"] {
+  padding: 1rem;
+  font-size: 1.4rem;
+  border: 1px solid #fff;
+  border-radius: var(--border-radius-input);
+  background: transparent;
+  color: rgb(var(--color-foreground));
+}
+
+.footer-block__newsletter-signup form .button {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.footer-block__privacy-policy {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1.6rem 0;
+  font-family: var(--font-footer-menu-family);
+  font-style: var(--font-footer-menu-style);
+  font-weight: var(--font-footer-menu-weight);
+  font-size: var(--font-footer-link-size);
+  gap: 1.6rem;
+}
+
+.footer-block__privacy-policy a {
+  color: rgb(var(--color-foreground), 0.8);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 990px) {
+  .footer-block__description {
+    margin-top: 1rem;
+    max-width: 40vw;
+  }
+}
+
+/* HARDCODED Hide for Payment/Language Selector, etc. Remove to show */
+.footer__content-center {
+  display: none;
+}
