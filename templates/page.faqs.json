@@ -110,7 +110,7 @@
         "accordion_7kw7f9",
         "accordion_BrAfRW"
       ],
-      "name": "t:sections.collapsible-content.name",
+      "name": "General Hearing",
       "settings": {
         "section_layout": "row",
         "icon_style": "secondary",
@@ -170,7 +170,7 @@
         "accordion_6pQYFV",
         "accordion_bMB8cU"
       ],
-      "name": "t:sections.collapsible-content.name",
+      "name": "Tinnitus",
       "settings": {
         "section_layout": "row",
         "icon_style": "secondary",
@@ -221,7 +221,7 @@
         "accordion_fXMb6W",
         "accordion_fPc3Bb"
       ],
-      "name": "t:sections.collapsible-content.name",
+      "name": "OTC vs. Prescription",
       "settings": {
         "section_layout": "row",
         "icon_style": "secondary",
@@ -326,11 +326,116 @@
         "accordion_xGk9rp",
         "accordion_ChcBkx"
       ],
-      "name": "t:sections.collapsible-content.name",
+      "name": "Hearing Aids + Technology",
       "settings": {
         "section_layout": "row",
         "icon_style": "secondary",
         "section_heading": "Hearing Aids + Technology",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": false,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "collapsible_content_KBF6na": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_3gMYjb": {
+          "type": "accordion",
+          "settings": {
+            "question": "Does insurance cover hearing aids?",
+            "answer": "<p>Insurance companies frequently do not cover hearing aids. However, this is improving all the time. Reach out to your provider to see if they offer any benefits and how best to work with them. At BLUEMOTH, we can bring you premium technology through transparent means at a fair value price point – one way we manage this is by not working with insurance companies directly. If your insurance does have hearing aid benefits, you can submit your receipt of purchase for reimbursement through your insurance company.</p><h3><strong>Gimme more!</strong></h3><p>Hearing loss is considered a “likely risk” since over 50% of people over the age of 75 experience hearing loss. As a result, many insurance companies aren’t willing to cover the cost of hearing aids. Of course, your mileage will vary and the only way to know for sure is to find out what’s covered by your provider and your plan.</p><p>Sometimes, insurance companies are willing to cover some of the other costs associated with your hearing technology, such as your hearing exam. Additionally, some employers offer specific hearing benefits. If you’re stuck on unraveling what’s covered and what isn’t reach out to us via <a href=\"mailto:hello@bluemothhearing.com\">hello@bluemothhearing.com</a> and we would love to tackle this with you.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_cKnzmg": {
+          "type": "accordion",
+          "settings": {
+            "question": "Why are hearing aids so expensive?",
+            "answer": "<p>Hearing aids are incredible micro-technology with sophisticated sound processing. They keep getting smaller, faster, and better. Typically hearing aids come in a “bundled” fashion – meaning that you pay for the devices and all of the follow-up services provided. Hearing technology is definitely an investment in your overall health and wellness.</p><h3><strong>Gimme more!</strong></h3><p>Hearing technology has undoubtedly come a long way- it gets more high-tech with every passing year. While that’s good news for your ears, it can be bad news for your wallet. Part of what you pay for is all the investment into research and development of cutting-edge technologies and algorithms by manufacturers.</p><p>Part of what you’re paying for is also the best of care;the support of audiologists to evaluate your hearing and administer tests, as well as provide counseling, programming, and fitting services. Not to mention the professional follow-ups to ensure your hearing technology is the perfect fit and continues to grow and change with you and your hearing needs. With BLUEMOTH, your initial experience and follow-ups will connect you with audiologists who are passionate about making sure you get to hear better, better.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_Frx7mw": {
+          "type": "accordion",
+          "settings": {
+            "question": "Is there actually a big difference between hearing aid brands?",
+            "answer": "<p>Any prescription hearing aid will provide noticeable improvement to your abilities to hear and understand, but they are not all created equal. Each company offers a different sound experience. This is one reason we’re so excited to provide the BLUEMOTH experience box. All of the device options will be programmed according to your unique hearing loss, but YOUR subjective experience of each device may vary greatly.</p><h3><strong>Gimme more!</strong></h3><p>Different brands can employ different features and technology in their hearing aids, with varying sophistication. Some brands might have specific innovations or features that set them apart from the competition.</p><p>Then there’s the question of style- different brands can vary significantly in their offered models, colors, and styles. Some brands might fit how you want your technology to look and feel better than others. It matters that you love the way your technology looks- you’ll be rocking it every day.</p><p>Another major factor is brand reputation and support. Some brands have established themselves as leaders in the hearing technology industry through a strong track record of reliable technology and customer satisfaction. Different companies can offer different support as a result, such as robust device servicing and easy access to customer care professionals.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_PPnXqc": {
+          "type": "accordion",
+          "settings": {
+            "question": "Can I try them first?",
+            "answer": "<p>Of course, my friend! That’s the whole goal of the BLUEMOTH experience. The BLUEMOTH experience allows you to try your three premium sets in the convenience of your home. We believe that the best judge of benefit is you – you’re the one who will rock these devices every day.</p><h3><strong>Gimme more!</strong></h3><p>Everything about your hearing is individual to you. We don’t want you to fit a preset mold; we want to meet you where you are and put your preferences first.</p><p>Realistically, you’re not going to be wearing your technology in an audiologist’s clinic the majority of the time. After the device is yours, you’ll be wearing it everywhere that you live your life. We want you to try them in all the places that matter most. Try out how they feel in a conversation with your friends or at a family dinner. Wear them on your commute and try them at school or work. Take them to band practice or that painting class you love. Your technology will go everywhere you go, so we think that’s the best way to do a trial run.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_LVVwWY": {
+          "type": "accordion",
+          "settings": {
+            "question": "What is the process going to be like when I get fit with devices?",
+            "answer": "<p>Getting hearing technology for the first time can take a little bit of adjustment. Some are good to go right out of the gate. But here’s what the average person can expect: Once you’ve selected your devices, they will be pre-programmed for your specific hearing loss (based on the hearing test/audiogram results you uploaded). Go ahead and give those a whirl! See how they sound in a myriad of situations and environments. Then, should you want changes, book a Programming Appointment with one of our hearing healthcare experts. We can make adjustments remotely based on your experiences and feedback. We can also always help ensure they are physically comfortable and stay in your ears well.</p><h3><strong>Gimme more!</strong></h3><p>Your experience with BLUEMOTH isn’t just about awesome cutting edge tech, it’s also about having a team behind you. When you get your devices you’ll have plenty of time to play with the fit independently. You’ll also have access to quick and easy virtual consultations with our team of audiologists whenever you need them. We’re rooting for your hearing wellness, so we want to hear your feedback on your hearing tech journey and make all the little tweaks that make your hearing technology work like magic. </p><p>Schedule a meeting with the team any time and tackle anything, from help with troubleshooting pairing with your favorite Bluetooth devices, understanding and connecting accessories, changes in settings to fit your hearing better, physical comfort, and more.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_UbwKqb": {
+          "type": "accordion",
+          "settings": {
+            "question": "How long do hearing aids last?",
+            "answer": "<p>Hearing aids can last a long time – these are the little engine that could, in most cases. On average, people buy hearing aids about every 4 years. Not because their current devices are dead or not working anymore. It’s usually because there have been enough advances in technology that the benefits of new hearing aids warrant the purchase price. Things such as keeping them dry, proper care, maintenance, and routine cleaning will help the longevity of your devices. </p><p>Fun Fact: The oldest set of working devices we’ve ever seen worn and running on a patient was 18 years old! That person was super happy when they graduated into new tech – night and day difference.</p><h3><strong>Gimme more!</strong></h3><p>Your hearing tech is a really hard worker. It’s with you day in and day out, which naturally leads to wear and tear. However, the lifespan of your hearing technology isn’t just centered around when it starts falling apart. Really, the lifespan of your hearing technology has a lot to do with your needs and how they might change.</p><p>Think about the person you were 4 years ago. Chances are, something has evolved as you’ve lived and grown. Maybe you’ve picked up new hobbies, and now you can’t get enough of surfing or cooking classes. Maybe you’ve headed back into a classroom or into a new job. Eventually, you may find that you’ve outgrown your hearing tech and something new would be a better fit for your lifestyle.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_ib9pUW": {
+          "type": "accordion",
+          "settings": {
+            "question": "Can I wear them in water?",
+            "answer": "<p>Is all you’ve ever wanted hearing tech that can keep up with your active lifestyle? Thanks to advancements from hearing tech manufacturers, your device doesn’t have to stand between you and your passions. Our partnership with Phonak allows us to bring you the most waterproof hearing tech option on the market today. Whether you’re finding joy in hot yoga, hitting a trail, or visiting the beach, this new generation of hearing technology will be right there with you.</p><p>Computers and water aren’t really best friends, so we do not recommend getting your hearing technology wet if you don’t know that it’s specifically designed for that. If you have a specific set of devices in mind for this question, the best thing to do is to check out the specifications of the device model. You can find this on manufacturer websites, or by reaching out to a customer support representative. Many modern hearing aids are safe to use in the rain and hold up well to sweat. </p>",
+            "default_open": false
+          }
+        },
+        "accordion_fDKfDg": {
+          "type": "accordion",
+          "settings": {
+            "question": "Do I need to wear them to sleep?",
+            "answer": "<p>It’s best to let your ears and body fully rest and relax at bedtime. We encourage people to put their devices on first thing in the morning and remove them last thing at night.</p><h3><strong>Gimme more!</strong></h3><p>We’re flattered that you like your hearing tech enough to want it 24/7. However, a break can be a good thing too. We recommend that you wear your hearing devices often- including at home even if you live alone. </p><p>When it comes to sleep, it’s better to take them out overnight. Wearing your devices to bed can risk your devices falling out and getting lost or damaged. Plus, it’s a great chance to let your ears breathe and get air circulating. Stick your hearing aids in their case or into their charger so they’re ready to hit the ground running with you in the morning.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_H7AUhc": {
+          "type": "accordion",
+          "settings": {
+            "question": "What are realistic expectations for devices?",
+            "answer": "<p>We LOVE realistic expectations, so this is one of our favorite questions. Each person’s experience and perceptions will be radically different. However, there are some super common things we like to share to set proper expectations at the outset.</p><h3><strong>Down the rabbit hole.</strong></h3><p>Some things you may notice after being fit with hearing aids are:</p><ul><li>Every day sounds like running water, a bag of chips rustling, or your turn signal may seem super loud in the first days or weeks.</li><li>Things may sound tinnier (high-pitched).</li><li>“S” sounds may sound sharper.</li><li>Understanding speech in background noise will be drastically less difficult.</li></ul>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_3gMYjb",
+        "accordion_cKnzmg",
+        "accordion_Frx7mw",
+        "accordion_PPnXqc",
+        "accordion_LVVwWY",
+        "accordion_UbwKqb",
+        "accordion_ib9pUW",
+        "accordion_fDKfDg",
+        "accordion_H7AUhc"
+      ],
+      "name": "Insurance & Payment",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "Insurance & Payment",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
         "section_subheading": "",
@@ -436,6 +541,7 @@
     "collapsible_content_brpRar",
     "collapsible_content_NEwBAU",
     "collapsible_content_zwQ9XT",
+    "collapsible_content_KBF6na",
     "media_qWngAx"
   ]
 }
