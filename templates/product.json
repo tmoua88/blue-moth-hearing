@@ -51,6 +51,10 @@
           "settings": {
             "description": ""
           }
+        },
+        "mw_bundle_builder_crossells_app_block_f9nzgG": {
+          "type": "shopify://apps/mw-bundle-builder/blocks/crossells-app-block/5bcb1a6d-53b5-4d9c-b4f9-19f6620da62b",
+          "settings": {}
         }
       },
       "block_order": [
@@ -59,7 +63,8 @@
         "price",
         "variant_picker",
         "buy_buttons",
-        "description"
+        "description",
+        "mw_bundle_builder_crossells_app_block_f9nzgG"
       ],
       "settings": {
         "color_scheme": "background-1",
