@@ -217,9 +217,9 @@
             "text": "",
             "button_label": "",
             "button_link": "shopify://policies/refund-policy",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         },
         "column_DA8RMY": {
@@ -234,7 +234,7 @@
             "button_link": "shopify://pages/insurance-and-payment",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         },
         "column_ErcP74": {
@@ -247,9 +247,9 @@
             "text": "",
             "button_label": "",
             "button_link": "shopify://pages/warranty",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         }
       },
@@ -259,7 +259,7 @@
         "column_DA8RMY",
         "column_ErcP74"
       ],
-      "name": "t:sections.multicolumn.name",
+      "name": "Product Links",
       "settings": {
         "color_scheme": "",
         "section_heading": "",
@@ -270,7 +270,7 @@
         "dot": false,
         "columns_per_row": 4,
         "content_alignment": "left",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
         "margin_top": "m",
