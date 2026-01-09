@@ -1,0 +1,157 @@
+{{ 'section-image-cards.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+	{% render 'section-margin' %}
+
+  .image-cards-section {
+    background-color: {{ section.settings.background_color }};
+  }
+{%- endstyle -%}
+
+<div class='image-cards container'>
+
+		<ul class="image-cards__wrapper">
+			{%- for block in section.blocks -%}
+				<li class="image-card">
+					{%- if block.settings.image != blank -%}
+						<img
+							src='{{ block.settings.image | image_url: width: 400 }}'
+							alt='{{ block.settings.image.alt | escape }}'
+							loading='lazy'
+						>
+          {%- endif -%}
+          {%- if block.settings.image != blank -%}
+            <div class='image-card-text__text'>
+              {{ block.settings.text }}
+            </div>
+          {%- endif -%}
+				</li>
+			{%- endfor -%}
+		</ul>
+</div>
+
+{% schema %}
+{
+	"name": "Image cards",
+	"class": "image-cards-section spaced-section",
+	"tag": "section",
+	"enabled_on": {
+		"templates": ["*"]
+	},
+	"settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "default": "#ffffff",
+      "label": "Background color"
+    },
+		{
+			"type": "select",
+			"id": "margin_top",
+			"options": [
+				{
+					"value": "no-indent",
+					"label": "t:sections.all.section-margin.options__1.label"
+				},
+				{
+					"value": "xs",
+					"label": "t:sections.all.section-margin.options__2.label"
+				},
+				{
+					"value": "s",
+					"label": "t:sections.all.section-margin.options__3.label"
+				},
+				{
+					"value": "m",
+					"label": "t:sections.all.section-margin.options__4.label"
+				},
+				{
+					"value": "l",
+					"label": "t:sections.all.section-margin.options__5.label"
+				},
+				{
+					"value": "xl",
+					"label": "t:sections.all.section-margin.options__6.label"
+				}
+			],
+			"default": "s",
+			"label": "t:sections.all.section-margin.margin_top.label"
+		},
+		{
+			"type": "select",
+			"id": "margin_bottom",
+			"options": [
+				{
+					"value": "no-indent",
+					"label": "t:sections.all.section-margin.options__1.label"
+				},
+				{
+					"value": "xs",
+					"label": "t:sections.all.section-margin.options__2.label"
+				},
+				{
+					"value": "s",
+					"label": "t:sections.all.section-margin.options__3.label"
+				},
+				{
+					"value": "m",
+					"label": "t:sections.all.section-margin.options__4.label"
+				},
+				{
+					"value": "l",
+					"label": "t:sections.all.section-margin.options__5.label"
+				},
+				{
+					"value": "xl",
+					"label": "t:sections.all.section-margin.options__6.label"
+				}
+			],
+			"default": "s",
+			"label": "t:sections.all.section-margin.margin_bottom.label"
+		}
+	],
+	"blocks": [
+		{
+			"type": "card",
+			"name": "Card",
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "t:sections.brand-image.blocks.column.settings.image.label"
+				},
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "Image cards",
+			"blocks": [
+				{
+					"type": "card"
+				},
+				{
+					"type": "card"
+				},
+				{
+					"type": "card"
+				},
+				{
+					"type": "card"
+				},
+				{
+					"type": "card"
+				},
+				{
+					"type": "card"
+				}
+			]
+		}
+	]
+}
+{% endschema %}

@@ -1,0 +1,26 @@
+.image-cards__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.image-card {
+  list-style: none;
+  width: 200px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.image-card img {
+  display: block;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 749px) {
+  .image-cards__wrapper {
+    padding: 0;
+  }
+}
