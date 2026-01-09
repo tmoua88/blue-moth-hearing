@@ -189,6 +189,94 @@
         "margin_bottom": "s"
       }
     },
+    "multicolumn_c3hewi": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ff8Lkw": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Shipping Details",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://pages/shipping",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": true
+          }
+        },
+        "column_zQmfbk": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "return",
+            "heading": "Return Policy",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://policies/refund-policy",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_DA8RMY": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "support",
+            "heading": "Insurance",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://pages/insurance-and-payment",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_ErcP74": {
+          "type": "column",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Warranty",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://pages/warranty",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_ff8Lkw",
+        "column_zQmfbk",
+        "column_DA8RMY",
+        "column_ErcP74"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "color_scheme": "",
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "heading_alignment": "center",
+        "subheading": "",
+        "dot": false,
+        "columns_per_row": 3,
+        "content_alignment": "left",
+        "swipe_on_mobile": true,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
+    },
     "1768000734a344b12f": {
       "type": "apps",
       "blocks": {
@@ -210,6 +298,7 @@
     "product-complementary",
     "product-recommendations",
     "products_grid_7BmTn7",
+    "multicolumn_c3hewi",
     "1768000734a344b12f"
   ]
 }
