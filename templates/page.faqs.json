@@ -37,7 +37,26 @@
         "overlay_enable": true,
         "overlay_opacity": 0.3,
         "margin_top": "no-indent",
-        "margin_bottom": "m"
+        "margin_bottom": "no-indent"
+      }
+    },
+    "rich_text_ApaFwq": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_layout": "row",
+        "subheading": "",
+        "heading": "",
+        "section_heading_tag": "h2",
+        "heading_size": "h2",
+        "dot": true,
+        "text": "<p>Enter a brief description or message for this section. This text will help convey important information to your users.</p>",
+        "button_label": "Contact",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": false,
+        "margin_top": "s",
+        "margin_bottom": "s"
       }
     },
     "collapsible_content_tFB7w7": {
@@ -298,6 +317,7 @@
   "order": [
     "main",
     "image_banner_gwDAKc",
+    "rich_text_ApaFwq",
     "collapsible_content_tFB7w7",
     "collapsible_content_brpRar",
     "collapsible_content_NEwBAU",
