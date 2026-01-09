@@ -273,13 +273,22 @@
             "answer": "<p>Of course, my friend! That’s the whole goal of the BLUEMOTH experience. The BLUEMOTH experience allows you to try your three premium sets in the convenience of your home. We believe that the best judge of benefit is you – you’re the one who will rock these devices every day.</p><h3><strong>Gimme more!</strong></h3><p>Everything about your hearing is individual to you. We don’t want you to fit a preset mold; we want to meet you where you are and put your preferences first.</p><p>Realistically, you’re not going to be wearing your technology in an audiologist’s clinic the majority of the time. After the device is yours, you’ll be wearing it everywhere that you live your life. We want you to try them in all the places that matter most. Try out how they feel in a conversation with your friends or at a family dinner. Wear them on your commute and try them at school or work. Take them to band practice or that painting class you love. Your technology will go everywhere you go, so we think that’s the best way to do a trial run.</p>",
             "default_open": false
           }
+        },
+        "accordion_JGLBnw": {
+          "type": "accordion",
+          "settings": {
+            "question": "What is the process going to be like when I get fit with devices?",
+            "answer": "<p>Getting hearing technology for the first time can take a little bit of adjustment. Some are good to go right out of the gate. But here’s what the average person can expect: Once you’ve selected your devices, they will be pre-programmed for your specific hearing loss (based on the hearing test/audiogram results you uploaded). Go ahead and give those a whirl! See how they sound in a myriad of situations and environments. Then, should you want changes, book a Programming Appointment with one of our hearing healthcare experts. We can make adjustments remotely based on your experiences and feedback. We can also always help ensure they are physically comfortable and stay in your ears well.</p><h3><strong>Gimme more!</strong></h3><p>Your experience with BLUEMOTH isn’t just about awesome cutting edge tech, it’s also about having a team behind you. When you get your devices you’ll have plenty of time to play with the fit independently. You’ll also have access to quick and easy virtual consultations with our team of audiologists whenever you need them. We’re rooting for your hearing wellness, so we want to hear your feedback on your hearing tech journey and make all the little tweaks that make your hearing technology work like magic. </p><p>Schedule a meeting with the team any time and tackle anything, from help with troubleshooting pairing with your favorite Bluetooth devices, understanding and connecting accessories, changes in settings to fit your hearing better, physical comfort, and more.</p>",
+            "default_open": false
+          }
         }
       },
       "block_order": [
         "accordion_V7g8pr",
         "accordion_xgYdXF",
         "accordion_xr9aWi",
-        "accordion_tcKL6p"
+        "accordion_tcKL6p",
+        "accordion_JGLBnw"
       ],
       "name": "t:sections.collapsible-content.name",
       "settings": {
