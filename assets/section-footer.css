@@ -660,6 +660,10 @@ footer details[open] summary ~ * {
   color: rgb(var(--color-foreground));
 }
 
+#FooterNewsletterEmail {
+  padding-left: 10px;
+}
+
 .footer-block__newsletter-signup form .button {
   background: transparent;
   border: 1px solid #fff;
