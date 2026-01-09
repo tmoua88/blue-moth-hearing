@@ -6,22 +6,24 @@
 {%- endstyle -%}
 
 <div class="rich-text container">
-  <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.section_layout }}">
-    <div class="rich-text__title">
-      {% if section.settings.subheading != blank %}
-        <div class="rich-text__subheading {% if section.settings.dot %}rich-text__subheading_dot{% endif %} subheading {% if section.settings.heading == blank %}margin-none{% endif %}">
-          {{ section.settings.subheading | escape }}
-        </div>
-      {% endif %}
-      {% if section.settings.heading != blank %}
-        {% assign section_heading_tag = section.settings.section_heading_tag %}
-        <{{ section_heading_tag }} class="rich-text__heading {{ section.settings.heading_size }} {% if section.settings.subheading == blank %}margin-none{% endif %}">
-          {{ section.settings.heading }}
-        </{{ section_heading_tag }}>
-      {% endif %}
-    </div>
+  <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.section_layout }} {% if section.settings.section_layout == 'row' %}{% unless section.settings.subheading != blank or section.settings.heading != blank %}rich-text__text-only{% endunless %}{% endif %}">
+    {% if section.settings.subheading != blank or section.settings.heading != blank %}
+      <div class="rich-text__title">
+        {% if section.settings.subheading != blank %}
+          <div class="rich-text__subheading {% if section.settings.dot %}rich-text__subheading_dot{% endif %} subheading {% if section.settings.heading == blank %}margin-none{% endif %}">
+            {{ section.settings.subheading | escape }}
+          </div>
+        {% endif %}
+        {% if section.settings.heading != blank %}
+          {% assign section_heading_tag = section.settings.section_heading_tag %}
+          <{{ section_heading_tag }} class="rich-text__heading {{ section.settings.heading_size }} {% if section.settings.subheading == blank %}margin-none{% endif %}">
+            {{ section.settings.heading }}
+          </{{ section_heading_tag }}>
+        {% endif %}
+      </div>
+    {% endif %}
     {% if section.settings.text != blank %}
-      <div class="rich-text__text">
+      <div class="rich-text__text {% if section.settings.section_layout == 'row' %}{% unless section.settings.subheading != blank or section.settings.heading != blank %}rich-text__text-padding-margin-0{% endunless %}{% endif %}">
         {{ section.settings.text }}
       </div>
     {% endif %}
