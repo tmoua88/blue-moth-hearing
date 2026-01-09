@@ -289,6 +289,14 @@
             "answer": "<p>Hearing aids can last a long time – these are the little engine that could, in most cases. On average, people buy hearing aids about every 4 years. Not because their current devices are dead or not working anymore. It’s usually because there have been enough advances in technology that the benefits of new hearing aids warrant the purchase price. Things such as keeping them dry, proper care, maintenance, and routine cleaning will help the longevity of your devices. </p><p>Fun Fact: The oldest set of working devices we’ve ever seen worn and running on a patient was 18 years old! That person was super happy when they graduated into new tech – night and day difference.</p><h3><strong>Gimme more!</strong></h3><p>Your hearing tech is a really hard worker. It’s with you day in and day out, which naturally leads to wear and tear. However, the lifespan of your hearing technology isn’t just centered around when it starts falling apart. Really, the lifespan of your hearing technology has a lot to do with your needs and how they might change.</p><p>Think about the person you were 4 years ago. Chances are, something has evolved as you’ve lived and grown. Maybe you’ve picked up new hobbies, and now you can’t get enough of surfing or cooking classes. Maybe you’ve headed back into a classroom or into a new job. Eventually, you may find that you’ve outgrown your hearing tech and something new would be a better fit for your lifestyle.</p>",
             "default_open": false
           }
+        },
+        "accordion_tdDPmm": {
+          "type": "accordion",
+          "settings": {
+            "question": "Can I wear them in water?",
+            "answer": "<p>Is all you’ve ever wanted hearing tech that can keep up with your active lifestyle? Thanks to advancements from hearing tech manufacturers, your device doesn’t have to stand between you and your passions. Our partnership with Phonak allows us to bring you the most waterproof hearing tech option on the market today. Whether you’re finding joy in hot yoga, hitting a trail, or visiting the beach, this new generation of hearing technology will be right there with you.</p><p>Computers and water aren’t really best friends, so we do not recommend getting your hearing technology wet if you don’t know that it’s specifically designed for that. If you have a specific set of devices in mind for this question, the best thing to do is to check out the specifications of the device model. You can find this on manufacturer websites, or by reaching out to a customer support representative. Many modern hearing aids are safe to use in the rain and hold up well to sweat. </p>",
+            "default_open": false
+          }
         }
       },
       "block_order": [
@@ -297,7 +305,8 @@
         "accordion_xr9aWi",
         "accordion_tcKL6p",
         "accordion_JGLBnw",
-        "accordion_K99HCx"
+        "accordion_K99HCx",
+        "accordion_tdDPmm"
       ],
       "name": "t:sections.collapsible-content.name",
       "settings": {
