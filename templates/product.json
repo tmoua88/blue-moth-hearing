@@ -296,6 +296,40 @@
         "margin_bottom": "s"
       }
     },
+    "collapsible_content_dXctXf": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_aGb7Jc": {
+          "type": "accordion",
+          "name": "Compatibility",
+          "settings": {
+            "question": "What devices are compatible?",
+            "answer": "<p>Compatible with iPhone and Android smartphones.</p>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_aGb7Jc"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "Extend the {{ product.title }}",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "Frequently Asked Questions",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": false,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
     "1768000734a344b12f": {
       "type": "apps",
       "blocks": {
@@ -320,6 +354,7 @@
     "products_grid_7BmTn7",
     "multicolumn_c3hewi",
     "rich_text_ixREV4",
+    "collapsible_content_dXctXf",
     "1768000734a344b12f"
   ]
 }
