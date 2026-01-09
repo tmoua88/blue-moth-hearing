@@ -169,9 +169,9 @@
       ],
       "name": "Image cards",
       "settings": {
-        "background_color": "#ffffff",
-        "margin_top": "s",
-        "margin_bottom": "s"
+        "background_color": "#313d47",
+        "margin_top": "xs",
+        "margin_bottom": "xs"
       }
     }
   },
