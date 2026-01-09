@@ -2,6 +2,10 @@
 
 {%- style -%}
 	{% render 'section-margin' %}
+
+  .multi-image-with-text-section {
+    background-color: {{ section.settings.background_color }};
+  }
 {%- endstyle -%}
 
 {% liquid
@@ -275,7 +279,7 @@
 {% schema %}
 {
 	"name": "t:sections.image-with-text.name",
-	"class": "image-with-text-section spaced-section",
+	"class": "multi-image-with-text-section spaced-section",
 	"enabled_on": {
 		"templates": ["*"]
 	},
@@ -286,6 +290,12 @@
 			"default": "background-2",
 			"label": "t:sections.all.color_scheme.label"
 		},
+    {
+      "type": "color",
+      "id": "background_color",
+      "default": "#ffffff",
+      "label": "Background color"
+    },
 		{
 			"type": "select",
 			"id": "image_position",
