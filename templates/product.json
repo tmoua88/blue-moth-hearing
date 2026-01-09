@@ -345,6 +345,29 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "image_with_text_KPCnKG": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "color_scheme": "background-3",
+        "image_position": "image_left",
+        "content_alignment": "left",
+        "image": "shopify://shop_images/Finding_Perfect_Solution.png",
+        "image_size": "1/1",
+        "subheading": "",
+        "dot": false,
+        "heading": "Need help finding the perfect solution",
+        "section_heading_tag": "h2",
+        "heading_size": "h1",
+        "text": "<p>Tell us about your hearing and lifestyle preferences- we'll recommend hearing aids for you.</p>",
+        "button_label": "Take Short Survey",
+        "button_link": "https://clicks.bluemoth.myhearingaids.com/widget/form/JPgJ2MH4PXdgbKuTK21B",
+        "button_style": "primary",
+        "button_dot": false,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
@@ -355,6 +378,7 @@
     "multicolumn_c3hewi",
     "rich_text_ixREV4",
     "collapsible_content_dXctXf",
-    "1768000734a344b12f"
+    "1768000734a344b12f",
+    "image_with_text_KPCnKG"
   ]
 }
