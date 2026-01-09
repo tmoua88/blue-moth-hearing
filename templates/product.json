@@ -277,6 +277,25 @@
         "margin_bottom": "m"
       }
     },
+    "rich_text_ixREV4": {
+      "type": "rich-text",
+      "name": "Product Information",
+      "settings": {
+        "section_layout": "row",
+        "subheading": "OVERVIEW",
+        "heading": "Product Information",
+        "section_heading_tag": "h2",
+        "heading_size": "h2",
+        "dot": false,
+        "text": "{{ product.description }}",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
     "1768000734a344b12f": {
       "type": "apps",
       "blocks": {
@@ -300,6 +319,7 @@
     "product-recommendations",
     "products_grid_7BmTn7",
     "multicolumn_c3hewi",
+    "rich_text_ixREV4",
     "1768000734a344b12f"
   ]
 }
