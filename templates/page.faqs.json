@@ -281,6 +281,14 @@
             "answer": "<p>Getting hearing technology for the first time can take a little bit of adjustment. Some are good to go right out of the gate. But here’s what the average person can expect: Once you’ve selected your devices, they will be pre-programmed for your specific hearing loss (based on the hearing test/audiogram results you uploaded). Go ahead and give those a whirl! See how they sound in a myriad of situations and environments. Then, should you want changes, book a Programming Appointment with one of our hearing healthcare experts. We can make adjustments remotely based on your experiences and feedback. We can also always help ensure they are physically comfortable and stay in your ears well.</p><h3><strong>Gimme more!</strong></h3><p>Your experience with BLUEMOTH isn’t just about awesome cutting edge tech, it’s also about having a team behind you. When you get your devices you’ll have plenty of time to play with the fit independently. You’ll also have access to quick and easy virtual consultations with our team of audiologists whenever you need them. We’re rooting for your hearing wellness, so we want to hear your feedback on your hearing tech journey and make all the little tweaks that make your hearing technology work like magic. </p><p>Schedule a meeting with the team any time and tackle anything, from help with troubleshooting pairing with your favorite Bluetooth devices, understanding and connecting accessories, changes in settings to fit your hearing better, physical comfort, and more.</p>",
             "default_open": false
           }
+        },
+        "accordion_K99HCx": {
+          "type": "accordion",
+          "settings": {
+            "question": "How long do hearing aids last?",
+            "answer": "<p>Hearing aids can last a long time – these are the little engine that could, in most cases. On average, people buy hearing aids about every 4 years. Not because their current devices are dead or not working anymore. It’s usually because there have been enough advances in technology that the benefits of new hearing aids warrant the purchase price. Things such as keeping them dry, proper care, maintenance, and routine cleaning will help the longevity of your devices. </p><p>Fun Fact: The oldest set of working devices we’ve ever seen worn and running on a patient was 18 years old! That person was super happy when they graduated into new tech – night and day difference.</p><h3><strong>Gimme more!</strong></h3><p>Your hearing tech is a really hard worker. It’s with you day in and day out, which naturally leads to wear and tear. However, the lifespan of your hearing technology isn’t just centered around when it starts falling apart. Really, the lifespan of your hearing technology has a lot to do with your needs and how they might change.</p><p>Think about the person you were 4 years ago. Chances are, something has evolved as you’ve lived and grown. Maybe you’ve picked up new hobbies, and now you can’t get enough of surfing or cooking classes. Maybe you’ve headed back into a classroom or into a new job. Eventually, you may find that you’ve outgrown your hearing tech and something new would be a better fit for your lifestyle.</p>",
+            "default_open": false
+          }
         }
       },
       "block_order": [
@@ -288,7 +296,8 @@
         "accordion_xgYdXF",
         "accordion_xr9aWi",
         "accordion_tcKL6p",
-        "accordion_JGLBnw"
+        "accordion_JGLBnw",
+        "accordion_K99HCx"
       ],
       "name": "t:sections.collapsible-content.name",
       "settings": {
