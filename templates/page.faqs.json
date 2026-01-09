@@ -134,24 +134,32 @@
         "accordion_i7RpYP": {
           "type": "accordion",
           "settings": {
-            "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "question": "What is tinnitus?",
+            "answer": "<p>Tinnitus is a perception of sound within a person’s ears and/or head. It is often described as ringing, buzzing, hissing. It can vary in volume, pitch, and frequency.</p><h3><strong>Gimme more!</strong></h3><p>With tinnitus, there is a perceived sound but no external sound source. This means it can only be heard by the person experiencing it. Tinnitus can be temporary or chronic and can have an array of effects on people. For some, it might only be a passing annoyance. For others, it can interfere with concentration and sleep, leading to stress, anxiety, and even depression.</p><p>With the proper treatment and support, tinnitus doesn’t have to dampen your quality of life permanently. Many people can find ways to cope effectively: including hearing technologies, therapy, and relaxation techniques. We hope to be part of our journey to a solution.</p><p>Have you heard of phantom limb pain? Essentially, tinnitus is no different. We discussed the death of inner hair cells and how it results in Sensorineural Hearing Loss. Tinnitus, or the perception of sound when no objective sound source is present, can present for several reasons.</p><h3><strong>Down the rabbit hole.</strong></h3><p>One of the most common reasons for tinnitus is untreated hearing loss. About 90% of people with tinnitus have hearing loss. One of the easiest ways to explain this phenomenon, as it relates to hearing loss, is that the brain is used to receiving ear-to-brain signals when sound is registered at different frequencies. When there is high-frequency hearing loss, the brain searches for those signals, and when it does not find them because the inner hair cells have died or are damaged, the brain will create signals (AKA: phantom sounds) in their absence (AKA: tinnitus).</p>",
             "default_open": false
           }
         },
         "accordion_PVdTx6": {
           "type": "accordion",
           "settings": {
-            "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "question": "What causes tinnitus?",
+            "answer": "<p>For most, it is a symptom of underlying hearing loss. For others, it is caused by emotional and/or physical trauma, noise exposure, or underlying medical conditions.</p><h3><strong>Gimme more!</strong></h3><p>There is an extensive range of causes related to tinnitus. The most common and well-known is loud noise exposure. Aging can also be a factor. As we age naturally and our bodies (and ears!) change, the structure of the inner ear may naturally deteriorate. This can sometimes cause tinnitus. Another possible cause is pressure from earwax blockage.</p><p>But wait, there’s more! Unfortunately, some medications can cause or worsen tinnitus. This includes some chemotherapy drugs, some antibiotics, and some antidepressants. Some ear and sinus infections can even cause tinnitus.</p>",
             "default_open": false
           }
         },
         "accordion_6pQYFV": {
           "type": "accordion",
           "settings": {
-            "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "question": "Is there a cure for tinnitus?",
+            "answer": "<p>There is no “silver bullet” or “magic pill” that cures tinnitus. MANY things can be done to reduce the negative impact on your life. As we learn more about your tinnitus and hearing loss, we can create a customized tinnitus management plan for you,</p><h3><strong>Gimme more!</strong></h3><p>The bad: we can’t fix your tinnitus with a one-size-fits-all solution. The good: we can work with you to create a tinnitus management plan that fits just right.</p><p>We have many approaches to tinnitus management to address your needs and lifestyle, including: sound therapy, counseling, medications, relaxation techniques, and the support of hearing technology.</p><p>Part of the reason there isn’t one cohesive “cure” is that there are so many diverse reasons someone might experience tinnitus. Sometimes, multiple reasons are in play at once. It also isn’t yet known what the underlying mechanism causes tinnitus. It’s most likely a complex interaction between the auditory system, the brain, and various neural networks.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_bMB8cU": {
+          "type": "accordion",
+          "settings": {
+            "question": "Why are hearing devices recommended for tinnitus?",
+            "answer": "<p>Hearing loss correction should help tinnitus perception fade into the background. Most tinnitus is a symptom of hearing loss, so correcting that is our first priority. In cases where correction doesn’t adequately treat tinnitus alone, additional therapies, apps, and counseling will be added to your management plan.</p><h3><strong>Gimme more!</strong></h3><p>Hearing aids amplify sounds and improve overall hearing. When external sounds are enhanced, it can draw the focus away from tinnitus. Many modern hearing aids also have special features for addressing tinnitus. These usually generate low-level background sounds like white noise or gentle nature tones. These pleasant noises can help either wholly or partially mask your tinnitus.</p><p>It’s also believed that auditory stimulation from hearing aids promotes neuroplastic brain changes. Basically, the brain grows more used to filtering out the signal of tinnitus and ignoring it.</p>",
             "default_open": false
           }
         }
@@ -159,7 +167,8 @@
       "block_order": [
         "accordion_i7RpYP",
         "accordion_PVdTx6",
-        "accordion_6pQYFV"
+        "accordion_6pQYFV",
+        "accordion_bMB8cU"
       ],
       "name": "t:sections.collapsible-content.name",
       "settings": {
