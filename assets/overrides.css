@@ -5,3 +5,15 @@
 .multicolumn-card__heading {
   font-weight: bold !important;
 }
+
+/* Add margin-bottom to headings in accordian blocks */
+.collapsible-content__answer-inner h1,
+.collapsible-content__answer-inner h2,
+.collapsible-content__answer-inner h3,
+.collapsible-content__answer-inner h4,
+.collapsible-content__answer-inner h5,
+.collapsible-content__answer-inner h6 {
+  margin: 0 !important;
+  margin-bottom: 1.6rem !important;
+  color: rgb(var(--color-foreground-secondary)) !important;
+}
