@@ -42,7 +42,7 @@
         "button_style": "primary",
         "button_dot": true,
         "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "no-indent"
       }
     },
     "multi_image_with_text_JiJAhT": {
@@ -50,6 +50,7 @@
       "name": "Multi image with text",
       "settings": {
         "color_scheme": "background-1",
+        "background_color": "#313d47",
         "image_position": "image_right",
         "content_alignment": "left",
         "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
@@ -66,7 +67,7 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
-        "margin_top": "no-indent",
+        "margin_top": "s",
         "margin_bottom": "s"
       }
     },
@@ -93,7 +94,7 @@
         "button_style": "primary",
         "button_dot": true,
         "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "no-indent"
       }
     }
   },
