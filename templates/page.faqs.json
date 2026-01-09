@@ -366,8 +366,8 @@
         "accordion_Frx7mw": {
           "type": "accordion",
           "settings": {
-            "question": "Is there actually a big difference between hearing aid brands?",
-            "answer": "<p>Any prescription hearing aid will provide noticeable improvement to your abilities to hear and understand, but they are not all created equal. Each company offers a different sound experience. This is one reason we’re so excited to provide the BLUEMOTH experience box. All of the device options will be programmed according to your unique hearing loss, but YOUR subjective experience of each device may vary greatly.</p><h3><strong>Gimme more!</strong></h3><p>Different brands can employ different features and technology in their hearing aids, with varying sophistication. Some brands might have specific innovations or features that set them apart from the competition.</p><p>Then there’s the question of style- different brands can vary significantly in their offered models, colors, and styles. Some brands might fit how you want your technology to look and feel better than others. It matters that you love the way your technology looks- you’ll be rocking it every day.</p><p>Another major factor is brand reputation and support. Some brands have established themselves as leaders in the hearing technology industry through a strong track record of reliable technology and customer satisfaction. Different companies can offer different support as a result, such as robust device servicing and easy access to customer care professionals.</p>",
+            "question": "What are my payment options?",
+            "answer": "<p>If you decide to move forward with hearing tech, you can pay in full or in monthly installments with Shop Pay! We accept all forms of credit card payments, FSA/HSA as well as offer convenient payment plans at checkout.</p>",
             "default_open": false
           }
         },
