@@ -211,7 +211,7 @@
           "type": "accordion",
           "settings": {
             "question": "Which devices are currently OTC?",
-            "answer": "<p>This list is going to be constantly changing, but a few on the market now are Jabra (previously Lively), Eargo, Nano, Lexie, and Lucid.</p><p><strong>Gimme more!</strong></p><p>If you choose an OTC device, regardless of brand, you have the option to make your purchase in-store or online. You will need to fit and adjust your OTC device yourself. For some, this independence sounds like a dream. For others, the dream is finding prescription technology and tackling fitting and adjustments under the care of an audiologist with access to holistic hearing wellness resources and follow-ups. </p><p>The FDA regulates OTC hearing tech as medical devices for adults.</p>",
+            "answer": "<p>This list is going to be constantly changing, but a few on the market now are Jabra (previously Lively), Eargo, Nano, Lexie, and Lucid.</p><h3><strong>Gimme more!</strong></h3><p>If you choose an OTC device, regardless of brand, you have the option to make your purchase in-store or online. You will need to fit and adjust your OTC device yourself. For some, this independence sounds like a dream. For others, the dream is finding prescription technology and tackling fitting and adjustments under the care of an audiologist with access to holistic hearing wellness resources and follow-ups. </p><p>The FDA regulates OTC hearing tech as medical devices for adults.</p>",
             "default_open": false
           }
         }
