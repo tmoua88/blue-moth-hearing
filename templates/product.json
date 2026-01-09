@@ -52,8 +52,14 @@
             "description": ""
           }
         },
-        "mw_bundle_builder_crossells_app_block_f9nzgG": {
-          "type": "shopify://apps/mw-bundle-builder/blocks/crossells-app-block/5bcb1a6d-53b5-4d9c-b4f9-19f6620da62b",
+        "mw_bundle_builder_bundle_app_block_JLfzM3": {
+          "type": "shopify://apps/mw-bundle-builder/blocks/bundle-app-block/5bcb1a6d-53b5-4d9c-b4f9-19f6620da62b",
+          "settings": {
+            "offer_ordinal_number": "0"
+          }
+        },
+        "mw_bundle_builder_addons_app_block_njC9jD": {
+          "type": "shopify://apps/mw-bundle-builder/blocks/addons-app-block/5bcb1a6d-53b5-4d9c-b4f9-19f6620da62b",
           "settings": {}
         }
       },
@@ -64,7 +70,8 @@
         "variant_picker",
         "buy_buttons",
         "description",
-        "mw_bundle_builder_crossells_app_block_f9nzgG"
+        "mw_bundle_builder_bundle_app_block_JLfzM3",
+        "mw_bundle_builder_addons_app_block_njC9jD"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -117,6 +124,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "columns_per_row": 3,
         "slides_per_view_mobile": "1",
@@ -146,6 +154,7 @@
     },
     "products_grid_7BmTn7": {
       "type": "products-grid",
+      "disabled": true,
       "name": "t:sections.products-grid.name",
       "settings": {
         "section_heading_tag": "h2",
@@ -172,12 +181,28 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
+    },
+    "1768000734a344b12f": {
+      "type": "apps",
+      "blocks": {
+        "mw_bundle_builder_crossells_app_block_JNpNfr": {
+          "type": "shopify://apps/mw-bundle-builder/blocks/crossells-app-block/5bcb1a6d-53b5-4d9c-b4f9-19f6620da62b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "mw_bundle_builder_crossells_app_block_JNpNfr"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main-product",
     "product-complementary",
     "product-recommendations",
-    "products_grid_7BmTn7"
+    "products_grid_7BmTn7",
+    "1768000734a344b12f"
   ]
 }
