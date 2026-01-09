@@ -358,8 +358,8 @@
         "accordion_cKnzmg": {
           "type": "accordion",
           "settings": {
-            "question": "Why are hearing aids so expensive?",
-            "answer": "<p>Hearing aids are incredible micro-technology with sophisticated sound processing. They keep getting smaller, faster, and better. Typically hearing aids come in a “bundled” fashion – meaning that you pay for the devices and all of the follow-up services provided. Hearing technology is definitely an investment in your overall health and wellness.</p><h3><strong>Gimme more!</strong></h3><p>Hearing technology has undoubtedly come a long way- it gets more high-tech with every passing year. While that’s good news for your ears, it can be bad news for your wallet. Part of what you pay for is all the investment into research and development of cutting-edge technologies and algorithms by manufacturers.</p><p>Part of what you’re paying for is also the best of care;the support of audiologists to evaluate your hearing and administer tests, as well as provide counseling, programming, and fitting services. Not to mention the professional follow-ups to ensure your hearing technology is the perfect fit and continues to grow and change with you and your hearing needs. With BLUEMOTH, your initial experience and follow-ups will connect you with audiologists who are passionate about making sure you get to hear better, better.</p>",
+            "question": "Do you accept insurance?",
+            "answer": "<p>It depends on your coverage. As we are not contracted with any insurance companies directly, your technology and services are self-pay. </p><p>Once you order your hearing technology, you will receive your invoice as proof of payment. This invoice can be submitted directly to your insurance company for potential reimbursement. </p><p>If you schedule an appointment with us and upload your insurance information, we will complete a complimentary verification of benefits! During the appointment, our provider will discuss your coverage and options.</p>",
             "default_open": false
           }
         },
