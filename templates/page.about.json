@@ -96,12 +96,90 @@
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
+    },
+    "image_cards_YHjknK": {
+      "type": "image-cards",
+      "blocks": {
+        "card_y4gra4": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+            "text": "<p>Green Tea</p>"
+          }
+        },
+        "card_UpRwbB": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+            "text": "<p>Green Tea</p>"
+          }
+        },
+        "card_wHWgKh": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+            "text": "<p>Green Tea</p>"
+          }
+        },
+        "card_9tC3jN": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+            "text": "<p>Green Tea</p>"
+          }
+        },
+        "card_tmtJeB": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+            "text": "<p>Green Tea</p>"
+          }
+        },
+        "card_ghLNAq": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+            "text": "<p>Green Tea</p>"
+          }
+        },
+        "card_m3PE86": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+            "text": "<p>Green Tea</p>"
+          }
+        },
+        "card_9CMMYf": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+            "text": "<p>Green Tea</p>"
+          }
+        }
+      },
+      "block_order": [
+        "card_y4gra4",
+        "card_UpRwbB",
+        "card_wHWgKh",
+        "card_9tC3jN",
+        "card_tmtJeB",
+        "card_ghLNAq",
+        "card_m3PE86",
+        "card_9CMMYf"
+      ],
+      "name": "Image cards",
+      "settings": {
+        "background_color": "#ffffff",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_4EVHDm",
     "multi_image_with_text_JiJAhT",
-    "image_with_text_nt93BE"
+    "image_with_text_nt93BE",
+    "image_cards_YHjknK"
   ]
 }
