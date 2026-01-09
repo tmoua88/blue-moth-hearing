@@ -25,6 +25,12 @@
             "heading_size": "h2"
           }
         },
+        "reviews_io_reviewsio_rating_bar_FqJjJC": {
+          "type": "shopify://apps/reviews-io/blocks/reviewsio-rating-bar/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -66,6 +72,7 @@
       "block_order": [
         "text_h8VpgF",
         "title",
+        "reviews_io_reviewsio_rating_bar_FqJjJC",
         "price",
         "variant_picker",
         "buy_buttons",
