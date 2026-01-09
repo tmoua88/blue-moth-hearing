@@ -378,58 +378,13 @@
             "answer": "<p>When checking out with Shop Pay, you now have the option to pay now or later. Paying in installments on Shop Pay allows you to split your purchase amount into four equal, biweekly installment payments with 0% APR, or monthly installments with no hidden or late fees*.<br/><br/><em>*Rates from 0-36% APR. Payment options through Shop Pay Installments are subject to an eligibility check and are provided by these lending partners: affirm.com/lenders. Options depend on your purchase amount, and a down payment may be required. State notices to consumers affirm.com/licenses.</em></p>",
             "default_open": false
           }
-        },
-        "accordion_LVVwWY": {
-          "type": "accordion",
-          "settings": {
-            "question": "What is the process going to be like when I get fit with devices?",
-            "answer": "<p>Getting hearing technology for the first time can take a little bit of adjustment. Some are good to go right out of the gate. But here’s what the average person can expect: Once you’ve selected your devices, they will be pre-programmed for your specific hearing loss (based on the hearing test/audiogram results you uploaded). Go ahead and give those a whirl! See how they sound in a myriad of situations and environments. Then, should you want changes, book a Programming Appointment with one of our hearing healthcare experts. We can make adjustments remotely based on your experiences and feedback. We can also always help ensure they are physically comfortable and stay in your ears well.</p><h3><strong>Gimme more!</strong></h3><p>Your experience with BLUEMOTH isn’t just about awesome cutting edge tech, it’s also about having a team behind you. When you get your devices you’ll have plenty of time to play with the fit independently. You’ll also have access to quick and easy virtual consultations with our team of audiologists whenever you need them. We’re rooting for your hearing wellness, so we want to hear your feedback on your hearing tech journey and make all the little tweaks that make your hearing technology work like magic. </p><p>Schedule a meeting with the team any time and tackle anything, from help with troubleshooting pairing with your favorite Bluetooth devices, understanding and connecting accessories, changes in settings to fit your hearing better, physical comfort, and more.</p>",
-            "default_open": false
-          }
-        },
-        "accordion_UbwKqb": {
-          "type": "accordion",
-          "settings": {
-            "question": "How long do hearing aids last?",
-            "answer": "<p>Hearing aids can last a long time – these are the little engine that could, in most cases. On average, people buy hearing aids about every 4 years. Not because their current devices are dead or not working anymore. It’s usually because there have been enough advances in technology that the benefits of new hearing aids warrant the purchase price. Things such as keeping them dry, proper care, maintenance, and routine cleaning will help the longevity of your devices. </p><p>Fun Fact: The oldest set of working devices we’ve ever seen worn and running on a patient was 18 years old! That person was super happy when they graduated into new tech – night and day difference.</p><h3><strong>Gimme more!</strong></h3><p>Your hearing tech is a really hard worker. It’s with you day in and day out, which naturally leads to wear and tear. However, the lifespan of your hearing technology isn’t just centered around when it starts falling apart. Really, the lifespan of your hearing technology has a lot to do with your needs and how they might change.</p><p>Think about the person you were 4 years ago. Chances are, something has evolved as you’ve lived and grown. Maybe you’ve picked up new hobbies, and now you can’t get enough of surfing or cooking classes. Maybe you’ve headed back into a classroom or into a new job. Eventually, you may find that you’ve outgrown your hearing tech and something new would be a better fit for your lifestyle.</p>",
-            "default_open": false
-          }
-        },
-        "accordion_ib9pUW": {
-          "type": "accordion",
-          "settings": {
-            "question": "Can I wear them in water?",
-            "answer": "<p>Is all you’ve ever wanted hearing tech that can keep up with your active lifestyle? Thanks to advancements from hearing tech manufacturers, your device doesn’t have to stand between you and your passions. Our partnership with Phonak allows us to bring you the most waterproof hearing tech option on the market today. Whether you’re finding joy in hot yoga, hitting a trail, or visiting the beach, this new generation of hearing technology will be right there with you.</p><p>Computers and water aren’t really best friends, so we do not recommend getting your hearing technology wet if you don’t know that it’s specifically designed for that. If you have a specific set of devices in mind for this question, the best thing to do is to check out the specifications of the device model. You can find this on manufacturer websites, or by reaching out to a customer support representative. Many modern hearing aids are safe to use in the rain and hold up well to sweat. </p>",
-            "default_open": false
-          }
-        },
-        "accordion_fDKfDg": {
-          "type": "accordion",
-          "settings": {
-            "question": "Do I need to wear them to sleep?",
-            "answer": "<p>It’s best to let your ears and body fully rest and relax at bedtime. We encourage people to put their devices on first thing in the morning and remove them last thing at night.</p><h3><strong>Gimme more!</strong></h3><p>We’re flattered that you like your hearing tech enough to want it 24/7. However, a break can be a good thing too. We recommend that you wear your hearing devices often- including at home even if you live alone. </p><p>When it comes to sleep, it’s better to take them out overnight. Wearing your devices to bed can risk your devices falling out and getting lost or damaged. Plus, it’s a great chance to let your ears breathe and get air circulating. Stick your hearing aids in their case or into their charger so they’re ready to hit the ground running with you in the morning.</p>",
-            "default_open": false
-          }
-        },
-        "accordion_H7AUhc": {
-          "type": "accordion",
-          "settings": {
-            "question": "What are realistic expectations for devices?",
-            "answer": "<p>We LOVE realistic expectations, so this is one of our favorite questions. Each person’s experience and perceptions will be radically different. However, there are some super common things we like to share to set proper expectations at the outset.</p><h3><strong>Down the rabbit hole.</strong></h3><p>Some things you may notice after being fit with hearing aids are:</p><ul><li>Every day sounds like running water, a bag of chips rustling, or your turn signal may seem super loud in the first days or weeks.</li><li>Things may sound tinnier (high-pitched).</li><li>“S” sounds may sound sharper.</li><li>Understanding speech in background noise will be drastically less difficult.</li></ul>",
-            "default_open": false
-          }
         }
       },
       "block_order": [
         "accordion_3gMYjb",
         "accordion_cKnzmg",
         "accordion_Frx7mw",
-        "accordion_PPnXqc",
-        "accordion_LVVwWY",
-        "accordion_UbwKqb",
-        "accordion_ib9pUW",
-        "accordion_fDKfDg",
-        "accordion_H7AUhc"
+        "accordion_PPnXqc"
       ],
       "name": "Insurance & Payment",
       "settings": {
