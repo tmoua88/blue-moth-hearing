@@ -305,6 +305,14 @@
             "answer": "<p>It’s best to let your ears and body fully rest and relax at bedtime. We encourage people to put their devices on first thing in the morning and remove them last thing at night.</p><h3><strong>Gimme more!</strong></h3><p>We’re flattered that you like your hearing tech enough to want it 24/7. However, a break can be a good thing too. We recommend that you wear your hearing devices often- including at home even if you live alone. </p><p>When it comes to sleep, it’s better to take them out overnight. Wearing your devices to bed can risk your devices falling out and getting lost or damaged. Plus, it’s a great chance to let your ears breathe and get air circulating. Stick your hearing aids in their case or into their charger so they’re ready to hit the ground running with you in the morning.</p>",
             "default_open": false
           }
+        },
+        "accordion_ChcBkx": {
+          "type": "accordion",
+          "settings": {
+            "question": "What are realistic expectations for devices?",
+            "answer": "<p>We LOVE realistic expectations, so this is one of our favorite questions. Each person’s experience and perceptions will be radically different. However, there are some super common things we like to share to set proper expectations at the outset.</p><h3><strong>Down the rabbit hole.</strong></h3><p>Some things you may notice after being fit with hearing aids are:</p><ul><li>Every day sounds like running water, a bag of chips rustling, or your turn signal may seem super loud in the first days or weeks.</li><li>Things may sound tinnier (high-pitched).</li><li>“S” sounds may sound sharper.</li><li>Understanding speech in background noise will be drastically less difficult.</li></ul>",
+            "default_open": false
+          }
         }
       },
       "block_order": [
@@ -315,7 +323,8 @@
         "accordion_JGLBnw",
         "accordion_K99HCx",
         "accordion_tdDPmm",
-        "accordion_xGk9rp"
+        "accordion_xGk9rp",
+        "accordion_ChcBkx"
       ],
       "name": "t:sections.collapsible-content.name",
       "settings": {
