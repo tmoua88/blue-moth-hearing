@@ -239,6 +239,66 @@
         "margin_bottom": "s"
       }
     },
+    "collapsible_content_zwQ9XT": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_V7g8pr": {
+          "type": "accordion",
+          "settings": {
+            "question": "Will I have normal hearing with hearing aids?",
+            "answer": "<p>Hearing aids can’t restore the natural, normal function of the ear. But they can help you understand speech more clearly and generally make hearing easier.</p><h3><strong>Gimme more!</strong></h3><p>We don’t want to promise you anything we can’t deliver on. In reality, hearing aids won’t restore natural “normal” hearing. Although hearing technology is improving all the time, aids may not fully restore all the nuances of speech and sound perception. Everyone also has different auditory systems and processing abilities, so results may vary accordingly. Also, complex environments that are crowded or noisy may still be challenging, even with hearing aids.</p><p>That being said, while it may not perfectly restore hearing, technology can certainly enhance it and meaningfully improve your quality of life. Hearing devices can significantly improve communication and speech understanding. They can help you get back to all the things you love- the hobbies and conversations that get missed out on with hearing loss.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_xgYdXF": {
+          "type": "accordion",
+          "settings": {
+            "question": "Why are hearing aids so expensive?",
+            "answer": "<p>Hearing aids are incredible micro-technology with sophisticated sound processing. They keep getting smaller, faster, and better. Typically hearing aids come in a “bundled” fashion – meaning that you pay for the devices and all of the follow-up services provided. Hearing technology is definitely an investment in your overall health and wellness.</p><h3><strong>Gimme more!</strong></h3><p>Hearing technology has undoubtedly come a long way- it gets more high-tech with every passing year. While that’s good news for your ears, it can be bad news for your wallet. Part of what you pay for is all the investment into research and development of cutting-edge technologies and algorithms by manufacturers.</p><p>Part of what you’re paying for is also the best of care;the support of audiologists to evaluate your hearing and administer tests, as well as provide counseling, programming, and fitting services. Not to mention the professional follow-ups to ensure your hearing technology is the perfect fit and continues to grow and change with you and your hearing needs. With BLUEMOTH, your initial experience and follow-ups will connect you with audiologists who are passionate about making sure you get to hear better, better.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_xr9aWi": {
+          "type": "accordion",
+          "settings": {
+            "question": "Is there actually a big difference between hearing aid brands?",
+            "answer": "<p>Any prescription hearing aid will provide noticeable improvement to your abilities to hear and understand, but they are not all created equal. Each company offers a different sound experience. This is one reason we’re so excited to provide the BLUEMOTH experience box. All of the device options will be programmed according to your unique hearing loss, but YOUR subjective experience of each device may vary greatly.</p><h3><strong>Gimme more!</strong></h3><p>Different brands can employ different features and technology in their hearing aids, with varying sophistication. Some brands might have specific innovations or features that set them apart from the competition.</p><p>Then there’s the question of style- different brands can vary significantly in their offered models, colors, and styles. Some brands might fit how you want your technology to look and feel better than others. It matters that you love the way your technology looks- you’ll be rocking it every day.</p><p>Another major factor is brand reputation and support. Some brands have established themselves as leaders in the hearing technology industry through a strong track record of reliable technology and customer satisfaction. Different companies can offer different support as a result, such as robust device servicing and easy access to customer care professionals.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_tcKL6p": {
+          "type": "accordion",
+          "settings": {
+            "question": "Can I try them first?",
+            "answer": "<p>Of course, my friend! That’s the whole goal of the BLUEMOTH experience. The BLUEMOTH experience allows you to try your three premium sets in the convenience of your home. We believe that the best judge of benefit is you – you’re the one who will rock these devices every day.</p><h3><strong>Gimme more!</strong></h3><p>Everything about your hearing is individual to you. We don’t want you to fit a preset mold; we want to meet you where you are and put your preferences first.</p><p>Realistically, you’re not going to be wearing your technology in an audiologist’s clinic the majority of the time. After the device is yours, you’ll be wearing it everywhere that you live your life. We want you to try them in all the places that matter most. Try out how they feel in a conversation with your friends or at a family dinner. Wear them on your commute and try them at school or work. Take them to band practice or that painting class you love. Your technology will go everywhere you go, so we think that’s the best way to do a trial run.</p>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_V7g8pr",
+        "accordion_xgYdXF",
+        "accordion_xr9aWi",
+        "accordion_tcKL6p"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "Hearing Aids + Technology",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "",
+        "section_button_link": "",
+        "button_dot": false,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
     "media_qWngAx": {
       "type": "media",
       "blocks": {
@@ -330,6 +390,7 @@
     "collapsible_content_tFB7w7",
     "collapsible_content_brpRar",
     "collapsible_content_NEwBAU",
+    "collapsible_content_zwQ9XT",
     "media_qWngAx"
   ]
 }
