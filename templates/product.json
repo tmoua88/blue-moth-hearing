@@ -288,6 +288,7 @@
       "block_order": [
         "mw_bundle_builder_crossells_app_block_JNpNfr"
       ],
+      "name": "Recommendations (App)",
       "settings": {
         "include_margins": true
       }
