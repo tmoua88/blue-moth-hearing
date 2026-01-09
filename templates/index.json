@@ -37,7 +37,7 @@
         "slideshow_item_Dj7yai": {
           "type": "slideshow_item",
           "settings": {
-            "desktop_image": "shopify://shop_images/HP1_Bluemoth_LA_Shoot-129.jpg",
+            "desktop_image": "shopify://shop_images/HP1_Bluemoth_LA_Shoot-129_fill_test.jpg",
             "color_scheme": "background-3",
             "heading": "Hi, we’re BLUEMOTH.",
             "text": "<p>We believe you should try out incredible hearing tech in your real life. Be it around the house, in a meeting, a crowded restaurant, or at a monster truck rally.</p><p>You do you. You know you.</p>",
@@ -210,7 +210,7 @@
         ".multicolumn-card--center::before {background: none !important;}",
         ".multicolumn-card:nth-child(1) {background: #ff5e3b;}",
         ".multicolumn-card:nth-child(2) {background: #428feb;}",
-        ".multicolumn-card__heading,.multicolumn-card__text, a > span {color: #fff;}"
+        ".multicolumn-card__heading,.multicolumn-card__text,a > span {color: #fff;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
