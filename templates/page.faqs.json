@@ -297,6 +297,14 @@
             "answer": "<p>Is all you’ve ever wanted hearing tech that can keep up with your active lifestyle? Thanks to advancements from hearing tech manufacturers, your device doesn’t have to stand between you and your passions. Our partnership with Phonak allows us to bring you the most waterproof hearing tech option on the market today. Whether you’re finding joy in hot yoga, hitting a trail, or visiting the beach, this new generation of hearing technology will be right there with you.</p><p>Computers and water aren’t really best friends, so we do not recommend getting your hearing technology wet if you don’t know that it’s specifically designed for that. If you have a specific set of devices in mind for this question, the best thing to do is to check out the specifications of the device model. You can find this on manufacturer websites, or by reaching out to a customer support representative. Many modern hearing aids are safe to use in the rain and hold up well to sweat. </p>",
             "default_open": false
           }
+        },
+        "accordion_xGk9rp": {
+          "type": "accordion",
+          "settings": {
+            "question": "Do I need to wear them to sleep?",
+            "answer": "<p>It’s best to let your ears and body fully rest and relax at bedtime. We encourage people to put their devices on first thing in the morning and remove them last thing at night.</p><h3><strong>Gimme more!</strong></h3><p>We’re flattered that you like your hearing tech enough to want it 24/7. However, a break can be a good thing too. We recommend that you wear your hearing devices often- including at home even if you live alone. </p><p>When it comes to sleep, it’s better to take them out overnight. Wearing your devices to bed can risk your devices falling out and getting lost or damaged. Plus, it’s a great chance to let your ears breathe and get air circulating. Stick your hearing aids in their case or into their charger so they’re ready to hit the ground running with you in the morning.</p>",
+            "default_open": false
+          }
         }
       },
       "block_order": [
@@ -306,7 +314,8 @@
         "accordion_tcKL6p",
         "accordion_JGLBnw",
         "accordion_K99HCx",
-        "accordion_tdDPmm"
+        "accordion_tdDPmm",
+        "accordion_xGk9rp"
       ],
       "name": "t:sections.collapsible-content.name",
       "settings": {
