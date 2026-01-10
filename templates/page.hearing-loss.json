@@ -54,8 +54,8 @@
             "image_width": "full",
             "image_size": "4/3",
             "icon": "globe",
-            "heading": "Highlight a Key Benefit",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "heading": "Mild",
+            "text": "You lose soft consonants. Words might sound incomplete.  ",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -64,18 +64,18 @@
             "full_link": false
           }
         },
-        "column_xMnNbr": {
+        "column_HVjtPR": {
           "type": "column",
           "settings": {
             "image_width": "full",
-            "image_size": "4/3",
+            "image_size": "16/9",
             "icon": "globe",
-            "heading": "Highlight a Key Benefit",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "heading": "Moderate",
+            "text": "It’s tough to follow conversations in person and on the phone.  ",
             "expanded_text": "",
-            "button_label": "",
+            "button_label": "View Details",
             "button_link": "",
-            "button_dot": false,
+            "button_dot": true,
             "button_style": "primary",
             "full_link": false
           }
@@ -86,8 +86,8 @@
             "image_width": "full",
             "image_size": "4/3",
             "icon": "globe",
-            "heading": "Highlight a Key Benefit",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "heading": "Severe",
+            "text": "Following conversations is a total chore and it can feel isolating.",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -102,8 +102,8 @@
             "image_width": "full",
             "image_size": "4/3",
             "icon": "globe",
-            "heading": "Highlight a Key Benefit",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "heading": "Profound",
+            "text": "Without hearing aids or cochlear implants, it’s a whole lotta nothing.",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -115,11 +115,11 @@
       },
       "block_order": [
         "column_iLbFYz",
-        "column_xMnNbr",
+        "column_HVjtPR",
         "column_U6t4RF",
         "column_NWYanr"
       ],
-      "name": "t:sections.multicolumn.name",
+      "name": "Degrees of hearing loss",
       "settings": {
         "color_scheme": "background-2",
         "section_heading": "Degrees of hearing loss",
