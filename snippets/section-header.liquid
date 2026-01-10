@@ -8,6 +8,7 @@
 		section_heading_size: section.settings.section_heading_size, (optional)
 		secton_subheading_size: section.settings.section_subheading_size, (optional)
 		section_heading_tag: section.settings.heading_tag
+		section_heading_alignment: section.settings.section_heading_alignment (optional)
 	 %}
 {% endcomment %}
 
@@ -22,7 +23,7 @@
 				</span>
 			{% endif %}
 			{%- if section_heading != blank -%}
-				<{{ section_heading_tag }} class='section-header__title {{ section_heading_size }}'>
+				<{{ section_heading_tag }} class='section-header__title {{ section_heading_size }} {{ section_heading_alignment }}'>
 					{{ section_heading }}
 				</{{ section_heading_tag }}>
 			{% endif %}

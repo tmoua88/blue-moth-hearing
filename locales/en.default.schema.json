@@ -822,6 +822,9 @@
 					},
 					"options__2": {
 						"label": "Left"
+					},
+					"options__3": {
+						"label": "Right"
 					}
 				}
 			},

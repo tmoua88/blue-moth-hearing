@@ -32,7 +32,8 @@
 							dot: section.settings.dot,
 							section_heading_size: section.settings.heading_size,
 							section_heading_tag: section.settings.section_heading_tag,
-							line: section.settings.line
+							line: section.settings.line,
+							section_heading_alignment: section.settings.header_content_alignment
 						%}
 
 						{% if section.settings.text != blank %}
@@ -238,6 +239,26 @@
 		{
 			"type": "header",
 			"content": "t:sections.all.image.header.content"
+		},
+		{
+			"type": "select",
+			"id": "header_content_alignment",
+			"default": "left",
+			"label": "t:sections.all.content_alignment.label",
+			"options": [
+				{
+					"value": "left",
+					"label": "t:sections.all.content_alignment.options.options__2.label"
+				},
+				{
+					"value": "center",
+					"label": "t:sections.all.content_alignment.options.options__1.label"
+				},
+				{
+					"value": "right",
+					"label": "t:sections.all.content_alignment.options.options__3.label"
+				}
+			]
 		},
 		{
 			"type": "image_picker",
