@@ -403,89 +403,6 @@
         "margin_top": "s",
         "margin_bottom": "s"
       }
-    },
-    "media_qWngAx": {
-      "type": "media",
-      "blocks": {
-        "media_card_7iJQhh": {
-          "type": "media_card",
-          "settings": {
-            "color_scheme": "",
-            "overlay_enable": true,
-            "overlay_opacity": 0.2,
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "autoplay_video": true,
-            "muted_video": true,
-            "loop_video": true,
-            "show_icon_play": true,
-            "show_icon_sound": true,
-            "description_video": "",
-            "subheading": "Banner subtitle",
-            "heading": "Banner title",
-            "heading_size": "h2",
-            "text": "",
-            "primary_button_label": "Watch Video",
-            "primary_button_link": "",
-            "primary_button_dot": true,
-            "primary_button_style": "primary",
-            "secondary_button_label": "See Details",
-            "secondary_button_link": "",
-            "secondary_button_dot": true,
-            "secondary_button_style": "secondary",
-            "full_link": false
-          }
-        },
-        "media_card_7eKCex": {
-          "type": "media_card",
-          "settings": {
-            "color_scheme": "",
-            "overlay_enable": true,
-            "overlay_opacity": 0.2,
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "autoplay_video": true,
-            "muted_video": true,
-            "loop_video": true,
-            "show_icon_play": true,
-            "show_icon_sound": true,
-            "description_video": "",
-            "subheading": "Banner subtitle",
-            "heading": "Banner title",
-            "heading_size": "h2",
-            "text": "",
-            "primary_button_label": "Watch Video",
-            "primary_button_link": "",
-            "primary_button_dot": true,
-            "primary_button_style": "primary",
-            "secondary_button_label": "See Details",
-            "secondary_button_link": "",
-            "secondary_button_dot": true,
-            "secondary_button_style": "secondary",
-            "full_link": false
-          }
-        }
-      },
-      "block_order": [
-        "media_card_7iJQhh",
-        "media_card_7eKCex"
-      ],
-      "name": "t:sections.media.name",
-      "settings": {
-        "columns_per_row": 2,
-        "content_alignment": "center",
-        "indent_value": "1.6rem",
-        "swipe_on_mobile": false,
-        "image_ratio": "16/9",
-        "section_heading": "Your message here",
-        "section_heading_tag": "h2",
-        "section_heading_size": "h3",
-        "subheading": "Introduce featured content",
-        "dot": true,
-        "line": true,
-        "margin_top": "s",
-        "margin_bottom": "s"
-      }
     }
   },
   "order": [
@@ -496,7 +413,6 @@
     "collapsible_content_brpRar",
     "collapsible_content_NEwBAU",
     "collapsible_content_zwQ9XT",
-    "collapsible_content_KBF6na",
-    "media_qWngAx"
+    "collapsible_content_KBF6na"
   ]
 }
