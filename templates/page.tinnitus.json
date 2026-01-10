@@ -32,7 +32,7 @@
         "image": "shopify://shop_images/HP1_Bluemoth_LA_Shoot-129.jpg",
         "image_size": "4/3",
         "subheading": "",
-        "dot": true,
+        "dot": false,
         "heading": "The art and science of silence ",
         "section_heading_tag": "h2",
         "heading_size": "h1",
