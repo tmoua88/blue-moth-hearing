@@ -255,7 +255,7 @@
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
         "margin_top": "s",
-        "margin_bottom": "m"
+        "margin_bottom": "no-indent"
       }
     },
     "multicolumn_F3gURG": {
