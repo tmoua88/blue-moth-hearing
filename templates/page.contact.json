@@ -287,7 +287,7 @@
         "section_heading": "Helpful information",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
-        "heading_alignment": "left",
+        "heading_alignment": "center",
         "subheading": "",
         "dot": true,
         "columns_per_row": 4,
