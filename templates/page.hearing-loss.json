@@ -254,7 +254,7 @@
         "swipe_on_mobile": false,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
-        "margin_top": "s",
+        "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
     },
