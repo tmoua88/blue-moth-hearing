@@ -257,6 +257,48 @@
         "margin_top": "s",
         "margin_bottom": "m"
       }
+    },
+    "multicolumn_F3gURG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Xw9tcn": {
+          "type": "column",
+          "name": "Button",
+          "settings": {
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "none",
+            "heading": "",
+            "text": "",
+            "expanded_text": "",
+            "button_label": "Get started",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_Xw9tcn"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "color_scheme": "background-1",
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "heading_alignment": "center",
+        "subheading": "",
+        "dot": true,
+        "columns_per_row": 1,
+        "content_alignment": "center",
+        "swipe_on_mobile": true,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
     }
   },
   "order": [
@@ -265,6 +307,7 @@
     "multicolumn_jpkVdr",
     "image_with_text_4px9Ni",
     "image_with_text_beP4T9",
-    "multicolumn_NakiYf"
+    "multicolumn_NakiYf",
+    "multicolumn_F3gURG"
   ]
 }
