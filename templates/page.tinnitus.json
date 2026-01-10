@@ -47,6 +47,9 @@
     },
     "image_with_text_4px9Ni": {
       "type": "image-with-text",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "color_scheme": "",
@@ -70,6 +73,9 @@
     },
     "image_with_text_beP4T9": {
       "type": "image-with-text",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "color_scheme": "",
@@ -93,6 +99,9 @@
     },
     "image_with_text_kxt9gw": {
       "type": "image-with-text",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "color_scheme": "",
