@@ -28,7 +28,10 @@
           "settings": {
             "heading": "",
             "menu": "main-menu",
-            "default_open": false
+            "default_open": false,
+            "description": "<p>Let's keep in touch! Sign up for our newsletter and get the best deals!</p>",
+            "show_newsletter_signup": true,
+            "show_privacy_policy": true
           }
         }
       },
