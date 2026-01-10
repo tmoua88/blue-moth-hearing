@@ -23,7 +23,7 @@
 				</span>
 			{% endif %}
 			{%- if section_heading != blank -%}
-				<{{ section_heading_tag }} class='section-header__title {{ section_heading_size }} {{ section_heading_alignment }}'>
+				<{{ section_heading_tag }} class='section-header__title {{ section_heading_size }} section-header__content-{{ section_heading_alignment }}'>
 					{{ section_heading }}
 				</{{ section_heading_tag }}>
 			{% endif %}

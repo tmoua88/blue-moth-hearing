@@ -218,3 +218,14 @@
 .image-with-text__price {
   margin-top: 2rem;
 }
+
+/* Header sections with alignment. */
+.section-header__content-left {
+  text-align: left;
+}
+.section-header__content-center {
+  text-align: center;
+}
+.section-header__content-right {
+  text-align: right;
+}
