@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main_article": {
@@ -5,7 +14,23 @@
       "blocks": {
         "article_header": {
           "type": "article-header",
-          "settings": {}
+          "settings": {
+            "section_heading_tag": "h1",
+            "heading_size": "h2",
+            "blog_show_tags": true,
+            "blog_show_image": true,
+            "blog_show_excerpt": true,
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "image_ratio": "adapt",
+            "show_share": true,
+            "show_share_label": true,
+            "show_share_facebook": true,
+            "show_share_twitter": true,
+            "show_share_telegram": true,
+            "show_share_reddit": true,
+            "show_share_copy": true
+          }
         },
         "content": {
           "type": "content",
@@ -13,11 +38,25 @@
         },
         "article_footer": {
           "type": "article-footer",
-          "settings": {}
+          "settings": {
+            "blog_show_date": true,
+            "show_share": true,
+            "show_share_label": true,
+            "show_share_facebook": true,
+            "show_share_twitter": true,
+            "show_share_telegram": true,
+            "show_share_reddit": true,
+            "show_share_copy": true
+          }
         }
       },
-      "block_order": ["article_header", "content", "article_footer"],
+      "block_order": [
+        "article_header",
+        "content",
+        "article_footer"
+      ],
       "settings": {
+        "show_border_top": true,
         "margin_top": "xs",
         "margin_bottom": "no-indent"
       }
@@ -25,16 +64,52 @@
     "featured_blog": {
       "type": "featured-blog",
       "settings": {
+        "color_scheme": "background-1",
+        "section_layout": "column",
+        "post_limit": 3,
+        "columns_per_row": 3,
+        "blog": "news",
+        "section_heading": "Blog Intro",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "",
+        "dot": false,
+        "section_button_label": "Read",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "show_image": true,
+        "show_tags": false,
+        "show_date": true,
+        "show_author": true,
+        "show_excerpt": true,
+        "show_button": true,
+        "show_count_comments": false,
+        "blog_heading_tag": "h4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "image_ratio_first": "4/3",
+        "image_ratio": "16/9",
         "margin_top": "xl",
         "margin_bottom": "xl"
       }
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
+        "v_align": "column",
+        "heading": "Here can be your newsletter title",
+        "section_heading_tag": "h2",
+        "heading_size": "h1",
+        "newsletter_text": "Here can be a short invitation to subscribe",
+        "section_button_style": "primary",
+        "button_dot": true,
         "margin_top": "m",
-        "margin_bottom": "m"
+        "margin_bottom": "m",
+        "padding_top": "m",
+        "padding_bottom": "m"
       }
     }
   },

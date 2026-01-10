@@ -66,7 +66,7 @@
         "show_button": true,
         "show_count_comments": false,
         "blog_heading_tag": "h4",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "image_ratio_first": "4/3",
         "image_ratio": "16/9",
