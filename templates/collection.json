@@ -12,7 +12,9 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "collection_list": [],
+        "collection_list": [
+          "cfp-external"
+        ],
         "section_heading_tag": "h1",
         "header_overlay": true,
         "full_width": true,
