@@ -139,3 +139,7 @@
   position: absolute;
   inset: 0;
 }
+.article-card__button {
+  min-width: 100px;
+  width: fit-content;
+}

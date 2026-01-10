@@ -127,6 +127,12 @@
 			</p>
 		{%- endif -%}
 
+    {%- if show_button -%}
+      <div class='button button--primary article-card__button'>
+        <span>{{ section.settings.section_button_label }}</span>
+      </div>
+    {%- endif -%}
+
 		{%- if show_count_comments and blog.comments_enabled? -%}
 			<div class='article-card__meta'>
 				<span class='article-card__comments card__subtitle'>

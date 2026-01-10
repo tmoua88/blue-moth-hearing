@@ -31,13 +31,13 @@
 				line: section.settings.line
 			%}
 
-			{% render 'button',
+			{% comment %} {% render 'button',
 				btn_label: section.settings.section_button_label,
 				button_dot: section.settings.button_dot,
 				btn_link: section.settings.section_button_link,
 				btn_style: section.settings.section_button_style,
 				add_classes: 'focus-inset'
-			%}
+			%} {% endcomment %}
 		</div>
 
 		<div
@@ -96,6 +96,7 @@
 								show_date: section.settings.show_date,
 								show_author: section.settings.show_author,
 								show_excerpt: section.settings.show_excerpt,
+                show_button: section.settings.show_button
 								show_count_comments: section.settings.show_count_comments,
 								heading_tag: section.settings.blog_heading_tag,
 								big_card: big_card
@@ -331,7 +332,7 @@
 			"id": "section_button_label",
 			"default": "t:sections.featured-blog.settings.button_label.default",
 			"label": "t:sections.all.button.button_label.label",
-			"info": "t:sections.all.button.button_label.info"
+			"info": "When 'show button' (below) is unchecked, the button will not be displayed."
 		},
 		{
 			"type": "url",
@@ -397,6 +398,12 @@
 			"id": "show_excerpt",
 			"default": true,
 			"label": "t:sections.featured-blog.settings.show_excerpt.label"
+		},
+    {
+			"type": "checkbox",
+			"id": "show_button",
+			"default": true,
+			"label": "Show button"
 		},
 		{
 			"type": "checkbox",
