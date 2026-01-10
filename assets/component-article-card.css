@@ -138,6 +138,7 @@
   display: block !important;
   position: absolute;
   inset: 0;
+  z-index: 9;
 }
 .article-card__button {
   min-width: 100px;
