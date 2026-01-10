@@ -156,7 +156,7 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": false,
-        "margin_top": "s",
+        "margin_top": "no-indent",
         "margin_bottom": "s"
       }
     },
