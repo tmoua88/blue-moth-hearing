@@ -7,7 +7,7 @@
 		class='
 			button button--{{ btn_style }}
 			{% if add_classes != blank %}{{ add_classes }}{% endif %}
-			{% if button_dot %}dot_active{% endif %}
+			{% comment %} {% if button_dot %}dot_active{% endif %} {% endcomment %}
 		'
 		{% if btn_link == blank %}
 			aria-disabled='true'

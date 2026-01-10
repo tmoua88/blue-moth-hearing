@@ -1689,7 +1689,7 @@ deferred-media {
   transition: background-color var(--duration-default), color var(--duration-default), border var(--duration-default);
   flex: none;
 }
-.button::before,
+/* .button::before,
 .customer .button::before {
   content: "";
   display: none;
@@ -1701,7 +1701,7 @@ deferred-media {
   max-height: 1rem;
   border-radius: 50%;
   transition: box-shadow 0.2s;
-}
+} */
 .button.dot_active,
 .customer .button.dot_active {
   padding: 1.5rem 2rem 1.5rem 1.6rem;
