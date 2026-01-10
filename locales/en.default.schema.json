@@ -2724,6 +2724,9 @@
 						"show_newsletter": {
 							"label": "Show newsletter signup"
 						},
+						"show_newsletter_signup": {
+							"label": "Show newsletter signup form"
+						},
 						"show_privacy_policy": {
 							"label": "Show privacy policy link"
 						}
