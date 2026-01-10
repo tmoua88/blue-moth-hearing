@@ -71,12 +71,12 @@
             "image_size": "16/9",
             "icon": "none",
             "heading": "General",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "text": "<a href=\"mailto:hello@bluemothhearing.com\" title=\"mailto:hello@bluemothhearing.com\">hello@bluemothhearing.com</a> (855) 496-2766",
             "button_label": "",
             "button_link": "",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         },
         "column_4WbMXJ": {
@@ -86,7 +86,7 @@
             "image_size": "16/9",
             "icon": "none",
             "heading": "Sales",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "text": "<a href=\"mailto:sales@@launchsquad.com\" title=\"mailto:sales@bluemothhearing.com\">sales@bluemothhearing.com</a>",
             "button_label": "",
             "button_link": "",
             "button_dot": true,
@@ -101,7 +101,7 @@
             "image_size": "16/9",
             "icon": "none",
             "heading": "Press",
-            "text": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions",
+            "text": "<a href=\"mailto:bluemoth@launchsquad.com\" title=\"mailto:marketingteam@bluemothhearing.com\">marketingteam@bluemothhearing.com</a>",
             "button_label": "",
             "button_link": "",
             "button_dot": true,
