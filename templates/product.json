@@ -349,7 +349,7 @@
     "image_with_text_KPCnKG": {
       "type": "image-with-text",
       "custom_css": [
-        ".image-with-text-section {background: #313d47}",
+        ".image-with-text-section {background: #313d47;}",
         ".button {background: transparent; border: 1px solid #fff;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
@@ -358,7 +358,7 @@
         "image_position": "image_right",
         "content_alignment": "left",
         "image": "shopify://shop_images/Finding_Perfect_Solution.png",
-        "image_size": "1/1",
+        "image_size": "3/4",
         "subheading": "",
         "dot": false,
         "heading": "Need help finding the perfect solution",
