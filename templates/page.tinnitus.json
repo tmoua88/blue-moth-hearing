@@ -177,6 +177,7 @@
       "blocks": {
         "column_MMQBFc": {
           "type": "column",
+          "name": "Button",
           "settings": {
             "image_width": "full",
             "image_size": "16/9",
@@ -184,7 +185,7 @@
             "heading": "",
             "text": "",
             "expanded_text": "",
-            "button_label": "Book",
+            "button_label": "Start your journey",
             "button_link": "",
             "button_dot": false,
             "button_style": "primary",
