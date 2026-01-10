@@ -349,7 +349,7 @@
     "image_with_text_KPCnKG": {
       "type": "image-with-text",
       "custom_css": [
-        ".image-with-text-section {}",
+        ".image-with-text-section {background: #313d47}",
         ".button {background: transparent; border: 1px solid #fff;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
