@@ -173,6 +173,11 @@
 											{{ block.settings.text }}
 										</p>
 									{%- endif -%}
+									{%- if block.settings.expanded_text != blank -%}
+										<p class='multicolumn-card__text richtext__content'>
+											{{ block.settings.text }}
+										</p>
+									{%- endif -%}
 								</div>
 							{%- endif -%}
 							{%- if block.settings.button_label != blank -%}
@@ -615,6 +620,13 @@
 					"id": "text",
 					"default": "t:sections.multicolumn.blocks.column.settings.subheading.label",
 					"label": "t:sections.all.text.label"
+				},
+				{
+					"type": "richtext",
+					"id": "expanded_text",
+					"default": "t:sections.multicolumn.blocks.column.settings.expanded_text.label",
+					"label": "t:sections.all.expanded_text.label",
+					"info": "t:sections.all.expanded_text.info"
 				},
 				{
 					"type": "header",

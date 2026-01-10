@@ -1240,6 +1240,10 @@
 				"label": "Description",
 				"info": "150 characters max."
 			},
+			"expanded_text": {
+				"label": "Expanded description",
+				"info": "The full description shown when the 'Read more' link is clicked."
+			},
 			"border": {
 				"header": {
 					"content": "Border options"
@@ -4633,6 +4637,10 @@
 						},
 						"subheading": {
 							"label": "Here can be a brief overview of the featured sections, guiding users to different collections or promotions"
+						},
+						"expanded_text": {
+							"label": "Expanded text",
+							"info": "More flexibility for adding detailed descriptions"
 						},
 						"button_label": {
 							"default": "View Details"
