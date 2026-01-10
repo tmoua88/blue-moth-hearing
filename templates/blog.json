@@ -14,7 +14,7 @@
       "settings": {
         "posts_per_page": 7,
         "page_heading_tag": "h1",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "featured_show_image": true,
         "featured_image_ratio": "3/2",
         "featured_show_tags": true,
