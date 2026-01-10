@@ -259,6 +259,9 @@
         "column_DA8RMY",
         "column_ErcP74"
       ],
+      "custom_css": [
+        "h4 {text-align: center;}"
+      ],
       "name": "Product Links",
       "settings": {
         "color_scheme": "",
