@@ -17,3 +17,14 @@
   margin-bottom: 1.6rem !important;
   color: rgb(var(--color-foreground-secondary)) !important;
 }
+
+/* Add margin-bottom to text in slideshow slide blocks */
+.slideshow-slide__desc h1,
+.slideshow-slide__desc h2,
+.slideshow-slide__desc h3,
+.slideshow-slide__desc h4,
+.slideshow-slide__desc h5,
+.slideshow-slide__desc h6,
+.slideshow-slide__desc p {
+  margin-bottom: 1.6rem;
+}
