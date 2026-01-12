@@ -119,7 +119,8 @@
         "column_6Uj4JE"
       ],
       "custom_css": [
-        ".richtext__content,a,p {font-size: 1.2rem;}"
+        ".richtext__content,a,p {font-size: 1.2rem;}",
+        ".spaced-section {background: #313d47}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
