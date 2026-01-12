@@ -5487,3 +5487,57 @@ body.mouse-focus .header__icons .header__icon--cart:focus-visible {
   background-color: rgb(var(--color-button-tertiary-background));
   color: rgb(var(--color-button-tertiary-text));
 }
+
+/* Comparison Table - Custom */
+.product-card__compare {
+  position: absolute;
+  top: 1rem;
+  right: 0.9rem;
+}
+
+.product-card__compare-checkbox {
+  display: inline-flex;
+  cursor: pointer;
+  gap: 0.4rem;
+  background: rgb(255 255 255 / 78%);
+  border-radius: 0.3rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.7rem;
+}
+
+.product-card__compare-text {
+  line-height: 1;
+  font-size: 1.3rem;
+  padding-top: 0.3rem;
+}
+
+.product-card__compare-checkbox input[type="checkbox"] {
+  width: 0;
+  height: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+.product-card__compare-checkbox .checkbox {
+  border: 1px solid var(--color-grey-4);
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  width: 1.8rem;
+  display: block;
+  border-color: #151515;
+}
+
+.product-card__compare-checkbox .checkbox svg {
+  display: block;
+  opacity: 0;
+  transition: opacity var(--duration-short);
+  width: 100%;
+  height: auto;
+}
+
+.product-card__compare-checkbox input[type="checkbox"]:checked ~ .checkbox {
+  border-color: #151515;
+}
+
+.product-card__compare-checkbox input[type="checkbox"]:checked ~ .checkbox svg {
+  opacity: 1;
+}

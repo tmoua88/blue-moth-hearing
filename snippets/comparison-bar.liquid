@@ -1,0 +1,17 @@
+{%- render 'async-stylesheet', mod_url: 'component-comparison-bar.css' -%}
+
+<comparison-bar class="comparison-bar block">
+  <div class="comparison-bar__inner container--wide flex aic relative">
+    <div class="comparison-bar__products js-products flex"></div>
+
+    <comparison-link class="comparison-bar__link-wrapper block">
+      <a
+        href="/pages/comparison-table"
+        class="comparison-bar__link link-with-icon button button--primary js-link"
+      >
+        <span class="text">Compare</span>
+        {% comment %} {%- render 'icon-arrow-top-right', class: 'block w1 ha' -%} {% endcomment %}
+      </a>
+    </comparison-link>
+  </div>
+</comparison-bar>

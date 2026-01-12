@@ -2618,3 +2618,262 @@ document.documentElement.addEventListener('cart:refresh', () => {
 })
 
 // end cart:refresh
+
+// Comparison Table
+function setCookie(name, value) {
+  var date = new Date();
+  date.setTime(date.getTime() + (28 * 86400000));
+  document.cookie = name + "=" + value + ";expires=" + date.toUTCString() + ";path=/";
+}
+
+function getCookie(name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) {
+    return parts.pop().split(';').shift()
+  }
+}
+
+function safeJsonParse(value, fallback) {
+  try {
+    const parsed = JSON.parse(value);
+    return parsed ?? fallback;
+  } catch (e) {
+    return fallback;
+  }
+}
+
+function getCompareState() {
+  const handles = safeJsonParse(getCookie('COMPARE_PRODUCT_HANDLES') || '[]', []);
+  const data = safeJsonParse(getCookie('COMPARE_PRODUCT_DATA') || '{}', {});
+  return { handles, data };
+}
+
+function setCompareState(handles, data) {
+  setCookie('COMPARE_PRODUCT_HANDLES', JSON.stringify(handles));
+  setCookie('COMPARE_PRODUCT_DATA', JSON.stringify(data));
+  document.body.dispatchEvent(new CustomEvent('UPDATED_COMPARISON_PRODUCTS'));
+}
+
+function initCompareForProductCard(cardEl) {
+  if (!cardEl || cardEl.dataset.compareInit === '1') return;
+  cardEl.dataset.compareInit = '1';
+
+  const checkboxWrappers = cardEl.querySelectorAll('.js-compare-checkbox');
+  if (!checkboxWrappers.length) return;
+
+  const syncCardUI = () => {
+    const { handles } = getCompareState();
+
+    checkboxWrappers.forEach((wrapper) => {
+      const input = wrapper.querySelector('input[type="checkbox"]');
+      if (!input || !input.value) return;
+
+      const shouldBeChecked = handles.includes(input.value);
+
+      // Guard: prevent re-entry when we programmatically set checked
+      if (input.checked !== shouldBeChecked) {
+        input.dataset.compareSyncing = '1';
+        input.checked = shouldBeChecked;
+        // next tick remove the flag (avoids some browsers firing events unexpectedly)
+        setTimeout(() => delete input.dataset.compareSyncing, 0);
+      }
+    });
+  };
+
+  const onCompareClicked = (input) => {
+    const handle = input.value; // MUST be product.handle
+    const { handles, data } = getCompareState();
+
+    if (input.checked) {
+      // enforce max 3
+      if (handles.length >= 3 && !handles.includes(handle)) {
+        input.dataset.compareSyncing = '1';
+        input.checked = false;
+        setTimeout(() => delete input.dataset.compareSyncing, 0);
+        return;
+      }
+
+      if (!handles.includes(handle)) handles.push(handle);
+
+      // These must exist on the input (or adjust to where your data lives)
+      const image = input.dataset.image || '';
+      const type = input.dataset.type || '';
+      const title = input.dataset.title || '';
+
+      data[handle] = { image, type, title };
+    } else {
+      const idx = handles.indexOf(handle);
+      if (idx > -1) handles.splice(idx, 1);
+      if (data[handle]) delete data[handle];
+    }
+
+    setCompareState(handles, data);
+  };
+
+  // Bind per-card listeners (scoped)
+  checkboxWrappers.forEach((wrapper) => {
+    const input = wrapper.querySelector('input[type="checkbox"]');
+    if (!input) return;
+
+    input.addEventListener('change', () => {
+      if (input.dataset.compareSyncing === '1') return;
+      onCompareClicked(input);
+    });
+  });
+
+  // Sync on load + when bar changes
+  syncCardUI();
+  cardEl._compareSyncHandler = syncCardUI; // keep reference if you ever need to remove it
+  document.body.addEventListener('UPDATED_COMPARISON_PRODUCTS', syncCardUI);
+}
+
+function initCompareAllProductCards(root = document) {
+  root.querySelectorAll('.product-card').forEach(initCompareForProductCard);
+}
+
+// Run on initial page load
+document.addEventListener('DOMContentLoaded', () => initCompareAllProductCards());
+
+// Run when Shopify sections re-render (important for collection filters/infinite scroll/apps)
+document.addEventListener('shopify:section:load', (e) => initCompareAllProductCards(e.target));
+document.addEventListener('shopify:section:reorder', (e) => initCompareAllProductCards(e.target));
+
+class ComparisonLink extends HTMLElement {
+  constructor() {
+    super()
+
+    this.updateLink()
+    document.body.addEventListener('UPDATED_COMPARISON_PRODUCTS', this.updateLink.bind(this));
+  }
+
+  updateLink() {
+    const savedCompares = getCookie('COMPARE_PRODUCT_HANDLES') || '[]'
+    const savedComparisonHandles = JSON.parse(savedCompares)
+
+    this.links.forEach(link => {
+      const href = link.getAttribute('href')
+      const url = new URL((href.includes('https://') || href.includes('http://')) ? href : `${window.location.origin}${href}`);
+      if (savedComparisonHandles.length) {
+        url.searchParams.set('type', savedComparisonHandles.join(','))
+      } else {
+        url.searchParams.delete('type')
+      }
+
+      url.searchParams.set('back', window.location.pathname)
+      link.setAttribute('href', `${url.toString()}`)
+    })
+  }
+
+  get links () {
+    return this.querySelectorAll('.js-link')
+  }
+}
+
+customElements.define('comparison-link', ComparisonLink);
+
+if (!customElements.get('comparison-bar')) {
+	customElements.define(
+		'comparison-bar',
+		class ComparisonBar extends HTMLElement {
+		constructor() {
+			super();
+
+			this.updateBar()
+			document.body.addEventListener('UPDATED_COMPARISON_PRODUCTS', this.updateBar.bind(this));
+			this.addEventListener('click', this.onClick.bind(this));
+		}
+
+		onClick(event) {
+			if (event.target.closest('.js-product-exclude') || event.target.classList.contains('js-product-exclude')) {
+			event.preventDefault()
+			const element = event.target.classList.contains('js-product-exclude') ? event.target : event.target.closest('.js-product-exclude')
+			const removingHandle = element?.getAttribute('data-product-handle')
+
+			if (!removingHandle) return;
+
+			const savedCompares = getCookie('COMPARE_PRODUCT_HANDLES') || '[]'
+			const savedData = getCookie('COMPARE_PRODUCT_DATA') || '{}'
+			const savedComparisonData = JSON.parse(savedData)
+
+			const savedComparisonHandles = JSON.parse(savedCompares)
+			const index = savedComparisonHandles.indexOf(removingHandle)
+			if (index > -1) savedComparisonHandles.splice(index, 1)
+			if (savedComparisonData[removingHandle]) delete savedComparisonData[removingHandle]
+
+			setCookie('COMPARE_PRODUCT_HANDLES', JSON.stringify(savedComparisonHandles));
+			setCookie('COMPARE_PRODUCT_DATA', JSON.stringify(savedComparisonData));
+			document.body.dispatchEvent(new CustomEvent('UPDATED_COMPARISON_PRODUCTS'));
+			}
+		}
+
+		updateBar() {
+			if (!this.productContainer) return;
+
+			const savedCompares = getCookie('COMPARE_PRODUCT_HANDLES') || '[]'
+			const savedComparisonHandles = JSON.parse(savedCompares)
+			const savedData = getCookie('COMPARE_PRODUCT_DATA') || '{}'
+			const savedComparisonData = JSON.parse(savedData)
+
+			let template = ''
+			for (var i = 0; i < 3; i++) {
+			let hadFilled = false
+			if (savedComparisonHandles[i]) {
+				const productData = savedComparisonData[savedComparisonHandles[i]]
+				if (productData) {
+					template += `
+						<div class="comparison-bar__product relative">
+						<button
+							class="button button--icon comparison-bar__product-close js-product-exclude"
+							data-product-handle="${savedComparisonHandles[i]}"
+							aria-label="Close"
+						>
+							<svg
+							width="9"
+							height="9"
+							viewBox="0 0 9 9"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							class="icon icon-close-small"
+							>
+							<rect y="8.30762" width="11.7488" height="0.979066" rx="0.489533" transform="rotate(-45 0 8.30762)" fill="currentColor"/>
+							<rect x="0.692383" width="11.7488" height="0.979066" rx="0.489533" transform="rotate(45 0.692383 0)" fill="currentColor"/>
+							</svg>
+						</button>
+						<div class="comparison-bar__product-inner flex aic">
+							<div class="comparison-bar__product-image">
+							<img src="${productData.image}" class="block w1" />
+							</div>
+							<div class="comparison-bar__product-content small-hide">
+							<div class="comparison-bar__product-type utility3-small">${productData.type}</div>
+							<div class="comparison-bar__product-title utility2">${productData.title}</div>
+							</div>
+						</div>
+						</div>
+					`
+					hadFilled = true
+				}
+			}
+			if (!hadFilled) {
+				template += `
+				<div class="comparison-bar__product comparison-bar__product--empty">
+				</div>
+				`
+			}
+			}
+
+			this.productContainer.innerHTML = ''
+			this.productContainer.insertAdjacentHTML('beforeend', template)
+			if (savedComparisonHandles.length) {
+			this.classList.add('active')
+			} else {
+			this.classList.remove('active')
+			}
+		}
+
+		get productContainer() {
+			return this.querySelector('.js-products')
+		}
+		}
+	);
+}

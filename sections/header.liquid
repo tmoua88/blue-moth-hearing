@@ -308,12 +308,16 @@
 			document.documentElement.style.setProperty('--header-height-bottom', `${headerHeightBottom - 4}px`);
 
 			//SearchModal
-			const searchModal = document.querySelector("details-modal.header__search > details");
+			const searchModal = document.querySelector('details-modal.header__search > details');
 			if (searchModal) {
-				const searchFormHeight = searchModal.querySelector('.header predictive-search').getBoundingClientRect().height || 0;
-				const compStyle = getComputedStyle(searchModal.querySelector('.search__content'));
-				const paddingTopSearch = parseInt(compStyle.paddingTop, 10);
-				const marginTopInner = parseInt(getComputedStyle(searchModal.querySelector('.search__modal')).marginTop, 10);
+				const searchFormEl = searchModal.querySelector('.header predictive-search');
+				const contentEl = searchModal.querySelector('.search__content');
+				const modalInnerEl = searchModal.querySelector('.search__modal');
+				const searchFormHeight = searchFormEl?.getBoundingClientRect?.().height ?? 0;
+				const contentStyle = contentEl ? getComputedStyle(contentEl) : null;
+				const paddingTopSearch = contentStyle ? parseInt(contentStyle.paddingTop, 10) || 0 : 0;
+				const modalInnerStyle = modalInnerEl ? getComputedStyle(modalInnerEl) : null;
+				const marginTopInner = modalInnerStyle ? parseInt(modalInnerStyle.marginTop, 10) || 0 : 0;
 				const topSearchHeight = searchFormHeight + paddingTopSearch + marginTopInner;
 				searchModal.style.setProperty('--top-search-height', `${topSearchHeight}px`);
 			}

@@ -62,6 +62,9 @@ defer="defer"
 	{%- endif -%}
 {%- endif -%}
 {% liquid
+	assign hide_compare = hide_compare | default: false
+
+
 	case media_size
 		when 'landscape'
 			assign image_size = '70%'
@@ -376,6 +379,32 @@ defer="defer"
 				</quick-add-modal>
 			</div>
 		{%- endif -%}
+		{%- unless hide_compare -%}
+		<div class="compare_product">
+			<div class="product-card__compare">
+				<label
+				class="product-card__compare-checkbox aic js-compare-checkbox"
+				for="compare-checkbox-{{ product_card_product.id }}"
+				>
+				<div class="product-card__compare-text">
+					Compare
+				</div>
+				<input
+					type="checkbox"
+					id="compare-checkbox-{{ product_card_product.id }}"
+					name="compare-checkbox"
+					value="{{ product_card_product.url | default: '#' }}"
+					data-image="{{ product_card_product.featured_image | image_url: width: 100 }}"
+					data-type="{{ product_card_product.vendor }}"
+					data-title="{{ product_card_product.title }}"
+				/>
+				<span class="checkbox">
+					{%- render 'icon' with 'checkbox' -%}
+				</span>
+				</label>
+			</div>
+		</div>
+		{%- endunless -%}
 		<div class="card__badge">
 			{%- if product_card_product.available == false and settings.badge_soldout_show -%}
 				<span
