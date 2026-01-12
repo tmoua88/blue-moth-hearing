@@ -185,6 +185,66 @@
             "metafield_namespace": "compare",
             "metafield_key": "environmental_adaptation"
           }
+        },
+        "row_UhVKxT": {
+          "type": "row",
+          "settings": {
+            "title": "Speech clarity",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "speech_clarity"
+          }
+        },
+        "row_4UBbK8": {
+          "type": "row",
+          "settings": {
+            "title": "Wind noise reduction",
+            "type": "metafield",
+            "value_type": "boolean",
+            "metafield_namespace": "compare",
+            "metafield_key": "wind_noise_reduction"
+          }
+        },
+        "row_dLWV9y": {
+          "type": "row",
+          "settings": {
+            "title": "Background noise reduction",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "background_noise_reduction"
+          }
+        },
+        "row_nWiKqD": {
+          "type": "row",
+          "settings": {
+            "title": "Telecoil",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "telecoil"
+          }
+        },
+        "row_WnQArd": {
+          "type": "row",
+          "settings": {
+            "title": "Natural sound",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "natural_sound"
+          }
+        },
+        "row_WewgnB": {
+          "type": "row",
+          "settings": {
+            "title": "Echo reduction",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "echo_reduction"
+          }
         }
       },
       "block_order": [
@@ -202,7 +262,13 @@
         "row_JzUqbb",
         "row_DxUp9P",
         "row_BNpDKT",
-        "row_rLMmXg"
+        "row_rLMmXg",
+        "row_UhVKxT",
+        "row_4UBbK8",
+        "row_dLWV9y",
+        "row_nWiKqD",
+        "row_WnQArd",
+        "row_WewgnB"
       ],
       "name": "Comparison Table",
       "settings": {
