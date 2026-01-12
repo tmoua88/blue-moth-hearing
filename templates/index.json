@@ -265,12 +265,13 @@
       ],
       "custom_css": [
         ".spaced-section {background: #000;}",
-        ".section-header__title {color: #fff;}"
+        ".section-header__title {color: #fff; text-align: center;}",
+        ".brand-list {justify-content: center;}"
       ],
       "name": "t:sections.brand-image.presets.name",
       "settings": {
         "layout": "static",
-        "section_heading": "Featured On",
+        "section_heading": "As Featured On",
         "heading_tag": "h2",
         "section_heading_size": "h2",
         "subheading": "",
