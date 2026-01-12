@@ -4893,94 +4893,94 @@
 			},
 			"blocks": {
 				"heading": {
-				"name": "Heading",
-				"settings": {
-					"title": {
-					"label": "Title"
+					"name": "Heading",
+					"settings": {
+						"title": {
+							"label": "Title"
+						}
 					}
-				}
 				},
 				"row": {
-				"name": "Row",
-				"settings": {
-					"title": {
-					"label": "Title"
-					},
-					"type": {
-					"label": "Type",
-					"option_1": {
-						"label": "Metafield"
-					},
-					"option_2": {
-						"label": "Price"
+					"name": "Row",
+					"settings": {
+						"title": {
+							"label": "Title"
+						},
+						"type": {
+							"label": "Type",
+							"option_1": {
+								"label": "Metafield"
+							},
+							"option_2": {
+								"label": "Price"
+							}
+						},
+						"header__value": {
+							"content": "Value Type"
+						},
+						"value_type": {
+								"label": "Value Type",
+							"option_1": {
+								"label": "Boolean"
+							},
+							"option_2": {
+								"label": "Text"
+							},
+							"option_3": {
+								"label": "Price"
+							}
+						},
+						"header__metafield": {
+							"content": "Metafield"
+						},
+						"metafield_namespace": {
+							"label": "Namespace"
+						},
+						"metafield_key": {
+							"label": "Key"
+						}
 					}
-					},
-					"header__value": {
-					"content": "Value Type"
-					},
-					"value_type": {
-					"label": "Value Type",
-					"option_1": {
-						"label": "Boolean"
-					},
-					"option_2": {
-						"label": "Text"
-					},
-					"option_3": {
-						"label": "Price"
-					}
-					},
-					"header__metafield": {
-					"content": "Metafield"
-					},
-					"metafield_namespace": {
-					"label": "Namespace"
-					},
-					"metafield_key": {
-					"label": "Key"
-					}
-				}
 				},
 				"detail_modal": {
-				"name": "Detail Modal",
-				"settings": {
-					"row_title": {
-					"label": "Row Title"
-					},
-					"row_value": {
-					"label": "Row Value"
-					},
-					"header__modal_style": {
-					"content": "Modal Style"
-					},
-					"color": {
-					"label": "Color"
-					},
-					"background_color": {
-					"label": "Background Color"
-					},
-					"header__modal_content": {
-					"content": "Modal Content"
-					},
-					"heading": {
-					"label": "Heading"
-					},
-					"description": {
-					"label": "Description"
-					},
-					"video_url": {
-					"label": "Video URL",
-					"info": "Use a YouTube or Vimeo URL"
-					},
-					"link_text": {
-					"label": "Link Text"
-					},
-					"link_url": {
-					"label": "Link URL"
+					"name": "Detail Modal",
+					"settings": {
+						"row_title": {
+							"label": "Row Title"
+						},
+						"row_value": {
+							"label": "Row Value"
+						},
+						"header__modal_style": {
+							"content": "Modal Style"
+						},
+						"color": {
+							"label": "Color"
+						},
+						"background_color": {
+							"label": "Background Color"
+						},
+						"header__modal_content": {
+							"content": "Modal Content"
+						},
+						"heading": {
+							"label": "Heading"
+						},
+						"description": {
+							"label": "Description"
+						},
+						"video_url": {
+							"label": "Video URL",
+							"info": "Use a YouTube or Vimeo URL"
+						},
+						"link_text": {
+							"label": "Link Text"
+						},
+						"link_url": {
+							"label": "Link URL"
+						}
 					}
 				}
-				}
 			}
-			}
+		}
 	}
 }
