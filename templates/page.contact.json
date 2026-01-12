@@ -153,9 +153,9 @@
             "expanded_text": "",
             "button_label": "View FAQs",
             "button_link": "",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         },
         "column_3Ctgep": {
@@ -171,7 +171,7 @@
             "button_link": "",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         },
         "column_RVfBNH": {
@@ -185,9 +185,9 @@
             "expanded_text": "",
             "button_label": "Get Started",
             "button_link": "",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         },
         "column_UrH4zr": {
@@ -201,9 +201,9 @@
             "expanded_text": "",
             "button_label": "Learn More",
             "button_link": "",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         },
         "column_xUeQGj": {
@@ -217,9 +217,9 @@
             "expanded_text": "",
             "button_label": "Learn More",
             "button_link": "",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         },
         "column_MaCGyq": {
@@ -233,9 +233,9 @@
             "expanded_text": "",
             "button_label": "Learn More",
             "button_link": "",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         },
         "column_mNEmMJ": {
@@ -249,9 +249,9 @@
             "expanded_text": "",
             "button_label": "Learn More",
             "button_link": "",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         },
         "column_nrAXfN": {
@@ -265,9 +265,9 @@
             "expanded_text": "",
             "button_label": "Learn More",
             "button_link": "",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "full_link": true
           }
         }
       },
@@ -283,7 +283,7 @@
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "section_heading": "Helpful information",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
@@ -295,8 +295,8 @@
         "swipe_on_mobile": false,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
-        "margin_top": "no-indent",
-        "margin_bottom": "m"
+        "margin_top": "s",
+        "margin_bottom": "s"
       }
     }
   },
