@@ -1,0 +1,599 @@
+{%- liquid
+  echo 'section-comparison-table.css' | asset_url | stylesheet_tag
+
+  assign is_design_mode = false
+  capture product_handles
+    if content_for_header contains 'designMode'
+      echo 'phonak-lumity-l-70'
+      assign is_design_mode = true
+    else
+      render 'get-parameter', mod_param: 'type'
+    endif
+  endcapture
+
+  assign url_string = product_handles | url_decode
+  assign comparing_product_handles = url_string | split: ','
+  assign back_url = '/collection/all'
+
+  assign comparing_product_size = 0
+  assign all_block_variables = ''
+  assign popup_blocks = section.blocks | where: 'type', 'detail_modal'
+
+  for handle in comparing_product_handles
+    assign comparing_product = all_products[handle]
+    assign product_index = forloop.index
+    if comparing_product != blank
+      for block in section.blocks
+        if block.type == 'row'
+          assign block_metafield = comparing_product.metafields[block.settings.metafield_namespace][block.settings.metafield_key].value | default: ''
+          assign block_metafield_value = block_metafield
+          if block_metafield.first
+            assign block_metafield_value = block_metafield | join: ', '
+          endif
+          case block.settings.type
+            when 'price'
+              if comparing_product.metafields.custom.call_for_pricing
+                assign block_metafield_value = 'call'
+              else
+                assign block_metafield_value = comparing_product.price | money_without_trailing_zeros
+              endif
+            when 'metafield'
+              case block.settings.value_type
+                when 'boolean'
+                  if block_metafield != blank
+                    assign block_metafield_value = 'Yes'
+                  else
+                    assign block_metafield_value = ''
+                  endif
+                when 'price'
+                  if block_metafield != blank
+                    if comparing_product.metafields.custom.call_for_pricing
+                      assign block_metafield_value = 'call'
+                    else
+                      assign block_metafield_value = block_metafield | times: 100 | money_without_trailing_zeros
+                    endif
+                  endif
+              endcase
+          endcase
+          assign all_block_variables = all_block_variables | append: block_metafield_value | append: '<BLOCK>'
+        else
+          assign all_block_variables = all_block_variables | append: '<BLOCK>'
+        endif
+      endfor
+      assign all_block_variables = all_block_variables | append: '<PRODUCT>'
+      assign comparing_product_size = comparing_product_size | plus: 1
+    endif
+  endfor
+  assign all_block_variables = all_block_variables | split: '<PRODUCT>'
+  assign first_block = section.blocks | first
+-%}
+
+<script src="{{ 'section-comparison-table.js' | asset_url }}" defer="defer"></script>
+
+<comparison-wrapper
+  class="comparison-wrapper section-inner block"
+  id="comparison-wrapper-{{ section.id }}"
+  data-product-handles="{{ comparing_product_handles | join: ',' }}"
+  style="
+    --section-text-color: {{ section.settings.color }};
+    --section-background-color: {{ section.settings.background_color }};
+    --product-count: {{ comparing_product_size }};
+  "
+>
+  <div class="comparison-inner">
+    <div class="comparison-breadcrumb">
+      <a
+        href="{{ back_url }}"
+        class="comparison-breadcrumb__link link js-comparison-back-trigger"
+      >
+        {%- render 'icon' with 'arrow-left-short' -%}
+        <span class="text">{{- 'general.breadcrumbs.back' | t -}}</span>
+      </a>
+    </div>
+    <h2 class="comparison-title">
+      {{- section.settings.title -}}
+    </h2>
+
+    {%- if comparing_product_handles != blank -%}
+      <div class="comparison-table__wrapper">
+        <table role="table" class="comparison-table">
+          <caption class="visually-hidden">
+            {{- section.settings.title | strip_html -}}
+          </caption>
+          <thead
+            role="rowgroup"
+            {{ first_block.shopify_attributes }}
+          >
+            <tr role="row">
+              <th
+                id="ColumnTitle"
+                scope="col"
+                role="columnheader"
+              >{{ first_block.settings.title }}</th>
+
+              {%- for handle in comparing_product_handles -%}
+                {%- assign comparing_product = all_products[handle] -%}
+                {%- if comparing_product != blank -%}
+                  <th
+                    id="ColumnProduct-{{ forloop.index }}"
+                    scope="col"
+                    role="columnheader"
+                    class="comparison-product__head relative"
+                  >
+                    <div class="comparison-product__inner relative">
+                      <a
+                        href="{{ comparing_product.url }}"
+                        class="comparison-product__image"
+                      >
+                        {%- render 'image',
+                          image: comparing_product.featured_image,
+                          sizes: '100px',
+                          container: true,
+                          container_class: 'comparison-product__image-el'
+                        -%}
+                      </a>
+                      <div class="comparison-product__content">
+                        <div class="comparison-product__type utility3-small">
+                          {{ comparing_product.vendor }}
+                        </div>
+
+                        <a
+                          href="{{ comparing_product.url }}"
+                          class="comparison-product__title utility2"
+                        >
+                          {{ comparing_product.title }}
+                        </a>
+                      </div>
+                      <button
+                        class="button button--icon comparison-product__close js-product-exclude"
+                        data-product-handle="{{ comparing_product.handle }}"
+                        aria-label="{{ 'accessibility.close' | t }}"
+                      >
+                        {%- render 'icon-close-small' -%}
+                      </button>
+                    </div>
+                  </th>
+                {%- endif -%}
+              {%- endfor -%}
+            </tr>
+          </thead>
+
+          {%- assign has_prev_header = false -%}
+          {%- for block in section.blocks -%}
+            {%- unless forloop.first -%}
+              {%- assign block_index = forloop.index0 -%}
+              {%- case block.type -%}
+                {%- when 'heading' -%}
+                  {%- unless forloop.first -%}
+                    </tbody>
+                  {%- endunless -%}
+                  <thead
+                    {{ block.shopify_attributes }}
+                  >
+                    <tr>
+                      <th
+                        id="ColumnTitle"
+                        scope="col"
+                        role="columnheader"
+                      >{{ block.settings.title }}</th>
+                    </tr>
+                  </thead>
+
+                  {%- unless forloop.last -%}
+                    <tbody>
+                  {%- endunless -%}
+                {%- when 'row' -%}
+                  {%- liquid
+                    assign block_handle = block.settings.title | handleize
+                    assign selected_popup_handle = ''
+                    for popup_block in popup_blocks
+                      assign popup_block_handle = popup_block.settings.row_title | handleize
+                      assign popup_block_value = popup_block.settings.row_value | handleize
+
+                      if popup_block_handle == block_handle and popup_block_value == blank
+                        assign selected_popup_handle = popup_block_handle | append: '-' | append: popup_block.id
+                      endif
+                    endfor
+
+                    assign has_value = false
+                    for product_index in (1..comparing_product_size)
+                      assign block_variables = all_block_variables[forloop.index0] | split: '<BLOCK>'
+                      assign block_value = block_variables[block_index] | strip_newlines | strip
+                      if block_value != blank
+                        assign has_value = true
+                      endif
+                    endfor
+
+                    if is_design_mode
+                      assign has_value = true
+                    endif
+                  -%}
+
+                  {%- if has_value -%}
+                    <tr
+                      {{ block.shopify_attributes }}
+                    >
+                      <td>
+                        <div class="comparison-table__row-title flex aic">
+                          {{ block.settings.title }}
+
+                          {%- if selected_popup_handle != blank -%}
+                            <button
+                              class="button button--icon comparison-table__row-info js-modal-trigger"
+                              data-handle="{{ selected_popup_handle }}"
+                              data-value=""
+                            >
+                              {%- render 'icon' with 'info' -%}
+                            </button>
+                          {%- endif -%}
+                        </div>
+                      </td>
+                      {%- for product_index in (1..comparing_product_size) -%}
+                        {%- liquid
+                          assign product_index0 = forloop.index0
+                          assign block_variables = all_block_variables[product_index0] | split: '<BLOCK>'
+                          assign block_value = block_variables[block_index] | strip_newlines | strip
+                          assign block_value_handle = block_value | handleize
+
+                          assign selected_popup_handle = ''
+                          assign selected_popup_value = ''
+                          for popup_block in popup_blocks
+                            assign popup_block_handle = popup_block.settings.row_title | handleize
+                            assign popup_block_value = popup_block.settings.row_value | handleize
+
+                            if popup_block_handle == block_handle and popup_block_value == block_value_handle
+                              assign selected_popup_handle = popup_block_handle | append: '-' | append: popup_block.id
+                              assign selected_popup_value = popup_block_value
+                            endif
+                          endfor
+                        -%}
+                        <td>
+                          {%- if selected_popup_handle != blank and selected_popup_value != blank -%}
+                            <button
+                              class="button button--icon comparison-table__row-value-info js-modal-trigger"
+                              data-handle="{{ selected_popup_handle }}"
+                              data-value="{{ selected_popup_value }}"
+                            >
+                              {{- block_value -}}
+                            </button>
+                          {%- else -%}
+                            {%- if block_value == 'call' -%}
+                              {%- liquid
+                                assign call_link = 'tel:' | append: settings.call_number_text
+                                if settings.call_button_link != blank
+                                  assign call_link = settings.call_button_link
+                                endif
+                              -%}
+                              <a
+                                href="{{ call_link }}"
+                                class="comparison-table__row-call-price link"
+                              >
+                                {{- settings.call_button_text -}}
+                              </a>
+                            {%- else -%}
+                              {{- block_value -}}
+                            {%- endif -%}
+                          {%- endif -%}
+                        </td>
+                      {%- endfor -%}
+                    </tr>
+                  {%- endif -%}
+              {%- endcase -%}
+            {%- endunless -%}
+          {%- endfor -%}
+          </tbody>
+        </table>
+      </div>
+
+      {%- if section.settings.disclaimer_text != blank -%}
+        <div class="comparison-disclaimer utility3 utility3-small">
+          {{- section.settings.disclaimer_text -}}
+        </div>
+      {%- endif -%}
+    {%- else -%}
+      <div class="comparison-empty">
+        <div class="comparison-empty__inner">
+          {%- if section.settings.empty_text != blank -%}
+            <div class="comparison-empty__text">
+              {{- section.settings.empty_text -}}
+            </div>
+          {%- endif -%}
+          {%- if section.settings.empty_btn_url != blank and section.settings.empty_btn_text != blank -%}
+            <a
+              href="{{ section.settings.empty_btn_url }}"
+              class="comparison-empty__link link-with-icon button button--secondary"
+            >
+              <span class="text">{{- section.settings.empty_btn_text -}}</span>
+              {%- render 'icon-arrow-top-right', class: 'block w1 ha' -%}
+            </a>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+  </div>
+
+  {%- for block in popup_blocks -%}
+    {%- assign mod_block = block.settings -%}
+    <comparison-modal
+      class="comparison-modal block js-comparison-modal"
+      style="
+        --block-text-color: {{ mod_block.color }};
+        --block-background-color: {{ mod_block.background_color }};
+      "
+      data-modal-handle="{{ mod_block.row_title | handleize }}-{{ block.id }}"
+      data-modal-value="{{ mod_block.row_value | handleize }}"
+    >
+      <div class="comparison-modal__bg fill js-close">&nbsp;</div>
+      <button
+        class="button button--icon comparison-modal__close js-close"
+        aria-label="{{ 'accessibility.close' | t }}"
+      >
+        {%- render 'icon-close-small' -%}
+      </button>
+      <div class="comparison-modal__inner">
+        <div class="comparison-modal__wrapper">
+          {%- if mod_block.heading != blank -%}
+            <div class="comparison-modal__title">
+              {{ mod_block.heading }}
+            </div>
+          {%- endif -%}
+          {%- if mod_block.description != blank -%}
+            <div class="comparison-modal__content">
+              {{ mod_block.description }}
+            </div>
+          {%- endif -%}
+          {%- if mod_block.video_url != blank -%}
+            <div class="comparison-modal__video">
+              {%- if mod_block.video_url.type == 'youtube' -%}
+                <iframe
+                  src="https://www.youtube.com/embed/{{ mod_block.video_url.id }}?enablejsapi=1"
+                  allow="autoplay; encrypted-media"
+                  class="fill"
+                  allowfullscreen
+                  title="{{ mod_block.heading | escape }}"
+                ></iframe>
+              {%- else -%}
+                <iframe
+                  src="https://player.vimeo.com/video/{{ mod_block.video_url.id }}"
+                  allow="autoplay; encrypted-media"
+                  class="fill"
+                  allowfullscreen
+                  title="{{ mod_block.heading | escape }}"
+                ></iframe>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        </div>
+        {%- if mod_block.link_url != blank and mod_block.link_text != blank -%}
+          <div class="comparison-modal__link-wrapper">
+            <a
+              href="{{ mod_block.link_url }}"
+              class="comparison-modal__link link-with-icon button button--tertiary"
+            >
+              <span class="text">{{ mod_block.link_text }}</span>
+              {%- render 'icon-arrow-top-right', class: 'block w1 ha' -%}
+            </a>
+          </div>
+        {%- endif -%}
+      </div>
+    </comparison-modal>
+  {%- endfor -%}
+</comparison-wrapper>
+
+{% schema %}
+{
+  "name": "t:sections.comparison-table.name",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.comparison-table.settings.header__empty.content"
+    },
+    {
+      "type": "richtext",
+      "id": "empty_text",
+      "label": "t:sections.comparison-table.settings.empty_text.label"
+    },
+    {
+      "type": "text",
+      "id": "empty_btn_text",
+      "label": "t:sections.comparison-table.settings.empty_btn_text.label"
+    },
+    {
+      "type": "url",
+      "id": "empty_btn_url",
+      "label": "t:sections.comparison-table.settings.empty_btn_url.label"
+    },
+    {
+      "type": "header",
+      "content": "t:settings_schema.global.settings.header__animation.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_animation",
+      "label": "t:settings_schema.global.settings.enable_animation.label",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "t:settings_schema.global.settings.header__style.content"
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "t:settings_schema.global.settings.color.label",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "t:settings_schema.global.settings.background_color.label",
+      "default": "#F2F2F2"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Collections",
+      "label": "t:sections.comparison-table.settings.title.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.comparison-table.settings.header__disclaimer.content"
+    },
+    {
+      "type": "richtext",
+      "id": "disclaimer_text",
+      "label": "t:sections.comparison-table.settings.disclaimer_text.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.comparison-table.blocks.heading.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.comparison-table.blocks.heading.settings.title.label"
+        }
+      ]
+    },
+    {
+      "type": "row",
+      "name": "t:sections.comparison-table.blocks.row.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.comparison-table.blocks.row.settings.title.label"
+        },
+        {
+          "type": "select",
+          "id": "type",
+          "options": [
+            {
+              "value": "metafield",
+              "label": "t:sections.comparison-table.blocks.row.settings.type.option_1.label"
+            },
+            {
+              "value": "price",
+              "label": "t:sections.comparison-table.blocks.row.settings.type.option_2.label"
+            }
+          ],
+          "default": "metafield",
+          "label": "t:sections.comparison-table.blocks.row.settings.type.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.comparison-table.blocks.row.settings.header__value.content"
+        },
+        {
+          "type": "select",
+          "id": "value_type",
+          "options": [
+            {
+              "value": "boolean",
+              "label": "t:sections.comparison-table.blocks.row.settings.value_type.option_1.label"
+            },
+            {
+              "value": "text",
+              "label": "t:sections.comparison-table.blocks.row.settings.value_type.option_2.label"
+            },
+            {
+              "value": "price",
+              "label": "t:sections.comparison-table.blocks.row.settings.value_type.option_3.label"
+            }
+          ],
+          "default": "boolean",
+          "label": "t:sections.comparison-table.blocks.row.settings.value_type.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.comparison-table.blocks.row.settings.header__metafield.content"
+        },
+        {
+          "type": "text",
+          "id": "metafield_namespace",
+          "label": "t:sections.comparison-table.blocks.row.settings.metafield_namespace.label"
+        },
+        {
+          "type": "text",
+          "id": "metafield_key",
+          "label": "t:sections.comparison-table.blocks.row.settings.metafield_key.label"
+        }
+      ]
+    },
+    {
+      "type": "detail_modal",
+      "name": "t:sections.comparison-table.blocks.detail_modal.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "row_title",
+          "label": "t:sections.comparison-table.blocks.detail_modal.settings.row_title.label"
+        },
+        {
+          "type": "text",
+          "id": "row_value",
+          "label": "t:sections.comparison-table.blocks.detail_modal.settings.row_value.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.comparison-table.blocks.detail_modal.settings.header__modal_style.content"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "t:sections.comparison-table.blocks.detail_modal.settings.color.label",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "t:sections.comparison-table.blocks.detail_modal.settings.background_color.label",
+          "default": "#A5CCFB"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.comparison-table.blocks.detail_modal.settings.header__modal_content.content"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:sections.comparison-table.blocks.detail_modal.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "t:sections.comparison-table.blocks.detail_modal.settings.description.label"
+        },
+        {
+          "type": "video_url",
+          "id": "video_url",
+          "accept": ["youtube", "vimeo"],
+          "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+          "label": "t:sections.comparison-table.blocks.detail_modal.settings.video_url.label",
+          "info": "t:sections.comparison-table.blocks.detail_modal.settings.video_url.info"
+        },
+        {
+          "type": "richtext",
+          "id": "link_text",
+          "label": "t:sections.comparison-table.blocks.detail_modal.settings.link_text.label"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "t:sections.comparison-table.blocks.detail_modal.settings.link_url.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.comparison-table.presets.name",
+      "blocks": [
+      ]
+    }
+  ]
+}
+{% endschema %}
