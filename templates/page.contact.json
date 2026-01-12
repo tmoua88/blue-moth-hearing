@@ -87,8 +87,8 @@
             "image_size": "16/9",
             "icon": "none",
             "heading": "Sales",
-            "text": "<a href=\"mailto:sales@@launchsquad.com\" title=\"mailto:sales@bluemothhearing.com\">sales@bluemothhearing.com</a>",
-            "expanded_text": "",
+            "text": "",
+            "expanded_text": "<p><a href=\"mailto:sales@@launchsquad.com\" title=\"mailto:sales@bluemothhearing.com\">sales@bluemothhearing.com</a></p>",
             "button_label": "",
             "button_link": "",
             "button_dot": true,
@@ -103,8 +103,8 @@
             "image_size": "16/9",
             "icon": "none",
             "heading": "Press",
-            "text": "<a href=\"mailto:bluemoth@launchsquad.com\" title=\"mailto:marketingteam@bluemothhearing.com\">marketingteam@bluemothhearing.com</a>",
-            "expanded_text": "",
+            "text": "",
+            "expanded_text": "<p><a href=\"mailto:bluemoth@launchsquad.com\" title=\"mailto:marketingteam@bluemothhearing.com\">marketingteam@bluemothhearing.com</a></p>",
             "button_label": "",
             "button_link": "",
             "button_dot": true,
@@ -119,7 +119,7 @@
         "column_6Uj4JE"
       ],
       "custom_css": [
-        ".richtext__content, a, p {font-size: 1.2rem;}"
+        ".richtext__content,a,p {font-size: 1.2rem;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
