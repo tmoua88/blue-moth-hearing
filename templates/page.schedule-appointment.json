@@ -351,7 +351,7 @@
       "type": "image-with-text",
       "custom_css": [
         "img {border-radius: 6px;}",
-        ".spaced-section {background: #4D4D4D;}"
+        ".spaced-section {background: #313d47;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
