@@ -349,6 +349,10 @@
     },
     "image_with_text_7ENUGh": {
       "type": "image-with-text",
+      "custom_css": [
+        "img {border-radius: 6px;}",
+        ".spaced-section {background: #4D4D4D;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "color_scheme": "background-3",
