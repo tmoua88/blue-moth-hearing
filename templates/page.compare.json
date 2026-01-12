@@ -567,6 +567,48 @@
             "link_text": "",
             "link_url": ""
           }
+        },
+        "detail_modal_M4qLzd": {
+          "type": "detail_modal",
+          "settings": {
+            "row_title": "Background noise reduction",
+            "row_value": "SpeechEnhancer IE",
+            "color": "#000000",
+            "background_color": "#a5ccfb",
+            "heading": "SpeechEnhancer IE",
+            "description": "<p>The InterEar Speech Enhancer, a cutting-edge feature in the latest Widex hearing aids, is designed to address one of the most challenging hearing situations: understanding speech in noisy environments. By coordinating the two hearing aids, this technology can pinpoint and isolate the dominant speaker, ensuring that their voice stands out clearly amidst background noise. Unlike conventional noise reduction systems that often mute low frequencies, potentially affecting speech clarity, the InterEar Speech Enhancer reduces noise below the hearing threshold while enhancing the speech frequencies with precise gain adjustments. This approach prioritizes exceptional speech intelligibility, allowing users to engage in conversations with greater ease and clarity, even in the most challenging auditory environments. Experience enhanced communication and superior clarity with the InterEar Speech Enhancer.</p>",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "detail_modal_j7UbBq": {
+          "type": "detail_modal",
+          "settings": {
+            "row_title": "Background noise reduction",
+            "row_value": "SpeechEnhancer RT/IE",
+            "color": "#000000",
+            "background_color": "#a5ccfb",
+            "heading": "SpeechEnhancer RT/IE",
+            "description": "<p>Experience the future of hearing technology with SpeechEnhancer RT/IE, designed to revolutionize how you perceive conversations. This cutting-edge feature is meticulously engineered to prioritize speech clarity, enabling you to enjoy crystal-clear dialogues even in the most challenging listening environments. SpeechEnhancer RT/IE utilizes advanced algorithms to filter out background noise while amplifying the subtle nuances of speech, ensuring that every word is delivered with unparalleled precision.</p><p>Whether you're in a bustling restaurant, a crowded meeting, or a lively family gathering, SpeechEnhancer RT/IE adapts in real-time to the surrounding soundscape. This dynamic adjustment allows you to focus effortlessly on the speaker, providing an exceptional listening experience that minimizes listening fatigue. With SpeechEnhancer RT/IE, you can engage in conversations with confidence, knowing that you won't miss a single word. Embrace the clarity and enjoy the enhanced quality of life that comes with SpeechEnhancer RT/IE.</p>",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "detail_modal_E9pNfp": {
+          "type": "detail_modal",
+          "settings": {
+            "row_title": "Speech clarity",
+            "row_value": "SpeechEnhancer RT/IE",
+            "color": "#000000",
+            "background_color": "#a5ccfb",
+            "heading": "SpeechEnhancer RT/IE",
+            "description": "<p>Experience the future of hearing technology with SpeechEnhancer RT/IE, designed to revolutionize how you perceive conversations. This cutting-edge feature is meticulously engineered to prioritize speech clarity, enabling you to enjoy crystal-clear dialogues even in the most challenging listening environments. SpeechEnhancer RT/IE utilizes advanced algorithms to filter out background noise while amplifying the subtle nuances of speech, ensuring that every word is delivered with unparalleled precision.</p><p>Whether you're in a bustling restaurant, a crowded meeting, or a lively family gathering, SpeechEnhancer RT/IE adapts in real-time to the surrounding soundscape. This dynamic adjustment allows you to focus effortlessly on the speaker, providing an exceptional listening experience that minimizes listening fatigue. With SpeechEnhancer RT/IE, you can engage in conversations with confidence, knowing that you won't miss a single word. Embrace the clarity and enjoy the enhanced quality of life that comes with SpeechEnhancer RT/IE.</p><p>Whether you're in a bustling restaurant, a crowded meeting, or a lively family gathering, SpeechEnhancer RT/IE adapts in real-time to the surrounding soundscape. This dynamic adjustment allows you to focus effortlessly on the speaker, providing an exceptional listening experience that minimizes listening fatigue. With SpeechEnhancer RT/IE, you can engage in conversations with confidence, knowing that you won't miss a single word. Embrace the clarity and enjoy the enhanced quality of life that comes with SpeechEnhancer RT/IE.</p>",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "link_text": "",
+            "link_url": ""
+          }
         }
       },
       "block_order": [
@@ -613,7 +655,10 @@
         "detail_modal_cVAW7i",
         "detail_modal_zRXnJk",
         "detail_modal_XhbehX",
-        "detail_modal_BFHPxr"
+        "detail_modal_BFHPxr",
+        "detail_modal_M4qLzd",
+        "detail_modal_j7UbBq",
+        "detail_modal_E9pNfp"
       ],
       "name": "Comparison Table",
       "settings": {
