@@ -263,12 +263,15 @@
         "column_EVnTEB",
         "column_dryjJh"
       ],
+      "custom_css": [
+        ".section-header__title {color: #FFF}"
+      ],
       "name": "t:sections.brand-image.presets.name",
       "settings": {
         "layout": "static",
         "section_heading": "Featured On",
         "heading_tag": "h2",
-        "section_heading_size": "h3",
+        "section_heading_size": "h2",
         "subheading": "",
         "dot": false,
         "line": false,
