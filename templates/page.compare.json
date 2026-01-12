@@ -119,6 +119,72 @@
             "metafield_namespace": "compare",
             "metafield_key": "battery_life_hours_"
           }
+        },
+        "row_iMKrer": {
+          "type": "row",
+          "settings": {
+            "title": "Battery life with streaming (hours)",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "battery_life_with_streaming_hours_"
+          }
+        },
+        "row_GJgiYE": {
+          "type": "row",
+          "settings": {
+            "title": "Channels",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "channels"
+          }
+        },
+        "heading_MEnbY6": {
+          "type": "heading",
+          "settings": {
+            "title": "Features"
+          }
+        },
+        "row_JzUqbb": {
+          "type": "row",
+          "settings": {
+            "title": "Hands-free calling",
+            "type": "metafield",
+            "value_type": "boolean",
+            "metafield_namespace": "compare",
+            "metafield_key": "hands_free_calling"
+          }
+        },
+        "row_DxUp9P": {
+          "type": "row",
+          "settings": {
+            "title": "Tinnitus relief",
+            "type": "metafield",
+            "value_type": "boolean",
+            "metafield_namespace": "compare",
+            "metafield_key": "tinnitus_relief"
+          }
+        },
+        "row_BNpDKT": {
+          "type": "row",
+          "settings": {
+            "title": "Programs",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "programs"
+          }
+        },
+        "row_rLMmXg": {
+          "type": "row",
+          "settings": {
+            "title": "Environmental adaptation",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "environmental_adaptation"
+          }
         }
       },
       "block_order": [
@@ -129,7 +195,14 @@
         "heading_3jbchW",
         "row_jBGaCE",
         "row_nL8GWj",
-        "row_fE7y6Y"
+        "row_fE7y6Y",
+        "row_iMKrer",
+        "row_GJgiYE",
+        "heading_MEnbY6",
+        "row_JzUqbb",
+        "row_DxUp9P",
+        "row_BNpDKT",
+        "row_rLMmXg"
       ],
       "name": "Comparison Table",
       "settings": {
