@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         "h1 {text-align: center;}"
       ],
@@ -19,6 +20,25 @@
         "heading_size": "h1",
         "margin_top": "xs",
         "margin_bottom": "xs"
+      }
+    },
+    "rich_text_YLtBwp": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_layout": "column",
+        "subheading": "Free audiology appointment",
+        "heading": "{{ page.title }}",
+        "section_heading_tag": "h1",
+        "heading_size": "h2",
+        "dot": false,
+        "text": "<p>Take the first step toward personalized hearing care with BLUEMOTH. Our <strong>free 15-minute virtual appointment</strong> <strong>with a hearing care specialist</strong> makes it easy to explore your options, address concerns, and learn more about your hearing.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": false,
+        "margin_top": "s",
+        "margin_bottom": "s"
       }
     },
     "custom_liquid_XmFqig": {
@@ -103,6 +123,7 @@
         "column_U6t4RF",
         "column_NWYanr"
       ],
+      "disabled": true,
       "name": "Degrees of hearing loss",
       "settings": {
         "color_scheme": "",
@@ -326,18 +347,21 @@
         "margin_bottom": "no-indent"
       }
     },
-    "rich_text_YLtBwp": {
-      "type": "rich-text",
-      "name": "t:sections.rich-text.presets.name",
+    "image_with_text_7ENUGh": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "section_layout": "row",
-        "subheading": "Here can be a brief introduction",
-        "heading": "Introduction to the Topic",
-        "section_heading_tag": "h2",
-        "heading_size": "h2",
+        "color_scheme": "",
+        "image_position": "image_left",
+        "content_alignment": "left",
+        "image_size": "1/1",
+        "subheading": "Brief intro to the image content",
         "dot": true,
-        "text": "<p>Enter a brief description or message for this section. This text will help convey important information to your users.</p>",
-        "button_label": "Call for action",
+        "heading": "Here can be your title",
+        "section_heading_tag": "h2",
+        "heading_size": "h1",
+        "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
+        "button_label": "Discover Why",
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
@@ -348,12 +372,13 @@
   },
   "order": [
     "main",
+    "rich_text_YLtBwp",
     "custom_liquid_XmFqig",
     "multicolumn_jpkVdr",
     "image_with_text_4px9Ni",
     "image_with_text_beP4T9",
     "multicolumn_NakiYf",
     "multicolumn_eq44QQ",
-    "rich_text_YLtBwp"
+    "image_with_text_7ENUGh"
   ]
 }
