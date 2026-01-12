@@ -445,13 +445,13 @@
         "detail_modal_mnCFTY": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Natural Sound",
+            "row_value": "Own Voice Processing 2.0 SpeechStabilizer",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "heading": "Own Voice Processing 2.0",
+            "description": "<p>OVP™ 2.0 uses advanced real-time recognition to deliver a natural and pleasant own-voice experience. This innovative technology seamlessly differentiates the wearer’s voice from other sounds, allowing for an accurate and comfortable auditory experience. By identifying and processing the user's voice separately from external sounds, OVP™ 2.0 minimizes the distortion and artificial sound quality often associated with hearing aids. This leads to a more natural perception of one's own voice, enhancing the overall satisfaction and ease of communication for the wearer. Perfect for anyone looking to maintain the authenticity of their voice while benefiting from the latest hearing aid technology, OVP™ 2.0 is a game-changer in the realm of auditory assistance.</p>",
+            "video_url": "https://www.youtube.com/watch?v=s-btye8Kbfc",
             "link_text": "",
             "link_url": ""
           }
@@ -459,12 +459,12 @@
         "detail_modal_q3HJQe": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Telecoil",
+            "row_value": "Pure TIX Version",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Pure TIX Version",
+            "description": "<p>The Signia Pure Charge & Go TIX hearing aids come equipped with an advanced telecoil feature, enhancing the user's listening experience in various public spaces. The telecoil, also known as T-coil, allows users to directly receive sound signals from compatible hearing loop systems commonly found in theaters, churches, lecture halls, and other public venues. This direct connection significantly improves sound clarity and reduces background noise, making it easier for users to hear speeches, performances, and other important audio clearly. With the telecoil feature, the Signia Pure Charge & Go IX ensures that users stay connected and engaged in any environment.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -473,12 +473,12 @@
         "detail_modal_9N7h44": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Natural sound",
+            "row_value": "SpeechStabilizer",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "SpeechStabilizer",
+            "description": "<p>SpeechStabilizer technology ensures that the natural envelope of speech is preserved, even in the most challenging listening environments. By maintaining the subtle acoustic cues essential for speech understanding, SpeechStabilizer allows wearers to experience clear and natural conversations in any situation, including very noisy settings. This advanced feature works seamlessly to differentiate and enhance speech sounds while minimizing background noise, providing a balanced auditory experience. Whether in a bustling restaurant or a crowded street, SpeechStabilizer delivers reliable and comfortable speech comprehension, making it an invaluable asset for anyone seeking to improve their hearing capabilities without compromising the natural quality of spoken words.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -487,12 +487,12 @@
         "detail_modal_8QrLaX": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Environmental adaptation",
+            "row_value": "Sound Manager",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Sound Manager",
+            "description": "<p>Sound Manager enhances hearing aid functionality with tailored features based on technology tiers and patient preferences. It offers customizable adjustments for Sound Enhancement, Situational Sound Management, and Directionality per memory. Sound Enhancement includes Speech in Loud Noise, which reduces background noise while enhancing speech clarity; Speech in Noise, reducing listening effort in noisy environments; and Quiet, minimizing low-level noise for comfort. Situational Sound Management features Transients, attenuating sudden loud noises without distortion; Wind, reducing wind noise discomfort; Machine, minimizing loud, steady-state noise; and Auto Music, which automatically adjusts for optimal music listening. Directionality options include Adaptive, protecting speech from all angles; Dynamic, switching between omnidirectional and fixed directional modes; Directional, amplifying sound from the front; and Omni, amplifying sound equally from all directions. Additional features, such as Immersion Directionality and Directionality Plus, enhance directional performance, while Switching offers customizable speed for directional mode switching. Maximize your hearing aid's potential with Sound Manager for a personalized, superior listening experience.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -501,13 +501,13 @@
         "detail_modal_xfMWJf": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Natural sound",
+            "row_value": "PureSound with ZeroDelay",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "heading": "PureSound with ZeroDelay",
+            "description": "<p>PureSound™ with ZeroDelay™ technology delivers an unprecedented natural sound experience for individuals with mild-to-moderate hearing loss, especially those using open or vented fittings. By reducing processing delay to below 0.5 ms, it eliminates the comb-filter effect, a major contributor to artificial sound quality. This innovation ensures that the amplified sound perfectly matches the direct sound entering the ear, resulting in a transparent and natural listening experience. With PureSound™, users can enjoy a pure, uncompromised sound that enhances speech understanding and overall hearing satisfaction. Discover the most natural sound with Widex PureSound™ with ZeroDelay™.</p>",
+            "video_url": "https://www.youtube.com/watch?v=hKo3QMcby4w",
             "link_text": "",
             "link_url": ""
           }
@@ -515,13 +515,13 @@
         "detail_modal_cVAW7i": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Echo Reduction",
+            "row_value": "PureSound with ZeroDelay",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "heading": "PureSound with ZeroDelay",
+            "description": "<p>PureSound™ with ZeroDelay™ technology delivers an unprecedented natural sound experience for individuals with mild-to-moderate hearing loss, especially those using open or vented fittings. By reducing processing delay to below 0.5 ms, it eliminates the comb-filter effect, a major contributor to artificial sound quality. This innovation ensures that the amplified sound perfectly matches the direct sound entering the ear, resulting in a transparent and natural listening experience. With PureSound™, users can enjoy a pure, uncompromised sound that enhances speech understanding and overall hearing satisfaction. Discover the most natural sound with Widex PureSound™ with ZeroDelay™.</p>",
+            "video_url": "https://www.youtube.com/watch?v=hKo3QMcby4w",
             "link_text": "",
             "link_url": ""
           }
@@ -529,12 +529,12 @@
         "detail_modal_zRXnJk": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Wind noise reduction",
+            "row_value": "Smartwind Manager",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "SMARTWIND Manager™",
+            "description": "<p>SMARTWIND Manager™ features the best wind noise algorithm in the industry. Utilizing active two-microphone Wind Noise Attenuation and adaptive filtering, it analyzes sound from both microphones in each hearing aid to determine wind noise characteristics and subtracts them from the signal while preserving other sounds. Studies show that SMARTWIND Manager™ significantly reduces wind noise annoyance and improves speech understanding, with a remarkable 30% improvement in phoneme identification at normal conversational speech levels. Enjoy clear, comfortable hearing even in the windiest conditions with SMARTWIND Manager™.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -543,12 +543,12 @@
         "detail_modal_XhbehX": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Environmental adaptation",
+            "row_value": "SoundSense Adapt",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "SoundSense Adapt",
+            "description": "<p>An advanced technology designed to adapt to your unique listening preferences. This cutting-edge adaptive learning system gradually remembers and adjusts to your preferred settings across multiple parameters, ensuring an optimal hearing experience tailored specifically to you. Whether you're in a quiet room, a bustling city street, or a lively social gathering, SoundSense Adapt fine-tunes the sound environment to suit your needs. By continuously learning from your choices and habits, it delivers better sound quality and clarity, making every listening experience more enjoyable and effortless. With SoundSense Adapt, you can enjoy seamless transitions between different environments, knowing that your hearing aids are always providing the best possible sound tailored to your individual preferences. Say goodbye to manual adjustments and hello to a world of personalized, adaptive hearing with SoundSense Adapt.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -557,12 +557,12 @@
         "detail_modal_BFHPxr": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Speech clarity",
+            "row_value": "SpeechEnhancer IE",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "SpeechEnhancer IE",
+            "description": "<p>The InterEar Speech Enhancer, a cutting-edge feature in the latest Widex hearing aids, is designed to address one of the most challenging hearing situations: understanding speech in noisy environments. By coordinating the two hearing aids, this technology can pinpoint and isolate the dominant speaker, ensuring that their voice stands out clearly amidst background noise. Unlike conventional noise reduction systems that often mute low frequencies, potentially affecting speech clarity, the InterEar Speech Enhancer reduces noise below the hearing threshold while enhancing the speech frequencies with precise gain adjustments. This approach prioritizes exceptional speech intelligibility, allowing users to engage in conversations with greater ease and clarity, even in the most challenging auditory environments. Experience enhanced communication and superior clarity with the InterEar Speech Enhancer.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
