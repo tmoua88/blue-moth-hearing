@@ -269,7 +269,7 @@
       ],
       "name": "t:sections.brand-image.presets.name",
       "settings": {
-        "layout": "horizontal-carousel",
+        "layout": "static",
         "section_heading": "Featured On",
         "heading_tag": "h2",
         "section_heading_size": "h2",
