@@ -288,6 +288,20 @@
             "link_url": ""
           }
         },
+        "detail_modal_Ej3k8e": {
+          "type": "detail_modal",
+          "settings": {
+            "row_title": "Natural sound",
+            "row_value": "Phonak AutoSense OS 5.0 Natural Sound",
+            "color": "#000000",
+            "background_color": "#a5ccfb",
+            "heading": "Phonak AutoSense OS 5.0 Natural Sound",
+            "description": "<p>Phonak AutoSense OS 5.0 offers an exceptional hearing experience by providing natural sound in any environment. This advanced technology uses artificial intelligence to automatically analyze and adapt to various soundscapes, from quiet settings to dynamic, noisy environments. By intelligently adjusting the hearing aid settings, AutoSense OS 5.0 ensures clear, balanced sound that feels natural and effortless. Whether you're in a serene room or a bustling café, enjoy uninterrupted and true-to-life audio with AutoSense OS 5.0.</p>",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "link_text": "<p>AutoSense OS™: 3 real-world problems it solves | Audiology Blog</p>",
+            "link_url": ""
+          }
+        },
         "detail_modal_dbC8NN": {
           "type": "detail_modal",
           "settings": {
@@ -636,6 +650,7 @@
         "detail_modal_HDaERC",
         "detail_modal_TeUyE8",
         "detail_modal_VtPawa",
+        "detail_modal_Ej3k8e",
         "detail_modal_dbC8NN",
         "detail_modal_eHcwWM",
         "detail_modal_iUnnfp",
