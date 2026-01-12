@@ -123,7 +123,7 @@
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-3",
         "section_heading": "Reach us directly",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
@@ -135,8 +135,8 @@
         "swipe_on_mobile": false,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
-        "margin_top": "no-indent",
-        "margin_bottom": "m"
+        "margin_top": "s",
+        "margin_bottom": "s"
       }
     },
     "multicolumn_BitaCU": {
