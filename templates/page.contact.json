@@ -119,7 +119,7 @@
         "column_6Uj4JE"
       ],
       "custom_css": [
-        ".richtext__content {font-size: 1.2rem;}"
+        ".richtext__content, a, p {font-size: 1.2rem;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
