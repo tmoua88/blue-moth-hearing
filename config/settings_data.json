@@ -47,6 +47,8 @@
     "cart_drawer_subtitle": "",
     "cart_drawer_empty_subtitle": "",
     "cart_show_vendor": false,
+    "call_button_link": "shopify://pages/schedule-a-free-consultation",
+    "call_number_text": "1 (855) 496-2766",
     "currency_code_enabled": false,
     "show_back_to_top": false,
     "enable_breadcrumbs": false,
