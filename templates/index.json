@@ -264,7 +264,8 @@
         "column_dryjJh"
       ],
       "custom_css": [
-        ".section-header__title {color: #FFF}"
+        ".spaced-section {background: #000;}",
+        ".section-header__title {color: #fff;}"
       ],
       "name": "t:sections.brand-image.presets.name",
       "settings": {
