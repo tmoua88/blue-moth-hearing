@@ -43,7 +43,7 @@
             "text": "<p>We believe you should try out incredible hearing tech in your real life. Be it around the house, in a meeting, a crowded restaurant, or at a monster truck rally.</p><p>You do you. You know you.</p>",
             "text_width": "large",
             "button_label": "Book a free consultation",
-            "button_link": "shopify://pages/terms",
+            "button_link": "/pages/hearing-loss?view=hearing-loss",
             "button_dot": false,
             "button_style": "secondary",
             "overlay_enable": true,
