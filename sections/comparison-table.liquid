@@ -81,15 +81,15 @@
   "
 >
   <div class="comparison-inner">
-    <div class="comparison-breadcrumb">
+    {% comment %} <div class="comparison-breadcrumb">
       <a
         href="{{ back_url }}"
         class="comparison-breadcrumb__link link js-comparison-back-trigger"
       >
-        {% comment %} {%- render 'icon' with 'arrow-left-short' -%} {% endcomment %}
-        {% comment %} <span class="text">{{- 'general.breadcrumbs.back' | t -}}</span> {% endcomment %}
+        {%- render 'icon' with 'arrow-left-short' -%}
+        <span class="text">{{- 'general.breadcrumbs.back' | t -}}</span>
       </a>
-    </div>
+    </div> {% endcomment %}
     <h2 class="comparison-title">
       {{- section.settings.title -}}
     </h2>
