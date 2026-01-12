@@ -46,7 +46,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<iframe src=\"https://api.leadconnectorhq.com/widget/booking/g7NDEW2Tc7iT1fCHUspj\" style=\"width: 100%;border:none;overflow: hidden;\" scrolling=\"no\" id=\"g7NDEW2Tc7iT1fCHUspj_1764960047540\"></iframe><br><script src=\"https://link.msgsndr.com/js/form_embed.js\" type=\"text/javascript\"></script>"
+        "custom_liquid": "<div class=\"container\">\n<iframe src=\"https://api.leadconnectorhq.com/widget/booking/g7NDEW2Tc7iT1fCHUspj\" style=\"width: 100%;border:none;overflow: hidden;\" scrolling=\"no\" id=\"g7NDEW2Tc7iT1fCHUspj_1764960047540\"></iframe><br><script src=\"https://link.msgsndr.com/js/form_embed.js\" type=\"text/javascript\"></script>\n</div>"
       }
     },
     "multicolumn_jpkVdr": {
