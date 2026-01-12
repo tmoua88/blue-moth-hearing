@@ -264,7 +264,7 @@
         "column_dryjJh"
       ],
       "custom_css": [
-        ".spaced-section {background: #000;}",
+        ".spaced-section {background: #313d47;}",
         ".section-header__title {color: #fff; text-align: center;}",
         ".brand-list {justify-content: center;}"
       ],
