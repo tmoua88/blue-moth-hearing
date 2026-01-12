@@ -232,6 +232,7 @@
         "column_ji37jK",
         "column_KKq9Ej"
       ],
+      "disabled": true,
       "name": "Guided Solutions",
       "settings": {
         "color_scheme": "",
@@ -250,46 +251,79 @@
         "margin_bottom": "no-indent"
       }
     },
-    "multicolumn_F3gURG": {
+    "multicolumn_eq44QQ": {
       "type": "multicolumn",
       "blocks": {
-        "column_Xw9tcn": {
+        "column_bjUfKm": {
           "type": "column",
-          "name": "Button",
           "settings": {
-            "image_width": "full",
+            "image_width": "icon",
             "image_size": "16/9",
-            "icon": "none",
-            "heading": "",
-            "text": "",
+            "icon": "globe",
+            "heading": "Discuss your needs",
+            "text": "Share your hearing or tinnitus goals, challenges, or any concerns with our expert providers.",
             "expanded_text": "",
-            "button_label": "Get started",
+            "button_label": "",
             "button_link": "",
-            "button_dot": true,
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_BiLLbY": {
+          "type": "column",
+          "settings": {
+            "image_width": "icon",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Explore testing options",
+            "text": "Learn about our at-home hearing test and how it fits into your hearing care journey.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_wqYRiJ": {
+          "type": "column",
+          "settings": {
+            "image_width": "icon",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Personalized recommendations",
+            "text": "Receive tailored solutions that suit your lifestyle and budget.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
             "button_style": "primary",
             "full_link": false
           }
         }
       },
       "block_order": [
-        "column_Xw9tcn"
+        "column_bjUfKm",
+        "column_BiLLbY",
+        "column_wqYRiJ"
       ],
-      "name": "Multicolumn",
+      "name": "What to expect",
       "settings": {
-        "color_scheme": "background-1",
-        "section_heading": "",
+        "color_scheme": "",
+        "section_heading": "What to expect at your appointment",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
-        "subheading": "",
-        "dot": true,
-        "columns_per_row": 1,
+        "subheading": "We're here to help you hear better. Better.",
+        "dot": false,
+        "columns_per_row": 3,
         "content_alignment": "center",
         "swipe_on_mobile": true,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
-        "margin_top": "no-indent",
-        "margin_bottom": "m"
+        "margin_top": "s",
+        "margin_bottom": "no-indent"
       }
     },
     "rich_text_YLtBwp": {
@@ -319,7 +353,7 @@
     "image_with_text_4px9Ni",
     "image_with_text_beP4T9",
     "multicolumn_NakiYf",
-    "multicolumn_F3gURG",
+    "multicolumn_eq44QQ",
     "rich_text_YLtBwp"
   ]
 }
