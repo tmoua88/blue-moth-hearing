@@ -11,12 +11,14 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
       "settings": {
         "section_heading_tag": "h1",
-        "heading_size": "h3",
-        "margin_top": "no-indent",
-        "margin_bottom": "m"
+        "heading_size": "h1",
+        "margin_top": "xs",
+        "margin_bottom": "xs"
       }
     },
     "custom_liquid_XmFqig": {
@@ -288,6 +290,25 @@
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
+    },
+    "rich_text_YLtBwp": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_layout": "row",
+        "subheading": "Here can be a brief introduction",
+        "heading": "Introduction to the Topic",
+        "section_heading_tag": "h2",
+        "heading_size": "h2",
+        "dot": true,
+        "text": "<p>Enter a brief description or message for this section. This text will help convey important information to your users.</p>",
+        "button_label": "Call for action",
+        "button_link": "",
+        "button_style": "primary",
+        "button_dot": true,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
@@ -297,6 +318,7 @@
     "image_with_text_4px9Ni",
     "image_with_text_beP4T9",
     "multicolumn_NakiYf",
-    "multicolumn_F3gURG"
+    "multicolumn_F3gURG",
+    "rich_text_YLtBwp"
   ]
 }
