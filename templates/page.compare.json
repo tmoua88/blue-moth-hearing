@@ -347,12 +347,12 @@
         "detail_modal_zLcmc9": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Echo Reduction",
+            "row_value": "Auto EchoShield",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Auto EchoShield",
+            "description": "<p>Auto EchoShield is designed to automatically mitigate the effects of reverberations and sudden loud noises, ensuring a comfortable listening experience in reverberant environments. This innovative technology detects and reduces the impact of echo and abrupt sounds, such as clattering dishes or slamming doors, providing a clearer and more consistent auditory experience. By seamlessly adjusting to the acoustic characteristics of any environment, Auto EchoShield helps maintain speech clarity and overall sound quality, making it easier for users to engage in conversations and enjoy their surroundings. Ideal for use in places like large halls, churches, or bustling restaurants, Auto EchoShield enhances the listening experience, ensuring clarity and comfort no matter where you are.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -361,12 +361,12 @@
         "detail_modal_CjqykY": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Speech clarity",
+            "row_value": "Binaural OneMic Directionality 2.0",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Binaural OneMic Directionality 2.0",
+            "description": "<p>Binaural OneMic Directionality 2.0 is a state-of-the-art technology designed to significantly improve speech clarity. Each hearing aid features a single, highly sensitive microphone that captures sound from all directions, then intelligently isolates and enhances speech signals. By applying advanced signal processing algorithms, this system reduces background noise and minimizes distortions, ensuring that conversations are crisp and easy to understand.</p><p>The technology adjusts in real-time to varying acoustic environments, whether you're in a quiet room or a bustling public space. It prioritizes the voice of the person speaking directly in front of you while suppressing irrelevant sounds from other directions. This results in a more focused and natural hearing experience, allowing you to follow conversations with greater ease and confidence.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -375,12 +375,12 @@
         "detail_modal_PWXPbc": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Background noise reduction",
+            "row_value": "Conversation Dynamics Analyzer",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Conversation Dynamics Analyzer",
+            "description": "<p>The Conversation Dynamics Analyzer is a cutting-edge tool designed to enhance communication clarity by focusing on background noise reduction. This innovative analyzer meticulously examines conversation dynamics, including turn-taking and timing, while identifying and minimizing pure noise and background interference. By leveraging advanced signal processing algorithms, it isolates speech from environmental disturbances such as traffic, chatter, and machinery, ensuring that every word is captured with precision.</p><p>The tool's sophisticated noise reduction capabilities are ideal for various applications, including professional settings like conference calls and meetings, media production where audio quality is paramount, and everyday communication scenarios. By providing a clearer, more focused auditory experience, the Conversation Dynamics Analyzer allows for uninterrupted and effective exchanges, ensuring that important details are not lost in the noise.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -389,12 +389,12 @@
         "detail_modal_qjAwRa": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Environmental adaptation",
+            "row_value": "Dynamic Soundscape Processing 3.0",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Dynamic Soundscape Processing",
+            "description": "<p>Dynamic Soundscape Processing 3.0 is a state-of-the-art technology designed to optimize hearing aids by integrating multiple advanced inputs. It features acoustic sensors that continuously monitor the surrounding environment to capture a wide range of sound frequencies, and noise detection that identifies and filters out background noise to enhance speech clarity. Additionally, Signal-to-Noise Ratio (SNR) analysis measures the ratio of desired sounds to background noise, ensuring optimal amplification for speech sounds while reducing unwanted noise. By providing real-time adjustments, this technology offers users a seamless and natural listening experience, adapting effortlessly to various environments.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
