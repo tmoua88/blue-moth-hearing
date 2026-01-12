@@ -69,6 +69,7 @@ body.has-comparison-bar {
   padding: 0.7rem;
   width: 2.4rem;
   height: 2.4rem;
+  background: none;
 }
 
 .comparison-bar__product-inner {
