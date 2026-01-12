@@ -267,7 +267,7 @@
             "row_value": "",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
+            "heading": "15 - Widex PureSound™ with ZeroDelay™ Technology",
             "description": "<p>ZeroDelay Technology eradicates the delay-based distortion that leads to the unpleasant and artificial sound often associated with hearing aids. The vital component of ZeroDelay is the new ultrafast signal pathway that reduces the processing delay between microphone and receiver to below 0.5 milliseconds to overcome artificial sound</p><p>We call this new sound experience Widex PureSound™.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
@@ -277,12 +277,12 @@
         "detail_modal_VtPawa": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Natural sound",
+            "row_value": "AutoSense OS 5.0",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Phonak AutoSense OS 5.0",
+            "description": "<p>Phonak AutoSense OS 5.0 is an advanced hearing aid technology designed to seamlessly adapt to changing sound environments. Utilizing artificial intelligence, it automatically detects and adjusts settings for optimal hearing in various situations, ensuring clear and natural sound. Experience effortless hearing with Phonak's most sophisticated sound processing system.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
