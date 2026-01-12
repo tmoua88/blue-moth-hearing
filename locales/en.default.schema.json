@@ -627,6 +627,26 @@
 				}
 			}
 		},
+		"call_for_pricing": {
+			"name": "Call for pricing",
+			"settings": {
+				"header__call": {
+					"content": "Call for pricing"
+				},
+				"call_button_text": {
+					"label": "Button text",
+					"info": "Displayed on product cards and product pages when the product price is not set."
+				},
+				"call_button_link": {
+					"label": "Button link",
+					"info": "Link to contact page or other page."
+				},
+				"call_number_text": {
+					"label": "Phone number",
+					"info": "Displayed next to the button."
+				}
+			}
+		},
 		"currency_format": {
 			"name": "Currency format",
 			"settings": {

@@ -1,0 +1,24 @@
+{%- liquid
+  capture contentForQuerystring
+    echo content_for_header
+  endcapture
+
+  assign page_url = contentForQuerystring | split:'"pageurl":"' | last | split:'"' | first | split:'.myshopify.com' | last | replace:'\/','/' | replace:'%20',' ' | replace:'\u0026','&'
+
+  assign param_value = ''
+  if page_url contains '?'
+    assign page_query_string = page_url | split:'?' | last
+    assign parts= page_query_string | split:'&'
+
+    for part in parts
+      assign key_value = part | split:'='
+      if key_value.size > 1 and key_value[0] == mod_param
+        assign param_value = key_value[1]
+      endif
+    endfor
+  endif
+
+  echo param_value
+
+  assign mod_param = nil
+-%}

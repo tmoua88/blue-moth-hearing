@@ -1625,6 +1625,33 @@
 		]
 	},
 	{
+		"name": "t:settings_schema.call_for_pricing.name",
+		"settings": [
+		{
+			"type": "header",
+			"content": "t:settings_schema.call_for_pricing.settings.header__call.content"
+		},
+		{
+			"type": "text",
+			"id": "call_button_text",
+			"label": "t:settings_schema.call_for_pricing.settings.call_button_text.label",
+			"default": "Call for Pricing"
+		},
+		{
+			"type": "url",
+			"id": "call_button_link",
+			"label": "t:settings_schema.call_for_pricing.settings.call_button_link.label",
+			"info": "t:settings_schema.call_for_pricing.settings.call_button_link.info"
+		},
+		{
+			"type": "text",
+			"id": "call_number_text",
+			"label": "t:settings_schema.call_for_pricing.settings.call_number_text.label",
+			"default": "123.456.7890"
+		}
+		]
+	},
+	{
 		"name": "t:settings_schema.currency_format.name",
 		"settings": [
 			{

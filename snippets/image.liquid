@@ -1,0 +1,56 @@
+{% liquid
+  assign image_aspect_ratio = image_aspect_ratio | default: image.aspect_ratio
+  assign width = width | default: image.width
+  assign default_height = width | divided_by: image_aspect_ratio | ceil
+  assign height = height | default: default_height
+%}
+
+{% if container %}
+<div
+  class="{{ container_class }} img relative"
+  {% unless disable_padding %}
+    style="--padding-top: {{ 1 | divided_by: image_aspect_ratio | times: 100 }}%;"
+  {% endunless %}
+  {% if attributes != blank %}
+    {{ attributes }}
+  {% endif %}
+>
+{% endif %}
+
+{%- assign image_widths = '75,120,160,180,240,320,480,640,768,990,1024,1280,1366,1440,1600,1920,2560' | split: ',' -%}
+
+<img {% if id %}id="{{ id }}"{% endif %} srcset="
+  {%- liquid
+    capture srcset_string
+      for image_width in image_widths
+        assign int_image_width = image_width | plus: 0
+        if image.width > int_image_width
+          echo image | image_url: width: int_image_width
+          echo ' ' | append: int_image_width | append: 'w'
+        endif
+
+        unless forloop.last
+          if int_image_width <= image.width
+            echo ','
+          endif
+        endunless
+      endfor
+
+      echo '[END_MARK]'
+    endcapture
+
+    echo srcset_string | replace: ',[END_MARK]', '' | replace: '[END_MARK]', ''
+  -%}"
+  sizes="{{ sizes }}"
+  src="{{ image | image_url: width: width }}"
+  {% unless disable_lazy %}
+    loading="lazy"
+  {% endunless %}
+  alt="{{ image.alt | escape }}"
+  width="{{ width }}"
+  height="{{ height }}"
+  {% if class != blank %}class="{{ class }}"{% endif %}
+>
+{% if container %}
+</div>
+{% endif %}
