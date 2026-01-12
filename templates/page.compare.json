@@ -249,26 +249,26 @@
         "detail_modal_HDaERC": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
+            "row_title": "Other general comparisons with Detail Modal",
             "row_value": "",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Widex PureSound™ with ZeroDelay™ Technology",
+            "description": "<p>ZeroDelay Technology eradicates the delay-based distortion that leads to the unpleasant and artificial sound often associated with hearing aids. The vital component of ZeroDelay is the new ultrafast signal pathway that reduces the processing delay between microphone and receiver to below 0.5 milliseconds to overcome artificial sound</p><p>We call this new sound experience Widex PureSound™.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "link_text": "",
-            "link_url": ""
+            "link_text": "<p>Learn more at widexpro.com</p>",
+            "link_url": "#"
           }
         },
         "detail_modal_TeUyE8": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
+            "row_title": "Other general comparisons with Details Modal - Value",
             "row_value": "",
             "color": "#000000",
             "background_color": "#a5ccfb",
             "heading": "",
-            "description": "",
+            "description": "<p>ZeroDelay Technology eradicates the delay-based distortion that leads to the unpleasant and artificial sound often associated with hearing aids. The vital component of ZeroDelay is the new ultrafast signal pathway that reduces the processing delay between microphone and receiver to below 0.5 milliseconds to overcome artificial sound</p><p>We call this new sound experience Widex PureSound™.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
