@@ -47,6 +47,39 @@
     },
     "comparison_table_z8i4tF": {
       "type": "comparison-table",
+      "blocks": {
+        "heading_NX8AYX": {
+          "type": "heading",
+          "settings": {
+            "title": "General"
+          }
+        },
+        "row_EJbLPq": {
+          "type": "row",
+          "settings": {
+            "title": "Price",
+            "type": "price",
+            "value_type": "price",
+            "metafield_namespace": "",
+            "metafield_key": ""
+          }
+        },
+        "row_QyKbG6": {
+          "type": "row",
+          "settings": {
+            "title": "Quick charging option",
+            "type": "metafield",
+            "value_type": "boolean",
+            "metafield_namespace": "compare",
+            "metafield_key": "quick_charging_options"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NX8AYX",
+        "row_EJbLPq",
+        "row_QyKbG6"
+      ],
       "name": "Comparison Table",
       "settings": {
         "empty_text": "",
@@ -54,7 +87,7 @@
         "empty_btn_url": "",
         "enable_animation": true,
         "color": "#000000",
-        "background_color": "#F2F2F2",
+        "background_color": "#f2f2f2",
         "title": "Collections",
         "disclaimer_text": ""
       }
