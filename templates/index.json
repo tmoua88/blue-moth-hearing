@@ -240,21 +240,21 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/forbes.png",
-            "image_width": 140
+            "image_width": 120
           }
         },
         "column_EVnTEB": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/clnet.png",
-            "image_width": 140
+            "image_width": 120
           }
         },
         "column_dryjJh": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/yahoo.png",
-            "image_width": 140
+            "image_width": 120
           }
         }
       },
