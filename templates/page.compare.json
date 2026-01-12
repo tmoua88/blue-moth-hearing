@@ -44,10 +44,25 @@
         "margin_top": "no-indent",
         "margin_bottom": "s"
       }
+    },
+    "comparison_table_z8i4tF": {
+      "type": "comparison-table",
+      "name": "Comparison Table",
+      "settings": {
+        "empty_text": "",
+        "empty_btn_text": "",
+        "empty_btn_url": "",
+        "enable_animation": true,
+        "color": "#000000",
+        "background_color": "#F2F2F2",
+        "title": "Collections",
+        "disclaimer_text": ""
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_4EVHDm"
+    "image_with_text_4EVHDm",
+    "comparison_table_z8i4tF"
   ]
 }
