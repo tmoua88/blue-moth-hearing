@@ -38,7 +38,7 @@
         "heading_size": "h1",
         "text": "<p>Whether you’re on Zoom, streaming music, or nodding yes to everything your friends are saying, even though you might unknowingly be agreeing to help them move—we want to make better hearing as easy as possible.</p>",
         "button_label": "Book a Free Consultation",
-        "button_link": "",
+        "button_link": "/pages/book-a-call?view=schedule-appointment",
         "button_style": "primary",
         "button_dot": false,
         "margin_top": "no-indent",
