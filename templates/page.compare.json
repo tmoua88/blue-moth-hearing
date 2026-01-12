@@ -403,12 +403,12 @@
         "detail_modal_KrNDVE": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Environmental adaptation",
+            "row_value": "AutoSense OS 5.0",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Phonak AutoSense OS 5.0",
+            "description": "<p>Phonak AutoSense OS 5.0 is an advanced hearing aid technology designed to seamlessly adapt to changing sound environments. Utilizing artificial intelligence, it automatically detects and adjusts settings for optimal hearing in various situations, ensuring clear and natural sound. Experience effortless hearing with Phonak's most sophisticated sound processing system.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -417,12 +417,12 @@
         "detail_modal_VbyT8U": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Wind noise reduction",
+            "row_value": "eWindScreen",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "eWindScreen™",
+            "description": "<p>The upgraded eWindScreen™ is designed to improve your outdoor listening experience by tackling wind noise more effectively. Traditional wind noise reduction can struggle with fluctuating and distracting noise, but this new technology introduces a fast-reacting wind smoothing algorithm.</p><p>It quickly adapts to wind changes, reducing not only the loudness of wind noise but also its annoying fluctuations. By smoothing out the sound in both ears, eWindScreen™ makes wind noise less noticeable and less disruptive. This enhancement helps you stay focused on conversations and activities, even in windy conditions.</p><p>With the upgraded eWindScreen™, you’ll enjoy a quieter and more comfortable outdoor experience, thanks to the latest advancements in wind noise reduction technology.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -431,12 +431,12 @@
         "detail_modal_EF9H9N": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Environmental adaptation",
+            "row_value": "Signia Integrated Experience",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Signia Integrated Xperience",
+            "description": "<p>Experience the future of hearing with Signia Integrated Xperience, designed to adapt seamlessly to your dynamic environment. This advanced technology processes 192,000 data points every second, understanding your surroundings and the people you're conversing with. It locks on and boosts voices against background noise, making 1,000 adjustments per second to keep you at the heart of every conversation. Unique to Signia, Own Voice Processing (OVP) 2.0 ensures your voice sounds natural and comfortable, enhancing social interactions and positively impacting mental well-being. Studies show that 78% of people chatted more with OVP turned on, contributing to better mental health. With Signia Integrated Xperience, enjoy natural, effortless conversations and stay connected to the people and moments that matter most. This adaptive hearing technology ensures you never miss a beat, even when you're not directly facing the speaker or turning your head to engage with others. Unleash the power of conversation with Signia Integrated Xperience, the hearing aid that truly adapts to your world.</p><p>Signia Integrated Xperience: The future of hearing aids | Signia Hearing Aids</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
