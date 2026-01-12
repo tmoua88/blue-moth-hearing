@@ -72,7 +72,7 @@
             "icon": "none",
             "heading": "General",
             "text": "",
-            "expanded_text": "<p><a href=\"mailto:hello@bluemothhearing.com\" title=\"mailto:hello@bluemothhearing.com\">hello@bluemothhearing.com </a></p><p>(855) 496-2766</p>",
+            "expanded_text": "<p><a href=\"mailto:hello@bluemothhearing.com\" title=\"mailto:hello@bluemothhearing.com\">hello@bluemothhearing.com </a></p><p><a href=\"tel:8554962766\">(855) 496-2766</a></p>",
             "button_label": "",
             "button_link": "",
             "button_dot": false,
