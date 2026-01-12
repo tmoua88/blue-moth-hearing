@@ -169,7 +169,7 @@
             "expanded_text": "",
             "button_label": "Company",
             "button_link": "",
-            "button_dot": true,
+            "button_dot": false,
             "button_style": "primary",
             "full_link": false
           }
