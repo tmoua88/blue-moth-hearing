@@ -239,7 +239,7 @@
         "column_HE3arr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/forbes.png",
+            "image": "shopify://shop_images/forbes-logo-black-and-white.png",
             "image_width": 120
           }
         },
