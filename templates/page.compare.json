@@ -291,12 +291,12 @@
         "detail_modal_dbC8NN": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Echo Reduction",
+            "row_value": "EchoBlock",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "EchoBlock",
+            "description": "<p>An innovative solution engineered to tackle echo and background noise in various acoustic settings. This advanced technology is particularly effective in environments with high levels of sound reflection, such as conference rooms or large public spaces. By intelligently analyzing and adjusting sound signals, Echoblock minimizes disruptive echoes and enhances speech clarity, ensuring a more natural and comfortable listening experience. Whether you're engaging in a professional meeting or enjoying a conversation with friends, Phonak Echoblock delivers unparalleled sound quality, allowing you to focus on what matters most. Experience clear, uninterrupted communication with Phonak Echoblock's state-of-the-art noise reduction capabilities.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -305,12 +305,12 @@
         "detail_modal_eHcwWM": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Background noise reduction",
+            "row_value": "NoiseBlock",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Phonak NoiseBlock",
+            "description": "<p>Phonak NoiseBlock is an advanced feature designed to minimize background noise and enhance speech clarity. By using sophisticated noise-canceling technology, it effectively identifies and reduces unwanted ambient sounds, allowing users to focus on conversations and key audio signals. This makes it particularly beneficial in noisy environments such as busy streets or crowded rooms, providing a more comfortable and clear listening experience. With NoiseBlock, you can enjoy improved speech understanding and less distraction from environmental noise.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -319,12 +319,12 @@
         "detail_modal_iUnnfp": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Wind noise reduction",
+            "row_value": "WindBlock",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Phonak WindBlock",
+            "description": "<p>Phonak WindBlock is a cutting-edge feature designed to minimize wind noise, ensuring clear and comfortable hearing outdoors. Utilizing advanced algorithms, it effectively detects and reduces wind interference, allowing users to enjoy conversations and ambient sounds without distraction. Perfect for outdoor activities, WindBlock enhances the listening experience by providing clearer sound and greater comfort, even in the windiest conditions.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
@@ -333,12 +333,12 @@
         "detail_modal_wirdKX": {
           "type": "detail_modal",
           "settings": {
-            "row_title": "",
-            "row_value": "",
+            "row_title": "Speech clarity",
+            "row_value": "Augmented Focus",
             "color": "#000000",
             "background_color": "#a5ccfb",
-            "heading": "",
-            "description": "",
+            "heading": "Augmented Focus™",
+            "description": "<p>Augmented Focus™ is a breakthrough hearing aid technology designed to enhance speech clarity in noisy environments. Utilizing split processing, it separates and independently processes speech and background noise using two distinct processors. One processor concentrates on speech, while the other manages surrounding sounds.</p><p>This separation allows for clearer contrast between speech and noise, resulting in significantly improved speech understanding. Research indicates that users experience up to 25% better speech comprehension in challenging settings compared to traditional hearing aids. Additionally, 95% of users reported exceptional speech clarity in their home environments. Augmented Focus™ provides a superior hearing experience by prioritizing speech clarity while maintaining situational awareness.</p>",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link_text": "",
             "link_url": ""
