@@ -232,12 +232,58 @@
         "margin_top": "s",
         "margin_bottom": "no-indent"
       }
+    },
+    "brand_image_yP6Pnq": {
+      "type": "brand-image",
+      "blocks": {
+        "column_HE3arr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/forbes.png",
+            "image_width": 140
+          }
+        },
+        "column_EVnTEB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/clnet.png",
+            "image_width": 140
+          }
+        },
+        "column_dryjJh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/yahoo.png",
+            "image_width": 140
+          }
+        }
+      },
+      "block_order": [
+        "column_HE3arr",
+        "column_EVnTEB",
+        "column_dryjJh"
+      ],
+      "name": "t:sections.brand-image.presets.name",
+      "settings": {
+        "layout": "static",
+        "section_heading": "Featured On",
+        "heading_tag": "h2",
+        "section_heading_size": "h3",
+        "subheading": "",
+        "dot": false,
+        "line": false,
+        "slideshow_speed": 5,
+        "slides_gap": 10,
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
     }
   },
   "order": [
     "image_banner_NqBGgg",
     "slideshow_HXHbtm",
     "image_with_text_nXBEVf",
-    "multicolumn_JXWTiw"
+    "multicolumn_JXWTiw",
+    "brand_image_yP6Pnq"
   ]
 }
