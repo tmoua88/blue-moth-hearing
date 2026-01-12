@@ -73,12 +73,63 @@
             "metafield_namespace": "compare",
             "metafield_key": "quick_charging_options"
           }
+        },
+        "row_h98bBJ": {
+          "type": "row",
+          "settings": {
+            "title": "Partner app",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "partner_app"
+          }
+        },
+        "heading_3jbchW": {
+          "type": "heading",
+          "settings": {
+            "title": "Performance"
+          }
+        },
+        "row_jBGaCE": {
+          "type": "row",
+          "settings": {
+            "title": "IP rating",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "ip_rating"
+          }
+        },
+        "row_nL8GWj": {
+          "type": "row",
+          "settings": {
+            "title": "Smartphone compatibility",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "smartphone_compatibility"
+          }
+        },
+        "row_fE7y6Y": {
+          "type": "row",
+          "settings": {
+            "title": "Battery life (hours)",
+            "type": "metafield",
+            "value_type": "text",
+            "metafield_namespace": "compare",
+            "metafield_key": "battery_life_hours_"
+          }
         }
       },
       "block_order": [
         "heading_NX8AYX",
         "row_EJbLPq",
-        "row_QyKbG6"
+        "row_QyKbG6",
+        "row_h98bBJ",
+        "heading_3jbchW",
+        "row_jBGaCE",
+        "row_nL8GWj",
+        "row_fE7y6Y"
       ],
       "name": "Comparison Table",
       "settings": {
