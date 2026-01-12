@@ -389,6 +389,10 @@
     background: none;
 }
 
-comparison-wrapper {
-    background: #f0f0f0;
+.flex {
+    display: flex;
+}
+
+.aic {
+    align-items: center;
 }
