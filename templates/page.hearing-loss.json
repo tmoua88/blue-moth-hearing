@@ -204,7 +204,7 @@
         "column_FqpNBc": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Icon_E_V2_black.png",
+            "image": "shopify://shop_images/Icon_E_V2_white.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
