@@ -29,7 +29,7 @@
         "color_scheme": "background-1",
         "image_position": "image_left",
         "content_alignment": "left",
-        "image": "shopify://shop_images/HP1_Bluemoth_LA_Shoot-129.jpg",
+        "image": "shopify://shop_images/BlueMothBranding-13_about_darkened_snapped.jpg",
         "image_size": "4/3",
         "subheading": "",
         "dot": true,
@@ -51,9 +51,10 @@
         "column_iLbFYz": {
           "type": "column",
           "settings": {
-            "image_width": "full",
-            "image_size": "4/3",
-            "icon": "globe",
+            "image": "shopify://shop_images/Icon_L_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "Mild",
             "text": "You lose soft consonants. Words might sound incomplete.  ",
             "expanded_text": "",
@@ -67,9 +68,10 @@
         "column_HVjtPR": {
           "type": "column",
           "settings": {
-            "image_width": "full",
-            "image_size": "16/9",
-            "icon": "globe",
+            "image": "shopify://shop_images/Icon_K_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "Moderate",
             "text": "It’s tough to follow conversations in person and on the phone.  ",
             "expanded_text": "",
@@ -83,9 +85,10 @@
         "column_U6t4RF": {
           "type": "column",
           "settings": {
-            "image_width": "full",
-            "image_size": "4/3",
-            "icon": "globe",
+            "image": "shopify://shop_images/Icon_J_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "Severe",
             "text": "Following conversations is a total chore and it can feel isolating.",
             "expanded_text": "",
@@ -99,9 +102,10 @@
         "column_NWYanr": {
           "type": "column",
           "settings": {
-            "image_width": "full",
-            "image_size": "4/3",
-            "icon": "globe",
+            "image": "shopify://shop_images/Icon_M_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "Profound",
             "text": "Without hearing aids or cochlear implants, it’s a whole lotta nothing.",
             "expanded_text": "",
