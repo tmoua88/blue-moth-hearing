@@ -258,6 +258,9 @@
         "column_ji37jK",
         "column_KKq9Ej"
       ],
+      "custom_css": [
+        ".multicolumn-section,.background {background-color: #fd5d38;}"
+      ],
       "name": "Guided Solutions",
       "settings": {
         "color_scheme": "background-1",
@@ -272,7 +275,7 @@
         "swipe_on_mobile": false,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
-        "margin_top": "no-indent",
+        "margin_top": "s",
         "margin_bottom": "no-indent"
       }
     },
@@ -290,7 +293,7 @@
             "text": "",
             "expanded_text": "",
             "button_label": "Get started ",
-            "button_link": "",
+            "button_link": "#",
             "button_dot": false,
             "button_style": "primary",
             "full_link": false
@@ -300,9 +303,12 @@
       "block_order": [
         "column_FMax6X"
       ],
+      "custom_css": [
+        ".multicolumn-section,.background {background-color: #fd5d38;}"
+      ],
       "name": "t:sections.multicolumn.name",
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-5",
         "section_heading": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
