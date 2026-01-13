@@ -24,7 +24,7 @@
       "custom_css": [
         ".section-header__title.h1 {color: rgb(26, 26, 26);}",
         ".image-with-text.image-standard-layout .container {max-width: 100vw !important; padding: 0; margin-top: -75px;}",
-        "@media screen and (min-width: 750px) {.image-with-text__content .section-header h2 {padding-top: 60px;}}"
+        "@media screen and (min-width: 750px) {.image-with-text__content .section-header h2 {padding-top: 60px; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -124,6 +124,9 @@
         "column_HVjtPR",
         "column_U6t4RF",
         "column_NWYanr"
+      ],
+      "custom_css": [
+        ".background {background-color: #d2d92e;}"
       ],
       "name": "Degrees of hearing loss",
       "settings": {
