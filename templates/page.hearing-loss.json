@@ -24,7 +24,7 @@
       "custom_css": [
         ".section-header__title.h1 {color: rgb(26, 26, 26);}",
         ".image-with-text.image-standard-layout .container {max-width: 100vw !important; padding: 0; margin-top: -75px;}",
-        "@media screen and (min-width: 750px) {.image-with-text__content .section-header h2 {padding-top: 60px; } .image-with-text__content--image_left {padding-right: 8.6rem;}}"
+        "@media screen and (min-width: 750px) {.image-with-text__content .section-header h2 {padding-top: 60px; } .image-with-text__content--image_left {padding-right: 8.6rem; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -259,11 +259,11 @@
         "column_KKq9Ej"
       ],
       "custom_css": [
-        ".multicolumn-section,.background {background-color: #fd5d38;}"
+        ".multicolumn-section {background-color: #fd5d38;}"
       ],
       "name": "Guided Solutions",
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-5",
         "section_heading": "Guided Solutions",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",

@@ -304,12 +304,12 @@
       },
       "background-5": {
         "settings": {
-          "colors_text": "#747473",
-          "colors_secondary_text": "#777777",
-          "colors_tertiary_text": "#afafaf",
-          "colors_text_title": "#747473",
-          "colors_background_1": "#ffffff",
-          "colors_background_2": "#f3f4f1",
+          "colors_text": "#ffffff",
+          "colors_secondary_text": "#ffffff",
+          "colors_tertiary_text": "#ffffff",
+          "colors_text_title": "#ffffff",
+          "colors_background_1": "#fd5d38",
+          "colors_background_2": "#fd5d38",
           "background_gradient": "",
           "colors_solid_button_labels": "#272724",
           "colors_solid_button_labels_hover": "#ebebeb",
