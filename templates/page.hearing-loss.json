@@ -304,7 +304,7 @@
         "column_FMax6X"
       ],
       "custom_css": [
-        ".multicolumn-section,.background {background-color: #fd5d38;}"
+        ".multicolumn-section {background-color: #fd5d38;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
