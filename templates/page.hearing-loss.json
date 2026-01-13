@@ -199,9 +199,10 @@
         "column_FqpNBc": {
           "type": "column",
           "settings": {
-            "image_width": "icon",
-            "image_size": "16/9",
-            "icon": "globe",
+            "image": "shopify://shop_images/Icon_E_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "You know you",
             "text": "Who better to decide what’s best? It’s why, when it comes to hearing tech, we give you full authority to make our own decision.",
             "expanded_text": "",
@@ -215,9 +216,10 @@
         "column_ji37jK": {
           "type": "column",
           "settings": {
-            "image_width": "icon",
-            "image_size": "16/9",
-            "icon": "globe",
+            "image": "shopify://shop_images/Icon_T_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "We know ears",
             "text": "We’re happy to listen to your story and recommend options. We can also help you navigate the subtleties of different devices.",
             "expanded_text": "",
@@ -231,9 +233,10 @@
         "column_KKq9Ej": {
           "type": "column",
           "settings": {
-            "image_width": "icon",
-            "image_size": "16/9",
-            "icon": "globe",
+            "image": "shopify://shop_images/Icon_F_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "Try before you buy",
             "text": "This is big. We’ll help you narrow down to a few options and then send them to you so you can try them in your real life.",
             "expanded_text": "",
