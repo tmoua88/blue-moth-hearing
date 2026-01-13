@@ -126,7 +126,7 @@
         "column_NWYanr"
       ],
       "custom_css": [
-        ".multicolumn-section, .background {background-color: #d2d92e;}"
+        ".multicolumn-section,.background {background-color: #d2d92e;}"
       ],
       "name": "Degrees of hearing loss",
       "settings": {
@@ -168,8 +168,8 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": false,
-        "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_top": "xs",
+        "margin_bottom": "no-indent"
       }
     },
     "image_with_text_beP4T9": {
@@ -195,7 +195,7 @@
         "button_style": "primary",
         "button_dot": false,
         "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "xs"
       }
     },
     "multicolumn_NakiYf": {
