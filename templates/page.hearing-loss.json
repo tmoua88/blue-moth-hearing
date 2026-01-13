@@ -22,7 +22,8 @@
     "image_with_text_Dg9Qde": {
       "type": "image-with-text",
       "custom_css": [
-        ".section-header__title.h1 {color: rgb(26, 26, 26);}"
+        ".section-header__title.h1 {color: rgb(26, 26, 26);}",
+        ".image-with-text.image-standard-layout .container {max-width: 100vw !important; padding: 0;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
