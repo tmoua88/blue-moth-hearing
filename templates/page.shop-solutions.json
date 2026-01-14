@@ -171,7 +171,7 @@
         "button_style_2": "primary",
         "button_dot_2": true,
         "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "no-indent"
       }
     }
   },
