@@ -23,7 +23,7 @@
       "type": "image-banner",
       "custom_css": [
         "h1 {color: #fff;}",
-        "@media screen and (min-width: 750px) {.image-banner-section {margin-top: -75px; } img {object-position: 50% 65%; }}"
+        "@media screen and (min-width: 750px) {.image-banner-section {margin-top: -75px; } img {object-position: 50% 75%; }}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
