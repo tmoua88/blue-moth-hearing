@@ -285,6 +285,9 @@
         "column_mNEmMJ",
         "column_nrAXfN"
       ],
+      "custom_css": [
+        ".spaced-section, .multicolumn {background: #d2d92e; color: #000;}"
+      ],
       "name": "t:sections.multicolumn.name",
       "settings": {
         "color_scheme": "background-1",
