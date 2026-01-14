@@ -79,7 +79,7 @@
       "type": "product-image-with-text",
       "name": "Product image with text",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-4",
         "image_position": "image_left",
         "content_alignment": "left",
         "image": "shopify://shop_images/SS3_IMG_4782.jpg",
@@ -108,7 +108,7 @@
       "type": "product-image-with-text",
       "name": "Product image with text",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-3",
         "image_position": "image_right",
         "content_alignment": "left",
         "image": "shopify://shop_images/SS4_BlueMothProduct-49.jpg",
@@ -137,7 +137,7 @@
       "type": "product-image-with-text",
       "name": "Product image with text",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-97d8d2bb-2c44-4291-acc3-72bad1176fda",
         "image_position": "image_left",
         "content_alignment": "left",
         "image": "shopify://shop_images/SS5_unsplash_oto_retouched.jpg",
