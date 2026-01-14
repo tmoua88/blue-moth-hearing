@@ -22,7 +22,7 @@
     "image_banner_gwDAKc": {
       "type": "image-banner",
       "custom_css": [
-        "h1 {color: #FFF; }"
+        "h1 {color: #fff;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -35,7 +35,7 @@
         "subheading": "",
         "dot": true,
         "image": "shopify://shop_images/FAQ1_BlueMothProduct-120.jpg",
-        "image_ratio": "21/9",
+        "image_ratio": "3/1",
         "animation": false,
         "overlay_enable": true,
         "overlay_opacity": 0,
