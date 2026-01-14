@@ -213,7 +213,8 @@
         ".multicolumn-card--center::before {background: none !important;}",
         ".multicolumn-card:nth-child(1) {background: #ff5e3b;}",
         ".multicolumn-card:nth-child(2) {background: #428feb;}",
-        ".multicolumn-card__heading,.multicolumn-card__text,a > span {color: #fff;}"
+        ".multicolumn-card__heading,.multicolumn-card__text,a > span {color: #fff;}",
+        "h2, h3, h4, h5 {font-weight: 500 !important;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
