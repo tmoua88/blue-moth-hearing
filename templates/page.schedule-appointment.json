@@ -27,8 +27,8 @@
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "section_layout": "column",
-        "subheading": "Free audiology appointment",
-        "heading": "{{ page.title }}",
+        "subheading": "Free audiology appointment.",
+        "heading": "{{ page.title }}.",
         "section_heading_tag": "h1",
         "heading_size": "h2",
         "dot": false,
