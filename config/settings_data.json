@@ -269,10 +269,10 @@
       },
       "background-4": {
         "settings": {
-          "colors_text": "#ffffff",
-          "colors_secondary_text": "#efefea",
+          "colors_text": "#000000",
+          "colors_secondary_text": "#272724",
           "colors_tertiary_text": "#afafaf",
-          "colors_text_title": "#ffffff",
+          "colors_text_title": "#000000",
           "colors_background_1": "#428feb",
           "colors_background_2": "#fffbe5",
           "background_gradient": "",
@@ -341,7 +341,7 @@
       },
       "scheme-97d8d2bb-2c44-4291-acc3-72bad1176fda": {
         "settings": {
-          "colors_text": "#4A494B",
+          "colors_text": "#4a494b",
           "colors_secondary_text": "#3f3f3f",
           "colors_tertiary_text": "#eeeeee",
           "colors_text_title": "#4a494b",
