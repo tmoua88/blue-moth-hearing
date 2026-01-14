@@ -31,7 +31,7 @@
       "type": "image-banner",
       "custom_css": [
         "h1 {color: #fff;}",
-        "@media screen and (min-width: 760px) {.spaced-section {margin-top: -75px; } img {object-position: 50% 75%; }}"
+        "@media screen and (min-width: 760px) {.spaced-section {margin-top: -75px; } img {object-position: 50% 65%; }}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
