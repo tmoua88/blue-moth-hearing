@@ -44,7 +44,7 @@
       "type": "contact-form",
       "settings": {
         "content_align": "center",
-        "heading": "Have Questions?",
+        "heading": "Have questions?",
         "heading_tag": "h2",
         "heading_size": "h2",
         "text": "",
@@ -120,7 +120,7 @@
       ],
       "custom_css": [
         ".richtext__content,a,p {font-size: 1.2rem;}",
-        ".spaced-section {background: #313d47}"
+        ".spaced-section {background: #313d47;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
