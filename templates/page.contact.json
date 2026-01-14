@@ -169,7 +169,7 @@
             "image_size": "16/9",
             "icon": "none",
             "heading": "About BLUEMOTH",
-            "text": "Our mission and vision",
+            "text": "Our mission and vision.",
             "expanded_text": "",
             "button_label": "Company",
             "button_link": "",
@@ -286,7 +286,7 @@
         "column_nrAXfN"
       ],
       "custom_css": [
-        ".spaced-section, .multicolumn {background: #d2d92e; color: #000;}"
+        ".spaced-section,.multicolumn {background: #d2d92e; color: #000;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
