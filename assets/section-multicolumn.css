@@ -113,7 +113,7 @@
 @media (min-width: 990px) {
   .multicolumn-card {
     padding: 4.1rem 5.6rem;
-    padding-top: 6.2rem;
+    /* padding-top: 6.2rem; */
   }
 }
 .multicolumn-card .multicolumn__link-overlay {
