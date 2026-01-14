@@ -40,6 +40,7 @@
 		assign padding_bottom = '100vh'
 	elsif image_ratio == 'tight-on-top'
 		assign aspect_ratio = '3/1'
+		assign padding_bottom = 'calc(100vw / (var(--aspect_ratio)))'
 	else
 		assign aspect_ratio = image_ratio
 		assign padding_bottom = 'calc(100vw / (var(--aspect_ratio)))'
