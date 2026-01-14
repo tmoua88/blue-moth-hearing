@@ -22,7 +22,6 @@
     "image_with_text_Dg9Qde": {
       "type": "image-with-text",
       "custom_css": [
-        ".section-header__title.h1 {color: rgb(26, 26, 26);}",
         ".image-with-text.image-standard-layout .container {max-width: 100vw !important; padding: 0; margin-top: -75px;}",
         "@media screen and (min-width: 750px) {.image-with-text__content .section-header h2 {padding-top: 60px; } .image-with-text__content--image_left {padding-right: 8.6rem; }}"
       ],
@@ -160,7 +159,7 @@
         "image_size": "3/2",
         "subheading": "",
         "dot": false,
-        "heading": "How hearing aids help",
+        "heading": "How hearing aids help.",
         "section_heading_tag": "h2",
         "heading_size": "h3",
         "text": "<p>First, these little beauties are custom-tuned by a licensed provider to match your unique hearing needs. You’ll get amplified sounds, enhanced sound localization for better spatial awareness, and clearer speech even in challenging environments. They can even help with cognitive health and balance.</p>",
@@ -186,7 +185,7 @@
         "image_size": "3/2",
         "subheading": "",
         "dot": false,
-        "heading": "The BLUEMOTH approach",
+        "heading": "The BLUEMOTH approach.",
         "section_heading_tag": "h2",
         "heading_size": "h3",
         "text": "<p>We’re a bunch of board-certified audiologists that believe hearing care shouldn’t be one-size-fits-all. It’s why we empower you with choices, simplify the process with fast, expert-led care. Hearing loss is a pain. Getting relief doesn’t have to be.</p>",
@@ -208,7 +207,7 @@
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
-            "heading": "You know you",
+            "heading": "You know you.",
             "text": "Who better to decide what’s best? It’s why, when it comes to hearing tech, we give you full authority to make our own decision.",
             "expanded_text": "",
             "button_label": "",
@@ -225,7 +224,7 @@
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
-            "heading": "We know ears",
+            "heading": "We know ears.",
             "text": "We’re happy to listen to your story and recommend options. We can also help you navigate the subtleties of different devices.",
             "expanded_text": "",
             "button_label": "",
@@ -242,7 +241,7 @@
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
-            "heading": "Try before you buy",
+            "heading": "Try before you buy.",
             "text": "This is big. We’ll help you narrow down to a few options and then send them to you so you can try them in your real life.",
             "expanded_text": "",
             "button_label": "",
@@ -264,7 +263,7 @@
       "name": "Guided Solutions",
       "settings": {
         "color_scheme": "background-5",
-        "section_heading": "Guided Solutions",
+        "section_heading": "Guided Solutions.",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
@@ -321,7 +320,7 @@
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
         "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "xs"
       }
     }
   },
