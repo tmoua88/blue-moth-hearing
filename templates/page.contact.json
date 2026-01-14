@@ -156,7 +156,7 @@
             "text": "Common questions and answers.",
             "expanded_text": "",
             "button_label": "View FAQs",
-            "button_link": "",
+            "button_link": "shopify://pages/faqs",
             "button_dot": false,
             "button_style": "primary",
             "full_link": true
@@ -287,7 +287,7 @@
       ],
       "custom_css": [
         ".spaced-section,.multicolumn {background: #d2d92e; color: #000;}",
-        ".button {background: #FFF; color: #000;}"
+        ".button {background: #fff; color: #000;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
@@ -303,8 +303,8 @@
         "swipe_on_mobile": false,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
-        "margin_top": "s",
-        "margin_bottom": "s"
+        "margin_top": "xs",
+        "margin_bottom": "xs"
       }
     }
   },
