@@ -151,7 +151,7 @@
         "column_jLmTka": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/HP3_BlueMothStreet-364.jpg",
+            "image": "shopify://shop_images/HP3_BlueMothStreet-364_porthole.png",
             "image_width": "medium",
             "image_size": "1/1",
             "icon": "none",
@@ -168,7 +168,7 @@
         "column_XHLDNq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+            "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap_flat_porthole.png",
             "image_width": "medium",
             "image_size": "1/1",
             "icon": "none",
