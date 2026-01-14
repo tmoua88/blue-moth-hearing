@@ -172,7 +172,7 @@
             "text": "Our mission and vision.",
             "expanded_text": "",
             "button_label": "Company",
-            "button_link": "",
+            "button_link": "shopify://pages/about",
             "button_dot": false,
             "button_style": "primary",
             "full_link": true
@@ -204,7 +204,7 @@
             "text": "Discuss your needs with our care team.",
             "expanded_text": "",
             "button_label": "Learn More",
-            "button_link": "",
+            "button_link": "/pages/book-a-call?view=schedule-appointment",
             "button_dot": false,
             "button_style": "primary",
             "full_link": true
