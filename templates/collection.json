@@ -20,7 +20,7 @@
         "full_width": true,
         "color_scheme": "",
         "overlay_opacity": 0,
-        "show_collection_description": false,
+        "show_collection_description": true,
         "show_collection_image": true,
         "image_ratio": "21/9",
         "margin_top": "no-indent",
