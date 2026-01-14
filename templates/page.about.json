@@ -104,53 +104,54 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
-            "text": "<p>Green Tea</p>"
+            "text": "<h4>Dr. Melanie K. Hecker</h4><p><em>Audiologist, Founder, CEO</em></p>"
           }
         },
         "card_UpRwbB": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
-            "text": "<p>Green Tea</p>"
+            "text": "<h4>Dr. Leela Cleary</h4><p><em>Audiologist</em></p>"
           }
         },
         "card_wHWgKh": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
-            "text": "<p>Green Tea</p>"
+            "text": "<h4>Rhea John</h4><p><em>Director of Operations</em></p>"
           }
         },
         "card_9tC3jN": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
-            "text": "<p>Green Tea</p>"
+            "text": "<h4>Sienna Herrera-Maddox</h4><p><em>Audiology Assistant</em></p>"
           }
         },
         "card_tmtJeB": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
-            "text": "<p>Green Tea</p>"
+            "text": "<h4>Cathy Childs</h4><p>Patient Advocate</p>"
           }
         },
         "card_ghLNAq": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
-            "text": "<p>Green Tea</p>"
+            "text": "<h4>Nina M. Holmstrom</h4><p><em>Executive Assistant</em></p>"
           }
         },
         "card_m3PE86": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
-            "text": "<p>Green Tea</p>"
+            "text": "<h4>Macky Venida</h4><p><em>Executive Assistant</em></p>"
           }
         },
         "card_9CMMYf": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
             "text": "<p>Green Tea</p>"
