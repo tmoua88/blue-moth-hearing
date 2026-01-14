@@ -259,7 +259,7 @@
       ],
       "custom_css": [
         ".multicolumn-section {background-color: #fd5d38;}",
-        "h2, h3, h4 {font-weight: 500;}"
+        "h2,h3,h4 {font-weight: 500 !important;}"
       ],
       "name": "Guided Solutions",
       "settings": {
