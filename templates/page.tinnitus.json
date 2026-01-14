@@ -39,7 +39,7 @@
         "heading_size": "h1",
         "text": "<p>We understand the desire for quiet and we’re here to help you find yours. With the right combination of technology, sound therapy, and counseling, we are confident that we can help you manage your tinnitus symptoms. </p>",
         "button_label": "Book a Free Consultation",
-        "button_link": "",
+        "button_link": "/pages/book-a-call?schedule-appointment",
         "button_style": "primary",
         "button_dot": false,
         "margin_top": "no-indent",
@@ -168,7 +168,7 @@
       ],
       "custom_css": [
         "h4 {font-weight: 500 !important;}",
-        "img {color: #FFF;}"
+        "img {color: #fff;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
