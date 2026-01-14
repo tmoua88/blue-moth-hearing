@@ -130,7 +130,7 @@
         "column_K4hJpH": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/331528477_1308791116350721_6461945127593538570_n.jpg",
+            "image": "shopify://shop_images/OTO_icon_1.svg",
             "image_width": "medium",
             "image_size": "1/1",
             "icon": "none",
@@ -147,7 +147,7 @@
         "column_KKq9Ej": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Bluemonth_Hearing-48_snapped_small_0c6b9d42-c34c-42aa-996c-08702734abb7.jpg",
+            "image": "shopify://shop_images/OTO_icon_2.svg",
             "image_width": "medium",
             "image_size": "1/1",
             "icon": "none",
@@ -167,7 +167,6 @@
         "column_KKq9Ej"
       ],
       "custom_css": [
-        "img {border-radius: 50%;}",
         "h4 {font-weight: 500 !important;}"
       ],
       "name": "t:sections.multicolumn.name",
