@@ -167,7 +167,7 @@
       ],
       "custom_css": [
         "img {border-radius: 50%;}",
-        "h4 {font-weight: bold;}"
+        "h4 {font-weight: 500 !important;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
