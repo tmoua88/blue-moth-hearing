@@ -1379,6 +1379,9 @@
 					},
 					"options__8": {
 						"label": "Full screen"
+					},
+					"options__9": {
+						"label": "Tight on top"
 					}
 				}
 			},
