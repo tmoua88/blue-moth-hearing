@@ -269,7 +269,7 @@
 			  --font-heading-card-scale: {{ settings.heading_scale_card | divided_by: 100.0 }};
 			  --font-text-card-scale: {{ settings.text_scale_card | divided_by: 100.0 }};
 
-			  --font-button-family: {{ settings.type_button_font.family }}, {{ settings.type_button_font.fallback_families }};
+			  --font-button-family: {{ font_family_body}}, {{ settings.type_button_font.family }}, {{ settings.type_button_font.fallback_families }};
 			  --font-button-style: {{ settings.type_button_font.style }};
 			  --font-button-weight: {{ settings.type_button_font.weight }};
 			  --font-button-text-transform: {{ settings.button_text_transform }};
@@ -294,7 +294,7 @@
 			  --font-popups-heading-family: {{ settings.type_popups_heading_font.family }}, {{ settings.type_popups_heading_font.fallback_families }};
 			  --font-popups-heading-style: {{ settings.type_popups_heading_font.style }};
 			  --font-popups-heading-weight: {{ settings.type_popups_heading_font.weight }};
-			  --font-popups-text-family: {{ settings.type_popups_text_font.family }}, {{ settings.type_popups_text_font.fallback_families }};
+			  --font-popups-text-family: {{ font_family_body }}, {{ settings.type_popups_text_font.family }}, {{ settings.type_popups_text_font.fallback_families }};
 			  --font-popups-text-style: {{ settings.type_popups_text_font.style }};
 			  --font-popups-text-weight: {{ settings.type_popups_text_font.weight }};
 			  --font-popup-heading-scale: {{ settings.popup_heading_scale | divided_by: 100.0 }};
