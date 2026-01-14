@@ -109,7 +109,6 @@
   background-color: transparent;
   border-radius: var(--border-radius-main);
   padding: 2.4rem;
-  padding-top: 4.5rem;
 }
 @media (min-width: 990px) {
   .multicolumn-card {
@@ -136,7 +135,7 @@
   display: flex;
 }
 .multicolumn-card__picture:not(:last-child) {
-  margin-bottom: 1.2rem;
+  margin-bottom: 2.4rem;
 }
 .multicolumn-card__picture.adapt::before {
   content: "";
