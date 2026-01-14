@@ -50,15 +50,15 @@
     "multicolumn_jpkVdr": {
       "type": "multicolumn",
       "blocks": {
-        "column_iLbFYz": {
+        "column_U6t4RF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Icon_L_V2_black.png",
+            "image": "shopify://shop_images/Icon_J_V2_black.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
-            "heading": "Mild",
-            "text": "You lose soft consonants. Words might sound incomplete.  ",
+            "heading": "Severe",
+            "text": "Following conversations is a total chore and it can feel isolating.",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -84,15 +84,15 @@
             "full_link": false
           }
         },
-        "column_U6t4RF": {
+        "column_iLbFYz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Icon_J_V2_black.png",
+            "image": "shopify://shop_images/Icon_L_V2_black.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
-            "heading": "Severe",
-            "text": "Following conversations is a total chore and it can feel isolating.",
+            "heading": "Mild",
+            "text": "You lose soft consonants. Words might sound incomplete.  ",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -120,9 +120,9 @@
         }
       },
       "block_order": [
-        "column_iLbFYz",
-        "column_HVjtPR",
         "column_U6t4RF",
+        "column_HVjtPR",
+        "column_iLbFYz",
         "column_NWYanr"
       ],
       "custom_css": [
@@ -138,7 +138,7 @@
         "subheading": "",
         "dot": false,
         "columns_per_row": 4,
-        "content_alignment": "left",
+        "content_alignment": "center",
         "swipe_on_mobile": false,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
