@@ -167,8 +167,7 @@
         "column_KKq9Ej"
       ],
       "custom_css": [
-        "h4 {font-weight: 500 !important;}",
-        "img {color: #fff;}"
+        "h4 {font-weight: 500 !important;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
