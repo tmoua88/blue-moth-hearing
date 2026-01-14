@@ -2354,7 +2354,7 @@ deferred-media {
   flex-grow: 1;
   padding: 1.4rem 2.4rem;
   height: 4.2rem;
-  border-radius: 3rem;
+  /* border-radius: 3rem; */
   text-align: left;
   font-size: 12px;
   line-height: 1;
