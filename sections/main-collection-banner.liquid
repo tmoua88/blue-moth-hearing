@@ -86,14 +86,14 @@
 					{%- endif -%}
 				</div>
 
-				{% if section.settings.collection_list != blank %}
+				{% comment %} {% if section.settings.collection_list != blank %}
 					<div class='type-filter__list type-filter__all_active'>
-						{% comment %}<a
+						<a
 							href='{{ routes.all_products_collection_url }}'
 							class='type-filter__label type-filter__title h4'
 						>
 							{{- 'products.facets.all' | t -}}
-						</a>{% endcomment %}
+						</a>
 						{%- for collection in section.settings.collection_list -%}
 							<a
 								class='full-unstyled-link type-filter__label type-filter__all_active h3'
@@ -103,7 +103,7 @@
 							</a>
 						{%- endfor -%}
 					</div>
-				{% endif %}
+				{% endif %} {% endcomment %}
 			</div>
 		</div>
 	</div>
