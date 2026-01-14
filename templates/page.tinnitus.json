@@ -211,6 +211,9 @@
       "block_order": [
         "column_MMQBFc"
       ],
+      "custom_css": [
+        ".multicolumn-card {padding: 2rem 0;}"
+      ],
       "name": "t:sections.multicolumn.name",
       "settings": {
         "color_scheme": "background-4",
