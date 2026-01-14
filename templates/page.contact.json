@@ -286,7 +286,8 @@
         "column_nrAXfN"
       ],
       "custom_css": [
-        ".spaced-section,.multicolumn {background: #d2d92e; color: #000;}"
+        ".spaced-section,.multicolumn {background: #d2d92e; color: #000;}",
+        ".button {background: #FFF; color: #000;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
