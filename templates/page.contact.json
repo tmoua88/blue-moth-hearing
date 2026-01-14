@@ -128,7 +128,7 @@
       "name": "t:sections.multicolumn.name",
       "settings": {
         "color_scheme": "background-3",
-        "section_heading": "Reach us directly",
+        "section_heading": "Reach us directly.",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
         "heading_alignment": "center",
@@ -288,7 +288,7 @@
       "name": "t:sections.multicolumn.name",
       "settings": {
         "color_scheme": "background-1",
-        "section_heading": "Helpful information",
+        "section_heading": "Helpful information.",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
         "heading_alignment": "center",
