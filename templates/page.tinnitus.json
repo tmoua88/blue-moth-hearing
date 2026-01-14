@@ -130,8 +130,8 @@
         "column_K4hJpH": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/OTO_icon_1_white.svg",
-            "image_width": "full",
+            "image": "shopify://shop_images/OTO_icon_2_white.svg",
+            "image_width": "medium",
             "image_size": "1/1",
             "icon": "none",
             "heading": "The ease of an app.",
@@ -147,8 +147,8 @@
         "column_KKq9Ej": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/OTO_icon_2_white.svg",
-            "image_width": "full",
+            "image": "shopify://shop_images/OTO_icon_1_white.svg",
+            "image_width": "medium",
             "image_size": "1/1",
             "icon": "none",
             "heading": "Big Fix. Small box.",
