@@ -38,9 +38,6 @@
 		endif
 	elsif image_ratio == 'large'
 		assign padding_bottom = '100vh'
-	elsif image_ratio == 'tight-on-top'
-		assign aspect_ratio = '3/1'
-		assign padding_bottom = 'calc(100vw / (var(--aspect_ratio)))'
 	else
 		assign aspect_ratio = image_ratio
 		assign padding_bottom = 'calc(100vw / (var(--aspect_ratio)))'
@@ -359,16 +356,16 @@
 					"label": "t:sections.all.image.aspect_ratio.options__6.label"
 				},
 				{
+					"value": "3/1",
+					"label": "t:sections.all.image.aspect_ratio.options__9.label"
+				},
+				{
 					"value": "adapt",
 					"label": "t:sections.all.image.aspect_ratio.options__7.label"
 				},
 				{
 					"value": "large",
 					"label": "t:sections.all.image.aspect_ratio.options__8.label"
-				},
-				{
-					"value": "tight-on-top",
-					"label": "t:sections.all.image.aspect_ratio.options__9.label"
 				}
 			]
 		},
