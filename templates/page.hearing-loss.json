@@ -125,7 +125,8 @@
         "column_NWYanr"
       ],
       "custom_css": [
-        ".multicolumn-section,.background {background-color: #d2d92e;}"
+        ".multicolumn-section,.background {background-color: #d2d92e;}",
+        ".multicolumn-card {padding: 2.8rem !important;}"
       ],
       "name": "Degrees of hearing loss",
       "settings": {
