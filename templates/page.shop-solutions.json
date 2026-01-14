@@ -47,9 +47,10 @@
     },
     "product_image_with_text_Q4W4yy": {
       "type": "product-image-with-text",
+      "custom_css": [],
       "name": "Product image with text",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-5",
         "image_position": "image_right",
         "content_alignment": "left",
         "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
@@ -59,6 +60,7 @@
         "heading": "Here can be your title",
         "section_heading_tag": "h2",
         "heading_size": "h1",
+        "header_content_alignment": "left",
         "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
         "price": "$399",
         "button_label": "Book",
@@ -70,7 +72,7 @@
         "button_style_2": "primary",
         "button_dot_2": true,
         "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "no-indent"
       }
     },
     "product_image_with_text_yXG4yg": {
@@ -87,6 +89,7 @@
         "heading": "Here can be your title",
         "section_heading_tag": "h2",
         "heading_size": "h1",
+        "header_content_alignment": "left",
         "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
         "price": "$399",
         "button_label": "Book",
@@ -98,7 +101,7 @@
         "button_style_2": "primary",
         "button_dot_2": true,
         "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "no-indent"
       }
     },
     "product_image_with_text_HER7Ar": {
@@ -115,6 +118,7 @@
         "heading": "Here can be your title",
         "section_heading_tag": "h2",
         "heading_size": "h1",
+        "header_content_alignment": "left",
         "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
         "price": "$399",
         "button_label": "Book",
@@ -126,7 +130,7 @@
         "button_style_2": "primary",
         "button_dot_2": true,
         "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "no-indent"
       }
     },
     "product_image_with_text_fJKhP8": {
@@ -136,13 +140,14 @@
         "color_scheme": "",
         "image_position": "image_left",
         "content_alignment": "left",
-        "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
+        "image": "shopify://shop_images/SS5_unsplash_oto_retouched.jpg",
         "image_size": "1/1",
         "subheading": "",
         "dot": true,
         "heading": "Here can be your title",
         "section_heading_tag": "h2",
         "heading_size": "h1",
+        "header_content_alignment": "left",
         "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
         "price": "$399",
         "button_label": "Book",
