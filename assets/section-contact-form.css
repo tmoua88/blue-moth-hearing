@@ -130,7 +130,7 @@
 }
 .contact-form .text-area {
   min-height: 8.8rem;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
 }
 .contact-form__bottom {
   display: flex;
