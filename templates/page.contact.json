@@ -236,7 +236,7 @@
             "text": "Learn more about insurance and benefits.",
             "expanded_text": "",
             "button_label": "Learn More",
-            "button_link": "",
+            "button_link": "shopify://pages/insurance-and-payment",
             "button_dot": false,
             "button_style": "primary",
             "full_link": true
@@ -252,7 +252,7 @@
             "text": "Learn more about included warranty coverage.",
             "expanded_text": "",
             "button_label": "Learn More",
-            "button_link": "",
+            "button_link": "shopify://pages/warranty",
             "button_dot": false,
             "button_style": "primary",
             "full_link": true
@@ -268,7 +268,7 @@
             "text": "Learn about risk-free hearing aid trial periods.",
             "expanded_text": "",
             "button_label": "Learn More",
-            "button_link": "",
+            "button_link": "shopify://pages/returns-exchanges",
             "button_dot": false,
             "button_style": "primary",
             "full_link": true
