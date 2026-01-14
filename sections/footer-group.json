@@ -17,9 +17,9 @@
         "footer-0": {
           "type": "logo_info",
           "settings": {
-            "logo": "shopify://shop_images/BM_logo_horiz.svg",
+            "logo": "shopify://shop_images/Asset_1.svg",
             "svg_file": "",
-            "logo_width": 150,
+            "logo_width": 145,
             "description": "",
             "social": true
           }
@@ -39,6 +39,9 @@
       "block_order": [
         "footer-0",
         "link_list_HJBQW4"
+      ],
+      "custom_css": [
+        ".footer__logo-link {color: #FFF;}"
       ],
       "settings": {
         "color_scheme": "background-3",
