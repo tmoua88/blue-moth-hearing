@@ -160,7 +160,7 @@
         "image_size": "3/2",
         "subheading": "",
         "dot": false,
-        "heading": "How hearing aids help.",
+        "heading": "How hearing aids help",
         "section_heading_tag": "h2",
         "heading_size": "h3",
         "text": "<p>First, these little beauties are custom-tuned by a licensed provider to match your unique hearing needs. You’ll get amplified sounds, enhanced sound localization for better spatial awareness, and clearer speech even in challenging environments. They can even help with cognitive health and balance.</p>",
@@ -186,7 +186,7 @@
         "image_size": "3/2",
         "subheading": "",
         "dot": false,
-        "heading": "The BLUEMOTH approach.",
+        "heading": "The BLUEMOTH approach",
         "section_heading_tag": "h2",
         "heading_size": "h3",
         "text": "<p>We’re a bunch of board-certified audiologists that believe hearing care shouldn’t be one-size-fits-all. It’s why we empower you with choices, simplify the process with fast, expert-led care. Hearing loss is a pain. Getting relief doesn’t have to be.</p>",
@@ -264,7 +264,7 @@
       "name": "Guided Solutions",
       "settings": {
         "color_scheme": "background-5",
-        "section_heading": "Guided Solutions.",
+        "section_heading": "Guided Solutions",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
@@ -321,7 +321,7 @@
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
         "margin_top": "no-indent",
-        "margin_bottom": "xs"
+        "margin_bottom": "s"
       }
     }
   },
