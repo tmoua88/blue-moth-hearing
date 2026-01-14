@@ -260,7 +260,8 @@
       ],
       "custom_css": [
         ".multicolumn-section {background-color: #fd5d38;}",
-        "h2,h3,h4 {font-weight: 500 !important;}"
+        "h2,h3,h4 {font-weight: 500 !important;}",
+        ".multicolumn-card {padding: 2.8rem;}"
       ],
       "name": "Guided Solutions",
       "settings": {
