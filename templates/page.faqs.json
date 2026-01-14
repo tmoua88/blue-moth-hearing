@@ -59,7 +59,7 @@
         "dot": true,
         "text": "<p>Thanks for being curious. Here are some commonly asked hearing questions.<br/><br/>Don’t see what you need? Reach out to us and we’re happy to help!</p>",
         "button_label": "Contact",
-        "button_link": "",
+        "button_link": "shopify://pages/contact",
         "button_style": "primary",
         "button_dot": false,
         "margin_top": "s",
