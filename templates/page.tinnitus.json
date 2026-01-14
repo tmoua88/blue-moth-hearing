@@ -166,7 +166,8 @@
         "column_KKq9Ej"
       ],
       "custom_css": [
-        "img {border-radius: 50%;}"
+        "img {border-radius: 50%;}",
+        "h4 {font-weight: bold;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
