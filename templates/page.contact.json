@@ -21,6 +21,9 @@
     },
     "image_banner_tRyHpE": {
       "type": "image-banner",
+      "custom_css": [
+        "h1 {color: #fff;}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "color_scheme": "background-2",
@@ -31,11 +34,11 @@
         "section_heading_size": "h2",
         "subheading": "",
         "dot": false,
-        "image": "shopify://shop_images/Hearing_Loss_Symptoms__What_to_Watch_For_at_Any_Age_1.jpg",
-        "image_ratio": "adapt",
+        "image": "shopify://shop_images/FAQ1_BlueMothProduct-120.jpg",
+        "image_ratio": "21/9",
         "animation": false,
         "overlay_enable": true,
-        "overlay_opacity": 0.2,
+        "overlay_opacity": 0,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
