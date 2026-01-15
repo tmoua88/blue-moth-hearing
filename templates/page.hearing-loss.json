@@ -201,6 +201,9 @@
     },
     "image_banner_fWyAwL": {
       "type": "image-banner",
+      "custom_css": [
+        "img {object-position: 50% 20%;}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "color_scheme": "background-3",
@@ -216,7 +219,7 @@
         "image_ratio": "21/9",
         "animation": false,
         "overlay_enable": true,
-        "overlay_opacity": 0,
+        "overlay_opacity": 0.2,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
