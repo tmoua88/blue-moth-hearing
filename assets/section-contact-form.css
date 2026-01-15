@@ -37,7 +37,6 @@
     "form";
   gap: 3.2rem;
 }
-
 /* Mobile stack reversal */
 .contact-form__inner--left {
   grid-template-areas:
@@ -55,7 +54,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "content form";
     gap: 8rem;
-    align-items: start;
+    /* align-items: start; */
+    align-items: stretch; /* key: equal-height columns */
   }
 
   /* Swap columns on desktop */
@@ -86,12 +86,16 @@
   grid-area: content;
   width: 100%;
 }
-
 .contact-form__wrapper {
   grid-area: form;
   width: 100%;
   max-width: 54.9rem;
   justify-self: center;
+}
+
+.contact-form__content,
+.contact-form__wrapper {
+  height: 100%;
 }
 
 /* @media screen and (min-width: 1100px) {
@@ -131,11 +135,29 @@
   margin-top: 1.5rem;
 }
 .schedule {
-  padding: 0 2rem;
+  padding: 2.8rem 2.4rem;
+  background: #ff5e3b;
+  border-radius: var(--border-radius-button);
+}
+.schedule .contact-form__title.h2,
+.schedule .contact-form__text {
+  color: #ffffff;
+}
+.schedule .button {
+  background: #ffffff;
+  color: #000;
+  border-radius: var(--border-radius-button);
+}
+.schedule .button:hover {
+  background: rgba(255, 255, 255, 0.8);
 }
 @media screen and (min-width: 1100px) {
-  .contact-form, .contact-form__image, .schedule .contact-form__text {
+  .contact-form, .contact-form__image, .contact-form__wrapper .contact-form__title.h2 {
     margin-top: 2.8rem;
+  }
+  .schedule .contact-form__text {
+    width: 90%;
+    margin: 2.8rem auto;
   }
 }
 .contact-form .contact-form__field-error .form__message {
