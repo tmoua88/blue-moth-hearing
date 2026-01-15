@@ -91,6 +91,7 @@
   grid-area: form;
   width: 100%;
   max-width: 54.9rem;
+  justify-self: center;
 }
 
 /* @media screen and (min-width: 1100px) {
@@ -128,6 +129,9 @@
 }
 .contact-form, .contact-form__image {
   margin-top: 1.5rem;
+}
+.schedule {
+  padding: 0 2rem;
 }
 @media screen and (min-width: 1100px) {
   .contact-form, .contact-form__image, .schedule .contact-form__text {
