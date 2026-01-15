@@ -1092,6 +1092,9 @@
 				"button_link": {
 					"label": "Link"
 				},
+				"button_label": {
+					"label": "Label"
+				},
 				"button_style": {
 					"label": "Button style",
 					"options__1": {
