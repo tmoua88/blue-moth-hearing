@@ -220,7 +220,7 @@
         "image_ratio": "21/9",
         "animation": false,
         "overlay_enable": true,
-        "overlay_opacity": 0.2,
+        "overlay_opacity": 0.1,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
