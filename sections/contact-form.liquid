@@ -160,8 +160,21 @@
             </div>
           {%- endform -%}
         </div>
-
-        {% if section.settings.image != blank %}
+        {% if section.settings.schedule != blank %}
+          <div class="schedule">
+            {%- if section.settings.image_heading != blank -%}
+              {% assign image_heading_tag = section.settings.image_heading_tag %}
+              <{{ image_heading_tag }} class="contact-form__title {{ section.settings.image_heading_size }}">
+                {{ section.settings.image_heading }}
+              </{{ image_heading_tag }}>
+            {%- endif -%}
+            {%- if section.settings.image_text != blank -%}
+              <p class="contact-form__text">
+                {{ section.settings.image_text }}
+              </p>
+            {%- endif -%}
+          </div>
+        {% elsif section.settings.image != blank %}
           <div class="image-wrapper">
             {%- if section.settings.image_heading != blank -%}
               {% assign image_heading_tag = section.settings.image_heading_tag %}
@@ -450,6 +463,12 @@
 				}
 			]
 		},
+    {
+      "type": "checkbox",
+      "id": "schedule",
+      "default": false,
+      "label": "t:sections.contact-form.settings.schedule.show_schedule.label"
+    },
     {
       "type": "header",
       "content": "t:sections.all.button.header_button.content"

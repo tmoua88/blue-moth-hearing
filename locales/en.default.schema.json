@@ -1065,6 +1065,11 @@
 					"label": "Extra large"
 				}
 			},
+			"schedule": {
+				"show_schedule": {
+					"label": "Enable schedule"
+				}
+			},
 			"button": {
 				"header_button": {
 					"content": "Button options"
