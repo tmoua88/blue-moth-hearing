@@ -1093,7 +1093,8 @@
 					"label": "Link"
 				},
 				"button_label": {
-					"label": "Label"
+					"label": "Label",
+					"default": "Book a call"
 				},
 				"button_style": {
 					"label": "Button style",
