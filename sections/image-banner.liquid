@@ -80,13 +80,14 @@
 	>
 		{% if section.settings.heading != blank %}
 			{% assign image_heading_tag = section.settings.image_heading_tag %}
-
-			<{{ image_heading_tag }} class="image-banner__heading color-{{section.settings.color_scheme}}">
-				{{ section.settings.heading }}
-			</{{ image_heading_tag }}>
-			{% if section.settings.text != blank%}
-			<div class="">
-				{{ section.settings.text }}
+			<div class="image-banner__heading">
+				<{{ image_heading_tag }} class=" color-{{section.settings.color_scheme}}">
+					{{ section.settings.heading }}
+				</{{ image_heading_tag }}>
+				{% if section.settings.text != blank%}
+				<div class="image-banner__text">
+					{{ section.settings.text }}
+				</div>
 			</div>
 			{% endif %}
 		{% endif %}
