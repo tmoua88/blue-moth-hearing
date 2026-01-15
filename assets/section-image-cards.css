@@ -56,6 +56,10 @@
   background-color: transparent;
 }
 
+.team-modal__close svg {
+  color: black;
+}
+
 .team-modal__content {
   padding-top: 3rem;
   transform: translateY(200px);
