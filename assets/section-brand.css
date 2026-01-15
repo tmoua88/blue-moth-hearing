@@ -82,3 +82,12 @@
 .brand-list__item h3 {
   margin: 0;
 }
+.brand__text {
+  max-width: 80%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 750px) {
+  .brand__text {
+    max-width: 60%;
+  }
+}
