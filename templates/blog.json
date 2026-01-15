@@ -19,6 +19,7 @@
       "settings": {
         "color_scheme": "background-3",
         "heading": "{{ blog.title }}",
+        "text": "",
         "image_heading_tag": "h1",
         "section_heading": "",
         "section_heading_tag": "h2",
@@ -36,7 +37,9 @@
     },
     "main-blog": {
       "type": "main-blog",
-      "custom_css": [],
+      "custom_css": [
+        ".main-blog__title.title--page {display: none;}"
+      ],
       "settings": {
         "posts_per_page": 7,
         "page_heading_tag": "h1",
