@@ -137,6 +137,9 @@
 h1.color-background-3, .image-banner__heading .image-banner__text {
   background: transparent;
 }
+.image-banner__text {
+  font-size: 2.5rem;
+}
 .image-banner__wrapper {
   position: relative;
   display: flex;
