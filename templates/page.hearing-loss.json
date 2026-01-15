@@ -205,7 +205,8 @@
       "settings": {
         "color_scheme": "background-3",
         "heading": "4 simple steps to better hearing.",
-        "image_heading_tag": "h2",
+        "text": "<p>Test</p>",
+        "image_heading_tag": "h1",
         "section_heading": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
