@@ -57,15 +57,15 @@
         "show_embedded": true,
         "embedded_form_code": "<iframe\n    src=\"https://api.leadconnectorhq.com/widget/form/GE4pbBr7bP2dA13AlUY6\"\n    style=\"width:100%;height:100%;border:none;border-radius:3px\"\n    id=\"inline-GE4pbBr7bP2dA13AlUY6\" \n    data-layout=\"{'id':'INLINE'}\"\n    data-trigger-type=\"alwaysShow\"\n    data-trigger-value=\"\"\n    data-activation-type=\"alwaysActivated\"\n    data-activation-value=\"\"\n    data-deactivation-type=\"neverDeactivate\"\n    data-deactivation-value=\"\"\n    data-form-name=\"Contact Us\"\n    data-height=\"796\"\n    data-layout-iframe-id=\"inline-GE4pbBr7bP2dA13AlUY6\"\n    data-form-id=\"GE4pbBr7bP2dA13AlUY6\"\n    title=\"Contact Us\"\n        >\n</iframe>\n<script src=\"https://link.msgsndr.com/js/form_embed.js\"></script>",
         "image_position": "right",
-        "image_heading": "Schedule an appointment.",
+        "image_heading": "Ready to get started?",
         "image_heading_tag": "h2",
         "image_heading_size": "h2",
-        "image_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image_text": "Hey, so are we. This is working out great. It starts with a free consult that’ll help us get to know where you are in your journey. It’s free and comes with zero obligations. Easy. ",
         "image": "shopify://shop_images/Icon_I_V2_white.png",
         "image_ratio": "4/3",
         "schedule": true,
         "button_style": "primary",
-        "button_label": "Book a call",
+        "button_label": "Book a consult",
         "button_link_2": "/pages/book-a-call?view=schedule-appointment",
         "margin_top": "xs",
         "margin_bottom": "m"
@@ -297,7 +297,7 @@
         ".spaced-section,.multicolumn {background: #d2d92e; color: #000;}",
         ".button {background: #fff; color: #000;}",
         ".multicolumn-card__text.richtext__content {display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; text-overflow: ellipsis; /* helps prevent weird overflow with long words/urls */ overflow-wrap: anywhere;}",
-        "h1, h2, h3, h4, p {color: #000;}"
+        "h1,h2,h3,h4,p {color: #000;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
