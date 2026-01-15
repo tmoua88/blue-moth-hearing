@@ -9,12 +9,12 @@
 {% assign font_color = section.settings.font_color %}
 {% if bg_color != blank or font_color != blank %}
 	<style>
-		.brand {
+		.spaced-section {
 			{% if bg_color != blank %}
-				background-color: {{ bg_color }};
+				background-color: {{ bg_color }} !important;
 			{% endif %}
 			{% if font_color != blank %}
-				color: {{ font_color }};
+				color: {{ font_color }} !important;
 			{% endif %}
 		}
 	</style>
