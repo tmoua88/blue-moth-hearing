@@ -49,7 +49,7 @@
     "product_image_with_text_Q4W4yy": {
       "type": "product-image-with-text",
       "custom_css": [
-        ".image-with-text__wrapper {background: #fd5d38;}"
+        ".image-standard-layout {background: #fd5d38;}"
       ],
       "name": "Product image with text",
       "settings": {
