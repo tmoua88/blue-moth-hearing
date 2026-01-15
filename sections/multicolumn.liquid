@@ -11,6 +11,7 @@
 	assign columns_per_row = section.settings.columns_per_row
 	assign section_heading = section.settings.section_heading
 	assign section_subheading = section.settings.subheading
+	assign section_text = section.settings.section_description
 %}
 
 <div class='multicolumn section-{{ section.id }}-padding background color-{{ section.settings.color_scheme }} multicolumn-card--{{ section.settings.heading_alignment }}'>
@@ -25,6 +26,11 @@
 				dot: section.settings.dot,
 			%}
 		{%- endif -%}
+		{% if section_text != blank %}
+			<div class='multicolumn__text'>
+				{{ section_text }}
+			</div>
+		{% endif %}
 
 		<div class='multicolumn__wrapper'>
 			<div class='multicolumn-list {% if swipe_on_mobile and section.blocks.size > 1 %}swiper swiper--multicolumn{% endif %}'>
@@ -222,6 +228,12 @@
 			"id": "section_heading",
 			"default": "t:sections.multicolumn.settings.heading_options.heading",
 			"label": "t:sections.all.section-header.heading.label"
+		},
+		{
+			"type": "text",
+			"id": "section_description",
+			"default": "",
+			"label": "Section description"
 		},
 		{
 			"type": "select",
