@@ -105,49 +105,70 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/BlueMoth.MelanieHecker-29.jpg",
-            "text": "<h4>Dr. Melanie K. Hecker</h4><p><em>Audiologist, Founder, CEO</em></p>"
+            "title": "Dr. Melanie K. Hecker",
+            "text": "<p><em>Audiologist, Founder, CEO</em></p>",
+            "description": "<p>Hi! I’m Mel!</p><p>I love people, hearing, technology and connection! </p><p>I’ve been an Audiologist for 13 years and have seen the hearing healthcare world from many perspectives.  I love what I do, and I love reconnecting people to their worlds through better hearing. </p><p>I started off in grad school as a research assistant, being an “ear nerd” (term of endearment) studying the newest technologies and fitting strategies. I have worked in ENT, medical settings, educational audiology, private practice and for a hearing aid manufacturer. With that time, I’ve seen what I love about hearing healthcare… and, I’ve seen big voids in the consumer experience.</p><p>The biggest challenges I’ve witnessed are in the areas of accessibility, affordability and shattering the stigma around hearing loss and hearing technology. These core challenges fueled me in creating a different path for consumers engaging in hearing healthcare.</p><p>When new legislation allowed OTC devices to enter the market, I was excited to see hearing healthcare expand it’s reach. Patients had two paths: OTC options that provide an equivalent to reader/cheater glasses, or a traditional clinic model for prescription hearing aids.</p><p>I saw a huge void for consumers in the middle. What about those who need prescription help, but didn’t want to engage with the traditional clinic model? What about those that want to be actively engaged in their own healthcare? What about empowerment through choices and options? What about the skeptics and those who distrust doctors and whitecoats?</p><p>That’s why I created BLUEMOTH. I wanted a place where consumers led the journey for their own hearing wellness, not a “doctor knows best model”. I wanted there to be Audiologic oversight, so that consumers would have the best in quality hearing healthcare, but in a way that was fun and convenient. </p><p>Mostly – I love the freedom and transparency that comes from choice! I don’t like the amount of confusion and misinformation that is out there, and I really don’t like the awkward power dynamics of a patient being told what’s best for them.</p><p>With BLUEMOTH, we take the information you provide us, along with your hearing test results and we send you three sets of premium prescription technology to test drive in your own life – so YOU can determine the benefits and which you prefer. That’s radically new and different. And, I feel passionately that it’s needed – it’s what consumers deserve.</p><p>I want hearing to be a sense of pride and empowerment, not a sense that brings about shame and hiding.</p><p>It’s time to live out loud!</p><p>– Dr. Melanie K. Hecker</p><p><br/></p>",
+            "quote": ""
           }
         },
         "card_UpRwbB": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/IMG_1342.jpg",
-            "text": "<h4>Dr. Leela Cleary</h4><p><em>Audiologist</em></p>"
+            "title": "Dr. Leela Cleary",
+            "text": "<p><em>Audiologist</em></p>",
+            "description": "<p>After earning her doctorate degree, Dr. Cleary developed a passion for telehealth and providing high-quality audiological care virtually.</p><p> She loves delivering customers with accessible audiological services and empowering individuals as they take control of their hearing through BLUEMOTH. </p><p>Dr. Cleary finds joy in quality family time and enjoys the thrill of competitive sports.</p>",
+            "quote": "<p>With BLUEMOTH, I am able to connect with individuals to improve their quality of life, which fills me with gratitude and a deep sense of fulfillment. </p>"
           }
         },
         "card_wHWgKh": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/IMG_1394.jpg",
-            "text": "<h4>Rhea John</h4><p><em>Director of Operations</em></p>"
+            "title": "Rhea John",
+            "text": "<p><em>Director of Operations</em></p>",
+            "description": "<p>With degrees in Physics and experience in entrepreneurship, Rhea applies her problem-solving skills to oversee operations at BLUEMOTH. Rhea loves working at BLUEMOTH because of our fun and rebellious approach to hearing care. Outside of work, Rhea enjoys reading thrillers and practicing yoga.</p>",
+            "quote": "<p>Hearing connects people to their hobbies and loved ones- it’s rewarding to see that joy come back into people’s lives through great hearing care.</p>"
           }
         },
         "card_9tC3jN": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/Screenshot_2025-12-08_075725.png",
-            "text": "<h4>Sienna Herrera-Maddox</h4><p><em>Audiology Assistant</em></p>"
+            "title": "",
+            "text": "<h4>Sienna Herrera-Maddox</h4><p><em>Audiology Assistant</em></p>",
+            "description": "",
+            "quote": ""
           }
         },
         "card_tmtJeB": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/AQ1A5049.jpg",
-            "text": "<h4>Cathy Childs</h4><p><em>Patient Advocate</em></p>"
+            "title": "",
+            "text": "<h4>Cathy Childs</h4><p><em>Patient Advocate</em></p>",
+            "description": "",
+            "quote": ""
           }
         },
         "card_ghLNAq": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/Nina_M._Holmstrom_Headshot.png",
-            "text": "<h4>Nina M. Holmstrom</h4><p><em>Executive Assistant</em></p>"
+            "title": "",
+            "text": "<h4>Nina M. Holmstrom</h4><p><em>Executive Assistant</em></p>",
+            "description": "",
+            "quote": ""
           }
         },
         "card_m3PE86": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/Macky_Venida_Headshot.png",
-            "text": "<h4>Macky Venida</h4><p><em>Executive Assistant</em></p>"
+            "title": "",
+            "text": "<h4>Macky Venida</h4><p><em>Executive Assistant</em></p>",
+            "description": "",
+            "quote": ""
           }
         },
         "card_9CMMYf": {
@@ -155,7 +176,10 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Macky_Venida_Headshot.png",
-            "text": "<p>Green Tea</p>"
+            "title": "",
+            "text": "<p>Green Tea</p>",
+            "description": "",
+            "quote": ""
           }
         }
       },
@@ -173,7 +197,9 @@
       "settings": {
         "background_color": "#313d47",
         "margin_top": "xs",
-        "margin_bottom": "xs"
+        "margin_bottom": "xs",
+        "modal_color": "#000000",
+        "modal_background_color": "#a5ccfb"
       }
     }
   },
