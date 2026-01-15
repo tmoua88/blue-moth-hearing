@@ -83,7 +83,7 @@
         "show_date": true,
         "show_author": true,
         "show_excerpt": true,
-        "show_button": true,
+        "show_button": false,
         "show_count_comments": false,
         "blog_heading_tag": "h4",
         "columns_mobile": "2",
