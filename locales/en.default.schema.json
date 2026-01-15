@@ -2603,7 +2603,7 @@
 						"label": "Center"
 					}
 				},
-				"show_embedded_map": {
+				"show_embedded": {
 					"label": "Show embedded map"
 				},
 				"embedded_form_code": {
