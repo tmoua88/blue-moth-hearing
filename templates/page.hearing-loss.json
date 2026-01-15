@@ -199,6 +199,107 @@
         "margin_bottom": "xs"
       }
     },
+    "multicolumn_JHM83D": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mDWimK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_E_V2_white.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "Repairs and maintenance.",
+            "text": "Complimentary during your warranty period.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_W8ihJx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_T_V2_white.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "45 Day Returns",
+            "text": "On hearing aid purchases. Love them or your money back.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_etEDLY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_F_V2_white.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "Dedicated customer service.",
+            "text": "Never wait more than 1 business day for hearing help.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_ByXmkf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_F_V2_white.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "End-to-end care",
+            "text": "All telehealth care, adjustments, and troubleshooting included.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_mDWimK",
+        "column_W8ihJx",
+        "column_etEDLY",
+        "column_ByXmkf"
+      ],
+      "custom_css": [
+        ".multicolumn-section {background-color: #313d47;}",
+        "h2,h3,h4 {font-weight: 500 !important;}",
+        ".multicolumn-card {padding: 2.8rem;}"
+      ],
+      "name": "It's better with BLUEMOTH",
+      "settings": {
+        "color_scheme": "background-3",
+        "section_heading": "It's better with BLUEMOTH.",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "heading_alignment": "center",
+        "subheading": "",
+        "dot": false,
+        "columns_per_row": 3,
+        "content_alignment": "left",
+        "swipe_on_mobile": false,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "s",
+        "margin_bottom": "no-indent"
+      }
+    },
     "multicolumn_NakiYf": {
       "type": "multicolumn",
       "blocks": {
@@ -335,6 +436,7 @@
     "multicolumn_jpkVdr",
     "image_with_text_4px9Ni",
     "image_with_text_beP4T9",
+    "multicolumn_JHM83D",
     "multicolumn_NakiYf",
     "multicolumn_QBiP6B"
   ]
