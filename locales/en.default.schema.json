@@ -1089,6 +1089,9 @@
 				"button_show": {
 					"label": "Show button"
 				},
+				"button_link": {
+					"label": "Link"
+				},
 				"button_style": {
 					"label": "Button style",
 					"options__1": {

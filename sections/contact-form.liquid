@@ -173,6 +173,11 @@
                 {{ section.settings.image_text }}
               </p>
             {%- endif -%}
+            {% if section.settings.button_link != blank%}
+              <a href="" class="button button--{{ section.settings.button_style }} button--primary-size focus-inset">
+                <span>{{ section.settings.button_text }}</span>
+              </a>
+            {% endif %}
           </div>
         {% elsif section.settings.image != blank %}
           <div class="image-wrapper">
@@ -492,6 +497,11 @@
       ],
       "default": "primary",
       "label": "t:sections.all.button.button_style.label"
+    },
+    {
+      "type": "link_list",
+      "id": "button_link",
+      "label": "t:sections.all.button.button_link.label"
     },
     {
       "type": "header",
