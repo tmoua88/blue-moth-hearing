@@ -199,10 +199,128 @@
         "margin_bottom": "xs"
       }
     },
+    "image_banner_fWyAwL": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "color_scheme": "background-3",
+        "heading": "4 simple steps to better hearing.",
+        "image_heading_tag": "h2",
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": true,
+        "image": "shopify://shop_images/3-step-desktop.png",
+        "image_ratio": "21/9",
+        "animation": false,
+        "overlay_enable": true,
+        "overlay_opacity": 0,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
     "multicolumn_JHM83D": {
       "type": "multicolumn",
       "blocks": {
         "column_mDWimK": {
+          "type": "column",
+          "settings": {
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "Free virtual appointment.",
+            "text": "Meet with a hearing care specialist to discuss your hearing journey and explore your needs.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_W8ihJx": {
+          "type": "column",
+          "settings": {
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "At-Home hearing testing.",
+            "text": "Need your hearing checked? Get a clinical hearing test delivered to your door.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_etEDLY": {
+          "type": "column",
+          "settings": {
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "Personalized home trial.",
+            "text": "Test 3 premium hearing aid options at home and choose your perfect fit.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_ByXmkf": {
+          "type": "column",
+          "settings": {
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "Unlimited support.",
+            "text": "Our commitment doesn’t stop at your purchase. Enjoy unlimited audiology appointments at your convenience.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_mDWimK",
+        "column_W8ihJx",
+        "column_etEDLY",
+        "column_ByXmkf"
+      ],
+      "custom_css": [
+        ".multicolumn-section {background-color: #FFF;}",
+        "h2,h3,h4 {font-weight: 500 !important;}",
+        ".multicolumn-card {padding: 2.8rem;}"
+      ],
+      "name": "It's better with BLUEMOTH",
+      "settings": {
+        "color_scheme": "background-1",
+        "section_heading": "How BLUEMOTH works.",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "heading_alignment": "center",
+        "subheading": "",
+        "dot": false,
+        "columns_per_row": 4,
+        "content_alignment": "center",
+        "swipe_on_mobile": false,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "s",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "multicolumn_QazQc3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Ncd78T": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Icon_A_V2_lemon_ae5dd96b-347f-4481-8570-5de7621d7c8b.png",
@@ -219,7 +337,7 @@
             "full_link": false
           }
         },
-        "column_W8ihJx": {
+        "column_6cD8Dy": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Icon_B_V2_lemon_17dcb1e6-23fa-40a8-86e0-e4416e6e3388.png",
@@ -236,7 +354,7 @@
             "full_link": false
           }
         },
-        "column_etEDLY": {
+        "column_i3j73N": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Icon_C_V2_lemon_5c75638c-7ef4-415e-9d11-deff5ba49d09.png",
@@ -253,7 +371,7 @@
             "full_link": false
           }
         },
-        "column_ByXmkf": {
+        "column_G7LK6a": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Icon_D_V2_lemon_6f16f612-ae29-480a-8ed5-6955eb6c3d18.png",
@@ -272,10 +390,10 @@
         }
       },
       "block_order": [
-        "column_mDWimK",
-        "column_W8ihJx",
-        "column_etEDLY",
-        "column_ByXmkf"
+        "column_Ncd78T",
+        "column_6cD8Dy",
+        "column_i3j73N",
+        "column_G7LK6a"
       ],
       "custom_css": [
         ".multicolumn-section {background-color: #313d47;}",
@@ -436,7 +554,9 @@
     "multicolumn_jpkVdr",
     "image_with_text_4px9Ni",
     "image_with_text_beP4T9",
+    "image_banner_fWyAwL",
     "multicolumn_JHM83D",
+    "multicolumn_QazQc3",
     "multicolumn_NakiYf",
     "multicolumn_QBiP6B"
   ]
