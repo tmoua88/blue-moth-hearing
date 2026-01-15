@@ -76,7 +76,7 @@
         "dot": false,
         "section_button_label": "Read",
         "section_button_link": "",
-        "button_dot": true,
+        "button_dot": false,
         "section_button_style": "primary",
         "show_image": true,
         "show_tags": false,
@@ -86,12 +86,12 @@
         "show_button": true,
         "show_count_comments": false,
         "blog_heading_tag": "h4",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "image_ratio_first": "4/3",
         "image_ratio": "16/9",
-        "margin_top": "xl",
-        "margin_bottom": "xl"
+        "margin_top": "s",
+        "margin_bottom": "s"
       }
     },
     "newsletter": {
