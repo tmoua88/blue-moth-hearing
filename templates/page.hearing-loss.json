@@ -210,7 +210,7 @@
         "section_heading_tag": "h2",
         "section_heading_size": "h2",
         "subheading": "",
-        "dot": true,
+        "dot": false,
         "image": "shopify://shop_images/3-step-desktop.png",
         "image_ratio": "21/9",
         "animation": false,
@@ -295,7 +295,7 @@
         "column_ByXmkf"
       ],
       "custom_css": [
-        ".multicolumn-section {background-color: #FFF;}",
+        ".multicolumn-section {background-color: #fff;}",
         "h2,h3,h4 {font-weight: 500 !important;}",
         ".multicolumn-card {padding: 2.8rem;}"
       ],
