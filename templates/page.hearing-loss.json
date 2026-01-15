@@ -205,7 +205,7 @@
         "column_mDWimK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Icon_E_V2_white.png",
+            "image": "shopify://shop_images/Icon_A_V2_lemon.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
@@ -222,7 +222,7 @@
         "column_W8ihJx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Icon_T_V2_white.png",
+            "image": "shopify://shop_images/Icon_B_V2_lemon.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
@@ -239,7 +239,7 @@
         "column_etEDLY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Icon_F_V2_white.png",
+            "image": "shopify://shop_images/icon_C_lemon.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
@@ -256,7 +256,7 @@
         "column_ByXmkf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Icon_F_V2_white.png",
+            "image": "shopify://shop_images/icon_D_lemon.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
