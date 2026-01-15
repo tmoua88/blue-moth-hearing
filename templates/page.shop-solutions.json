@@ -71,7 +71,7 @@
         "button_link": "shopify://products/bluemoth-experience-box",
         "button_style": "primary",
         "button_dot": true,
-        "button_label_2": "Compare",
+        "button_label_2": "",
         "button_link_2": "",
         "button_style_2": "primary",
         "button_dot_2": true,
@@ -104,7 +104,7 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
-        "button_label_2": "Compare",
+        "button_label_2": "",
         "button_link_2": "",
         "button_style_2": "primary",
         "button_dot_2": true,
@@ -115,7 +115,8 @@
     "product_image_with_text_HER7Ar": {
       "type": "product-image-with-text",
       "custom_css": [
-        ".image-with-text__wrapper {background: #313d47;}"
+        ".image-standard-layout {background: #313d47;}",
+        "img {padding: 4rem;}"
       ],
       "name": "Product image with text",
       "settings": {
@@ -123,7 +124,7 @@
         "image_position": "image_right",
         "content_alignment": "left",
         "image": "shopify://shop_images/SS4_BlueMothProduct-49.jpg",
-        "image_size": "1/1",
+        "image_size": "21/9",
         "subheading": "",
         "dot": true,
         "heading": "Here can be your title",
@@ -136,7 +137,7 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
-        "button_label_2": "Compare",
+        "button_label_2": "",
         "button_link_2": "",
         "button_style_2": "primary",
         "button_dot_2": true,
@@ -147,7 +148,8 @@
     "product_image_with_text_fJKhP8": {
       "type": "product-image-with-text",
       "custom_css": [
-        ".image-with-text__wrapper {background: #d2d92e;}"
+        ".image-standard-layout {background: #d2d92e;}",
+        "img {padding: 4rem;}"
       ],
       "name": "Product image with text",
       "settings": {
@@ -155,7 +157,7 @@
         "image_position": "image_left",
         "content_alignment": "left",
         "image": "shopify://shop_images/SS5_unsplash_oto_retouched.jpg",
-        "image_size": "1/1",
+        "image_size": "21/9",
         "subheading": "",
         "dot": true,
         "heading": "Here can be your title",
@@ -168,7 +170,7 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
-        "button_label_2": "Compare",
+        "button_label_2": "",
         "button_link_2": "",
         "button_style_2": "primary",
         "button_dot_2": true,
