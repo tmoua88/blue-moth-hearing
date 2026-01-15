@@ -173,9 +173,9 @@
                 {{ section.settings.image_text }}
               </p>
             {%- endif -%}
-            {% if section.settings.button_label_2 != blank%}
+            {% if section.settings.button_label != blank %}
               {% render 'button',
-                  btn_label: section.settings.button_label_2,
+                  btn_label: section.settings.button_label,
                   btn_link: section.settings.button_link_2,
                   btn_style: section.settings.button_style,
                   button_dot: section.settings.button_dot,
