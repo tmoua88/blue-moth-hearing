@@ -28,3 +28,9 @@
 .slideshow-slide__desc p {
   margin-bottom: 1.6rem;
 }
+iframe button {
+  background: transparent;
+}
+#_builder-form {
+  box-shadow: none !important;
+}

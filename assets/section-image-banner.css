@@ -205,3 +205,6 @@ h1.color-background-3, .image-banner__heading .image-banner__text {
   background-color: rgb(var(--color-overlay));
   transition: opacity var(--duration-default);
 }
+.image-title-fix {
+  background: transparent !important;
+}
