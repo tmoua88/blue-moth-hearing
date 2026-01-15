@@ -9,6 +9,27 @@
  */
 {
   "sections": {
+    "image_banner_mYcyBJ": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "color_scheme": "background-3",
+        "heading": "This is where your message goes",
+        "image_heading_tag": "h2",
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "subheading": "",
+        "dot": false,
+        "image": "shopify://shop_images/BlueMothBranding-68_copy.jpg",
+        "image_ratio": "5/1",
+        "animation": false,
+        "overlay_enable": true,
+        "overlay_opacity": 0,
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
+    },
     "main-blog": {
       "type": "main-blog",
       "settings": {
@@ -54,6 +75,7 @@
     }
   },
   "order": [
+    "image_banner_mYcyBJ",
     "main-blog",
     "newsletter"
   ]
