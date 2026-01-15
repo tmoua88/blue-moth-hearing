@@ -360,7 +360,7 @@
           "colors_tertiary_button_labels_hover": "#3f3f3f",
           "colors_tertiary_button_background": "#f1f1f1",
           "colors_tertiary_button_background_hover": "#eeeeee",
-          "card_new_price_color": "#3f3f3f",
+          "card_new_price_color": "#000000",
           "card_old_price_color": "#999999",
           "colors_badge_background": "#4277fd",
           "colors_badge_labels": "#ffffff",
@@ -369,7 +369,7 @@
           "colors_input_border": "#f1f1f1",
           "colors_input_hover_border": "#f1f1f1",
           "colors_marker_background": "#ffffff",
-          "colors_accent": "#3f3f3f",
+          "colors_accent": "#000000",
           "colors_background_overlay": "#ffffff",
           "color_border": "#e6e6e6",
           "colors_background_3": "#efefea"
