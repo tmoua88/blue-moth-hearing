@@ -2602,6 +2602,13 @@
 					"options_2": {
 						"label": "Center"
 					}
+				},
+				"show_embedded_map": {
+					"label": "Show embedded map"
+				},
+				"embedded_form_code": {
+					"label": "Embedded form code",
+					"info": "You can use third-party form services that provide embed code, such as Google Forms, JotForm, Typeform, GHL or Wufoo."
 				}
 			},
 			"presets": {
