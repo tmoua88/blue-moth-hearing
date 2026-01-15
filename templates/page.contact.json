@@ -62,6 +62,7 @@
         "image_ratio": "4/3",
         "schedule": true,
         "button_style": "primary",
+        "button_link": "/pages/book-a-call?view=schedule-appointment",
         "margin_top": "xs",
         "margin_bottom": "m"
       }
