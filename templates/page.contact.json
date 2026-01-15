@@ -53,6 +53,8 @@
         "heading_size": "h2",
         "text": "",
         "additional_text": "",
+        "show_embedded": false,
+        "embedded_form_code": "",
         "image_position": "right",
         "image_heading": "Schedule an appointment.",
         "image_heading_tag": "h2",
@@ -291,7 +293,8 @@
       ],
       "custom_css": [
         ".spaced-section,.multicolumn {background: #d2d92e; color: #000;}",
-        ".button {background: #fff; color: #000;}"
+        ".button {background: #fff; color: #000;}",
+        ".multicolumn-card__text.richtext__content {display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; text-overflow: ellipsis; /* helps prevent weird overflow with long words/urls */ overflow-wrap: anywhere;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
