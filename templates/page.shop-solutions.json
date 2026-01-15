@@ -101,7 +101,7 @@
         "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
         "price": "$399",
         "button_label": "Book",
-        "button_link": "",
+        "button_link": "shopify://products/bluemoth-tinnitus-care-plan",
         "button_style": "primary",
         "button_dot": true,
         "button_label_2": "",
