@@ -133,6 +133,7 @@
       "settings": {
         "color_scheme": "background-2",
         "section_heading": "Degrees of hearing loss.",
+        "section_description": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
@@ -308,6 +309,7 @@
       "settings": {
         "color_scheme": "background-1",
         "section_heading": "How BLUEMOTH works.",
+        "section_description": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
@@ -353,6 +355,7 @@
       "settings": {
         "color_scheme": "background-1",
         "section_heading": "",
+        "section_description": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
@@ -454,6 +457,7 @@
       "settings": {
         "color_scheme": "background-3",
         "section_heading": "It’s better with BLUEMOTH.",
+        "section_description": "<p>With us, you’re purchasing more than hearing aids. We have your back for all of your hearing wellness needs.</p>",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
@@ -537,6 +541,7 @@
       "settings": {
         "color_scheme": "background-5",
         "section_heading": "Guided solutions.",
+        "section_description": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
@@ -583,6 +588,7 @@
       "settings": {
         "color_scheme": "background-5",
         "section_heading": "",
+        "section_description": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
