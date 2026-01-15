@@ -27,46 +27,78 @@
     margin-bottom: 3.6rem;
   }
 }
+
 .contact-form__inner {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "content"
+    "form";
   gap: 3.2rem;
 }
+
+/* Mobile stack reversal */
 .contact-form__inner--left {
-  flex-direction: column-reverse;
+  grid-template-areas:
+    "form"
+    "content";
 }
+
+/* Center modifier */
+.contact-form__inner--center {
+  justify-items: center;
+}
+
 @media screen and (min-width: 1100px) {
   .contact-form__inner {
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content form";
     gap: 8rem;
+    align-items: start;
   }
+
+  /* Swap columns on desktop */
   .contact-form__inner--left {
-    flex-direction: row-reverse;
+    grid-template-areas: "form content";
   }
-}
-.contact-form__inner--center {
-  align-items: center;
-}
-@media screen and (min-width: 1100px) {
+
+  /* Center modifier (desktop) */
   .contact-form__inner--center {
-    justify-content: center;
-    align-items: flex-start;
+    justify-items: stretch;
+  }
+
+  /* Vertical separator centered in the gap */
+  .contact-form__inner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.12);
+    pointer-events: none;
   }
 }
+
+.contact-form__content {
+  grid-area: content;
+  width: 100%;
+}
+
 .contact-form__wrapper {
-  flex: none;
+  grid-area: form;
   width: 100%;
   max-width: 54.9rem;
 }
-@media screen and (min-width: 1100px) {
+
+/* @media screen and (min-width: 1100px) {
   .contact-form__wrapper {
     max-width: 43.6rem;
   }
-}
+} */
+
 .contact-form__title {
   margin: 0 0 0.8rem 0;
 }
@@ -78,6 +110,7 @@
   margin-bottom: 2.4rem;
   color: rgb(var(--color-foreground), 0.8);
 }
+
 .contact-form .field__label span {
   color: #d41f4b;
 }
@@ -97,7 +130,7 @@
   margin-top: 1.5rem;
 }
 @media screen and (min-width: 1100px) {
-  .contact-form, .contact-form__image {
+  .contact-form, .contact-form__image, .schedule .contact-form__text {
     margin-top: 2.8rem;
   }
 }
