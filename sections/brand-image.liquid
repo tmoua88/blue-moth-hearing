@@ -5,21 +5,6 @@
 	{% render 'section-margin' %}
 {%- endstyle -%}
 
-{% assign bg_color = section.settings.background_color %}
-{% assign font_color = section.settings.font_color %}
-{% if bg_color != blank or font_color != blank %}
-	<style>
-		.spaced-section {
-			{% if bg_color != blank %}
-				background-color: {{ bg_color }} !important;
-			{% endif %}
-			{% if font_color != blank %}
-				color: {{ font_color }} !important;
-			{% endif %}
-		}
-	</style>
-{% endif %}
-
 <div class='brand container'>
 	{% render 'section-header',
 		section_heading: section.settings.section_heading,
@@ -113,16 +98,6 @@
 		],
 		"default": "static",
 		"label": "t:sections.logo-list.settings.layout.label"
-	},
-	{
-		"type": "color",
-		"id": "background_color",
-		"label": "t:sections.comparison-table.blocks.detail_modal.settings.background_color.label"
-	},
-	{
-		"type": "color",
-		"id": "font_color",
-		"label": "t:sections.all.font.color.label"
 	},
 	{
 		"type": "header",
