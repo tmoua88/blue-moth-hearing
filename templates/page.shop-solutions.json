@@ -49,7 +49,8 @@
     "product_image_with_text_Q4W4yy": {
       "type": "product-image-with-text",
       "custom_css": [
-        ".image-standard-layout {background: #fd5d38;}"
+        ".image-standard-layout {background: #fd5d38;}",
+        "img {padding: 4rem;}"
       ],
       "name": "Product image with text",
       "settings": {
@@ -57,7 +58,7 @@
         "image_position": "image_right",
         "content_alignment": "left",
         "image": "shopify://shop_images/SS2.jpg",
-        "image_size": "1/1",
+        "image_size": "21/9",
         "subheading": "",
         "dot": true,
         "heading": "Here can be your title",
