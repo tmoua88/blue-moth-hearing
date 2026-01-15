@@ -36,9 +36,7 @@
     },
     "main-blog": {
       "type": "main-blog",
-      "custom_css": [
-        ".main-blog__title.h1.title--page,h4.article-card__title {display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "posts_per_page": 7,
         "page_heading_tag": "h1",
