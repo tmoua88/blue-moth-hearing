@@ -416,15 +416,3 @@
 .multicolumn-card--left::before {
   background: none !important;
 }
-
-.multicolumn-card__text.richtext__content {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-
-  overflow: hidden;
-  text-overflow: ellipsis;
-
-  /* helps prevent weird overflow with long words/urls */
-  overflow-wrap: anywhere;
-}
