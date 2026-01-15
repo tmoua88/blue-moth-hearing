@@ -174,9 +174,13 @@
               </p>
             {%- endif -%}
             {% if section.settings.button_link != blank%}
-              <a href="" class="button button--{{ section.settings.button_style }} button--primary-size focus-inset">
-                <span>{{ section.settings.button_text }}</span>
-              </a>
+              {% render 'button',
+									btn_label: section.settings.button_label,
+									btn_link: section.settings.button_link,
+									btn_style: section.settings.button_style,
+									button_dot: section.settings.button_dot,
+									add_classes: 'multicolumn-card__button'
+								%}
             {% endif %}
           </div>
         {% elsif section.settings.image != blank %}
@@ -499,7 +503,7 @@
       "label": "t:sections.all.button.button_style.label"
     },
     {
-      "type": "link_list",
+      "type": "url",
       "id": "button_link",
       "label": "t:sections.all.button.button_link.label"
     },
