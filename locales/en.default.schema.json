@@ -1674,6 +1674,11 @@
 				"author_position": {
 					"label": "Author Position"
 				}
+			},
+			"font": {
+				"color": {
+					"label": "Font color"
+				}
 			}
 		},
 		"slideshow-column": {
