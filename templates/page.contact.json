@@ -57,7 +57,7 @@
         "image_heading": "Schedule an appointment.",
         "image_heading_tag": "h2",
         "image_heading_size": "h2",
-        "image_text": "",
+        "image_text": "TESTST",
         "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
         "image_ratio": "4/3",
         "schedule": true,
@@ -95,7 +95,7 @@
             "text": "",
             "expanded_text": "<p>We’re standing by and happy to hear from you at <a href=\"mailto:sales@@launchsquad.com\" title=\"mailto:sales@bluemothhearing.com\">sales@bluemothhearing.com</a>.</p>",
             "button_label": "",
-            "button_link": "/pages/book-a-call?view=schedule-appointment",
+            "button_link": "",
             "button_dot": false,
             "button_style": "primary",
             "full_link": false
