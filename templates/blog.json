@@ -56,7 +56,7 @@
         "show_count_comments": false,
         "post_heading_tag": "h4",
         "margin_top": "no-indent",
-        "margin_bottom": "xl"
+        "margin_bottom": "s"
       }
     },
     "newsletter": {
