@@ -23,7 +23,7 @@
       "type": "image-with-text",
       "custom_css": [
         ".section-header__title.h1 {color: rgb(26, 26, 26);}",
-        "@media screen and (min-width: 760px) {.image-with-text-section {margin-top: -75px; }}"
+        "@media screen and (min-width: 760px) {.image-with-text-section {margin-top: -75px; width: 100vw; } .image-with-text__content .section-header h2 {padding-top: 60px; } .image-with-text__content--image_left {padding-right: 8.6rem; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -43,7 +43,7 @@
         "button_style": "primary",
         "button_dot": true,
         "margin_top": "no-indent",
-        "margin_bottom": "s"
+        "margin_bottom": "no-indent"
       }
     },
     "comparison_table_z8i4tF": {
