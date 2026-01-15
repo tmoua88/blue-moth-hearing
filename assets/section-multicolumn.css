@@ -54,12 +54,14 @@
     grid-template-columns: repeat(4, 1fr);
   }
   .multicolumn-list__wrapper--4 .multicolumn-card {
-    padding: 6.2rem 2rem;
+    /* padding: 6.2rem 2rem; */
+    padding: 3.1rem 2rem;
   }
 }
 @media (min-width: 1360px) {
   .multicolumn-list__wrapper--4 .multicolumn-card {
-    padding: 6.2rem 2.8rem;
+    /* padding: 6.2rem 2.8rem; */
+    padding: 3.1rem 2.8rem;
   }
 }
 @media screen and (max-width: calc(750px - 1px)) {
@@ -272,6 +274,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-bottom: 1.2rem;
 }
 .multicolumn-card--center .multicolumn-card__info {
   align-items: center;
@@ -300,13 +303,14 @@
   word-break: break-word;
 }
 .multicolumn-card__button {
-  margin-top: 2.4rem;
+  margin-top:1.2rem;
   max-width: 100%;
   overflow-wrap: anywhere;
 }
 @media (min-width: 750px) {
   .multicolumn-card__button {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
+    margin-top: auto;
   }
 }
 .multicolumn-card__image-wrapper {
@@ -411,4 +415,16 @@
 .multicolumn-card--center::before,
 .multicolumn-card--left::before {
   background: none !important;
+}
+
+.multicolumn-card__text.richtext__content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  /* helps prevent weird overflow with long words/urls */
+  overflow-wrap: anywhere;
 }
