@@ -84,6 +84,11 @@
 			<{{ image_heading_tag }} class="image-banner__heading color-{{section.settings.color_scheme}}">
 				{{ section.settings.heading }}
 			</{{ image_heading_tag }}>
+			{% if section.settings.text != blank%}
+			<div class="">
+				{{ section.settings.text }}
+			</div>
+			{% endif %}
 		{% endif %}
 		<div class='image-banner__container section-full-size'>
 			{%- if section.settings.image != blank -%}
@@ -175,6 +180,12 @@
 			"id": "heading",
 			"default": "t:sections.image-banner.settings.heading.default",
 			"label": "t:sections.image-banner.settings.heading.label"
+		},
+		{
+			"type": "richtext",
+			"id": "text",
+			"default": "t:sections.image-banner.settings.text.default",
+			"label": "t:sections.image-banner.settings.text.label"
 		},
 		{
 			"type": "select",
