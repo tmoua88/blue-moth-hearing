@@ -173,14 +173,14 @@
                 {{ section.settings.image_text }}
               </p>
             {%- endif -%}
-            {% if section.settings.button_link != blank%}
+            {% if section.settings.button_link_2 != blank%}
               {% render 'button',
-									btn_label: section.settings.button_label_2,
-									btn_link: section.settings.button_link_2,
-									btn_style: section.settings.button_style,
-									button_dot: section.settings.button_dot,
-									add_classes: 'multicolumn-card__button'
-								%}
+                  btn_label: section.settings.button_label_2,
+                  btn_link: section.settings.button_link_2,
+                  btn_style: section.settings.button_style,
+                  button_dot: section.settings.button_dot,
+                  add_classes: 'multicolumn-card__button'
+                %}
             {% endif %}
           </div>
         {% elsif section.settings.image != blank %}
