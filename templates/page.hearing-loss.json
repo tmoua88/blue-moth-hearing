@@ -207,7 +207,7 @@
           "settings": {
             "image": "shopify://shop_images/Icon_A_V2_lemon.png",
             "image_width": "medium",
-            "image_size": "1/1",
+            "image_size": "adapt",
             "icon": "none",
             "heading": "Repairs and maintenance.",
             "text": "Complimentary during your warranty period.",
@@ -224,7 +224,7 @@
           "settings": {
             "image": "shopify://shop_images/Icon_B_V2_lemon.png",
             "image_width": "medium",
-            "image_size": "1/1",
+            "image_size": "adapt",
             "icon": "none",
             "heading": "45 Day Returns.",
             "text": "On hearing aid purchases. Love them or your money back.",
@@ -241,7 +241,7 @@
           "settings": {
             "image": "shopify://shop_images/icon_C_lemon.png",
             "image_width": "medium",
-            "image_size": "1/1",
+            "image_size": "adapt",
             "icon": "none",
             "heading": "Dedicated customer service.",
             "text": "Never wait more than 1 business day for hearing help.",
@@ -258,7 +258,7 @@
           "settings": {
             "image": "shopify://shop_images/icon_D_lemon.png",
             "image_width": "medium",
-            "image_size": "1/1",
+            "image_size": "adapt",
             "icon": "none",
             "heading": "End-to-end care.",
             "text": "All telehealth care, adjustments, and troubleshooting included.",
