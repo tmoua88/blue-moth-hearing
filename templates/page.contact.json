@@ -296,7 +296,8 @@
       "custom_css": [
         ".spaced-section,.multicolumn {background: #d2d92e; color: #000;}",
         ".button {background: #fff; color: #000;}",
-        ".multicolumn-card__text.richtext__content {display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; text-overflow: ellipsis; /* helps prevent weird overflow with long words/urls */ overflow-wrap: anywhere;}"
+        ".multicolumn-card__text.richtext__content {display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; text-overflow: ellipsis; /* helps prevent weird overflow with long words/urls */ overflow-wrap: anywhere;}",
+        "h1, h2, h3, h4, p {color: #000;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
