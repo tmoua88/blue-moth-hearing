@@ -41,11 +41,13 @@ class TeamMembers extends HTMLElement {
   onModalOpen () {
     document.body.classList.add('overflow-hidden');
     document.querySelector('.header-wrapper').style.display = 'none';
+    document.querySelector('.footer').style.display = 'none';
   }
 
   onModalClose () {
     document.body.classList.remove('overflow-hidden');
     document.querySelector('.header-wrapper').style.display = '';
+    document.querySelector('.footer').style.display = '';
   }
 
   get triggers () {
