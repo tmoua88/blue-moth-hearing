@@ -8,11 +8,21 @@
   }
 {%- endstyle -%}
 
-<div class='image-cards container'>
+<script src="{{ 'component-team-members.js' | asset_url }}" type="module"></script>
 
+<team-members
+  class="block main-team section-inner"
+  style="
+    --section-text-color: {{ section.settings.color }};
+    --section-background-color: {{ section.settings.background_color }};
+    --section-modal-text-color: {{ section.settings.modal_color }};
+    --section-modal-background-color: {{ section.settings.modal_background_color }};
+  "
+>
+  <div class='image-cards container'>
 		<ul class="image-cards__wrapper">
 			{%- for block in section.blocks -%}
-				<li class="image-card">
+				<li class="image-card js-modal-trigger" data-index="{{ forloop.index }}">
 					{%- if block.settings.image != blank -%}
 						<img
 							src='{{ block.settings.image | image_url: width: 400 }}'
@@ -21,14 +31,65 @@
 						>
           {%- endif -%}
           {%- if block.settings.image != blank -%}
-            <div class='image-card-text__text'>
+            <h4 class="image-card-text__title">
+              {{ block.settings.title }}
+            </h4>
+            <div class="image-card-text__text">
               {{ block.settings.text }}
             </div>
           {%- endif -%}
 				</li>
 			{%- endfor -%}
+
+      {%- for block in section.blocks -%}
+        {%- assign mod_block = block.settings -%}
+        <div class="team-modal js-modal" data-index="{{ forloop.index }}">
+          <div class="team-modal__inner relative w1">
+            <button
+              class="team-modal__close button js-modal-close"
+              aria-label="{{ 'accessibility.close' | t }}"
+            >
+              {%- render 'icon-close', class: 'block w1 ha' -%}
+            </button>
+
+            <div class="team-modal__wrapper container">
+              <div class="team-modal__image">
+                {%- render 'image',
+                  image: mod_block.image,
+                  sizes: '50vw, (max-width: 750px) 100vw',
+                  width: 150,
+                  container: true,
+                  container_class: 'img--rounded'
+                -%}
+              </div>
+              <div class="team-modal__content">
+                <h2 class="team-modal__title">
+                  {{- mod_block.title -}}
+                </h2>
+                <div class="team-modal__role">
+                  {{- mod_block.text -}}
+                </div>
+                <div class="team-modal__description">
+                  {{- mod_block.description -}}
+                </div>
+                {%- if mod_block.quote != blank -%}
+                  <div class="team-modal__quote h3">
+                    <span class="team-modal__quote-icon">
+                      {%- render 'icon' with 'quote' -%}
+                    </span>
+                    <div class="team-modal__quote-text">
+                      {{- mod_block.quote -}}
+                    </div>
+                  </div>
+                {%- endif -%}
+              </div>
+            </div>
+          </div>
+        </div>
+      {%- endfor -%}
 		</ul>
-</div>
+  </div>
+</>
 
 {% schema %}
 {
@@ -39,6 +100,10 @@
 		"templates": ["*"]
 	},
 	"settings": [
+    {
+      "type": "header",
+      "content": "Style"
+    },
     {
       "type": "color",
       "id": "background_color",
@@ -75,7 +140,7 @@
 				}
 			],
 			"default": "s",
-			"label": "t:sections.all.section-margin.margin_top.label"
+			"label": "Top margin"
 		},
 		{
 			"type": "select",
@@ -107,8 +172,24 @@
 				}
 			],
 			"default": "s",
-			"label": "t:sections.all.section-margin.margin_bottom.label"
-		}
+			"label": "Bottom margin"
+		},
+    {
+      "type": "header",
+      "content": "Modal Style"
+    },
+    {
+      "type": "color",
+      "id": "modal_color",
+      "label": "Modal color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "modal_background_color",
+      "label": "Modal background color",
+      "default": "#A5CCFB"
+    }
 	],
 	"blocks": [
 		{
@@ -121,10 +202,25 @@
 					"label": "t:sections.brand-image.blocks.column.settings.image.label"
 				},
         {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
           "type": "richtext",
           "id": "text",
           "label": "Text"
-        }
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": " Modal description"
+        },
+        {
+          "type": "richtext",
+          "id": "quote",
+          "label": "Modal quote"
+        },
 			]
 		}
 	],
