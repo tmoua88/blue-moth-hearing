@@ -1,1 +1,48 @@
-{"sections":{"cart-items":{"type":"main-cart-items","settings":{"show_cart_note":false,"margin_top":"no-indent","margin_bottom":"no-indent"}},"newsletter":{"type":"newsletter","settings":{"color_scheme":"background-1","margin_top":"m","margin_bottom":"no-indent"}}},"order":["cart-items","newsletter"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "section_heading_tag": "h1",
+        "section_heading_size": "h1",
+        "cart_drawer_empty_subtitle": "Your cart may be empty now, but let us help you fill it up with amazing products.",
+        "show_cart_note": false,
+        "button_style": "secondary",
+        "button_dot": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "v_align": "column",
+        "heading": "Here can be your newsletter title",
+        "section_heading_tag": "h2",
+        "heading_size": "h1",
+        "newsletter_text": "Here can be a short invitation to subscribe",
+        "section_button_style": "primary",
+        "button_dot": true,
+        "margin_top": "m",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "newsletter"
+  ]
+}
