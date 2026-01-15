@@ -34,7 +34,7 @@
         "image_size": "4/3",
         "subheading": "",
         "dot": false,
-        "heading": "Shop our solutions.",
+        "heading": "Compare products.",
         "section_heading_tag": "h1",
         "heading_size": "h1",
         "text": "<p>Use this space to give more details about what’s being shown in the image—this could be product specifications, an event highlight, or an introduction to a collection.</p>",
@@ -684,7 +684,7 @@
         "enable_animation": true,
         "color": "#000000",
         "background_color": "#f2f2f2",
-        "title": "Compare products.",
+        "title": "",
         "disclaimer_text": ""
       }
     }
