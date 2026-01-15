@@ -264,9 +264,10 @@
         "column_dryjJh"
       ],
       "custom_css": [
-        ".spaced-section {background: #313D47;}",
-        "h2, h3, h4, h5, p {color: #FFF; text-align: center;}",
-        ".brand-list {justify-content: center;}"
+        ".spaced-section {background: #313d47;}",
+        "h2,h3,h4,h5,p {color: #fff; text-align: center;}",
+        ".brand-list {justify-content: center;}",
+        ".swiper-notification {display: none;}"
       ],
       "name": "t:sections.brand-image.presets.name",
       "settings": {
