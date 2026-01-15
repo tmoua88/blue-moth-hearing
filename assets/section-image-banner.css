@@ -134,7 +134,7 @@
   color: rgb(var(--color-foreground));
   z-index: 3;
 }
-.image-banner__heading h1, .image-banner__heading .image-banner__text {
+h1.color-background-3, .image-banner__heading .image-banner__text {
   background: transparent;
 }
 .image-banner__wrapper {
