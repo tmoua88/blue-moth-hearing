@@ -116,7 +116,8 @@
       "type": "product-image-with-text",
       "custom_css": [
         ".image-standard-layout {background: #313d47;}",
-        "img {padding: 4rem;}"
+        "img {padding: 4rem;}",
+        ".button {background: #FFF; color: #000;}"
       ],
       "name": "Product image with text",
       "settings": {
