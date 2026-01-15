@@ -317,6 +317,51 @@
         "margin_bottom": "no-indent"
       }
     },
+    "multicolumn_QBiP6B": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FMax6X": {
+          "type": "column",
+          "name": "Button",
+          "settings": {
+            "image_width": "full",
+            "image_size": "1/1",
+            "icon": "none",
+            "heading": "",
+            "text": "",
+            "expanded_text": "",
+            "button_label": "Schedule Your Free Audiology Appointment",
+            "button_link": "shopify://products/bluemoth-experience-box",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_FMax6X"
+      ],
+      "custom_css": [
+        ".multicolumn-card {padding: 1.2rem;}"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "heading_alignment": "center",
+        "subheading": "",
+        "dot": true,
+        "columns_per_row": 1,
+        "content_alignment": "center",
+        "swipe_on_mobile": false,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "no-indent",
+        "margin_bottom": "xs"
+      }
+    },
     "multicolumn_QazQc3": {
       "type": "multicolumn",
       "blocks": {
@@ -501,10 +546,10 @@
         "margin_bottom": "no-indent"
       }
     },
-    "multicolumn_QBiP6B": {
+    "multicolumn_gbXBCA": {
       "type": "multicolumn",
       "blocks": {
-        "column_FMax6X": {
+        "column_VLQ7an": {
           "type": "column",
           "name": "Button",
           "settings": {
@@ -523,7 +568,7 @@
         }
       },
       "block_order": [
-        "column_FMax6X"
+        "column_VLQ7an"
       ],
       "custom_css": [
         ".multicolumn-section {background-color: #fd5d38;}",
@@ -556,8 +601,9 @@
     "image_with_text_beP4T9",
     "image_banner_fWyAwL",
     "multicolumn_JHM83D",
+    "multicolumn_QBiP6B",
     "multicolumn_QazQc3",
     "multicolumn_NakiYf",
-    "multicolumn_QBiP6B"
+    "multicolumn_gbXBCA"
   ]
 }
