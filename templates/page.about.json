@@ -135,19 +135,19 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/Screenshot_2025-12-08_075725.png",
-            "title": "",
-            "text": "<h4>Sienna Herrera-Maddox</h4><p><em>Audiology Assistant</em></p>",
-            "description": "",
-            "quote": ""
+            "title": "Sienna Herrera-Maddox",
+            "text": "<p><em>Audiology Assistant</em></p>",
+            "description": "<p><strong>Sienna</strong> brings hearing health to life through social media, focusing on making hearing care inclusive for everyone while showcasing the incredible new technology available in the field. An adventure at heart, Sienna enjoys traveling with her husband and visiting Disneyland, making the most of every moment. She is passionate about sharing how hearing care can transform lives and creating content that resonates with diverse audiences.</p>",
+            "quote": "<p>I love working in hearing healthcare because it gives me the opportunity to help people reconnect with life’s moments through the power of innovative hearing technology.</p>"
           }
         },
         "card_tmtJeB": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/AQ1A5049.jpg",
-            "title": "",
-            "text": "<h4>Cathy Childs</h4><p><em>Patient Advocate</em></p>",
-            "description": "",
+            "title": "Cathy Childs",
+            "text": "<p><em>Patient Advocate</em></p>",
+            "description": "<p>With over a decade of experience leading customer support, sales, and account management teams, Cathy is excited to join BLUEMOTH as a Patient Advocate. Having previously worked at a San Francisco-based hearing aid startup, she understands the importance of finding the right hearing solution and is thrilled to be back in the hearing care space. She loves collaborating with hardworking teams and building efficient, scalable processes. Outside of work, she enjoys biking, hiking, camping, baking, reading, and spending time with loved ones. Originally from Massachusetts, she has called San Francisco home for the past seven years.</p>",
             "quote": ""
           }
         },
@@ -155,9 +155,9 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/Nina_M._Holmstrom_Headshot.png",
-            "title": "",
-            "text": "<h4>Nina M. Holmstrom</h4><p><em>Executive Assistant</em></p>",
-            "description": "",
+            "title": "Nina M. Holmstrom",
+            "text": "<p><em>Executive Assistant</em></p>",
+            "description": "<p>Nina has spent her career helping small business owners grow their startup companies into thriving and successful organizations since early 2000. Her background includes a wide array of administrative and financial expertise in bookkeeping, accounting, as CFO, and also Executive Assistant to several Seattle-based CEO's and Executive Directors. Nina's passion for helping others, continuous commitment to excellence and growth, and providing the highest level of support to her team are her core values and foundation for success. In her words, \"I am absolutely thrilled to be directly supporting our founder and visionary, Melanie K. Hecker and to be part of the incredible team at BLUEMOTH Hearing. Together, we are creating an amazing future as we bring the latest technology of hearing devices combined with a dynamic team structured to support the varying needs of each and every customer.</p>",
             "quote": ""
           }
         },
@@ -165,9 +165,9 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/Macky_Venida_Headshot.png",
-            "title": "",
-            "text": "<h4>Macky Venida</h4><p><em>Executive Assistant</em></p>",
-            "description": "",
+            "title": "Macky Venida",
+            "text": "<p><em>Executive Assistant</em></p>",
+            "description": "<p>Macky Venida is BLUEMOTH Hearing's dedicated Executive Assistant from Manila. Guided by his life verse, Colossians 3:23, Macky approaches his work with heartfelt dedication, always striving to give his best in every task. He deeply values the opportunity to be part of the BLUEMOTH team, contributing to the company’s mission with gratitude and enthusiasm. Macky’s commitment to excellence reflects his deep appreciation for the meaningful work that BLUEMOTH Hearing does in the community.</p>",
             "quote": ""
           }
         },
