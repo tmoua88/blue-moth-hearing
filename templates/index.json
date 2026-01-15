@@ -264,13 +264,13 @@
         "column_dryjJh"
       ],
       "custom_css": [
+        ".spaced-section {background: #313D47;}",
+        "h2, h3, h4, h5, p {color: #FFF; text-align: center;}",
         ".brand-list {justify-content: center;}"
       ],
       "name": "t:sections.brand-image.presets.name",
       "settings": {
         "layout": "static",
-        "background_color": "#313d47",
-        "font_color": "#ffffff",
         "section_heading": "Aw, we’re blushing.",
         "heading_tag": "h2",
         "section_heading_size": "h2",
