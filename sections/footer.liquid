@@ -67,6 +67,11 @@
 									{% endif %}
 									{% if block.settings.show_newsletter_signup %}
 										<div class='footer-block__newsletter-signup'>
+											{% if block.settings.show_embedded %}
+												{% if block.settings.embedded_form_code %}
+													{{ block.settings.embedded_form_code }}
+												{% endif %}
+											{% else %}
 											{% form 'customer', id: 'FooterNewsletter', class: 'footer-newsletter' %}
 												<input type="hidden" name="contact[tags]" value="newsletter">
 												<label for="FooterNewsletterEmail" class="visually-hidden">Email</label>
@@ -88,6 +93,7 @@
 												{% endif %}
 											{% endform %}
 											{% comment %} {% render 'newsletter-form' %} {% endcomment %}
+											{% endif %}
 										</div>
 									{% endif %}
 									{% if block.settings.menu != blank %}
@@ -1012,6 +1018,17 @@
 					"id": "show_newsletter_signup",
 					"default": true,
 					"label": "t:sections.footer.blocks.link_list.settings.show_newsletter_signup.label"
+				},
+				{
+					"type": "checkbox",
+					"id": "show_embedded",
+					"default": false,
+					"label": "t:sections.contact-form.settings.show_embedded.label"
+				},
+				{
+					"type": "liquid",
+					"id": "embedded_form_code",
+					"label": "t:sections.contact-form.settings.embedded_form_code.label"
 				},
 				{
 					"type": "checkbox",

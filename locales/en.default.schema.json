@@ -2604,7 +2604,7 @@
 					}
 				},
 				"show_embedded": {
-					"label": "Show embedded map"
+					"label": "Show embedded form"
 				},
 				"embedded_form_code": {
 					"label": "Embedded form code",
