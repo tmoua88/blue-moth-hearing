@@ -342,8 +342,8 @@
       "scheme-97d8d2bb-2c44-4291-acc3-72bad1176fda": {
         "settings": {
           "colors_text": "#000000",
-          "colors_secondary_text": "#3f3f3f",
-          "colors_tertiary_text": "#eeeeee",
+          "colors_secondary_text": "#000000",
+          "colors_tertiary_text": "#3f3f3f",
           "colors_text_title": "#000000",
           "colors_background_1": "#d2d92e",
           "colors_background_2": "#d2d92e",
