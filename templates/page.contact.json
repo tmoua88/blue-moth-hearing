@@ -95,8 +95,8 @@
             "text": "",
             "expanded_text": "<p>We’re standing by and happy to hear from you at <a href=\"mailto:sales@@launchsquad.com\" title=\"mailto:sales@bluemothhearing.com\">sales@bluemothhearing.com</a>.</p>",
             "button_label": "",
-            "button_link": "",
-            "button_dot": true,
+            "button_link": "/pages/book-a-call?view=schedule-appointment",
+            "button_dot": false,
             "button_style": "primary",
             "full_link": false
           }
