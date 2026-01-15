@@ -22,7 +22,8 @@
     "image_with_text_4EVHDm": {
       "type": "image-with-text",
       "custom_css": [
-        ".section-header__title.h1 {color: rgb(26, 26, 26);}"
+        ".section-header__title.h1 {color: rgb(26, 26, 26);}",
+        "@media screen and (min-width: 760px) {.image-with-text-section {margin-top: -75px; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
