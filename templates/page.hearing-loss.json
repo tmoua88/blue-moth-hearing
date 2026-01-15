@@ -202,6 +202,7 @@
     "image_banner_fWyAwL": {
       "type": "image-banner",
       "custom_css": [
+        "h1 {line-height: 56px;}",
         "img {object-position: 50% 20%;}"
       ],
       "name": "t:sections.image-banner.presets.name",
