@@ -13,7 +13,7 @@
 
 <div class='image-with-text {% if image_position == 'image_center' %} color-{{ color_scheme }} image-centered-layout {%- else -%} image-standard-layout {% endif %}'>
 	<div
-		class='container'
+		class='container{% if section.settings.section_overflow %} section-overflow{% endif %}'
 	>
 		<div class='image-with-text__wrapper '>
 			{% if image_position == 'image_center' %}
@@ -204,6 +204,12 @@
 					"label": "t:sections.all.content_alignment.options.options__1.label"
 				}
 			]
+		},
+		{
+			"type": "checkbox",
+			"id": "section_overflow",
+			"default": false,
+			"label": "Hero section overflow"
 		},
 		{
 			"type": "header",
