@@ -66,7 +66,7 @@
         "schedule": true,
         "button_style": "primary",
         "button_label": "Book a consult",
-        "button_link_2": "/pages/book-a-call?view=schedule-appointment",
+        "button_link_2": "shopify://pages/book-a-call",
         "margin_top": "xs",
         "margin_bottom": "m"
       }
