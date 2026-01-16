@@ -22,14 +22,14 @@
     "image_with_text_4EVHDm": {
       "type": "image-with-text",
       "custom_css": [
-        ".image-with-text.image-standard-layout .container {max-width: 100vw !important; padding: 0; margin-top: -75px;}",
-        "@media screen and (min-width: 750px) {.image-with-text__content .section-header h2 {padding-top: 60px; } .image-with-text__content--image_left {padding-right: 8.6rem; } img {object-position: 75%; }}"
+        "@media screen and (min-width: 750px) {img {object-position: 75%; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "color_scheme": "background-1",
         "image_position": "image_left",
         "content_alignment": "left",
+        "section_overflow": true,
         "image": "shopify://shop_images/BlueMothBranding-68_copy.jpg",
         "image_size": "4/3",
         "subheading": "",
