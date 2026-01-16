@@ -54,8 +54,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "content form";
     gap: 8rem;
-    /* align-items: start; */
-    align-items: stretch; /* key: equal-height columns */
+    align-items: start;
+    /* align-items: stretch;  */
   }
 
   /* Swap columns on desktop */
@@ -147,6 +147,7 @@
   background: #ffffff;
   color: #000;
   border-radius: var(--border-radius-button);
+  margin-bottom: 1.2rem;
 }
 .schedule .button:hover {
   background: rgba(255, 255, 255, 0.8);
@@ -159,6 +160,13 @@
     width: 90%;
     margin: 2.8rem auto;
   }
+}
+.schedule img {
+  max-width: 13rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.2rem;
+  object-fit: contain;
 }
 .contact-form .contact-form__field-error .form__message {
   align-items: flex-start;
