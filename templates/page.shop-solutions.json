@@ -47,7 +47,6 @@
     "product_image_with_text_Q4W4yy": {
       "type": "product-image-with-text",
       "custom_css": [
-        ".image-standard-layout {background: #fd5d38;}",
         "img {padding: 4rem;}"
       ],
       "name": "Product image with text",
@@ -80,7 +79,6 @@
     "product_image_with_text_yXG4yg": {
       "type": "product-image-with-text",
       "custom_css": [
-        ".image-standard-layout {background: #428feb;}",
         "img {padding: 4rem;}"
       ],
       "name": "Product image with text",
@@ -113,7 +111,6 @@
     "product_image_with_text_HER7Ar": {
       "type": "product-image-with-text",
       "custom_css": [
-        ".image-standard-layout {background: #313d47;}",
         "img {padding: 4rem;}",
         ".button {background: #fff; color: #000;}"
       ],
@@ -147,7 +144,6 @@
     "product_image_with_text_fJKhP8": {
       "type": "product-image-with-text",
       "custom_css": [
-        ".image-standard-layout {background: #d2d92e;}",
         "img {padding: 4rem;}"
       ],
       "name": "Product image with text",
