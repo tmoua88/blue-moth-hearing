@@ -36,6 +36,7 @@
     "quickview_show": false,
     "show_on_mobile": true,
     "search_media_size": "square",
+    "search_media_fit": "contain",
     "enable_aside_menu": false,
     "aside_menu_1": "burger-1",
     "aside_menu_2": "burger-2",
