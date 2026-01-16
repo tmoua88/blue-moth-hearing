@@ -16,7 +16,7 @@
         "section_heading_size": "h1",
         "cart_drawer_empty_subtitle": "Your cart may be empty now, but let us help you fill it up with amazing products.",
         "show_cart_note": false,
-        "button_style": "secondary",
+        "button_style": "primary",
         "button_dot": false,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
@@ -39,10 +39,43 @@
         "padding_top": "m",
         "padding_bottom": "m"
       }
+    },
+    "17685901392b8cb0c5": {
+      "type": "apps",
+      "blocks": {
+        "share_cart_share_cart_button_gJRjFr": {
+          "type": "shopify://apps/share-cart/blocks/share_cart_button/71144369-2959-49bf-a511-1e9298bf4a52",
+          "settings": {
+            "label": "Share this Cart",
+            "link_color": "#000000",
+            "link_font_size": 16,
+            "link_position": "center",
+            "dialog_title": "Use this link to share your cart",
+            "dialog_background_color": "#ffffff",
+            "dialog_text_color": "#000000",
+            "hide_unless_on_cart_page": false,
+            "trigger_dialog": false,
+            "dialog_share_on_label": "",
+            "dialog_note_enabled": false,
+            "dialog_note_label": "",
+            "dialog_note_placeholder": "",
+            "dialog_note_2_enabled": false,
+            "dialog_note_2_label": "",
+            "dialog_note_2_placeholder": ""
+          }
+        }
+      },
+      "block_order": [
+        "share_cart_share_cart_button_gJRjFr"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "cart-items",
-    "newsletter"
+    "newsletter",
+    "17685901392b8cb0c5"
   ]
 }
