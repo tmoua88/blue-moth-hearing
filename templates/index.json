@@ -16,6 +16,7 @@
       "settings": {
         "color_scheme": "background-3",
         "heading": "We believe everyone deserves better hearing and that it shouldn't suck to get it.",
+        "text": "",
         "image_heading_tag": "h2",
         "section_heading": "Hi, we're BLUEMOTH.",
         "section_heading_tag": "h1",
@@ -136,7 +137,7 @@
         "heading": "OK, a little more about us.",
         "section_heading_tag": "h2",
         "heading_size": "h2",
-        "text": "<p>We care about ears. Like, a lot. We're always after the cool stuff but it isn't just because we're weird like that, we also do it because we care about you.</p><p>Our little rebellious hearts want to break outdated stigmas, and we'd be honored to be with you on your journey. Some call it concierge service. We just call it being human.</p>",
+        "text": "<p>We care about ears. Like, a lot. We’re always after the cool stuff but it isn’t just because we're weird like that, we also do it because we care about you.</p><p>Our little rebellious hearts want to break outdated stigmas, and we’d be honored to be with you on your journey. Some call it concierge service. We just call it being human.</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -156,7 +157,7 @@
             "image_size": "1/1",
             "icon": "none",
             "heading": "I want better hearing.",
-            "text": "Missing out on life is lame. You are not lame. And we're here to prove it. We're here to help you find the best hearing tech for your ears.",
+            "text": "Missing out on life is lame. You are not lame. And we’re here to prove it. We’re here to help you find the best hearing tech for your ears.",
             "expanded_text": "",
             "button_label": "Get Started",
             "button_link": "shopify://pages/hearing-loss",
@@ -219,6 +220,7 @@
       "settings": {
         "color_scheme": "",
         "section_heading": "",
+        "section_description": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
