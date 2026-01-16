@@ -11,7 +11,7 @@
 	assign content_alignment = section.settings.content_alignment
 %}
 
-<div class='image-with-text {% if image_position == 'image_center' %} color-{{ color_scheme }} image-centered-layout {%- else -%} image-standard-layout {% endif %}'>
+<div class='image-with-text color-{{ color_scheme }} {% if image_position == 'image_center' %} image-centered-layout {%- else -%} image-standard-layout {% endif %}'>
 	<div
 		class='container'
 	>
