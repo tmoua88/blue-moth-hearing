@@ -338,7 +338,7 @@
             "text": "",
             "expanded_text": "",
             "button_label": "Schedule Your Free Audiology Appointment",
-            "button_link": "shopify://products/bluemoth-experience-box",
+            "button_link": "shopify://pages/book-a-call",
             "button_dot": false,
             "button_style": "primary",
             "full_link": false
