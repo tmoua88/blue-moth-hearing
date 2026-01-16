@@ -196,7 +196,7 @@
             "text": "Try premium tech from the convenience of home.",
             "expanded_text": "",
             "button_label": "Get Started",
-            "button_link": "shopify://pages/try-at-home",
+            "button_link": "shopify://products/bluemoth-experience-box",
             "button_dot": false,
             "button_style": "primary",
             "full_link": true
