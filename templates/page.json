@@ -13,8 +13,8 @@
       "type": "main-page",
       "settings": {
         "section_heading_tag": "h1",
-        "heading_size": "h3",
-        "margin_top": "no-indent",
+        "heading_size": "h2",
+        "margin_top": "xs",
         "margin_bottom": "m"
       }
     },
