@@ -41,7 +41,7 @@
             "desktop_image": "shopify://shop_images/HP1_Bluemoth_LA_Shoot-129_fill_test.jpg",
             "color_scheme": "background-3",
             "heading": "Hi, we’re BLUEMOTH.",
-            "text": "<p>We believe you should try out incredible hearing tech in your real life. Be it around the house, in a meeting, a crowded restaurant, or at a monster truck rally.</p><p>You do you. You know you.</p>",
+            "text": "<p>We believe you should try out incredible hearing aids in your real life. Be it around the house, in a meeting, a crowded restaurant, or at a monster truck rally.</p><p>You do you. You know you.</p>",
             "text_width": "large",
             "button_label": "Book a free consultation",
             "button_link": "shopify://pages/book-a-call",
@@ -49,7 +49,7 @@
             "button_style": "secondary",
             "overlay_enable": true,
             "overlay_opacity": 0,
-            "overlay_opacity_mobile": 0
+            "overlay_opacity_mobile": 0.4
           }
         },
         "slideshow_item_NmwndF": {
