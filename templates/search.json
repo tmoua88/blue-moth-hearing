@@ -1,18 +1,61 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-search",
       "settings": {
+        "section_heading_tag": "h1",
+        "section_heading_size": "h1",
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_sku": false,
+        "show_collection": false,
+        "show_desc": false,
+        "product_heading_tag": "h3",
+        "blog_image_ratio": "16/9",
+        "article_show_tags": true,
+        "article_show_date": true,
+        "article_show_author": false,
+        "article_show_desc": true,
+        "article_heading_tag": "h4",
+        "color_scheme_page": "",
+        "page_image_ratio": "16/9",
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "image_filter_ratio": "1/1",
+        "image_filter_fit": "cover",
+        "image_filter_columns": 4,
+        "columns_mobile": "1",
         "margin_top": "no-indent",
         "margin_bottom": "xl"
       }
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
+        "v_align": "column",
+        "heading": "Here can be your newsletter title",
+        "section_heading_tag": "h2",
+        "heading_size": "h1",
+        "newsletter_text": "Here can be a short invitation to subscribe",
+        "section_button_style": "primary",
+        "button_dot": true,
         "margin_top": "m",
-        "margin_bottom": "m"
+        "margin_bottom": "m",
+        "padding_top": "m",
+        "padding_bottom": "m"
       }
     }
   },
