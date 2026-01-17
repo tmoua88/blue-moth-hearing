@@ -142,8 +142,8 @@ h1.color-background-3, .image-banner__heading .image-banner__text {
     width: 90%;
     margin: 0 auto;
   }
-  .image-banner__heading h1 {
-    line-height: 3.3rem;
+  .image-banner__heading h1.image-title-fix {
+    line-height: 3.3rem !important;
   }
   .image-banner__heading p {
     font-size: 1.2rem;
