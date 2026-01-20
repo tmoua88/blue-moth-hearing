@@ -472,6 +472,7 @@
         "column_i3j73N",
         "column_G7LK6a"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-section {background-color: #313d47;}",
         "h2,h3,h4 {font-weight: 500 !important;}",
