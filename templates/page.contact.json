@@ -27,7 +27,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "background-3",
         "heading": "Contact",
         "text": "",
         "image_heading_tag": "h1",
@@ -40,7 +40,7 @@
         "image_ratio": "5/1",
         "animation": false,
         "overlay_enable": true,
-        "overlay_opacity": 0,
+        "overlay_opacity": 0.4,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
