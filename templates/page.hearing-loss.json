@@ -558,7 +558,7 @@
         "column_KKq9Ej"
       ],
       "custom_css": [
-        ".multicolumn-section {background-color: #fd5d38;}",
+        ".multicolumn-section {background-color: #e02900;}",
         "h2,h3,h4 {font-weight: 500 !important;}",
         ".multicolumn-card {padding: 2.8rem;}"
       ],
@@ -606,7 +606,7 @@
         "column_VLQ7an"
       ],
       "custom_css": [
-        ".multicolumn-section {background-color: #fd5d38;}",
+        ".multicolumn-section {background-color: #E02900;}",
         ".multicolumn-card {padding: 1.2rem;}"
       ],
       "name": "t:sections.multicolumn.name",
