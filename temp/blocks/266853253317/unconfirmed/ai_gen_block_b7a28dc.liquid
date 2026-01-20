@@ -1,6 +1,390 @@
+{% doc %}
+  @prompt
+    Create a pop-up form (using an embeded form code) section that can be triggered by a button click. The pop-up should include this form embed code:
+    
+    <iframe src="https://api.leadconnectorhq.com/widget/survey/u7Wu3o1AVf2obwmqDWHl" style="border:none;width:100%;" scrolling="no" id="u7Wu3o1AVf2obwmqDWHl" title="survey"></iframe>
+    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+    
+    The pop-up should overlay the page with a semi-transparent background and be centered on screen. Include a button that can be added to pages to trigger the pop-up when clicked. The button that they click should say GET STARTED
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-popup-trigger-{{ ai_gen_id }} {
+    display: inline-block;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 750px) {
+    .ai-popup-trigger-{{ ai_gen_id }} {
+      width: {{ block.settings.desktop_width_percent }}%;
+    }
+  }
+
+  .ai-popup-trigger-button-{{ ai_gen_id }} {
+    width: 100%;
+    padding: {{ block.settings.button_padding }}px {{ block.settings.button_padding | times: 2 }}px;
+    background-color: {{ block.settings.button_bg_color }};
+    color: {{ block.settings.button_text_color }};
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: {{ block.settings.button_font_size }}px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .ai-popup-trigger-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_bg_color }};
+  }
+
+  .ai-popup-overlay-{{ ai_gen_id }} {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: {{ block.settings.overlay_color }};
+    opacity: 0;
+    z-index: 9998;
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-popup-overlay-{{ ai_gen_id }}.active {
+    display: block;
+    opacity: {{ block.settings.overlay_opacity }};
+  }
+
+  .ai-popup-container-{{ ai_gen_id }} {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    width: 90%;
+    max-width: {{ block.settings.popup_max_width }}px;
+    max-height: 90vh;
+    background-color: {{ block.settings.popup_bg_color }};
+    border-radius: {{ block.settings.popup_border_radius }}px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+  }
+
+  .ai-popup-container-{{ ai_gen_id }}.active {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .ai-popup-header-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: {{ block.settings.popup_padding }}px;
+    border-bottom: 1px solid {{ block.settings.popup_border_color }};
+  }
+
+  .ai-popup-title-{{ ai_gen_id }} {
+    margin: 0;
+    font-size: {{ block.settings.popup_title_size }}px;
+    color: {{ block.settings.popup_text_color }};
+    font-weight: 600;
+  }
+
+  .ai-popup-close-{{ ai_gen_id }} {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: {{ block.settings.popup_text_color }};
+    transition: opacity 0.2s ease;
+  }
+
+  .ai-popup-close-{{ ai_gen_id }}:hover {
+    opacity: 0.7;
+  }
+
+  .ai-popup-close-{{ ai_gen_id }} svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ai-popup-content-{{ ai_gen_id }} {
+    padding: {{ block.settings.popup_padding }}px;
+    overflow-y: auto;
+    max-height: calc(90vh - 80px);
+  }
+
+  .ai-popup-iframe-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    min-height: {{ block.settings.iframe_min_height }}px;
+  }
+
+  .ai-popup-iframe-wrapper-{{ ai_gen_id }} iframe {
+    width: 100%;
+    border: none;
+  }
+{% endstyle %}
+
+<popup-form-trigger-{{ ai_gen_id }} class="ai-popup-trigger-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <button class="ai-popup-trigger-button-{{ ai_gen_id }}" aria-label="Open form popup">
+    {{ block.settings.button_text }}
+  </button>
+
+  <div class="ai-popup-overlay-{{ ai_gen_id }}" aria-hidden="true"></div>
+
+  <div class="ai-popup-container-{{ ai_gen_id }}" role="dialog" aria-modal="true" aria-labelledby="popup-title-{{ ai_gen_id }}">
+    <div class="ai-popup-header-{{ ai_gen_id }}">
+      {% if block.settings.popup_title != blank %}
+        <h2 class="ai-popup-title-{{ ai_gen_id }}" id="popup-title-{{ ai_gen_id }}">{{ block.settings.popup_title }}</h2>
+      {% endif %}
+      <button class="ai-popup-close-{{ ai_gen_id }}" aria-label="Close popup">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="ai-popup-content-{{ ai_gen_id }}">
+      <div class="ai-popup-iframe-wrapper-{{ ai_gen_id }}">
+        <iframe src="https://api.leadconnectorhq.com/widget/survey/u7Wu3o1AVf2obwmqDWHl" scrolling="no" id="u7Wu3o1AVf2obwmqDWHl" title="survey"></iframe>
+        <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+      </div>
+    </div>
+  </div>
+</popup-form-trigger-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class PopupFormTrigger{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.button = this.querySelector('.ai-popup-trigger-button-{{ ai_gen_id }}');
+        this.overlay = this.querySelector('.ai-popup-overlay-{{ ai_gen_id }}');
+        this.popup = this.querySelector('.ai-popup-container-{{ ai_gen_id }}');
+        this.closeButton = this.querySelector('.ai-popup-close-{{ ai_gen_id }}');
+      }
+
+      connectedCallback() {
+        this.button.addEventListener('click', () => this.openPopup());
+        this.closeButton.addEventListener('click', () => this.closePopup());
+        this.overlay.addEventListener('click', () => this.closePopup());
+        
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && this.popup.classList.contains('active')) {
+            this.closePopup();
+          }
+        });
+      }
+
+      openPopup() {
+        this.overlay.classList.add('active');
+        this.popup.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        this.popup.focus();
+      }
+
+      closePopup() {
+        this.overlay.classList.remove('active');
+        this.popup.classList.remove('active');
+        document.body.style.overflow = '';
+        this.button.focus();
+      }
+    }
+
+    customElements.define('popup-form-trigger-{{ ai_gen_id }}', PopupFormTrigger{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Popup form trigger",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "GET STARTED"
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_padding",
+      "min": 8,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 6
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Background color",
+      "default": "#1873e2"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg_color",
+      "label": "Hover background color",
+      "default": "#1560c0"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Popup"
+    },
+    {
+      "type": "text",
+      "id": "popup_title",
+      "label": "Title",
+      "default": "Get Started"
+    },
+    {
+      "type": "range",
+      "id": "popup_title_size",
+      "min": 16,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Title size",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "popup_max_width",
+      "min": 400,
+      "max": 1000,
+      "step": 50,
+      "unit": "px",
+      "label": "Max width",
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "popup_padding",
+      "min": 16,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "popup_border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 8
+    },
+    {
+      "type": "color",
+      "id": "popup_bg_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "popup_text_color",
+      "label": "Text color",
+      "default": "#4a494b"
+    },
+    {
+      "type": "color",
+      "id": "popup_border_color",
+      "label": "Border color",
+      "default": "#e6e6e6"
+    },
+    {
+      "type": "header",
+      "content": "Overlay"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "label": "Opacity",
+      "default": 0.5
+    },
+    {
+      "type": "header",
+      "content": "Form embed"
+    },
+    {
+      "type": "range",
+      "id": "iframe_min_height",
+      "min": 300,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "label": "Minimum height",
+      "default": 500
+    }
+  ],
+  "presets": [
+    {
+      "name": "Popup form trigger"
+    }
+  ]
+}
 {% endschema %}
