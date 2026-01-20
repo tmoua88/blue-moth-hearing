@@ -291,7 +291,7 @@
   }
 }
 .slideshow__button-wrapper {
-  display: inline-flex;
+  display: block;
 }
 .slideshow .container .swiper {
   border-radius: var(--border-radius-main);
