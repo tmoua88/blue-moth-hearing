@@ -275,9 +275,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Icon_A_V2_lemon_ae5dd96b-347f-4481-8570-5de7621d7c8b.png",
-            "image_width": "full",
-            "image_size": "16/9",
-            "icon": "globe",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "Repairs and maintenance.",
             "text": "Complimentary during your warranty period.",
             "expanded_text": "",
@@ -292,9 +292,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Icon_B_V2_lemon_17dcb1e6-23fa-40a8-86e0-e4416e6e3388.png",
-            "image_width": "full",
-            "image_size": "16/9",
-            "icon": "globe",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "45 day returns.",
             "text": "On hearing aid purchases. Love them or your money back.",
             "expanded_text": "",
@@ -309,9 +309,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Icon_C_V2_lemon_5c75638c-7ef4-415e-9d11-deff5ba49d09.png",
-            "image_width": "full",
-            "image_size": "16/9",
-            "icon": "globe",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "Dedicated customer service.",
             "text": "Never wait more than 1 business day for hearing help.",
             "expanded_text": "",
@@ -326,9 +326,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Icon_D_V2_lemon_6f16f612-ae29-480a-8ed5-6955eb6c3d18.png",
-            "image_width": "full",
-            "image_size": "16/9",
-            "icon": "globe",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
             "heading": "End-to-end care.",
             "text": "All Telehealth care, adjustments, and troubleshooting included.",
             "expanded_text": "",
@@ -346,6 +346,11 @@
         "column_C8ii6W",
         "column_WyW6Tb"
       ],
+      "custom_css": [
+        ".multicolumn-section {background-color: #313d47;}",
+        "h2,h3,h4 {font-weight: 500 !important;}",
+        ".multicolumn-card {padding: 2.8rem;}"
+      ],
       "name": "t:sections.multicolumn.name",
       "settings": {
         "color_scheme": "background-3",
@@ -355,14 +360,14 @@
         "section_heading_size": "h1",
         "heading_alignment": "center",
         "subheading": "",
-        "dot": true,
-        "columns_per_row": 3,
-        "content_alignment": "left",
-        "swipe_on_mobile": true,
+        "dot": false,
+        "columns_per_row": 4,
+        "content_alignment": "center",
+        "swipe_on_mobile": false,
         "card_heading_tag": "h4",
         "card_heading_size": "h4",
-        "margin_top": "m",
-        "margin_bottom": "m"
+        "margin_top": "s",
+        "margin_bottom": "no-indent"
       }
     },
     "brand_image_yP6Pnq": {
