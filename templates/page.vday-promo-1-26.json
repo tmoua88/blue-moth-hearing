@@ -217,6 +217,32 @@
         "margin_bottom": "s"
       }
     },
+    "contact_form_jcepBi": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "content_align": "center",
+        "heading": "Nomination Form",
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "text": "Fill out the form below to nominate yourself or someone else. If you nominate someone you know, please make sure you have their permission to share their information.",
+        "additional_text": "Additional text for contact form",
+        "show_embedded": true,
+        "embedded_form_code": "<iframe src=\"https://api.leadconnectorhq.com/widget/survey/F6oSICZbCvhyl45dFTp7\" style=\"border:none;width:100%;\" scrolling=\"no\" id=\"F6oSICZbCvhyl45dFTp7\" title=\"survey\"></iframe>\n<script src=\"https://link.msgsndr.com/js/form_embed.js\"></script>",
+        "image_position": "left",
+        "image_heading": "Get in Touch",
+        "image_heading_tag": "h2",
+        "image_heading_size": "h2",
+        "image_text": "Some text for your contact form. You can use multiple lines of text",
+        "image_ratio": "16/9",
+        "schedule": false,
+        "button_style": "primary",
+        "button_label": "Book a call",
+        "button_link_2": "",
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
+    },
     "multicolumn_NakiYf": {
       "type": "multicolumn",
       "blocks": {
@@ -277,7 +303,7 @@
       "name": "Guided Solutions",
       "settings": {
         "color_scheme": "",
-        "section_heading": "What happens after you nominate someone",
+        "section_heading": "What Happens Next",
         "section_description": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
@@ -408,6 +434,7 @@
     "multicolumn_jpkVdr",
     "image_with_text_4px9Ni",
     "image_with_text_beP4T9",
+    "contact_form_jcepBi",
     "multicolumn_NakiYf",
     "collapsible_content_xKCE7c",
     "multicolumn_F3gURG"
