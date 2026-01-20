@@ -25,6 +25,7 @@
       "settings": {
         "color_scheme": "background-2",
         "heading": "News",
+        "text": "",
         "image_heading_tag": "h1",
         "section_heading": "",
         "section_heading_tag": "h2",
@@ -35,7 +36,7 @@
         "image_ratio": "adapt",
         "animation": false,
         "overlay_enable": true,
-        "overlay_opacity": 0.3,
+        "overlay_opacity": 0.4,
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
