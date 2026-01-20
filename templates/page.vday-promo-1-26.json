@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "section_heading_tag": "h1",
         "heading_size": "h2",
@@ -20,7 +21,6 @@
     },
     "image_with_text_Dg9Qde": {
       "type": "image-with-text",
-      "disabled": true,
       "custom_css": [
         ".section-header__title.h1 {color: rgb(26, 26, 26);}"
       ],
@@ -34,14 +34,22 @@
         "image_size": "4/3",
         "subheading": "",
         "dot": true,
-        "heading": "The end of “Sorry, what was that?” ",
+        "heading": "Nominate someone for Better Hearing",
         "section_heading_tag": "h2",
         "heading_size": "h1",
-        "text": "<p>Whether you’re on Zoom, streaming music, or nodding yes to everything your friends are saying, even though you might unknowingly be agreeing to help them move—we want to make better hearing as easy as possible.</p>",
-        "button_label": "Book a Free Consultation",
-        "button_link": "/pages/book-a-call?view=schedule-appointment",
+        "text": "<p>This Valentine’s season, we’re giving away a <strong>Widex SmartRIC prescription hearing aid</strong> to help someone reconnect with the people and moments that matter.</p>",
+        "button_label": "Nominate Now",
+        "button_link": "https://api.leadconnectorhq.com/widget/survey/F6oSICZbCvhyl45dFTp7",
         "button_style": "primary",
         "button_dot": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "primary",
+        "button_dot_2": false,
+        "button_label_3": "",
+        "button_link_3": "",
+        "button_style_3": "primary",
+        "button_dot_3": false,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
@@ -55,8 +63,8 @@
             "image_width": "full",
             "image_size": "4/3",
             "icon": "globe",
-            "heading": "Mild ",
-            "text": "You lose soft consonants. Words might sound incomplete.  ",
+            "heading": "No Purchase Necessary",
+            "text": "",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -71,8 +79,8 @@
             "image_width": "full",
             "image_size": "4/3",
             "icon": "globe",
-            "heading": "Moderate",
-            "text": "It’s tough to follow conversations in person and on the phone.  ",
+            "heading": "Nominate Yourself or a Loved One",
+            "text": "",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -87,8 +95,8 @@
             "image_width": "full",
             "image_size": "4/3",
             "icon": "globe",
-            "heading": "Severe",
-            "text": "Following conversations is a total chore and it can feel isolating.",
+            "heading": "Takes about 60 Seconds",
+            "text": "",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -103,8 +111,8 @@
             "image_width": "full",
             "image_size": "4/3",
             "icon": "globe",
-            "heading": "Profound",
-            "text": "Without hearing aids or cochlear implants, it’s a whole lotta nothing.",
+            "heading": "Winner must confirm clinical candidacy",
+            "text": "",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -120,11 +128,10 @@
         "column_U6t4RF",
         "column_NWYanr"
       ],
-      "disabled": true,
       "name": "Degrees of hearing loss",
       "settings": {
         "color_scheme": "",
-        "section_heading": "Degrees of hearing loss",
+        "section_heading": "Giveaway runs Jan 20 – Feb 25 (11:59 PM ET).",
         "section_description": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
@@ -142,7 +149,6 @@
     },
     "image_with_text_4px9Ni": {
       "type": "image-with-text",
-      "disabled": true,
       "custom_css": [
         "h2 {text-align: center;}"
       ],
@@ -152,25 +158,32 @@
         "image_position": "image_right",
         "content_alignment": "left",
         "section_overflow": false,
-        "image": "shopify://shop_images/HP4_BlueMothBranding-32_KR_snap.jpg",
-        "image_size": "3/2",
+        "image": "shopify://shop_images/Widex-SmartRIC_TechBlack_1c6908cc-3ba0-443f-b18f-fa277a0ff723.jpg",
+        "image_size": "4/3",
         "subheading": "",
         "dot": false,
-        "heading": "How hearing aids help",
+        "heading": "What the winner receives",
         "section_heading_tag": "h2",
         "heading_size": "h3",
-        "text": "<p>First, these little beauties are custom-tuned by a licensed provider to match your unique hearing needs. You’ll get amplified sounds, enhanced sound localization for better spatial awareness, and clearer speech even in challenging environments. They can even help with cognitive health and balance.</p>",
+        "text": "<p><strong>Widex SmartRIC prescription hearing aid </strong>(clinically fit and programmed)</p><p><br/><strong>Clinical support from BLUEMOTH audiologists</strong> for routine follow-ups & adjustments</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "button_dot": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "primary",
+        "button_dot_2": false,
+        "button_label_3": "",
+        "button_link_3": "",
+        "button_style_3": "primary",
+        "button_dot_3": false,
         "margin_top": "s",
         "margin_bottom": "no-indent"
       }
     },
     "image_with_text_beP4T9": {
       "type": "image-with-text",
-      "disabled": true,
       "custom_css": [
         "h2 {text-align: center;}"
       ],
@@ -180,8 +193,8 @@
         "image_position": "image_left",
         "content_alignment": "left",
         "section_overflow": false,
-        "image": "shopify://shop_images/HP3_BlueMothStreet-364.jpg",
-        "image_size": "3/2",
+        "image": "shopify://shop_images/meet-team.png",
+        "image_size": "1/1",
         "subheading": "",
         "dot": false,
         "heading": "The BLUEMOTH approach",
@@ -192,6 +205,14 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "primary",
+        "button_dot_2": false,
+        "button_label_3": "",
+        "button_link_3": "",
+        "button_style_3": "primary",
+        "button_dot_3": false,
         "margin_top": "no-indent",
         "margin_bottom": "s"
       }
@@ -205,8 +226,8 @@
             "image_width": "icon",
             "image_size": "16/9",
             "icon": "globe",
-            "heading": "You know you",
-            "text": "Who better to decide what’s best? It’s why, when it comes to hearing tech, we give you full authority to make our own decision.",
+            "heading": "We confirm your nomination",
+            "text": "You’ll see a confirmation message after submission",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -221,8 +242,8 @@
             "image_width": "icon",
             "image_size": "16/9",
             "icon": "globe",
-            "heading": "We know ears",
-            "text": "We’re happy to listen to your story and recommend options. We can also help you navigate the subtleties of different devices.",
+            "heading": "We review eligibility",
+            "text": "If selected for the Grand Prize, the winner completes a <strong>hearing evaluation</strong> (virtual or in-person) to confirm clinical candidacy.",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -237,8 +258,8 @@
             "image_width": "icon",
             "image_size": "16/9",
             "icon": "globe",
-            "heading": "Try before you buy",
-            "text": "This is big. We’ll help you narrow down to a few options and then send them to you so you can try them in your real life.",
+            "heading": "We contact selected entrants by email and/or text",
+            "text": "Winners will be announced over livestream with follow up messages to the winner.",
             "expanded_text": "",
             "button_label": "",
             "button_link": "",
@@ -253,11 +274,10 @@
         "column_ji37jK",
         "column_KKq9Ej"
       ],
-      "disabled": true,
       "name": "Guided Solutions",
       "settings": {
         "color_scheme": "",
-        "section_heading": "Guided Solutions",
+        "section_heading": "What happens after you nominate someone",
         "section_description": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
@@ -273,31 +293,95 @@
         "margin_bottom": "no-indent"
       }
     },
-    "multicolumn_F3gURG": {
-      "type": "multicolumn",
+    "collapsible_content_xKCE7c": {
+      "type": "collapsible-content",
       "blocks": {
-        "column_Xw9tcn": {
-          "type": "column",
-          "name": "Button",
+        "accordion_anLMbw": {
+          "type": "accordion",
           "settings": {
-            "image_width": "full",
-            "image_size": "16/9",
-            "icon": "none",
-            "heading": "",
-            "text": "",
-            "expanded_text": "",
-            "button_label": "Get started",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "full_link": false
+            "question": "How long does the nomination take?",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_KgqAhN": {
+          "type": "accordion",
+          "settings": {
+            "question": "Can I nominate myself?",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_zPffxi": {
+          "type": "accordion",
+          "settings": {
+            "question": "Who can enter",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_PKbmEB": {
+          "type": "accordion",
+          "settings": {
+            "question": "How are winners chosen?",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_cqUnbT": {
+          "type": "accordion",
+          "settings": {
+            "question": "Do I need to buy anything to enter?",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_zgRyFj": {
+          "type": "accordion",
+          "settings": {
+            "question": "How will you contact me?",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
+          }
+        },
+        "accordion_fUkGNP": {
+          "type": "accordion",
+          "settings": {
+            "question": "What if the Grand Prize winner isn’t a clinical candidate?",
+            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "default_open": false
           }
         }
       },
       "block_order": [
-        "column_Xw9tcn"
+        "accordion_anLMbw",
+        "accordion_KgqAhN",
+        "accordion_zPffxi",
+        "accordion_PKbmEB",
+        "accordion_cqUnbT",
+        "accordion_zgRyFj",
+        "accordion_fUkGNP"
       ],
-      "disabled": true,
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "section_layout": "row",
+        "icon_style": "secondary",
+        "section_heading": "Frequently Asked Questions",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h2",
+        "section_subheading": "Brief intro to the collapsible content",
+        "dot": false,
+        "collapse_heading_tag": "h4",
+        "section_button_label": "Read the official Rules",
+        "section_button_link": "",
+        "button_dot": true,
+        "section_button_style": "primary",
+        "margin_top": "s",
+        "margin_bottom": "s"
+      }
+    },
+    "multicolumn_F3gURG": {
+      "type": "multicolumn",
       "name": "Multicolumn",
       "settings": {
         "color_scheme": "background-1",
@@ -325,6 +409,7 @@
     "image_with_text_4px9Ni",
     "image_with_text_beP4T9",
     "multicolumn_NakiYf",
+    "collapsible_content_xKCE7c",
     "multicolumn_F3gURG"
   ]
 }
