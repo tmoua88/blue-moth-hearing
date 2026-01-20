@@ -28,13 +28,37 @@
       </div>
     {% endif %}
     {% if section.settings.button_label != blank %}
-      {% render 'button',
-        btn_label: section.settings.button_label,
-        btn_link: section.settings.button_link,
-        btn_style: section.settings.button_style,
-        button_dot: section.settings.button_dot,
-        add_classes: 'rich-text__button focus-inset'
-      %}
+      <div class="rich-text__button-container">
+        {% render 'button',
+          btn_label: section.settings.button_label,
+          btn_link: section.settings.button_link,
+          btn_style: section.settings.button_style,
+          button_dot: section.settings.button_dot,
+          add_classes: 'rich-text__button focus-inset'
+        %}
+        {% if section.settings.button_label_2 != blank %}
+          <div class="image-with-text__button">
+            {% render 'button',
+              btn_label: section.settings.button_label_2,
+              btn_link: section.settings.button_link_2,
+              btn_style: section.settings.button_style_2,
+              button_dot: section.settings.button_dot_2,
+              add_classes: 'rich-text__button focus-inset'
+            %}
+          </div>
+        {%- endif -%}
+        {% if section.settings.button_label_3 != blank %}
+          <div class="image-with-text__button">
+            {% render 'button',
+              btn_label: section.settings.button_label_3,
+              btn_link: section.settings.button_link_3,
+              btn_style: section.settings.button_style_3,
+              button_dot: section.settings.button_dot_3,
+              add_classes: 'rich-text__button focus-inset'
+            %}
+          </div>
+        {%- endif -%}
+      </div>
     {%- endif -%}
   </div>
 </div>
@@ -168,12 +192,12 @@
 			"type": "text",
 			"id": "button_label",
 			"default": "t:sections.rich-text.settings.button.label",
-			"label": "t:sections.all.button.button_label.label"
+			"label": "Label 1"
 		},
 		{
 			"type": "url",
 			"id": "button_link",
-			"label": "t:sections.all.button.button_link.label"
+			"label": "Link 1"
 		},
 		{
 			"type": "select",
@@ -193,13 +217,85 @@
 				}
 			],
 			"default": "primary",
-			"label": "t:sections.all.button.button_style.label"
+			"label": "Button 1 style"
 		},
 		{
 			"type": "checkbox",
 			"id": "button_dot",
-			"default": true,
-			"label": "t:sections.all.button.button_dot.label"
+			"default": false,
+			"label": "Show button 1 dot"
+		},
+    {
+			"type": "text",
+			"id": "button_label_2",
+			"label": "Label 2"
+		},
+		{
+			"type": "url",
+			"id": "button_link_2",
+			"label": "Link 2"
+		},
+		{
+			"type": "select",
+			"id": "button_style_2",
+			"options": [
+				{
+					"value": "primary",
+					"label": "t:sections.all.button.button_style.options__1.label"
+				},
+				{
+					"value": "secondary",
+					"label": "t:sections.all.button.button_style.options__2.label"
+				},
+				{
+					"value": "tertiary",
+					"label": "t:sections.all.button.button_style.options__3.label"
+				}
+			],
+			"default": "primary",
+			"label": "Button 2 style"
+		},
+		{
+			"type": "checkbox",
+			"id": "button_dot_2",
+			"default": false,
+			"label": "Show button 2 dot"
+		},
+    {
+			"type": "text",
+			"id": "button_label_3",
+			"label": "Label 3"
+		},
+		{
+			"type": "url",
+			"id": "button_link_3",
+			"label": "Link 3"
+		},
+		{
+			"type": "select",
+			"id": "button_style_3",
+			"options": [
+				{
+					"value": "primary",
+					"label": "t:sections.all.button.button_style.options__1.label"
+				},
+				{
+					"value": "secondary",
+					"label": "t:sections.all.button.button_style.options__2.label"
+				},
+				{
+					"value": "tertiary",
+					"label": "t:sections.all.button.button_style.options__3.label"
+				}
+			],
+			"default": "primary",
+			"label": "Button 3 style"
+		},
+		{
+			"type": "checkbox",
+			"id": "button_dot_3",
+			"default": false,
+			"label": "Show button 3 dot"
 		},
     {
       "type": "header",
