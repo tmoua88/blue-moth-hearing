@@ -248,7 +248,7 @@
       ],
       "custom_css": [
         ".multicolumn-card {padding: 2rem 0;}",
-        ".multicolumn-section {background: #428feb;}"
+        ".multicolumn-section {background: #1873E2;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
