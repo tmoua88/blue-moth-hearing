@@ -244,8 +244,8 @@
         ".multicolumn-list__wrapper {gap: 2.4rem 5rem;}",
         ".button--primary {background-color: transparent !important; border: 1px solid #fff;}",
         "img {border-radius: 50%;}",
-        ".multicolumn-card:nth-child(1) {background: #ff5e3b;}",
-        ".multicolumn-card:nth-child(2) {background: #428feb;}",
+        ".multicolumn-card:nth-child(1) {background: #E02900;}",
+        ".multicolumn-card:nth-child(2) {background: #1873e2;}",
         ".multicolumn-card__heading,.multicolumn-card__text,a > span {color: #fff;}",
         "h2,h3,h4,h5 {font-weight: 500 !important;}"
       ],
