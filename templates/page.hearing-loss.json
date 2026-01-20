@@ -36,7 +36,7 @@
         "section_heading_tag": "h2",
         "heading_size": "h1",
         "text": "<p>Whether you’re on Zoom, streaming music, or nodding yes to everything your friends are saying, even though you might unknowingly be agreeing to help them move—we want to make better hearing as easy as possible.</p>",
-        "button_label": "Book a Free Consultation",
+        "button_label": "Book Your Consultation",
         "button_link": "shopify://pages/book-a-call",
         "button_style": "primary",
         "button_dot": false,
@@ -606,7 +606,7 @@
         "column_VLQ7an"
       ],
       "custom_css": [
-        ".multicolumn-section {background-color: #E02900;}",
+        ".multicolumn-section {background-color: #e02900;}",
         ".multicolumn-card {padding: 1.2rem;}"
       ],
       "name": "t:sections.multicolumn.name",
