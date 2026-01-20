@@ -40,6 +40,14 @@
         "button_link": "shopify://pages/book-a-call",
         "button_style": "primary",
         "button_dot": false,
+        "button_label_2": "Get Relief Now",
+        "button_link_2": "shopify://products/bluemoth-experience-box",
+        "button_style_2": "secondary",
+        "button_dot_2": false,
+        "button_label_3": "",
+        "button_link_3": "",
+        "button_style_3": "primary",
+        "button_dot_3": false,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
@@ -169,6 +177,14 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "primary",
+        "button_dot_2": false,
+        "button_label_3": "",
+        "button_link_3": "",
+        "button_style_3": "primary",
+        "button_dot_3": false,
         "margin_top": "xs",
         "margin_bottom": "s"
       }
@@ -196,6 +212,14 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "primary",
+        "button_dot_2": false,
+        "button_label_3": "",
+        "button_link_3": "",
+        "button_style_3": "primary",
+        "button_dot_3": false,
         "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
