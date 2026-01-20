@@ -1,8 +1,33 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main-list-collections": {
       "type": "main-list-collections",
       "settings": {
+        "title": "Collections",
+        "section_layout": "full",
+        "section_heading_tag": "h1",
+        "section_heading_size": "h1",
+        "color_scheme": "",
+        "collections_to_show": 8,
+        "columns_per_row": 2,
+        "sort": "date_reversed",
+        "collection_heading_tag": "span",
+        "collection_heading_size": "h2",
+        "swipe_on_mobile": false,
+        "image_source": "featured_image",
+        "container-index": "odd",
+        "image_ratio": "1/1",
+        "overlay_enable": true,
+        "overlay_opacity": 0.4,
         "margin_top": "no-indent",
         "margin_bottom": "xl"
       }
@@ -11,8 +36,17 @@
       "type": "newsletter",
       "settings": {
         "color_scheme": "background-1",
+        "v_align": "column",
+        "heading": "Here can be your newsletter title",
+        "section_heading_tag": "h2",
+        "heading_size": "h1",
+        "newsletter_text": "Here can be a short invitation to subscribe",
+        "section_button_style": "primary",
+        "button_dot": true,
         "margin_top": "m",
-        "margin_bottom": "m"
+        "margin_bottom": "m",
+        "padding_top": "m",
+        "padding_bottom": "m"
       }
     }
   },
