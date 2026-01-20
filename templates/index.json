@@ -47,6 +47,14 @@
             "button_link": "shopify://pages/book-a-call",
             "button_dot": false,
             "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary",
             "overlay_enable": true,
             "overlay_opacity": 0.4,
             "overlay_opacity_mobile": 0.4
@@ -64,6 +72,14 @@
             "button_link": "shopify://collections/accessories",
             "button_dot": true,
             "button_style": "primary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary",
             "overlay_enable": true,
             "overlay_opacity": 0,
             "overlay_opacity_mobile": 0
@@ -81,6 +97,14 @@
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary",
             "overlay_enable": true,
             "overlay_opacity": 0,
             "overlay_opacity_mobile": 0
@@ -143,6 +167,14 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "primary",
+        "button_dot_2": false,
+        "button_label_3": "",
+        "button_link_3": "",
+        "button_style_3": "primary",
+        "button_dot_3": false,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
@@ -236,6 +268,103 @@
         "margin_bottom": "no-indent"
       }
     },
+    "multicolumn_N6UTAn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Q3TMjp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_A_V2_lemon_ae5dd96b-347f-4481-8570-5de7621d7c8b.png",
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Repairs and maintenance.",
+            "text": "Complimentary during your warranty period.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_mAkDBE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_B_V2_lemon_17dcb1e6-23fa-40a8-86e0-e4416e6e3388.png",
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "45 day returns.",
+            "text": "On hearing aid purchases. Love them or your money back.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_C8ii6W": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_C_V2_lemon_5c75638c-7ef4-415e-9d11-deff5ba49d09.png",
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "Dedicated customer service.",
+            "text": "Never wait more than 1 business day for hearing help.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        },
+        "column_WyW6Tb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_D_V2_lemon_6f16f612-ae29-480a-8ed5-6955eb6c3d18.png",
+            "image_width": "full",
+            "image_size": "16/9",
+            "icon": "globe",
+            "heading": "End-to-end care.",
+            "text": "All Telehealth care, adjustments, and troubleshooting included.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "full_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_Q3TMjp",
+        "column_mAkDBE",
+        "column_C8ii6W",
+        "column_WyW6Tb"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "color_scheme": "background-3",
+        "section_heading": "It’s better with BLUEMOTH.",
+        "section_description": "<p>With us, you’re purchasing more than hearing aids. We have your back for all of your hearing wellness needs.</p>",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "heading_alignment": "center",
+        "subheading": "",
+        "dot": true,
+        "columns_per_row": 3,
+        "content_alignment": "left",
+        "swipe_on_mobile": true,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
+    },
     "brand_image_yP6Pnq": {
       "type": "brand-image",
       "blocks": {
@@ -294,6 +423,7 @@
     "slideshow_HXHbtm",
     "image_with_text_nXBEVf",
     "multicolumn_JXWTiw",
+    "multicolumn_N6UTAn",
     "brand_image_yP6Pnq"
   ]
 }
