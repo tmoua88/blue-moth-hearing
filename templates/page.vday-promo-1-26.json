@@ -307,23 +307,23 @@
           "type": "accordion",
           "settings": {
             "question": "How long does the nomination take?",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
-            "default_open": false
+            "answer": "<p>Only about 1 minute to complete the form!</p>",
+            "default_open": true
           }
         },
         "accordion_KgqAhN": {
           "type": "accordion",
           "settings": {
             "question": "Can I nominate myself?",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "answer": "<p>Yes! You can nominate yourself or someone you know.</p>",
             "default_open": false
           }
         },
         "accordion_zPffxi": {
           "type": "accordion",
           "settings": {
-            "question": "Who can enter",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "question": "Who can enter?",
+            "answer": "<ul><li>Must be <strong>18+</strong></li><li>Must be a <strong>legal U.S. resident</strong></li><li>Must <strong>not</strong> reside in <strong>Florida, New York, or Wisconsin</strong></li><li>Must be legally eligible to receive prescription hearing aids in your state</li><li>Employees/contractors/affiliates of BLUEMOTH and immediate family are not eligible</li></ul>",
             "default_open": false
           }
         },
@@ -331,7 +331,7 @@
           "type": "accordion",
           "settings": {
             "question": "How are winners chosen?",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "answer": "<p>Winners are selected <strong>at random</strong> from eligible entries.</p>",
             "default_open": false
           }
         },
@@ -339,7 +339,7 @@
           "type": "accordion",
           "settings": {
             "question": "Do I need to buy anything to enter?",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "answer": "<p>No purchase necessary to enter!</p>",
             "default_open": false
           }
         },
@@ -347,7 +347,7 @@
           "type": "accordion",
           "settings": {
             "question": "How will you contact me?",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "answer": "<p>Via the email and/or phone number you provide in the nomination form.</p>",
             "default_open": false
           }
         },
@@ -355,7 +355,7 @@
           "type": "accordion",
           "settings": {
             "question": "What if the Grand Prize winner isn’t a clinical candidate?",
-            "answer": "<p>This section allows you to give an in-depth explanation, including step-by-step guidance, specific product details, or policy clarifications, ensuring customers get a complete answer to their question without confusion.</p>",
+            "answer": "<p>If the winner is not clinically appropriate for the device, an alternate winner may be selected (see Official Rules).</p>",
             "default_open": false
           }
         }
