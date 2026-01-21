@@ -46,7 +46,7 @@
 							class='multicolumn-card multicolumn-list__item multicolumn-card--{{ content_alignment }} {% if swipe_on_mobile and section.blocks.size > 1 %}swiper-slide{% endif %}'
 							{{ block.shopify_attributes }}
 						>
-							{%- if block.settings.button_link != blank
+							{% comment %} {%- if block.settings.button_link != blank
 								and block.settings.full_link
 							-%}
 								<a
@@ -54,7 +54,7 @@
 									class='multicolumn__link-overlay'
 									aria-label='{{ block.settings.heading }}'
 								></a>
-							{%- endif -%}
+							{%- endif -%} {% endcomment %}
 
 							{% liquid
 								assign image_size = block.settings.image_size
@@ -697,13 +697,6 @@
 					],
 					"default": "primary",
 					"label": "Button 1 style"
-				},
-				{
-					"type": "checkbox",
-					"id": "full_link",
-					"default": false,
-					"label": "t:sections.all.overlay_link.label",
-					"info": "t:sections.all.overlay_link.info"
 				},
         {
 					"type": "text",
