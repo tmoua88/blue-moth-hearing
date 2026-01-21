@@ -220,6 +220,7 @@
         },
         "column_xUeQGj": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image_width": "full",
             "image_size": "16/9",
