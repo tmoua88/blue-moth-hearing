@@ -201,11 +201,18 @@
             "heading": "Shipping Details",
             "text": "",
             "expanded_text": "",
-            "button_label": "",
+            "button_label": "Shipping Details",
             "button_link": "shopify://pages/shipping",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": true
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         },
         "column_zQmfbk": {
@@ -217,11 +224,18 @@
             "heading": "Return Policy",
             "text": "",
             "expanded_text": "",
-            "button_label": "",
+            "button_label": "Return Policy",
             "button_link": "shopify://policies/refund-policy",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": true
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         },
         "column_DA8RMY": {
@@ -233,11 +247,18 @@
             "heading": "Insurance Reimbursements",
             "text": "",
             "expanded_text": "",
-            "button_label": "",
+            "button_label": "Insurance Reimbursements",
             "button_link": "shopify://pages/insurance-and-payment",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": true
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         },
         "column_ErcP74": {
@@ -249,11 +270,18 @@
             "heading": "Warranty",
             "text": "",
             "expanded_text": "",
-            "button_label": "",
+            "button_label": "Warranty",
             "button_link": "shopify://pages/warranty",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": true
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         }
       },
@@ -264,12 +292,14 @@
         "column_ErcP74"
       ],
       "custom_css": [
-        "h4 {text-align: center;}"
+        "h4 {text-align: center;}",
+        "a.button {display: none;}"
       ],
       "name": "Product Links",
       "settings": {
         "color_scheme": "",
         "section_heading": "",
+        "section_description": "",
         "section_heading_tag": "h2",
         "section_heading_size": "h1",
         "heading_alignment": "center",
@@ -299,6 +329,14 @@
         "button_link": "",
         "button_style": "primary",
         "button_dot": true,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "primary",
+        "button_dot_2": false,
+        "button_label_3": "",
+        "button_link_3": "",
+        "button_style_3": "primary",
+        "button_dot_3": false,
         "margin_top": "s",
         "margin_bottom": "s"
       }
@@ -364,6 +402,7 @@
         "color_scheme": "background-3",
         "image_position": "image_right",
         "content_alignment": "left",
+        "section_overflow": false,
         "image": "shopify://shop_images/Finding_Perfect_Solution.png",
         "image_size": "3/4",
         "subheading": "",
@@ -376,6 +415,14 @@
         "button_link": "https://clicks.bluemoth.myhearingaids.com/widget/form/JPgJ2MH4PXdgbKuTK21B",
         "button_style": "primary",
         "button_dot": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "primary",
+        "button_dot_2": false,
+        "button_label_3": "",
+        "button_link_3": "",
+        "button_style_3": "primary",
+        "button_dot_3": false,
         "margin_top": "s",
         "margin_bottom": "s"
       }
