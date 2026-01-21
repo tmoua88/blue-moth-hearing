@@ -62,7 +62,7 @@
 						{% endif %}
 					</div>
 					<a
-						href="{{ routes.collections_url | sort_by: 'best-selling' }}"
+						href="{{ routes.collections_url }}/all"
 						class="button button--{{section.settings.button_style}} {% if section.settings.button_dot %} dot_active{% endif %} focus-inset"
 						data-button-text="{{ 'general.cart.button_label' | t }}"
 					>
