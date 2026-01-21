@@ -52,6 +52,24 @@
 				btn_style: section.settings.section_button_style,
 				add_classes: 'focus-inset'
 			%}
+      {%- if section.settings.section_button_label_2 != blank -%}
+        {% render 'button',
+          btn_label: section.settings.section_button_label_2,
+          button_dot: section.settings.button_dot_2,
+          btn_link: section.settings.section_button_link_2,
+          btn_style: section.settings.section_button_style_2,
+          add_classes: 'focus-inset'
+        %}
+      {%- endif -%}
+      {%- if section.settings.section_button_label_3 != blank -%}
+        {% render 'button',
+          btn_label: section.settings.section_button_label_3,
+          button_dot: section.settings.button_dot_3,
+          btn_link: section.settings.section_button_link_3,
+          btn_style: section.settings.section_button_style_3,
+          add_classes: 'focus-inset'
+        %}
+      {%- endif -%}
 		</div>
 	</div>
 </div>
@@ -138,19 +156,19 @@
 			"type": "text",
 			"id": "section_button_label",
 			"default": "t:sections.blockquote.settings.button_label.default",
-			"label": "t:sections.all.button.button_label.label",
+			"label": "Button 1 label",
 			"info": "t:sections.all.button.button_label.info"
 		},
 		{
 			"type": "url",
 			"id": "section_button_link",
-			"label": "t:sections.all.button.button_link.label"
+			"label": "Button 1 link"
 		},
 		{
 			"type": "checkbox",
 			"id": "button_dot",
-			"default": true,
-			"label": "t:sections.all.button.button_dot.label"
+			"default": false,
+			"label": "Show button 1 dot"
 		},
 		{
 			"type": "select",
@@ -170,9 +188,82 @@
 				}
 			],
 			"default": "primary",
-			"label": "t:sections.all.button.button_style.label"
+			"label": "Button 1 style"
 		},
-
+    {
+			"type": "text",
+			"id": "section_button_label_2",
+			"label": "Button 2 label",
+			"info": "t:sections.all.button.button_label.info"
+		},
+		{
+			"type": "url",
+			"id": "section_button_link_2",
+			"label": "Button 2 link"
+		},
+		{
+			"type": "checkbox",
+			"id": "button_dot_2",
+			"default": false,
+			"label": "Show button 2 dot"
+		},
+		{
+			"type": "select",
+			"id": "section_button_style_2",
+			"options": [
+				{
+					"value": "primary",
+					"label": "t:sections.all.button.button_style.options__1.label"
+				},
+				{
+					"value": "secondary",
+					"label": "t:sections.all.button.button_style.options__2.label"
+				},
+				{
+					"value": "tertiary",
+					"label": "t:sections.all.button.button_style.options__3.label"
+				}
+			],
+			"default": "primary",
+			"label": "Button 2 style"
+		},
+    {
+			"type": "text",
+			"id": "section_button_label_3",
+			"label": "Button 3 label",
+			"info": "t:sections.all.button.button_label.info"
+		},
+		{
+			"type": "url",
+			"id": "section_button_link_3",
+			"label": "Button 3 link"
+		},
+		{
+			"type": "checkbox",
+			"id": "button_dot_3",
+			"default": false,
+			"label": "Show button 3 dot"
+		},
+		{
+			"type": "select",
+			"id": "section_button_style_3",
+			"options": [
+				{
+					"value": "primary",
+					"label": "t:sections.all.button.button_style.options__1.label"
+				},
+				{
+					"value": "secondary",
+					"label": "t:sections.all.button.button_style.options__2.label"
+				},
+				{
+					"value": "tertiary",
+					"label": "t:sections.all.button.button_style.options__3.label"
+				}
+			],
+			"default": "primary",
+			"label": "Button 3 style"
+		},
 		{
 			"type": "header",
 			"content": "t:sections.all.section-margin.header.content"
