@@ -196,7 +196,14 @@
             "button_link": "shopify://pages/hearing-loss",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "button_label_2": "Test",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         },
         "column_XHLDNq": {
@@ -213,7 +220,14 @@
             "button_link": "shopify://pages/tinnitus-relief",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         },
         "column_NMq8Cr": {
@@ -230,7 +244,14 @@
             "button_link": "",
             "button_dot": true,
             "button_style": "primary",
-            "full_link": false
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         }
       },
@@ -285,7 +306,14 @@
             "button_link": "",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         },
         "column_mAkDBE": {
@@ -302,7 +330,14 @@
             "button_link": "",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         },
         "column_C8ii6W": {
@@ -319,7 +354,14 @@
             "button_link": "",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         },
         "column_WyW6Tb": {
@@ -336,7 +378,14 @@
             "button_link": "",
             "button_dot": false,
             "button_style": "primary",
-            "full_link": false
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
           }
         }
       },
