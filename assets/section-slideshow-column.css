@@ -226,5 +226,11 @@
   width: 100%;
   bottom: var(--slideshow-bottom);
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+.slideshow-column__button {
+  width: fit-content;
+  margin: auto;
+  margin-top: 1.2rem;
 }
