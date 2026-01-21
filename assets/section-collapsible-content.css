@@ -162,3 +162,8 @@
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
 }
+.faq-button {
+  display: block;
+  width: fit-content;
+  margin-top: 1.2rem;
+}
