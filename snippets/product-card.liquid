@@ -130,7 +130,7 @@ defer="defer"
 		<a
 			href="{{ product_card_product.url | default: '#' }}"
 			class="media media--hover-effect js-color-swatches-link"
-			aria-label="{{ "accessibility.product_link" | t }}"
+			aria-label="View product {{ product_card_product.title | escape }}"
 			style="padding-bottom: {{ image_size }};"
 		>
 			{% if settings.on_hover == 'slider' %}
