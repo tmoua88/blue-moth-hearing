@@ -258,7 +258,7 @@
         "h1 {line-height: 56px;}",
         "img {object-position: 50% 20%;}"
       ],
-      "name": "t:sections.image-banner.presets.name",
+      "name": "4 Simple Steps",
       "settings": {
         "color_scheme": "background-3",
         "heading": "4 simple steps to better hearing.",
@@ -273,7 +273,7 @@
         "image_ratio": "21/9",
         "animation": false,
         "overlay_enable": true,
-        "overlay_opacity": 0.4,
+        "overlay_opacity": 0.5,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
@@ -385,7 +385,7 @@
         "h2,h3,h4 {font-weight: 500 !important;}",
         ".multicolumn-card {padding: 2.8rem;}"
       ],
-      "name": "It's better with BLUEMOTH",
+      "name": "4 steps",
       "settings": {
         "color_scheme": "background-1",
         "section_heading": "",
@@ -725,7 +725,7 @@
         "column_VLQ7an"
       ],
       "custom_css": [
-        ".multicolumn-section {background-color: #FF5E3B;}",
+        ".multicolumn-section {background-color: #ff5e3b;}",
         ".multicolumn-card {padding: 1.2rem;}"
       ],
       "name": "t:sections.multicolumn.name",
