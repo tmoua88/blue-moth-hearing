@@ -58,7 +58,7 @@
         "column_B3dFka": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Icon_L_V2_black.png",
+            "image": "shopify://shop_images/icon_U_V2_black.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
@@ -82,7 +82,7 @@
         "column_c6HBYW": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Icon_K_V2_black.png",
+            "image": "shopify://shop_images/icon_V_V2_black.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
@@ -106,7 +106,7 @@
         "column_HQU9UE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Icon_J_V2_black.png",
+            "image": "shopify://shop_images/icon_W_V2_black.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
@@ -158,7 +158,6 @@
         "column_HQU9UE",
         "column_3Jf8RK"
       ],
-      "disabled": true,
       "custom_css": [
         ".multicolumn-section,.background {background-color: #d2d92e;}",
         ".multicolumn-card {padding: 2.8rem !important;}",
