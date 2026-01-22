@@ -158,6 +158,7 @@
         "column_HQU9UE",
         "column_3Jf8RK"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-section,.background {background-color: #d2d92e;}",
         ".multicolumn-card {padding: 2.8rem !important;}",
