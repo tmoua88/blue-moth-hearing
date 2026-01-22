@@ -82,7 +82,7 @@
         "column_c6HBYW": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/icon_V_V2_black.png",
+            "image": "shopify://shop_images/icon_V_V2_black-resized.png",
             "image_width": "medium",
             "image_size": "adapt",
             "icon": "none",
