@@ -49,6 +49,136 @@
         "button_style_3": "primary",
         "button_dot_3": false,
         "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "multicolumn_U6Giyj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_B3dFka": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_L_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "Mild.",
+            "text": "You lose soft consonants. Words might sound incomplete.  ",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
+          }
+        },
+        "column_c6HBYW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_K_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "Moderate.",
+            "text": "It’s tough to follow conversations in person and on the phone.  ",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": true,
+            "button_style": "primary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
+          }
+        },
+        "column_HQU9UE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_J_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "Severe.",
+            "text": "Following conversations is a total chore and it can feel isolating.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
+          }
+        },
+        "column_3Jf8RK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_M_V2_black.png",
+            "image_width": "medium",
+            "image_size": "adapt",
+            "icon": "none",
+            "heading": "Profound.",
+            "text": "Without hearing aids or cochlear implants, it’s a whole lotta nothing.",
+            "expanded_text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_dot": false,
+            "button_style": "primary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_dot_2": false,
+            "button_style_2": "primary",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_dot_3": false,
+            "button_style_3": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_B3dFka",
+        "column_c6HBYW",
+        "column_HQU9UE",
+        "column_3Jf8RK"
+      ],
+      "custom_css": [
+        ".multicolumn-section,.background {background-color: #d2d92e;}",
+        ".multicolumn-card {padding: 2.8rem !important;}",
+        "h2,.h2,h3,h4,p {color: #000 !important;}"
+      ],
+      "name": "Ways to help relieve tinnitus",
+      "settings": {
+        "color_scheme": "background-2",
+        "section_heading": "Ways to help relieve tinnitus",
+        "section_description": "<p>Holistic tinnitus treatment combines acoustic stimulation and sound therapy for lasting relief.</p>",
+        "section_heading_tag": "h2",
+        "section_heading_size": "h1",
+        "heading_alignment": "center",
+        "subheading": "",
+        "dot": false,
+        "columns_per_row": 4,
+        "content_alignment": "center",
+        "swipe_on_mobile": false,
+        "card_heading_tag": "h4",
+        "card_heading_size": "h4",
+        "margin_top": "s",
         "margin_bottom": "s"
       }
     },
@@ -289,146 +419,16 @@
         "margin_top": "no-indent",
         "margin_bottom": "xs"
       }
-    },
-    "multicolumn_U6Giyj": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_B3dFka": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Icon_L_V2_black.png",
-            "image_width": "medium",
-            "image_size": "adapt",
-            "icon": "none",
-            "heading": "Mild.",
-            "text": "You lose soft consonants. Words might sound incomplete.  ",
-            "expanded_text": "",
-            "button_label": "",
-            "button_link": "",
-            "button_dot": false,
-            "button_style": "primary",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_dot_2": false,
-            "button_style_2": "primary",
-            "button_label_3": "",
-            "button_link_3": "",
-            "button_dot_3": false,
-            "button_style_3": "primary"
-          }
-        },
-        "column_c6HBYW": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Icon_K_V2_black.png",
-            "image_width": "medium",
-            "image_size": "adapt",
-            "icon": "none",
-            "heading": "Moderate.",
-            "text": "It’s tough to follow conversations in person and on the phone.  ",
-            "expanded_text": "",
-            "button_label": "",
-            "button_link": "",
-            "button_dot": true,
-            "button_style": "primary",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_dot_2": false,
-            "button_style_2": "primary",
-            "button_label_3": "",
-            "button_link_3": "",
-            "button_dot_3": false,
-            "button_style_3": "primary"
-          }
-        },
-        "column_HQU9UE": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Icon_J_V2_black.png",
-            "image_width": "medium",
-            "image_size": "adapt",
-            "icon": "none",
-            "heading": "Severe.",
-            "text": "Following conversations is a total chore and it can feel isolating.",
-            "expanded_text": "",
-            "button_label": "",
-            "button_link": "",
-            "button_dot": false,
-            "button_style": "primary",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_dot_2": false,
-            "button_style_2": "primary",
-            "button_label_3": "",
-            "button_link_3": "",
-            "button_dot_3": false,
-            "button_style_3": "primary"
-          }
-        },
-        "column_3Jf8RK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Icon_M_V2_black.png",
-            "image_width": "medium",
-            "image_size": "adapt",
-            "icon": "none",
-            "heading": "Profound.",
-            "text": "Without hearing aids or cochlear implants, it’s a whole lotta nothing.",
-            "expanded_text": "",
-            "button_label": "",
-            "button_link": "",
-            "button_dot": false,
-            "button_style": "primary",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_dot_2": false,
-            "button_style_2": "primary",
-            "button_label_3": "",
-            "button_link_3": "",
-            "button_dot_3": false,
-            "button_style_3": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "column_B3dFka",
-        "column_c6HBYW",
-        "column_HQU9UE",
-        "column_3Jf8RK"
-      ],
-      "custom_css": [
-        ".multicolumn-section,.background {background-color: #d2d92e;}",
-        ".multicolumn-card {padding: 2.8rem !important;}",
-        "h2,.h2,h3,h4,p {color: #000 !important;}"
-      ],
-      "name": "Degrees of hearing loss",
-      "settings": {
-        "color_scheme": "background-2",
-        "section_heading": "Ways to help <span style=\"font-style: italic;\">relieve</span> tinnitus",
-        "section_description": "<p>Holistic tinnitus treatment combines acoustic stimulation and sound therapy for lasting relief.</p>",
-        "section_heading_tag": "h2",
-        "section_heading_size": "h1",
-        "heading_alignment": "center",
-        "subheading": "",
-        "dot": false,
-        "columns_per_row": 4,
-        "content_alignment": "center",
-        "swipe_on_mobile": false,
-        "card_heading_tag": "h4",
-        "card_heading_size": "h4",
-        "margin_top": "s",
-        "margin_bottom": "s"
-      }
     }
   },
   "order": [
     "main",
     "image_with_text_Dg9Qde",
+    "multicolumn_U6Giyj",
     "image_with_text_4px9Ni",
     "image_with_text_beP4T9",
     "image_with_text_kxt9gw",
     "multicolumn_NakiYf",
-    "multicolumn_46qdrj",
-    "multicolumn_U6Giyj"
+    "multicolumn_46qdrj"
   ]
 }
