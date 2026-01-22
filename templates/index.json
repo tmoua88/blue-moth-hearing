@@ -393,11 +393,11 @@
       "custom_css": [
         ".multicolumn-section,.multicolumn {background: #313d47;}",
         ".multicolumn-list__wrapper {gap: 2.4rem 5rem;}",
-        ".button--primary {background-color: transparent !important; border: 1px solid #fff;}",
+        ".button--primary {background-color: transparent !important; border: 1px solid #000;}",
         "img {border-radius: 50%;}",
-        ".multicolumn-card:nth-child(1) {background: #e02900;}",
+        ".multicolumn-card:nth-child(1) {background: #FF5E3B;}",
         ".multicolumn-card:nth-child(2) {background: #1873e2;}",
-        ".multicolumn-card__heading,.multicolumn-card__text,a > span {color: #fff;}",
+        ".multicolumn-card__heading,.multicolumn-card__text,a > span {color: #000;}",
         "h2,h3,h4,h5 {font-weight: 500 !important;}"
       ],
       "name": "t:sections.multicolumn.name",
